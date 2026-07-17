@@ -164,6 +164,12 @@
 
     card.addEventListener('pointerdown', (e) => {
       if (e.pointerType === 'mouse' && e.button !== 0) return;
+      // Let taps on the like/dislike buttons stay plain native clicks — if the
+      // swipe gesture below claims this pointer (e.g. via a bit of jitter
+      // reading as a horizontal drag) and calls setPointerCapture, the
+      // button's own click event can silently fail to fire on real touch
+      // devices.
+      if (e.target.closest('.card-actions')) return;
       pointer = { id: e.pointerId, x0: e.clientX, y0: e.clientY, mode: 'undecided' };
     });
 
