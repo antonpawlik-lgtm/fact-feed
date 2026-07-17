@@ -132,8 +132,22 @@
     card.style.opacity = '1';
   }
 
+  const DOUBLE_TAP_MS = 300;
+
+  function showHeartBurst(card, clientX, clientY) {
+    const rect = card.getBoundingClientRect();
+    const el = document.createElement('div');
+    el.className = 'heart-burst';
+    el.textContent = '❤️';
+    el.style.left = `${clientX - rect.left}px`;
+    el.style.top = `${clientY - rect.top}px`;
+    card.appendChild(el);
+    el.addEventListener('animationend', () => el.remove());
+  }
+
   function attachGestures(card, fact) {
     let pointer = null;
+    let lastTapTime = 0;
 
     card.addEventListener('pointerdown', (e) => {
       if (e.pointerType === 'mouse' && e.button !== 0) return;
@@ -177,6 +191,15 @@
           react(card, fact, dx > 0 ? 1 : -1);
         } else {
           snapBack(card);
+        }
+      } else if (pointer.mode === 'undecided' && !e.target.closest('.card-actions')) {
+        const now = Date.now();
+        if (now - lastTapTime < DOUBLE_TAP_MS) {
+          react(card, fact, 1);
+          showHeartBurst(card, e.clientX, e.clientY);
+          lastTapTime = 0;
+        } else {
+          lastTapTime = now;
         }
       }
       pointer = null;
