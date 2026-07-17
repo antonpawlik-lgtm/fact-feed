@@ -111,19 +111,31 @@
     return div.innerHTML;
   }
 
-  function react(card, fact, direction) {
+  function react(card, fact, direction, { allowToggleOff = true } = {}) {
     const stats = categoryStats[fact.category] || { likes: 0, dislikes: 0 };
-    const prev = card.dataset.reaction;
+    const prev = card.dataset.reaction; // 'like' | 'dislike' | undefined
+    const label = direction > 0 ? 'like' : 'dislike';
+
+    if (prev === label && !allowToggleOff) return; // e.g. double-tap: always likes, never unlikes
+
     if (prev === 'like') stats.likes -= 1;
     if (prev === 'dislike') stats.dislikes -= 1;
-    if (direction > 0) stats.likes += 1;
-    else stats.dislikes += 1;
+
+    if (prev === label) {
+      // Pressing the already-active button (or swiping the same direction)
+      // again undoes the reaction instead of just reaffirming it.
+      delete card.dataset.reaction;
+    } else {
+      if (direction > 0) stats.likes += 1;
+      else stats.dislikes += 1;
+      card.dataset.reaction = label;
+    }
+
     categoryStats[fact.category] = stats;
     saveStats();
 
-    card.dataset.reaction = direction > 0 ? 'like' : 'dislike';
-    card.querySelector('.btn-like').classList.toggle('selected', direction > 0);
-    card.querySelector('.btn-dislike').classList.toggle('selected', direction < 0);
+    card.querySelector('.btn-like').classList.toggle('selected', card.dataset.reaction === 'like');
+    card.querySelector('.btn-dislike').classList.toggle('selected', card.dataset.reaction === 'dislike');
     snapBack(card);
   }
 
@@ -206,7 +218,7 @@
       if (distance < TAP_MOVE_THRESHOLD_PX && !e.target.closest('.card-actions')) {
         const now = Date.now();
         if (now - lastTapTime < DOUBLE_TAP_MS) {
-          react(card, fact, 1);
+          react(card, fact, 1, { allowToggleOff: false });
           showHeartBurst(card, e.clientX, e.clientY);
           lastTapTime = 0;
         } else {
