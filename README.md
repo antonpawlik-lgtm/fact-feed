@@ -8,7 +8,14 @@ Mobiler, TikTok-artiger Scroll-Feed mit Fun Facts. Vertikal scrollen = nächster
 cd fact-feed
 python3 -m http.server 8080
 ```
-Dann `http://localhost:8080` öffnen (ein simpler statischer Server ist nötig, damit `fetch('facts.json')` funktioniert — direktes Öffnen der `index.html` per `file://` scheitert an CORS-Restriktionen für `fetch`).
+Dann `http://localhost:8080` öffnen (ein simpler statischer Server ist nötig, damit `fetch('facts.json')` und die ES-Module funktionieren — direktes Öffnen der `index.html` per `file://` scheitert an CORS-Restriktionen).
+
+## Struktur & Tests
+
+- `src/main.js` — App (DOM, Gesten, Views, Boot), lädt als natives ES-Modul.
+- `src/recommender.js`, `src/reactions.js`, `src/storage.js` — reine, getestete Logik.
+- `sw.js` — Service Worker (App offline nutzbar; `facts.json` network-first, Rest cache-first). **Bei Änderungen an `src/*.js`/`style.css` sowohl die `?v=`-Nummern in `index.html` als auch die `CACHE`-Version in `sw.js` hochzählen.**
+- Tests: `npm test` (node --test, keine Dependencies).
 
 ## Wöchentliches Update (neue Facts hinzufügen)
 
