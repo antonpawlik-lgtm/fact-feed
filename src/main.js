@@ -2,20 +2,46 @@ import { readJSON, writeJSON } from './storage.js';
 import { clamp, weightedRandom, decayStats, scoreFact, noveltyFactor } from './recommender.js';
 import { nextReaction, applyReactionDelta } from './reactions.js';
 
-const STORAGE_STATS = 'factfeed_categoryStats';
-const STORAGE_TAG_STATS = 'factfeed_tagStats';
-const STORAGE_SEEN_AT = 'factfeed_seenAt';
-const STORAGE_SESSION = 'factfeed_session';
-const STORAGE_SHOW_COUNTS = 'factfeed_showCounts';
-const STORAGE_REACTIONS = 'factfeed_reactions';
-const STORAGE_FAVORITES = 'factfeed_favorites';
-const STORAGE_BOOSTED = 'factfeed_boosted';
-const STORAGE_LANGUAGE = 'factfeed_language';
+const STORAGE_STATS = 'factly_categoryStats';
+const STORAGE_TAG_STATS = 'factly_tagStats';
+const STORAGE_SEEN_AT = 'factly_seenAt';
+const STORAGE_SESSION = 'factly_session';
+const STORAGE_SHOW_COUNTS = 'factly_showCounts';
+const STORAGE_REACTIONS = 'factly_reactions';
+const STORAGE_FAVORITES = 'factly_favorites';
+const STORAGE_BOOSTED = 'factly_boosted';
+const STORAGE_LANGUAGE = 'factly_language';
 const WINDOW_AHEAD = 6;
 const AXIS_LOCK_PX = 12;
 const SWIPE_THRESHOLD_PX = 90;
 const TAP_MOVE_THRESHOLD_PX = 24;
 const SESSION_DECAY = 0.98;
+
+// One-time migration: the app was renamed Fact Feed -> Factly and storage
+// keys moved from factfeed_* to factly_*. Carry existing data over so the
+// learned profile, reactions, and favorites survive the rename.
+try {
+  if (!localStorage.getItem(STORAGE_STATS) && localStorage.getItem('factfeed_categoryStats')) {
+    const legacyMap = {
+      factfeed_categoryStats: STORAGE_STATS,
+      factfeed_tagStats: STORAGE_TAG_STATS,
+      factfeed_seenAt: STORAGE_SEEN_AT,
+      factfeed_session: STORAGE_SESSION,
+      factfeed_showCounts: STORAGE_SHOW_COUNTS,
+      factfeed_reactions: STORAGE_REACTIONS,
+      factfeed_favorites: STORAGE_FAVORITES,
+      factfeed_boosted: STORAGE_BOOSTED,
+      factfeed_language: STORAGE_LANGUAGE,
+    };
+    Object.entries(legacyMap).forEach(([oldKey, newKey]) => {
+      const value = localStorage.getItem(oldKey);
+      if (value !== null) localStorage.setItem(newKey, value);
+      localStorage.removeItem(oldKey);
+    });
+  }
+} catch {
+  /* storage unavailable — nothing to migrate */
+}
 
 const feed = document.getElementById('feed');
 const hint = document.getElementById('hint');
@@ -70,6 +96,8 @@ const CATEGORY_COLORS = {
   psychology: '#ec4899',
   food: '#ef4444',
   curiosities: '#eab308',
+  'news-general': '#e11d48',
+  'news-tech': '#0ea5e9',
 };
 
 const categoryColor = (category) => CATEGORY_COLORS[category] || null;
@@ -152,6 +180,53 @@ function applyDwellSignal(card, dwellMs, reason = 'scroll') {
   });
   if (tags.length > 0) saveTagStats();
 }
+
+// ---------- news ----------
+
+// Real headlines mixed into the feed. news.json is produced every few hours
+// by .github/workflows/update-news.yml; the pool is small and rotates, so
+// "seen" tracking is session-only (in memory) — never localStorage.
+const NEWS_RATE = 1; // TEMP TEST — restore 0.12
+const NEWS_MAX_AGE_MS = 48 * 3600 * 1000;
+let newsPool = [];
+const seenNewsIds = new Set();
+
+function pickNextNews() {
+  const pool = selectedLanguage === 'all' ? newsPool : newsPool.filter((n) => n.lang === selectedLanguage);
+  if (pool.length === 0) return null;
+  let candidates = pool.filter((n) => !seenNewsIds.has(n.id));
+  if (candidates.length === 0) {
+    seenNewsIds.clear();
+    candidates = pool;
+  }
+  const item = candidates[Math.floor(Math.random() * candidates.length)];
+  seenNewsIds.add(item.id);
+  return item;
+}
+
+// News must never delay or break the fact feed: fetched in parallel with
+// facts.json; on any failure or staleness the pool just stays empty and the
+// feed silently shows 100% facts.
+fetch('news.json')
+  .then((r) => (r.ok ? r.json() : { items: [] }))
+  .then((data) => {
+    const freshEnough =
+      data && data.generatedAt && Date.now() - new Date(data.generatedAt).getTime() < NEWS_MAX_AGE_MS;
+    newsPool = freshEnough ? (data.items || []).filter((n) => n && n.id && n.headline && n.url) : [];
+    // Reactions on rotated-out headlines are dead weight — prune them.
+    const alive = new Set(newsPool.map((n) => n.id));
+    let pruned = false;
+    Object.keys(reactions).forEach((k) => {
+      if (k.startsWith('n_') && !alive.has(k)) {
+        delete reactions[k];
+        pruned = true;
+      }
+    });
+    if (pruned) saveReactions();
+  })
+  .catch(() => {
+    newsPool = [];
+  });
 
 // ---------- fact picking ----------
 
@@ -290,13 +365,28 @@ function boostFactTopics(fact, amount = 2) {
 async function shareFact(fact) {
   const url = new URL(location.href);
   url.hash = `fact=${fact.id}`;
-  const shareData = { title: 'Fact Feed', text: fact.text, url: url.toString() };
+  const shareData = { title: 'Factly', text: fact.text, url: url.toString() };
   try {
     if (navigator.share) {
       await navigator.share(shareData);
       return;
     }
     await navigator.clipboard.writeText(`${fact.text}\n${url}`);
+    showToast('Link kopiert');
+  } catch {
+    // user cancelled the share sheet — nothing to do
+  }
+}
+
+// News items share the article itself, not an app deep link.
+async function shareNews(item) {
+  const shareData = { title: item.source, text: item.headline, url: item.url };
+  try {
+    if (navigator.share) {
+      await navigator.share(shareData);
+      return;
+    }
+    await navigator.clipboard.writeText(`${item.headline}\n${item.url}`);
     showToast('Link kopiert');
   } catch {
     // user cancelled the share sheet — nothing to do
@@ -418,6 +508,59 @@ function attachGestures(card, fact) {
 }
 
 // ---------- cards ----------
+
+function relativeTime(iso) {
+  const mins = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+  if (!Number.isFinite(mins) || mins < 0) return '';
+  if (mins < 60) return `vor ${mins} Min.`;
+  const hours = Math.round(mins / 60);
+  if (hours < 24) return `vor ${hours} Std.`;
+  return `vor ${Math.round(hours / 24)} Tg.`;
+}
+
+// News cards reuse the card shell (gestures, like/dislike, dwell) but render
+// headline + summary + source and link out to the article. No tags, no save,
+// no "Mehr davon" — headlines rotate out within hours anyway. Reactions book
+// into categoryStats['news-<topic>'] via the generic react() path.
+function createNewsCard(item) {
+  const card = document.createElement('article');
+  card.className = 'card card-news';
+  card.dataset.factId = item.id;
+  card.dataset.category = `news-${item.topic}`;
+  card.dataset.tags = '';
+  const words = `${item.headline} ${item.summary || ''}`.trim().split(/\s+/).length;
+  card.dataset.expectedMs = String(clamp(words * 240, 1200, 8000));
+
+  const color = categoryColor(card.dataset.category);
+  if (color) card.style.setProperty('--cat-color', color);
+
+  const timeStr = relativeTime(item.publishedAt);
+  card.innerHTML = `
+    <div class="swipe-flash"></div>
+    <div class="card-inner">
+      <p class="card-category">News · ${item.topic === 'tech' ? 'Tech' : 'Welt'}</p>
+      <p class="card-text">${escapeHtml(item.headline)}</p>
+      ${item.summary ? `<p class="card-summary">${escapeHtml(item.summary)}</p>` : ''}
+      <p class="card-source">${escapeHtml(item.source)}${timeStr ? ' · ' + timeStr : ''}</p>
+      <a class="card-link gesture-exempt" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">Artikel öffnen ↗</a>
+    </div>
+    <div class="card-actions gesture-exempt">
+      <button class="btn-like" type="button" aria-label="Gefällt mir" aria-pressed="false">&#10084;&#65039;</button>
+      <button class="btn-dislike" type="button" aria-label="Gefällt mir nicht" aria-pressed="false">&#128078;</button>
+      <button class="btn-share" type="button" aria-label="Artikel teilen">&#128228;</button>
+    </div>
+  `;
+
+  const pseudoFact = { id: item.id, category: `news-${item.topic}`, tags: [] };
+  attachGestures(card, pseudoFact);
+  card.querySelector('.btn-like').addEventListener('click', () => react(card, pseudoFact, 1));
+  card.querySelector('.btn-dislike').addEventListener('click', () => react(card, pseudoFact, -1));
+  card.querySelector('.btn-share').addEventListener('click', () => shareNews(item));
+
+  const stored = reactions[String(item.id)] || null;
+  if (stored) renderReaction(card, stored);
+  return card;
+}
 
 function createSourceLink(fact) {
   if (!fact.source || !fact.source.url) return null;
@@ -571,6 +714,17 @@ const observer = new IntersectionObserver(
 
 // ---------- keyboard ----------
 
+// Resolves the entity behind a card for the generic react() path: a real
+// fact, or a pseudo-fact for a news card (id "n_...", no tags).
+function cardEntity(card) {
+  const idStr = card.dataset.factId;
+  if (idStr.startsWith('n_')) {
+    const item = newsPool.find((n) => n.id === idStr);
+    return item ? { id: item.id, category: `news-${item.topic}`, tags: [] } : null;
+  }
+  return factById.get(Number(idStr)) || null;
+}
+
 document.addEventListener('keydown', (e) => {
   if (!activeCard || currentView !== 'feed') return;
   if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
@@ -580,8 +734,8 @@ document.addEventListener('keydown', (e) => {
       target.scrollIntoView({ behavior: 'smooth' });
     }
   } else if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
-    const fact = factById.get(Number(activeCard.dataset.factId));
-    if (fact) react(activeCard, fact, e.key === 'ArrowRight' ? 1 : -1);
+    const entity = cardEntity(activeCard);
+    if (entity) react(activeCard, entity, e.key === 'ArrowRight' ? 1 : -1);
   } else if (e.key === 's' || e.key === 'S') {
     const fact = factById.get(Number(activeCard.dataset.factId));
     if (fact) {
@@ -594,7 +748,7 @@ document.addEventListener('keydown', (e) => {
       showToast(nowSaved ? 'Gespeichert' : 'Entfernt');
     }
   } else if (e.key === 'Enter') {
-    const link = activeCard.querySelector('.fact-source');
+    const link = activeCard.querySelector('.fact-source, .card-link');
     if (link) window.open(link.href, '_blank', 'noopener');
   }
 });
@@ -602,9 +756,18 @@ document.addEventListener('keydown', (e) => {
 // ---------- feed lifecycle ----------
 
 function appendCard(specificFact) {
-  const fact = specificFact || pickNextFact();
-  if (!fact) return;
-  const card = createCard(fact);
+  let card = null;
+  if (specificFact) {
+    card = createCard(specificFact);
+  } else if (newsPool.length > 0 && Math.random() < NEWS_RATE) {
+    const item = pickNextNews();
+    if (item) card = createNewsCard(item);
+  }
+  if (!card) {
+    const fact = pickNextFact();
+    if (!fact) return;
+    card = createCard(fact);
+  }
   feed.appendChild(card);
   observer.observe(card);
   trimOldCards();

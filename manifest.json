@@ -1,6 +1,6 @@
 {
-  "name": "Fact Feed",
-  "short_name": "Facts",
+  "name": "Factly",
+  "short_name": "Factly",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

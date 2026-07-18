@@ -1,12 +1,17 @@
 {
-  "name": "fact-feed",
+  "name": "factly",
   "private": true,
   "type": "module",
   "scripts": {
     "validate": "node validate-facts.js",
+    "validate:news": "node validate-news.js",
+    "fetch:news": "node .github/scripts/fetch-news.mjs",
     "test": "node --test"
   },
   "engines": {
     "node": ">=20"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
   }
 }

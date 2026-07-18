@@ -1,6 +1,6 @@
 // Bump this version whenever app.js/style.css/index.html change — it
 // invalidates the old cache on activate (replaces relying on ?v= alone).
-const CACHE = 'factfeed-v9';
+const CACHE = 'factly-v11';
 const ASSETS = [
   './',
   'index.html',
@@ -10,6 +10,7 @@ const ASSETS = [
   'src/recommender.js',
   'src/reactions.js',
   'facts.json',
+  'news.json',
   'manifest.json',
   'icons/icon-192.png',
   'icons/icon-512.png',
@@ -54,9 +55,9 @@ self.addEventListener('fetch', (e) => {
     return;
   }
 
-  // facts.json: network first, so new facts arrive as soon as they're
-  // deployed; fall back to the cached copy offline.
-  if (url.pathname.endsWith('/facts.json')) {
+  // facts.json/news.json: network first, so new content arrives as soon as
+  // it's deployed; fall back to the cached copy offline.
+  if (url.pathname.endsWith('/facts.json') || url.pathname.endsWith('/news.json')) {
     e.respondWith(
       fetch(e.request)
         .then((res) => {

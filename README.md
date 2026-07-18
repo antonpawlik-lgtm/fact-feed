@@ -1,14 +1,22 @@
-# Fact Feed
+# Factly
 
-Mobiler, TikTok-artiger Scroll-Feed mit Fun Facts. Vertikal scrollen = nächster Fact, horizontal swipen = liken/disliken. Reine statische Seite (kein Backend), Vorlieben werden nur lokal im Browser (`localStorage`) gespeichert — auf zwei Ebenen: pro Kategorie (`factfeed_categoryStats`) und pro Tag/Unterthema (`factfeed_tagStats`).
+Mobiler, TikTok-artiger Scroll-Feed mit Fun Facts. Vertikal scrollen = nächster Fact, horizontal swipen = liken/disliken. Reine statische Seite (kein Backend), Vorlieben werden nur lokal im Browser (`localStorage`) gespeichert — auf zwei Ebenen: pro Kategorie (`factly_categoryStats`) und pro Tag/Unterthema (`factly_tagStats`).
 
 ## Lokal öffnen
 
 ```
-cd fact-feed
+cd factly
 python3 -m http.server 8080
 ```
 Dann `http://localhost:8080` öffnen (ein simpler statischer Server ist nötig, damit `fetch('facts.json')` und die ES-Module funktionieren — direktes Öffnen der `index.html` per `file://` scheitert an CORS-Restriktionen).
+
+## News-Pipeline
+
+Ein GitHub-Actions-Workflow (`.github/workflows/update-news.yml`) holt alle 3 Stunden RSS-Feeds (Tagesschau, Heise, Golem, BBC World/Tech, Ars Technica), schreibt `news.json` und committet sie — die Seite bleibt dabei komplett statisch. Der Client mischt daraus ~jede 8. Karte eine News in den Feed (`NEWS_RATE` in `src/main.js`). Fällt `news.json` aus oder ist älter als 48h, zeigt der Feed unauffällig nur Facts.
+
+- Feed ergänzen/ersetzen: `NEWS_SOURCES` in `.github/scripts/fetch-news.mjs` (lang, topic, source, url).
+- Lokal testen: `npm run fetch:news && npm run validate:news`.
+- Manuell anstoßen: `gh workflow run update-news.yml`.
 
 ## Struktur & Tests
 
@@ -49,7 +57,7 @@ Dann `http://localhost:8080` öffnen (ein simpler statischer Server ist nötig, 
 
 ## Deployment
 
-Läuft über GitHub Pages auf `main`/Root: https://antonpawlik-lgtm.github.io/fact-feed/. Auf dem iPhone über Safari "Zum Home-Bildschirm hinzufügen" für ein App-artiges Icon.
+Läuft über GitHub Pages auf `main`/Root: https://antonpawlik-lgtm.github.io/factly/. Auf dem iPhone über Safari "Zum Home-Bildschirm hinzufügen" für ein App-artiges Icon.
 
 ## Lizenz
 
