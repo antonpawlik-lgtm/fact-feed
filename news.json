@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-18T18:15:59.011Z",
+  "generatedAt": "2026-07-18T18:27:51.760Z",
   "items": [
+    {
+      "id": "n_eb0cb3deb3",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Debatte über Leihmutterschaft: Was der Spahn-Rücktritt für die CDU bedeutet",
+      "summary": "Der Druck wegen der Debatte um eine Leihmutterschaft wurde zu stark - Spahn ist zurückgetreten. Davor gab es massive Kritik aus dem eigenen Lager und Sorgen um den Wahlkampf. Was bedeutet das für die CDU, die Landtagswahlen und die Koalition? Eine Analyse von K. Girschick.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/spahn-ruecktritt-108.html",
+      "publishedAt": "2026-07-18T18:21:25.000Z"
+    },
     {
       "id": "n_cd0d512006",
       "type": "news",
@@ -77,17 +88,6 @@
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/inland/innenpolitik/jens-spahn-ruecktritt-100.html",
       "publishedAt": "2026-07-18T13:31:50.000Z"
-    },
-    {
-      "id": "n_e37806be8d",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Ehrgeiz und Wille zur Macht: Spahns politische Karriere",
-      "summary": "Die politische Karriere Spahns begann früh - mit 22 Jahren als CDU-Bundestagsabgeordneter. Er profilierte sich schnell. Als Gesundheitsminister überstand Spahn die Corona-Maskenaffäre. Ein Rückblick.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/ruecktritt-spahn-102.html",
-      "publishedAt": "2026-07-18T12:55:33.000Z"
     },
     {
       "id": "n_56a94ecd80",
@@ -266,15 +266,26 @@
       "publishedAt": "2026-07-18T09:00:02.000Z"
     },
     {
-      "id": "n_bcb2b11990",
+      "id": "n_239300016e",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "US strikes hit Iran for seventh consecutive night",
-      "summary": "Iran has retaliated against US allies in the region, with Kuwait reporting that a power and water plant had been hit.",
+      "headline": "Two US troops killed and one missing after Iranian attack in Jordan",
+      "summary": "The announcement comes after Jordan said it intercepted 10 Iranian missiles fired into its airspace overnight into Saturday.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-18T17:44:56.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-18T18:05:14.000Z"
+    },
+    {
+      "id": "n_a6a3a34900",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Hungary's president agrees to stand down after parliament backs removal",
+      "summary": "Tamás Sulyok, seen as an Orbán loyalist, had until Saturday night to agree to end his term.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-18T17:33:28.000Z"
     },
     {
       "id": "n_fa63b20540",
@@ -341,17 +352,6 @@
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/clyekv7rld3o?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-07-18T07:05:19.000Z"
-    },
-    {
-      "id": "n_1ed149e757",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Indian activist on hunger strike for 20 days forcibly taken to hospital",
-      "summary": "Cockroach Janta Party founder Abhijeet Dipke has now begun an indefinite fast in Sonam Wangchuk's place.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cjej3dxxg2do?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-18T05:58:48.000Z"
     },
     {
       "id": "n_c1779f93f4",
