@@ -186,7 +186,7 @@ function applyDwellSignal(card, dwellMs, reason = 'scroll') {
 // Real headlines mixed into the feed. news.json is produced every few hours
 // by .github/workflows/update-news.yml; the pool is small and rotates, so
 // "seen" tracking is session-only (in memory) — never localStorage.
-const NEWS_RATE = 0.12; // ~every 8th card
+const NEWS_RATE = 0.35; // ~every 3rd card
 const NEWS_MAX_AGE_MS = 48 * 3600 * 1000;
 let newsPool = [];
 const newsById = new Map(); // lets the saved view render a saved headline
