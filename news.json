@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-07-18T18:27:51.760Z",
+  "generatedAt": "2026-07-18T21:38:29.239Z",
   "items": [
+    {
+      "id": "n_74fec3be6a",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Norwegische Inselgruppe: Lofoten erheben Abgabe gegen \"Overtourism\"",
+      "summary": "Überfüllte Parkplätze, Wohnmobile auf Äckern, Müll am Straßenrand: Die Lofoten ächzen seit Jahren unter zu vielen Touristen. Eine Tourismusabgabe soll Abhilfe schaffen - doch nicht alle halten die Gebühr für zielführend. Von Arne Bartram.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/europa/tourismusabgabe-norwegen-100.html",
+      "publishedAt": "2026-07-18T18:59:37.000Z"
+    },
+    {
+      "id": "n_07b187e64f",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Rahmenabkommen: Iran setzt Vereinbarung mit USA aus",
+      "summary": "Eigentlich hatten sich die USA und Iran Mitte Juni darauf verständigt, ihren Konflikt durch Verhandlungen zu lösen. Doch nun eskaliert die Lage wieder. In Jordanien wurden zwei US-Soldaten bei einem iranischen Angriff getötet.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/amerika/iran-usa-rahmenabkommen-ausgesetzt-100.html",
+      "publishedAt": "2026-07-18T18:54:34.000Z"
+    },
     {
       "id": "n_eb0cb3deb3",
       "type": "news",
@@ -40,21 +62,10 @@
       "topic": "general",
       "lang": "de",
       "headline": "Politikwissenschaftler zu Spahn: \"Spahn hat das Thema unterschätzt\"",
-      "summary": "Was bedeutet der Rücktritt von Jens Spahn für die CDU? Politikwissenschaftler Oliver Lembcke im tagesschau24-Interview über die Gründe für die Entscheidung - und welche Nachwirkungen dies für die Partei haben könnte.",
+      "summary": "Politikwissenschaftler Oliver Lembcke im tagesschau24-Interview über die Gründe für Spahns Rücktritt - und welche Folgen dies haben könnte.",
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/inland/innenpolitik/interview-oliver-lembcke-100.html",
       "publishedAt": "2026-07-18T17:32:28.000Z"
-    },
-    {
-      "id": "n_07b187e64f",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Rahmenabkommen: Iran setzt Vereinbarung mit USA aus",
-      "summary": "Eigentlich hatten sich die USA und Iran Mitte Juni darauf verständigt, ihren Konflikt mit Verhandlungen lösen zu wollen und die Kriegshandlungen einzustellen. Nach der jüngsten Eskalation schwindet die Hoffnung auf Diplomatie.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/amerika/iran-usa-rahmenabkommen-ausgesetzt-100.html",
-      "publishedAt": "2026-07-18T16:35:19.000Z"
     },
     {
       "id": "n_5a69eb96ac",
@@ -77,17 +88,6 @@
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/wirtschaft/buerokratie-bremst-wirtschaft-regierung-plant-reform-100.html",
       "publishedAt": "2026-07-18T14:14:02.000Z"
-    },
-    {
-      "id": "n_61e8e1a7da",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Debatte um Leihmutterschaft: Unions-Fraktionschef Spahn tritt zurück",
-      "summary": "In der Debatte um eine Leihmutterschaft in den USA zieht Jens Spahn Konsequenzen: In einem Schreiben informierte er die Unionsfraktion über seinen Rücktritt. Kanzler Merz bezeichnete die Entscheidung als \"richtig und unvermeidlich\".",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/jens-spahn-ruecktritt-100.html",
-      "publishedAt": "2026-07-18T13:31:50.000Z"
     },
     {
       "id": "n_56a94ecd80",
@@ -271,10 +271,10 @@
       "topic": "general",
       "lang": "en",
       "headline": "Two US troops killed and one missing after Iranian attack in Jordan",
-      "summary": "The announcement comes after Jordan said it intercepted 10 Iranian missiles fired into its airspace overnight into Saturday.",
+      "summary": "Iran and the US have traded strikes as hostilities re-escalated this week, with Tehran targeting US military facilities across the Gulf region.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-18T18:05:14.000Z"
+      "publishedAt": "2026-07-18T21:12:28.000Z"
     },
     {
       "id": "n_a6a3a34900",
@@ -285,7 +285,7 @@
       "summary": "Tamás Sulyok, seen as an Orbán loyalist, had until Saturday night to agree to end his term.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-18T17:33:28.000Z"
+      "publishedAt": "2026-07-18T19:34:16.000Z"
     },
     {
       "id": "n_fa63b20540",
