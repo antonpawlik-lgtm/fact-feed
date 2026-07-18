@@ -86,21 +86,93 @@ const categoryLabel = (category) => CATEGORY_LABELS[category] || category;
 // distinguishable at a glance. Unmapped (future) categories fall back to
 // the default --accent color via CSS.
 const CATEGORY_COLORS = {
-  science: '#a78bfa',
+  science: '#38bdf8',
   history: '#f59e0b',
-  nature: '#14b8a6',
-  space: '#6366f1',
-  animals: '#22c55e',
-  geography: '#f97316',
-  technology: '#3b82f6',
-  psychology: '#ec4899',
-  food: '#ef4444',
-  curiosities: '#eab308',
+  nature: '#34d399',
+  space: '#818cf8',
+  animals: '#fb923c',
+  geography: '#2dd4bf',
+  technology: '#60a5fa',
+  psychology: '#f472b6',
+  food: '#f87171',
+  curiosities: '#c084fc',
   'news-general': '#e11d48',
   'news-tech': '#0ea5e9',
 };
 
 const categoryColor = (category) => CATEGORY_COLORS[category] || null;
+
+// Inline SVG icons for the action rail (replaces emoji — crisper, themeable
+// via currentColor). fill toggles to currentColor via .selected in CSS.
+const ICON = {
+  like: '<svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 1 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>',
+  dislike: '<svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+  save: '<svg viewBox="0 0 24 24"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.2L5 21V4a1 1 0 0 1 1-1z"/></svg>',
+  share: '<svg viewBox="0 0 24 24"><path d="M12 15V3m0 0L8 7m4-4 4 4"/><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7"/></svg>',
+};
+
+// The docked action rail, shared by fact and news cards. The generic
+// btn-like/btn-dislike/btn-save/btn-share classes keep react()/renderReaction
+// and the save/share wiring identical across card types.
+function actionRailHTML() {
+  return `
+    <div class="swipe-badge swipe-like">MAG ICH ♥</div>
+    <div class="swipe-badge swipe-nope">NÖ</div>
+    <div class="card-actions gesture-exempt">
+      <button class="btn-like" type="button" aria-label="Mag ich" aria-pressed="false">${ICON.like}</button>
+      <button class="btn-dislike" type="button" aria-label="Nicht interessiert" aria-pressed="false">${ICON.dislike}</button>
+      <button class="btn-save" type="button" aria-label="Merken" aria-pressed="false">${ICON.save}</button>
+      <button class="btn-share" type="button" aria-label="Teilen">${ICON.share}</button>
+    </div>`;
+}
+
+// Order + German labels for the header/profile category chips.
+const CHIP_CATEGORIES = Object.keys(CATEGORY_LABELS);
+let selectedCategory = 'all'; // 'all' | one of CHIP_CATEGORIES
+
+const headerEl = document.getElementById('app-header');
+const chipsEl = document.getElementById('chips');
+const feedCountEl = document.getElementById('feed-count');
+const savedBadgeEl = document.getElementById('saved-badge');
+
+function renderChips() {
+  if (!chipsEl) return;
+  const mk = (slug, label, color) => {
+    const active = selectedCategory === slug;
+    const btn = document.createElement('button');
+    btn.className = `chip${active ? ' active' : ''}`;
+    btn.style.setProperty('--c', color);
+    btn.textContent = label;
+    btn.addEventListener('click', () => {
+      selectedCategory = slug;
+      renderChips();
+      rebuildPools();
+      resetFeed();
+    });
+    return btn;
+  };
+  chipsEl.replaceChildren(
+    mk('all', 'Alle', 'var(--accent)'),
+    ...CHIP_CATEGORIES.map((slug) => mk(slug, categoryLabel(slug), categoryColor(slug) || 'var(--accent)'))
+  );
+}
+
+function updateFeedMeta() {
+  if (feedCountEl) feedCountEl.textContent = `${facts.length} Fakten`;
+}
+
+function updateSavedBadge() {
+  if (!savedBadgeEl) return;
+  const n = favorites.size;
+  savedBadgeEl.textContent = String(n);
+  savedBadgeEl.classList.toggle('hidden', n === 0);
+}
+
+// Tint the whole chrome (brand "ly", active chip/nav) to the active card's
+// category color, so scrolling gently shifts the accent.
+function setLiveAccent(color) {
+  if (color) document.documentElement.style.setProperty('--accent', color);
+}
 
 const saveStats = () => writeJSON(STORAGE_STATS, categoryStats);
 const saveTagStats = () => writeJSON(STORAGE_TAG_STATS, tagStats);
@@ -454,13 +526,19 @@ function attachGestures(card, fact) {
       card.style.transition = 'none';
       card.style.transform = `translateX(${dx}px) rotate(${dx / 20}deg)`;
       card.style.opacity = String(1 - Math.min(Math.abs(dx) / 300, 0.5));
-      const flash = card.querySelector('.swipe-flash');
-      if (flash) {
-        flash.style.background = dx > 0 ? 'var(--like)' : 'var(--dislike)';
-        flash.style.opacity = String(Math.min(Math.abs(dx) / 200, 0.35));
-      }
+      const like = card.querySelector('.swipe-like');
+      const nope = card.querySelector('.swipe-nope');
+      if (like) like.style.opacity = dx > 0 ? String(Math.min(1, dx / 90)) : '0';
+      if (nope) nope.style.opacity = dx < 0 ? String(Math.min(1, -dx / 90)) : '0';
     }
   });
+
+  const clearBadges = () => {
+    const like = card.querySelector('.swipe-like');
+    const nope = card.querySelector('.swipe-nope');
+    if (like) like.style.opacity = '0';
+    if (nope) nope.style.opacity = '0';
+  };
 
   function endGesture(e) {
     if (!pointer || e.pointerId !== pointer.id) return;
@@ -469,8 +547,7 @@ function attachGestures(card, fact) {
     const distance = Math.hypot(dx, dy);
 
     if (pointer.mode === 'horizontal') {
-      const flash = card.querySelector('.swipe-flash');
-      if (flash) flash.style.opacity = '0';
+      clearBadges();
       if (Math.abs(dx) > SWIPE_THRESHOLD_PX) {
         react(card, fact, dx > 0 ? 1 : -1);
         pointer = null;
@@ -502,8 +579,7 @@ function attachGestures(card, fact) {
   // full-distance swipe and fire an unintended dislike. Only clean up.
   card.addEventListener('pointercancel', () => {
     if (pointer) {
-      const flash = card.querySelector('.swipe-flash');
-      if (flash) flash.style.opacity = '0';
+      clearBadges();
       snapBack(card);
     }
     pointer = null;
@@ -539,20 +615,15 @@ function createNewsCard(item) {
 
   const timeStr = relativeTime(item.publishedAt);
   card.innerHTML = `
-    <div class="swipe-flash"></div>
     <div class="card-inner">
-      <p class="card-category">News · ${item.topic === 'tech' ? 'Tech' : 'Welt'}</p>
-      <p class="card-text">${escapeHtml(item.headline)}</p>
+      <p class="card-category"><span class="cat-dot"></span>News · ${item.topic === 'tech' ? 'Tech' : 'Welt'}</p>
+      <div class="card-body">
+        <p class="card-text">${escapeHtml(item.headline)}</p>
+      </div>
       ${item.summary ? `<p class="card-summary">${escapeHtml(item.summary)}</p>` : ''}
       <p class="card-source">${escapeHtml(item.source)}${timeStr ? ' · ' + timeStr : ''}</p>
       <a class="card-link gesture-exempt" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">Artikel öffnen ↗</a>
-    </div>
-    <div class="card-actions gesture-exempt">
-      <button class="btn-like" type="button" aria-label="Gefällt mir" aria-pressed="false">&#10084;&#65039;</button>
-      <button class="btn-dislike" type="button" aria-label="Gefällt mir nicht" aria-pressed="false">&#128078;</button>
-      <button class="btn-save more-option hidden" type="button" aria-label="Artikel speichern" aria-pressed="false">&#128278;</button>
-      <button class="btn-share more-option hidden" type="button" aria-label="Artikel teilen">&#128228;</button>
-      <button class="btn-overflow" type="button" aria-label="Weitere Optionen" aria-expanded="false">&#8942;</button>
+      ${actionRailHTML()}
     </div>
   `;
 
@@ -567,29 +638,14 @@ function createNewsCard(item) {
     saveBtn.setAttribute('aria-pressed', String(saved));
   };
   renderSaved(favorites.has(item.id));
-
-  const overflowBtn = card.querySelector('.btn-overflow');
-  const collapseOverflow = () => {
-    overflowBtn.setAttribute('aria-expanded', 'false');
-    card.querySelectorAll('.more-option').forEach((el) => el.classList.add('hidden'));
-  };
-  overflowBtn.addEventListener('click', () => {
-    const expanded = overflowBtn.getAttribute('aria-expanded') === 'true';
-    overflowBtn.setAttribute('aria-expanded', String(!expanded));
-    card.querySelectorAll('.more-option').forEach((el) => el.classList.toggle('hidden', expanded));
-  });
-
   saveBtn.addEventListener('click', () => {
     const nowSaved = toggleFavorite(item.id);
     renderSaved(nowSaved);
-    showToast(nowSaved ? 'Gespeichert' : 'Entfernt');
-    collapseOverflow();
+    updateSavedBadge();
+    showToast(nowSaved ? 'Gemerkt' : 'Entfernt');
   });
 
-  card.querySelector('.btn-share').addEventListener('click', () => {
-    shareNews(item);
-    collapseOverflow();
-  });
+  card.querySelector('.btn-share').addEventListener('click', () => shareNews(item));
 
   const stored = reactions[String(item.id)] || null;
   if (stored) renderReaction(card, stored);
@@ -620,24 +676,20 @@ function createCard(fact) {
   if (color) card.style.setProperty('--cat-color', color);
 
   card.innerHTML = `
-    <div class="swipe-flash"></div>
     <div class="card-inner">
-      <p class="card-category">${escapeHtml(categoryLabel(fact.category))}</p>
-      <p class="card-text">${escapeHtml(fact.text)}</p>
+      <p class="card-category"><span class="cat-dot"></span>${escapeHtml(categoryLabel(fact.category))}</p>
+      <div class="card-body">
+        <p class="card-text">${escapeHtml(fact.text)}</p>
+      </div>
       <p class="card-lang">${fact.lang.toUpperCase()}</p>
-      <button class="btn-more gesture-exempt" type="button">Mehr davon</button>
-    </div>
-    <div class="card-actions gesture-exempt">
-      <button class="btn-like" type="button" aria-label="Fact gefällt mir" aria-pressed="false">&#10084;&#65039;</button>
-      <button class="btn-dislike" type="button" aria-label="Fact gefällt mir nicht" aria-pressed="false">&#128078;</button>
-      <button class="btn-save more-option hidden" type="button" aria-label="Fact speichern" aria-pressed="false">&#128278;</button>
-      <button class="btn-share more-option hidden" type="button" aria-label="Fact teilen">&#128228;</button>
-      <button class="btn-overflow" type="button" aria-label="Weitere Optionen" aria-expanded="false">&#8942;</button>
+      ${actionRailHTML()}
     </div>
   `;
 
+  // Source link goes before the (absolutely-positioned) rail so document flow
+  // stays tidy, though visually the rail floats regardless.
   const sourceLink = createSourceLink(fact);
-  if (sourceLink) card.querySelector('.card-inner').appendChild(sourceLink);
+  if (sourceLink) card.querySelector('.card-lang').after(sourceLink);
 
   attachGestures(card, fact);
   card.querySelector('.btn-like').addEventListener('click', () => react(card, fact, 1));
@@ -649,45 +701,14 @@ function createCard(fact) {
     saveBtn.setAttribute('aria-pressed', String(saved));
   };
   renderSaved(favorites.has(fact.id));
-
-  const overflowBtn = card.querySelector('.btn-overflow');
-  const collapseOverflow = () => {
-    overflowBtn.setAttribute('aria-expanded', 'false');
-    card.querySelectorAll('.more-option').forEach((el) => el.classList.add('hidden'));
-  };
-  overflowBtn.addEventListener('click', () => {
-    const expanded = overflowBtn.getAttribute('aria-expanded') === 'true';
-    overflowBtn.setAttribute('aria-expanded', String(!expanded));
-    card.querySelectorAll('.more-option').forEach((el) => el.classList.toggle('hidden', expanded));
-  });
-
   saveBtn.addEventListener('click', () => {
     const nowSaved = toggleFavorite(fact.id);
     renderSaved(nowSaved);
-    showToast(nowSaved ? 'Gespeichert' : 'Entfernt');
-    collapseOverflow();
+    updateSavedBadge();
+    showToast(nowSaved ? 'Gemerkt' : 'Entfernt');
   });
 
-  card.querySelector('.btn-share').addEventListener('click', () => {
-    shareFact(fact);
-    collapseOverflow();
-  });
-
-  // "Mehr davon" is a one-time boost per fact — persisted, so the button
-  // can't be farmed for +2 every time the fact cycles back around.
-  const moreBtn = card.querySelector('.btn-more');
-  const renderBoosted = () => {
-    moreBtn.textContent = '✓ Kommt öfter';
-    moreBtn.disabled = true;
-  };
-  if (boostedIds.has(fact.id)) renderBoosted();
-  moreBtn.addEventListener('click', () => {
-    if (boostedIds.has(fact.id)) return;
-    boostFactTopics(fact);
-    boostedIds.add(fact.id);
-    saveBoosted();
-    renderBoosted();
-  });
+  card.querySelector('.btn-share').addEventListener('click', () => shareFact(fact));
 
   // Restore a previously stored reaction so re-shown facts display it.
   const stored = reactions[String(fact.id)] || null;
@@ -712,6 +733,9 @@ function setActiveCard(card) {
   flushActiveDwell();
   activeCard = card;
   activeSince = performance.now();
+  // Shift the chrome accent to this card's category color.
+  const color = categoryColor(card.dataset.category);
+  if (color) setLiveAccent(color);
 }
 
 // Backgrounding the tab / locking the phone must not count as reading time:
@@ -793,7 +817,9 @@ function appendCard(specificFact) {
   let card = null;
   if (specificFact) {
     card = createCard(specificFact);
-  } else if (newsPool.length > 0 && Math.random() < NEWS_RATE) {
+    // News mixes in only in the unfiltered "Alle" feed — a category filter
+    // means the user asked for exactly that topic.
+  } else if (selectedCategory === 'all' && newsPool.length > 0 && Math.random() < NEWS_RATE) {
     const item = pickNextNews();
     if (item) card = createNewsCard(item);
   }
@@ -832,8 +858,13 @@ function applyLanguageFilter(list) {
 
 function rebuildPools() {
   facts = applyLanguageFilter(allFacts);
+  if (selectedCategory !== 'all') {
+    const byCat = facts.filter((f) => f.category === selectedCategory);
+    if (byCat.length > 0) facts = byCat;
+  }
   if (facts.length === 0) facts = allFacts; // never leave the feed empty
   categories = [...new Set(facts.map((f) => f.category))];
+  updateFeedMeta();
 }
 
 function resetFeed() {
@@ -853,6 +884,7 @@ let currentView = 'feed';
 function switchView(name) {
   currentView = name;
   feed.classList.toggle('hidden', name !== 'feed');
+  if (headerEl) headerEl.classList.toggle('hidden', name !== 'feed'); // brand + chips are feed-only
   savedView.classList.toggle('hidden', name !== 'saved');
   settingsView.classList.toggle('hidden', name !== 'settings');
   nav.querySelectorAll('button').forEach((b) => b.classList.toggle('active', b.dataset.view === name));
@@ -868,16 +900,34 @@ nav.addEventListener('click', (e) => {
 });
 
 function renderSavedView() {
-  savedView.innerHTML = '<h2>Gespeicherte Facts</h2>';
+  updateSavedBadge();
   const ids = [...favorites];
-  if (ids.length === 0) {
-    savedView.innerHTML += '<p class="empty-note">Noch nichts gespeichert. Tippe 🔖 auf einer Karte, um einen Fact hier abzulegen.</p>';
+  const n = ids.length;
+  savedView.innerHTML = `
+    <div class="panel-title">Gemerkt</div>
+    <p class="panel-sub">${n > 0 ? `${n} ${n === 1 ? 'Fakt' : 'Fakten'} in deiner Sammlung` : 'Deine Lieblingsfakten an einem Ort'}</p>
+  `;
+
+  if (n === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'empty';
+    empty.innerHTML = `
+      <div class="empty-icon">${ICON.save}</div>
+      <div class="empty-title">Noch nichts gemerkt</div>
+      <div class="empty-text">Swipe im Feed nach <span class="accent">rechts</span> oder tippe auf ♥, um Fakten hier zu sammeln.</div>
+      <button class="empty-cta" type="button">Zum Feed</button>
+    `;
+    empty.querySelector('.empty-cta').addEventListener('click', () => switchView('feed'));
+    savedView.appendChild(empty);
     return;
   }
+
+  const list = document.createElement('div');
+  list.className = 'saved-list';
   ids.forEach((id) => {
     // A saved id is either a fact (integer id, in factById) or a news headline
     // (string id, in newsById while still in the current pool). Normalise both
-    // into { category, label, text, color, share } so one renderer handles them.
+    // into { category, label, text, share } so one renderer handles them.
     const fact = factById.get(id);
     const news = fact ? null : newsById.get(id);
     if (!fact && !news) return; // rotated-out headline — nothing to show
@@ -901,7 +951,7 @@ function renderSavedView() {
     const color = categoryColor(view.category);
     if (color) item.style.setProperty('--cat-color', color);
     item.innerHTML = `
-      <p class="saved-item-category">${escapeHtml(view.label)}</p>
+      <p class="saved-item-category"><span class="cat-dot"></span>${escapeHtml(view.label)}</p>
       <p class="saved-item-text">${escapeHtml(view.text)}</p>
       <div class="saved-item-actions">
         <button class="saved-share" type="button">Teilen</button>
@@ -912,11 +962,13 @@ function renderSavedView() {
     item.querySelector('.saved-remove').addEventListener('click', () => {
       favorites.delete(id);
       saveFavorites();
+      updateSavedBadge();
       item.remove();
       if (favorites.size === 0) renderSavedView();
     });
-    savedView.appendChild(item);
+    list.appendChild(item);
   });
+  savedView.appendChild(list);
 }
 
 function renderSettingsView() {
@@ -934,18 +986,40 @@ function renderSettingsView() {
     )
     .join('');
 
+  const themeChips = CHIP_CATEGORIES.map(
+    (slug) =>
+      `<span class="theme-chip" style="--c:${categoryColor(slug) || 'var(--accent)'}"><span class="cat-dot"></span>${escapeHtml(
+        categoryLabel(slug)
+      )}</span>`
+  ).join('');
+
+  const likedTotal = favorites.size;
+  const ratedTotal = Object.keys(reactions).length;
+
   settingsView.innerHTML = `
-    <h2>Einstellungen</h2>
-    <section class="settings-block">
-      <h3>Sprache der Facts</h3>
-      ${langOptions}
-    </section>
-    <section class="settings-block">
-      <h3>Profil</h3>
-      <p class="settings-note">${Object.keys(reactions).length} Bewertungen · ${favorites.size} gespeichert</p>
-      <button class="btn-reset" type="button">Profil zurücksetzen</button>
-      <p class="settings-note">Löscht Bewertungen, gelernte Vorlieben und Gespeichertes auf diesem Gerät.</p>
-    </section>
+    <div class="panel-title">Profil</div>
+    <div class="profile-card">
+      <div class="profile-head">
+        <div class="profile-avatar">FF</div>
+        <div>
+          <div class="profile-name">Fakten-Fan</div>
+          <div class="profile-meta">Dein Profil auf diesem Gerät</div>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div class="stat-tile"><div class="stat-num accent">${likedTotal}</div><div class="stat-label">Gemerkt</div></div>
+        <div class="stat-tile"><div class="stat-num">${ratedTotal}</div><div class="stat-label">Bewertet</div></div>
+        <div class="stat-tile"><div class="stat-num">${CHIP_CATEGORIES.length}</div><div class="stat-label">Themen</div></div>
+      </div>
+    </div>
+
+    <div class="section-label">Deine Themen</div>
+    <div class="theme-chips">${themeChips}</div>
+
+    <div class="section-label">Sprache der Fakten</div>
+    <div class="settings-block">${langOptions}</div>
+
+    <button class="btn-reset" type="button">Profil zurücksetzen</button>
   `;
 
   settingsView.querySelectorAll('input[name="language"]').forEach((input) => {
@@ -1024,6 +1098,8 @@ function getRequestedFactId() {
 
 async function init() {
   try {
+    renderChips();
+    updateSavedBadge();
     allFacts = await loadFacts();
     factById = new Map(allFacts.map((f) => [f.id, f]));
     rebuildPools();

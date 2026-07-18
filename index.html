@@ -4,25 +4,51 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>Factly</title>
-  <meta name="theme-color" content="#0e0e10" />
+  <meta name="theme-color" content="#0a0a0c" />
   <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="icons/icon-192.png" />
-  <link rel="stylesheet" href="style.css?v=13" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=14" />
 </head>
 <body>
-  <div class="hint" id="hint">↑↓ nächster Fact · ←→ liken/disliken</div>
+  <header id="app-header">
+    <div class="header-row">
+      <div class="brand">Fact<span class="ly">ly</span></div>
+      <div class="feed-count" id="feed-count"></div>
+    </div>
+    <div class="chips" id="chips"></div>
+  </header>
+
+  <div class="hint" id="hint"><span>↑ nächster</span><span class="accent">→ mag ich</span><span>← nö</span></div>
   <div class="toast hidden" id="toast" role="status" aria-live="polite"></div>
+
   <div id="feed" class="view"></div>
-  <section id="saved-view" class="view panel hidden" aria-label="Gespeicherte Facts"></section>
-  <section id="settings-view" class="view panel hidden" aria-label="Einstellungen"></section>
+  <section id="saved-view" class="view panel hidden" aria-label="Gemerkte Fakten"></section>
+  <section id="settings-view" class="view panel hidden" aria-label="Profil"></section>
+
   <nav class="bottom-nav" id="nav" aria-label="Bereiche">
-    <button data-view="feed" class="active" type="button">Feed</button>
-    <button data-view="saved" type="button">Gespeichert</button>
-    <button data-view="settings" type="button">Einstellungen</button>
+    <button data-view="feed" class="active" type="button">
+      <svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="8" rx="2.5"/><rect x="4" y="14" width="16" height="7" rx="2.5"/></svg>
+      <span>Feed</span>
+    </button>
+    <button data-view="saved" type="button">
+      <span class="nav-badge-wrap">
+        <svg viewBox="0 0 24 24"><path class="nav-icon-fill" d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.2L5 21V4a1 1 0 0 1 1-1z"/></svg>
+        <span class="nav-badge hidden" id="saved-badge"></span>
+      </span>
+      <span>Gemerkt</span>
+    </button>
+    <button data-view="settings" type="button">
+      <svg viewBox="0 0 24 24" stroke-linecap="round"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2.4"/><circle cx="8" cy="17" r="2.4"/></svg>
+      <span>Profil</span>
+    </button>
   </nav>
+
   <!-- Bump the ?v= numbers AND the CACHE version in sw.js whenever
        src/*.js or style.css change — iOS caches aggressively, especially
        once the app is on the home screen. -->
-  <script type="module" src="src/main.js?v=13"></script>
+  <script type="module" src="src/main.js?v=14"></script>
 </body>
 </html>
