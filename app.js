@@ -1,5 +1,6 @@
 (function () {
   const STORAGE_STATS = 'factfeed_categoryStats';
+  const STORAGE_TAG_STATS = 'factfeed_tagStats';
   const STORAGE_SEEN = 'factfeed_seenIds';
   const WINDOW_AHEAD = 6;
   const AXIS_LOCK_PX = 12;
@@ -13,6 +14,7 @@
   let byCategory = {};
   let categories = [];
   const categoryStats = loadJSON(STORAGE_STATS, {});
+  const tagStats = loadJSON(STORAGE_TAG_STATS, {});
   const seenIds = loadJSON(STORAGE_SEEN, {});
   let hintTimer = null;
 
@@ -29,6 +31,10 @@
     localStorage.setItem(STORAGE_STATS, JSON.stringify(categoryStats));
   }
 
+  function saveTagStats() {
+    localStorage.setItem(STORAGE_TAG_STATS, JSON.stringify(tagStats));
+  }
+
   function saveSeen() {
     localStorage.setItem(STORAGE_SEEN, JSON.stringify(seenIds));
   }
@@ -41,6 +47,25 @@
     const stats = categoryStats[category] || { likes: 0, dislikes: 0, dwell: 0 };
     const score = stats.likes - stats.dislikes + (stats.dwell || 0);
     return clamp(1 + 0.4 * score, 0.15, 6);
+  }
+
+  // Tags are fine-grained sub-topics (e.g. "dinosaurs" within history) that
+  // cut across categories. Same formula shape as weightFor, but a tighter
+  // clamp: tag scores grow faster (one like touches up to 3 tags) and the
+  // per-category candidate pools they act on are small.
+  function tagWeightFor(tag) {
+    const stats = tagStats[tag] || { likes: 0, dislikes: 0, dwell: 0 };
+    const score = stats.likes - stats.dislikes + (stats.dwell || 0);
+    return clamp(1 + 0.4 * score, 0.25, 4);
+  }
+
+  // Mean (not product) so multi-tag facts aren't systematically favored or
+  // punished just for carrying more tags. No/unknown tags = neutral weight 1,
+  // which also keeps old cached facts.json and future tagless news cards safe.
+  function factWeightFor(fact) {
+    const tags = fact.tags || [];
+    if (tags.length === 0) return 1;
+    return tags.reduce((sum, t) => sum + tagWeightFor(t), 0) / tags.length;
   }
 
   // Implicit signal alongside explicit likes/dislikes: how long a fact stayed
@@ -60,10 +85,23 @@
     const ratio = dwellMs / expectedMs;
     if (ratio > DWELL_SKIP_RATIO && ratio < DWELL_LINGER_RATIO) return; // normal reading pace
 
+    const delta = ratio > DWELL_LINGER_RATIO ? DWELL_LINGER_SCORE : DWELL_SKIP_SCORE;
     const stats = categoryStats[category] || { likes: 0, dislikes: 0, dwell: 0 };
-    stats.dwell = (stats.dwell || 0) + (ratio > DWELL_LINGER_RATIO ? DWELL_LINGER_SCORE : DWELL_SKIP_SCORE);
+    stats.dwell = (stats.dwell || 0) + delta;
     categoryStats[category] = stats;
     saveStats();
+
+    // Each tag gets the full delta (not divided by tag count) — consistent
+    // with react() giving each tag a full like, and tag-count-neutral overall
+    // because factWeightFor averages. filter(Boolean) makes tagless cards
+    // (e.g. future news cards) a silent no-op: ''.split(',') is [''].
+    const tags = (card.dataset.tags || '').split(',').filter(Boolean);
+    tags.forEach((tag) => {
+      const ts = tagStats[tag] || { likes: 0, dislikes: 0, dwell: 0 };
+      ts.dwell = (ts.dwell || 0) + delta;
+      tagStats[tag] = ts;
+    });
+    if (tags.length > 0) saveTagStats();
   }
 
   // Even if one category ends up completely dominant (heavily liked while
@@ -98,7 +136,17 @@
       seenIds[chosenCategory] = [];
       candidates = pool;
     }
-    const fact = candidates[Math.floor(Math.random() * candidates.length)];
+    const candWeights = candidates.map(factWeightFor);
+    const candTotal = candWeights.reduce((a, b) => a + b, 0);
+    let cr = Math.random() * candTotal;
+    let fact = candidates[candidates.length - 1];
+    for (let i = 0; i < candidates.length; i++) {
+      cr -= candWeights[i];
+      if (cr <= 0) {
+        fact = candidates[i];
+        break;
+      }
+    }
 
     seenIds[chosenCategory] = [...(seenIds[chosenCategory] || []), fact.id];
     saveSeen();
@@ -111,28 +159,41 @@
     return div.innerHTML;
   }
 
+  function applyReactionDelta(stats, prev, label, togglingOff) {
+    if (prev === 'like') stats.likes -= 1;
+    if (prev === 'dislike') stats.dislikes -= 1;
+    if (!togglingOff) {
+      if (label === 'like') stats.likes += 1;
+      else stats.dislikes += 1;
+    }
+    return stats;
+  }
+
   function react(card, fact, direction, { allowToggleOff = true } = {}) {
-    const stats = categoryStats[fact.category] || { likes: 0, dislikes: 0 };
     const prev = card.dataset.reaction; // 'like' | 'dislike' | undefined
     const label = direction > 0 ? 'like' : 'dislike';
 
     if (prev === label && !allowToggleOff) return; // e.g. double-tap: always likes, never unlikes
 
-    if (prev === 'like') stats.likes -= 1;
-    if (prev === 'dislike') stats.dislikes -= 1;
+    // Pressing the already-active button (or swiping the same direction)
+    // again undoes the reaction instead of just reaffirming it.
+    const togglingOff = prev === label;
 
-    if (prev === label) {
-      // Pressing the already-active button (or swiping the same direction)
-      // again undoes the reaction instead of just reaffirming it.
-      delete card.dataset.reaction;
-    } else {
-      if (direction > 0) stats.likes += 1;
-      else stats.dislikes += 1;
-      card.dataset.reaction = label;
-    }
-
-    categoryStats[fact.category] = stats;
+    categoryStats[fact.category] = applyReactionDelta(
+      categoryStats[fact.category] || { likes: 0, dislikes: 0 },
+      prev, label, togglingOff
+    );
+    (fact.tags || []).forEach((tag) => {
+      tagStats[tag] = applyReactionDelta(
+        tagStats[tag] || { likes: 0, dislikes: 0 },
+        prev, label, togglingOff
+      );
+    });
     saveStats();
+    saveTagStats();
+
+    if (togglingOff) delete card.dataset.reaction;
+    else card.dataset.reaction = label;
 
     card.querySelector('.btn-like').classList.toggle('selected', card.dataset.reaction === 'like');
     card.querySelector('.btn-dislike').classList.toggle('selected', card.dataset.reaction === 'dislike');
@@ -243,6 +304,7 @@
     card.className = 'card';
     card.dataset.factId = String(fact.id);
     card.dataset.category = fact.category;
+    card.dataset.tags = (fact.tags || []).join(',');
     const words = fact.text.trim().split(/\s+/).length;
     card.dataset.expectedMs = String(clamp(words * 240, 1200, 8000));
 

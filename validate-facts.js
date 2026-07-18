@@ -52,6 +52,19 @@ facts.forEach((fact, i) => {
   if (typeof fact.text !== 'string' || fact.text.trim().length === 0) {
     errors.push(`${where}: "text" must be a non-empty string.`);
   }
+
+  if (!Array.isArray(fact.tags) || fact.tags.length < 1 || fact.tags.length > 3) {
+    errors.push(`${where}: "tags" must be an array of 1-3 entries.`);
+  } else {
+    fact.tags.forEach((tag) => {
+      if (typeof tag !== 'string' || !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(tag)) {
+        errors.push(`${where}: tag "${tag}" must be lowercase ASCII, hyphen-separated (e.g. "ancient-rome").`);
+      }
+    });
+    if (new Set(fact.tags).size !== fact.tags.length) {
+      errors.push(`${where}: duplicate tags within one fact.`);
+    }
+  }
 });
 
 if (errors.length > 0) {
@@ -62,9 +75,13 @@ if (errors.length > 0) {
 
 const byCategory = {};
 const byLang = {};
+const byTag = {};
 facts.forEach((f) => {
   byCategory[f.category] = (byCategory[f.category] || 0) + 1;
   byLang[f.lang] = (byLang[f.lang] || 0) + 1;
+  (f.tags || []).forEach((tag) => {
+    byTag[tag] = (byTag[tag] || 0) + 1;
+  });
 });
 
 console.log(`✓ facts.json is valid — ${facts.length} facts, ${seenIds.size} unique ids.\n`);
@@ -72,4 +89,13 @@ console.log('By category:');
 Object.entries(byCategory).sort().forEach(([cat, count]) => console.log(`  ${cat.padEnd(12)} ${count}`));
 console.log('\nBy language:');
 Object.entries(byLang).sort().forEach(([lang, count]) => console.log(`  ${lang.padEnd(12)} ${count}`));
+console.log(`\nBy tag (${Object.keys(byTag).length} distinct):`);
+Object.entries(byTag).sort((a, b) => b[1] - a[1]).forEach(([tag, count]) => console.log(`  ${tag.padEnd(20)} ${count}`));
+
+const singletons = Object.entries(byTag).filter(([, count]) => count === 1).map(([tag]) => tag);
+if (singletons.length > 0) {
+  console.log(`\n⚠ Tags used by only one fact (possible typo/synonym — prefer reusing an existing tag):`);
+  console.log(`  ${singletons.sort().join(', ')}`);
+}
+
 console.log(`\nNext free id: ${Math.max(...facts.map((f) => f.id)) + 1}`);
