@@ -252,12 +252,12 @@
 
     card.addEventListener('pointerdown', (e) => {
       if (e.pointerType === 'mouse' && e.button !== 0) return;
-      // Let taps on the like/dislike buttons stay plain native clicks — if the
-      // swipe gesture below claims this pointer (e.g. via a bit of jitter
-      // reading as a horizontal drag) and calls setPointerCapture, the
-      // button's own click event can silently fail to fire on real touch
-      // devices.
-      if (e.target.closest('.card-actions')) return;
+      // Let taps on interactive elements (like/dislike buttons, source link)
+      // stay plain native clicks — if the swipe gesture below claims this
+      // pointer (e.g. via a bit of jitter reading as a horizontal drag) and
+      // calls setPointerCapture, the element's own click event can silently
+      // fail to fire on real touch devices.
+      if (e.target.closest('.gesture-exempt')) return;
       pointer = { id: e.pointerId, x0: e.clientX, y0: e.clientY, mode: 'undecided' };
     });
 
@@ -309,7 +309,7 @@
       // already flipped to 'vertical' (or a too-small 'horizontal') by the
       // time the finger lifts. Judge tap-vs-drag on total distance here
       // instead of trusting `mode`, so double-tap stays reliable on touch.
-      if (distance < TAP_MOVE_THRESHOLD_PX && !e.target.closest('.card-actions')) {
+      if (distance < TAP_MOVE_THRESHOLD_PX && !e.target.closest('.gesture-exempt')) {
         const now = Date.now();
         if (now - lastTapTime < DOUBLE_TAP_MS) {
           react(card, fact, 1, { allowToggleOff: false });
@@ -324,6 +324,17 @@
 
     card.addEventListener('pointerup', endGesture);
     card.addEventListener('pointercancel', endGesture);
+  }
+
+  function createSourceLink(fact) {
+    if (!fact.source || !fact.source.url) return null;
+    const link = document.createElement('a');
+    link.className = 'fact-source gesture-exempt';
+    link.href = fact.source.url;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = `Quelle: ${fact.source.publisher || new URL(fact.source.url).hostname}`;
+    return link;
   }
 
   function createCard(fact) {
@@ -342,11 +353,14 @@
         <div class="card-text">${escapeHtml(fact.text)}</div>
         <div class="card-lang">${fact.lang.toUpperCase()}</div>
       </div>
-      <div class="card-actions">
+      <div class="card-actions gesture-exempt">
         <button class="btn-like" aria-label="Like">&#10084;&#65039;</button>
         <button class="btn-dislike" aria-label="Dislike">&#128078;</button>
       </div>
     `;
+
+    const sourceLink = createSourceLink(fact);
+    if (sourceLink) card.querySelector('.card-inner').appendChild(sourceLink);
 
     attachGestures(card, fact);
     card.querySelector('.btn-like').addEventListener('click', () => react(card, fact, 1));

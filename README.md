@@ -20,6 +20,13 @@ Dann `http://localhost:8080` öffnen (ein simpler statischer Server ist nötig, 
    Kategorien frei aus der bestehenden Liste wiederverwenden (science, history, nature, space, animals, geography, technology, psychology, food, curiosities), `lang` ist `"de"` oder `"en"`.
 
    **Tags** (Pflicht, 1–3 pro Fact): feingranulare Unterthemen, auf denen der Algorithmus zusätzlich zur Kategorie lernt. Konvention: englisch, lowercase, Bindestriche statt Leerzeichen (`ancient-rome`), Plural bei zählbaren Nomen (`dinosaurs`), spezifischster Tag zuerst, Kategorie nicht als Tag wiederholen. **Vorhandene Tags wiederverwenden statt Synonyme zu erfinden** — die aktuelle Tag-Liste zeigt `node validate-facts.js`. Tags dürfen quer über Kategorien genutzt werden (z.B. `dinosaurs` auf History- und Nature-Facts).
+
+   **Quelle** (optional, aber erwünscht): Wenn eine belastbare Quelle vorliegt, statt `"source": null` ein Objekt eintragen — es erscheint dann als Link auf der Karte:
+   ```json
+   "source": { "url": "https://...", "publisher": "NASA", "title": "Lightning Facts" },
+   "verifiedAt": "2026-07-18"
+   ```
+   Die 180 Bestands-Facts haben noch keine Quellen; die werden in einer eigenen Recherche-Session nachgetragen.
 3. Validieren:
    ```
    node validate-facts.js

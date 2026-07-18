@@ -1,0 +1,12 @@
+{
+  "name": "fact-feed",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node validate-facts.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

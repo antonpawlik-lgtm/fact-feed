@@ -29,7 +29,43 @@ if (!Array.isArray(facts)) {
   process.exit(1);
 }
 
+// Sources are optional per fact until the backlog research pass lands, but
+// when present they must be complete and well-formed. New facts should ship
+// with a source whenever one is at hand.
+function validateSource(source, where) {
+  if (source === null || source === undefined) return; // allowed (for now)
+  if (typeof source !== 'object' || Array.isArray(source)) {
+    errors.push(`${where}: "source" must be null or an object { url, publisher, title }.`);
+    return;
+  }
+  if (typeof source.publisher !== 'string' || !source.publisher.trim()) {
+    errors.push(`${where}: source.publisher must be a non-empty string.`);
+  }
+  if (typeof source.title !== 'string' || !source.title.trim()) {
+    errors.push(`${where}: source.title must be a non-empty string.`);
+  }
+  try {
+    const url = new URL(source.url);
+    if (!['http:', 'https:'].includes(url.protocol)) throw new Error('unsupported protocol');
+  } catch {
+    errors.push(`${where}: source.url must be a valid HTTP(S) URL.`);
+  }
+}
+
+function validateVerifiedAt(value, where) {
+  if (value === null || value === undefined) return; // optional
+  if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+    errors.push(`${where}: verifiedAt must use YYYY-MM-DD.`);
+  }
+}
+
+// Near-duplicate detection: normalized text prefix as a cheap fingerprint.
+function textFingerprint(text) {
+  return String(text).toLowerCase().replace(/[^a-z0-9äöüß ]/g, '').slice(0, 60);
+}
+
 const seenIds = new Set();
+const seenTexts = new Map();
 facts.forEach((fact, i) => {
   const where = `fact at index ${i} (id: ${fact && fact.id})`;
 
@@ -51,7 +87,17 @@ facts.forEach((fact, i) => {
 
   if (typeof fact.text !== 'string' || fact.text.trim().length === 0) {
     errors.push(`${where}: "text" must be a non-empty string.`);
+  } else {
+    const fp = textFingerprint(fact.text);
+    if (seenTexts.has(fp)) {
+      errors.push(`${where}: text duplicates fact id ${seenTexts.get(fp)}.`);
+    } else {
+      seenTexts.set(fp, fact.id);
+    }
   }
+
+  validateSource(fact.source, where);
+  validateVerifiedAt(fact.verifiedAt, where);
 
   if (!Array.isArray(fact.tags) || fact.tags.length < 1 || fact.tags.length > 3) {
     errors.push(`${where}: "tags" must be an array of 1-3 entries.`);
@@ -96,6 +142,21 @@ const singletons = Object.entries(byTag).filter(([, count]) => count === 1).map(
 if (singletons.length > 0) {
   console.log(`\n⚠ Tags used by only one fact (possible typo/synonym — prefer reusing an existing tag):`);
   console.log(`  ${singletons.sort().join(', ')}`);
+}
+
+// Balance warning: heavily skewed categories cycle their pool much faster
+// than the rest, so the same facts come around again sooner.
+const counts = Object.values(byCategory).sort((a, b) => a - b);
+const median = counts[Math.floor(counts.length / 2)];
+const oversized = Object.entries(byCategory).filter(([, count]) => count > 2 * median);
+if (oversized.length > 0) {
+  console.log(`\n⚠ Categories with more than 2x the median (${median}) fact count — consider topping up the others:`);
+  oversized.forEach(([cat, count]) => console.log(`  ${cat.padEnd(12)} ${count}`));
+}
+
+const unsourced = facts.filter((f) => !f.source).length;
+if (unsourced > 0) {
+  console.log(`\nℹ ${unsourced}/${facts.length} facts have no source yet (backlog for the sourcing research pass).`);
 }
 
 console.log(`\nNext free id: ${Math.max(...facts.map((f) => f.id)) + 1}`);
