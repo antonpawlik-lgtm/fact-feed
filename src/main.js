@@ -439,6 +439,9 @@ function createCard(fact) {
   const words = fact.text.trim().split(/\s+/).length;
   card.dataset.expectedMs = String(clamp(words * 240, 1200, 8000));
 
+  const color = categoryColor(fact.category);
+  if (color) card.style.setProperty('--cat-color', color);
+
   card.innerHTML = `
     <div class="swipe-flash"></div>
     <div class="card-inner">
@@ -450,8 +453,9 @@ function createCard(fact) {
     <div class="card-actions gesture-exempt">
       <button class="btn-like" type="button" aria-label="Fact gefällt mir" aria-pressed="false">&#10084;&#65039;</button>
       <button class="btn-dislike" type="button" aria-label="Fact gefällt mir nicht" aria-pressed="false">&#128078;</button>
-      <button class="btn-save" type="button" aria-label="Fact speichern" aria-pressed="false">&#128278;</button>
-      <button class="btn-share" type="button" aria-label="Fact teilen">&#128228;</button>
+      <button class="btn-save more-option hidden" type="button" aria-label="Fact speichern" aria-pressed="false">&#128278;</button>
+      <button class="btn-share more-option hidden" type="button" aria-label="Fact teilen">&#128228;</button>
+      <button class="btn-overflow" type="button" aria-label="Weitere Optionen" aria-expanded="false">&#8942;</button>
     </div>
   `;
 
@@ -468,13 +472,29 @@ function createCard(fact) {
     saveBtn.setAttribute('aria-pressed', String(saved));
   };
   renderSaved(favorites.has(fact.id));
+
+  const overflowBtn = card.querySelector('.btn-overflow');
+  const collapseOverflow = () => {
+    overflowBtn.setAttribute('aria-expanded', 'false');
+    card.querySelectorAll('.more-option').forEach((el) => el.classList.add('hidden'));
+  };
+  overflowBtn.addEventListener('click', () => {
+    const expanded = overflowBtn.getAttribute('aria-expanded') === 'true';
+    overflowBtn.setAttribute('aria-expanded', String(!expanded));
+    card.querySelectorAll('.more-option').forEach((el) => el.classList.toggle('hidden', expanded));
+  });
+
   saveBtn.addEventListener('click', () => {
     const nowSaved = toggleFavorite(fact.id);
     renderSaved(nowSaved);
     showToast(nowSaved ? 'Gespeichert' : 'Entfernt');
+    collapseOverflow();
   });
 
-  card.querySelector('.btn-share').addEventListener('click', () => shareFact(fact));
+  card.querySelector('.btn-share').addEventListener('click', () => {
+    shareFact(fact);
+    collapseOverflow();
+  });
 
   // "Mehr davon" is a one-time boost per fact — persisted, so the button
   // can't be farmed for +2 every time the fact cycles back around.
@@ -662,6 +682,8 @@ function renderSavedView() {
     if (!fact) return;
     const item = document.createElement('article');
     item.className = 'saved-item';
+    const color = categoryColor(fact.category);
+    if (color) item.style.setProperty('--cat-color', color);
     item.innerHTML = `
       <p class="saved-item-category">${escapeHtml(categoryLabel(fact.category))}</p>
       <p class="saved-item-text">${escapeHtml(fact.text)}</p>

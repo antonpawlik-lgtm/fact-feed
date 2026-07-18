@@ -58,7 +58,7 @@ html, body {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--cat-color, var(--accent));
   margin: 0 0 14px;
 }
 
@@ -125,6 +125,17 @@ html, body {
 
 .btn-save.selected {
   background: var(--accent);
+}
+
+/* Save/share live behind the ⋮ overflow toggle to keep the action column
+   compact. Scoped: elsewhere (hint/toast) .hidden is opacity-based. */
+.more-option.hidden {
+  display: none;
+}
+
+.btn-overflow.selected,
+.card-actions button[aria-expanded='true'] {
+  background: rgba(255, 255, 255, 0.18);
 }
 
 .btn-more {
@@ -273,7 +284,7 @@ html, body {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--cat-color, var(--accent));
   margin: 0 0 8px;
 }
 
