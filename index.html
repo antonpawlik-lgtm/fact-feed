@@ -7,14 +7,22 @@
   <meta name="theme-color" content="#0e0e10" />
   <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="icons/icon-192.png" />
-  <link rel="stylesheet" href="style.css?v=4" />
+  <link rel="stylesheet" href="style.css?v=5" />
 </head>
 <body>
   <div class="hint" id="hint">↑↓ nächster Fact · ←→ liken/disliken</div>
-  <div id="feed"></div>
+  <div id="feed" class="view"></div>
+  <section id="saved-view" class="view panel hidden" aria-label="Gespeicherte Facts"></section>
+  <section id="settings-view" class="view panel hidden" aria-label="Einstellungen"></section>
+  <nav class="bottom-nav" id="nav">
+    <button data-view="feed" class="active">Feed</button>
+    <button data-view="saved">Gespeichert</button>
+    <button data-view="settings">Einstellungen</button>
+  </nav>
   <!-- Bump both ?v= numbers whenever app.js or style.css change — iOS caches
        these aggressively, especially once added to the home screen, and
-       there's no URL bar there to force-reload. -->
-  <script src="app.js?v=4"></script>
+       there's no URL bar there to force-reload. The service worker's cache
+       version (sw.js) should be bumped in the same change. -->
+  <script src="app.js?v=5"></script>
 </body>
 </html>

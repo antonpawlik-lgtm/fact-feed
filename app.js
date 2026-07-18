@@ -3,6 +3,8 @@
   const STORAGE_TAG_STATS = 'factfeed_tagStats';
   const STORAGE_SEEN = 'factfeed_seenIds';
   const STORAGE_REACTIONS = 'factfeed_reactions';
+  const STORAGE_FAVORITES = 'factfeed_favorites';
+  const STORAGE_LANGUAGE = 'factfeed_language';
   const WINDOW_AHEAD = 6;
   const AXIS_LOCK_PX = 12;
   const SWIPE_THRESHOLD_PX = 90;
@@ -10,7 +12,11 @@
 
   const feed = document.getElementById('feed');
   const hint = document.getElementById('hint');
+  const savedView = document.getElementById('saved-view');
+  const settingsView = document.getElementById('settings-view');
+  const nav = document.getElementById('nav');
 
+  let allFacts = [];
   let facts = [];
   let byCategory = {};
   let categories = [];
@@ -19,6 +25,8 @@
   const tagStats = loadJSON(STORAGE_TAG_STATS, {});
   const seenIds = loadJSON(STORAGE_SEEN, {});
   const reactions = loadJSON(STORAGE_REACTIONS, {}); // { "17": "like", "48": "dislike" }
+  const favorites = new Set(loadJSON(STORAGE_FAVORITES, []));
+  let selectedLanguage = localStorage.getItem(STORAGE_LANGUAGE) || 'all'; // 'de' | 'en' | 'all'
   let hintTimer = null;
 
   function loadJSON(key, fallback) {
@@ -52,9 +60,31 @@
     saveJSON(STORAGE_SEEN, seenIds);
   }
 
+  function saveFavorites() {
+    saveJSON(STORAGE_FAVORITES, [...favorites]);
+  }
+
   function clamp(n, min, max) {
     return Math.max(min, Math.min(max, n));
   }
+
+  // Gentle per-session decay so weights reflect current taste instead of
+  // being pinned forever by months-old reactions. Explicit reactions stay
+  // stored per fact — only the aggregated weighting signal fades.
+  const SESSION_DECAY = 0.98;
+
+  function decayStats(statsObj) {
+    Object.values(statsObj).forEach((s) => {
+      s.likes = (s.likes || 0) * SESSION_DECAY;
+      s.dislikes = (s.dislikes || 0) * SESSION_DECAY;
+      if (s.dwell) s.dwell *= SESSION_DECAY;
+    });
+  }
+
+  decayStats(categoryStats);
+  decayStats(tagStats);
+  saveStats();
+  saveTagStats();
 
   function weightFor(category) {
     const stats = categoryStats[category] || { likes: 0, dislikes: 0, dwell: 0 };
@@ -83,10 +113,6 @@
 
   // Implicit signal alongside explicit likes/dislikes: how long a fact stayed
   // the active (>60% visible) card versus how long its text takes to read.
-  // Lingering well past the expected reading time counts as mild interest,
-  // scrolling past almost immediately counts as mild disinterest — same idea
-  // as watch-time/completion-rate weighting, just scaled down since it's an
-  // inferred rather than an explicit signal.
   const DWELL_LINGER_RATIO = 1.4;
   const DWELL_SKIP_RATIO = 0.35;
   const DWELL_LINGER_SCORE = 0.3;
@@ -233,6 +259,48 @@
     card.style.opacity = '1';
   }
 
+  function toggleFavorite(factId) {
+    if (favorites.has(factId)) favorites.delete(factId);
+    else favorites.add(factId);
+    saveFavorites();
+    return favorites.has(factId);
+  }
+
+  // Explicit "more of this topic" — a stronger, targeted signal than a like:
+  // boosts only the fact's tags, not its whole category.
+  function boostFactTopics(fact, amount = 2) {
+    (fact.tags || []).forEach((tag) => {
+      const stats = tagStats[tag] || { likes: 0, dislikes: 0, dwell: 0 };
+      stats.likes += amount;
+      tagStats[tag] = stats;
+    });
+    saveTagStats();
+  }
+
+  async function shareFact(fact) {
+    const url = new URL(location.href);
+    url.hash = `fact=${fact.id}`;
+    const shareData = { title: 'Fact Feed', text: fact.text, url: url.toString() };
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+        return;
+      }
+      await navigator.clipboard.writeText(`${fact.text}\n${url}`);
+      flashHint('Link kopiert');
+    } catch (e) {
+      // user cancelled the share sheet — nothing to do
+    }
+  }
+
+  function flashHint(text) {
+    if (!hint) return;
+    hint.textContent = text;
+    hint.classList.remove('hidden');
+    clearTimeout(hintTimer);
+    hintTimer = setTimeout(() => hint.classList.add('hidden'), 1500);
+  }
+
   const DOUBLE_TAP_MS = 300;
 
   function showHeartBurst(card, clientX, clientY) {
@@ -252,11 +320,11 @@
 
     card.addEventListener('pointerdown', (e) => {
       if (e.pointerType === 'mouse' && e.button !== 0) return;
-      // Let taps on interactive elements (like/dislike buttons, source link)
-      // stay plain native clicks — if the swipe gesture below claims this
-      // pointer (e.g. via a bit of jitter reading as a horizontal drag) and
-      // calls setPointerCapture, the element's own click event can silently
-      // fail to fire on real touch devices.
+      // Let taps on interactive elements (action buttons, source link, boost
+      // button) stay plain native clicks — if the swipe gesture below claims
+      // this pointer (e.g. via a bit of jitter reading as a horizontal drag)
+      // and calls setPointerCapture, the element's own click event can
+      // silently fail to fire on real touch devices.
       if (e.target.closest('.gesture-exempt')) return;
       pointer = { id: e.pointerId, x0: e.clientX, y0: e.clientY, mode: 'undecided' };
     });
@@ -352,10 +420,13 @@
         <div class="card-category">${escapeHtml(fact.category)}</div>
         <div class="card-text">${escapeHtml(fact.text)}</div>
         <div class="card-lang">${fact.lang.toUpperCase()}</div>
+        <button class="btn-more gesture-exempt" type="button">Mehr davon</button>
       </div>
       <div class="card-actions gesture-exempt">
         <button class="btn-like" aria-label="Like">&#10084;&#65039;</button>
         <button class="btn-dislike" aria-label="Dislike">&#128078;</button>
+        <button class="btn-save" aria-label="Speichern">&#128278;</button>
+        <button class="btn-share" aria-label="Teilen">&#128228;</button>
       </div>
     `;
 
@@ -365,6 +436,23 @@
     attachGestures(card, fact);
     card.querySelector('.btn-like').addEventListener('click', () => react(card, fact, 1));
     card.querySelector('.btn-dislike').addEventListener('click', () => react(card, fact, -1));
+
+    const saveBtn = card.querySelector('.btn-save');
+    saveBtn.classList.toggle('selected', favorites.has(fact.id));
+    saveBtn.addEventListener('click', () => {
+      const nowSaved = toggleFavorite(fact.id);
+      saveBtn.classList.toggle('selected', nowSaved);
+      flashHint(nowSaved ? 'Gespeichert' : 'Entfernt');
+    });
+
+    card.querySelector('.btn-share').addEventListener('click', () => shareFact(fact));
+
+    const moreBtn = card.querySelector('.btn-more');
+    moreBtn.addEventListener('click', () => {
+      boostFactTopics(fact);
+      moreBtn.textContent = '✓ Kommt öfter';
+      moreBtn.disabled = true;
+    });
 
     // Restore a previously stored reaction so re-shown facts display it.
     const stored = reactions[String(fact.id)] || null;
@@ -422,7 +510,7 @@
   );
 
   document.addEventListener('keydown', (e) => {
-    if (!activeCard) return;
+    if (!activeCard || currentView !== 'feed') return;
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
       const target = e.key === 'ArrowDown' ? activeCard.nextElementSibling : activeCard.previousElementSibling;
       if (target) {
@@ -432,11 +520,22 @@
     } else if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
       const fact = factById.get(Number(activeCard.dataset.factId));
       if (fact) react(activeCard, fact, e.key === 'ArrowRight' ? 1 : -1);
+    } else if (e.key === 's' || e.key === 'S') {
+      const fact = factById.get(Number(activeCard.dataset.factId));
+      if (fact) {
+        const nowSaved = toggleFavorite(fact.id);
+        const btn = activeCard.querySelector('.btn-save');
+        if (btn) btn.classList.toggle('selected', nowSaved);
+        flashHint(nowSaved ? 'Gespeichert' : 'Entfernt');
+      }
+    } else if (e.key === 'Enter') {
+      const link = activeCard.querySelector('.fact-source');
+      if (link) window.open(link.href, '_blank', 'noopener');
     }
   });
 
-  function appendCard() {
-    const fact = pickNextFact();
+  function appendCard(specificFact) {
+    const fact = specificFact || pickNextFact();
     if (!fact) return;
     const card = createCard(fact);
     feed.appendChild(card);
@@ -461,6 +560,137 @@
       appendCard();
     }
   }
+
+  // ---------- views (feed / saved / settings) ----------
+
+  let currentView = 'feed';
+
+  function switchView(name) {
+    currentView = name;
+    feed.classList.toggle('hidden', name !== 'feed');
+    savedView.classList.toggle('hidden', name !== 'saved');
+    settingsView.classList.toggle('hidden', name !== 'settings');
+    nav.querySelectorAll('button').forEach((b) => b.classList.toggle('active', b.dataset.view === name));
+    if (name === 'saved') renderSavedView();
+    if (name === 'settings') renderSettingsView();
+    if (name !== 'feed') flushActiveDwell();
+    else if (activeCard) activeSince = performance.now();
+  }
+
+  nav.addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-view]');
+    if (btn) switchView(btn.dataset.view);
+  });
+
+  function renderSavedView() {
+    savedView.innerHTML = '<h2>Gespeicherte Facts</h2>';
+    const ids = [...favorites];
+    if (ids.length === 0) {
+      savedView.innerHTML += '<p class="empty-note">Noch nichts gespeichert. Tippe 🔖 auf einer Karte, um einen Fact hier abzulegen.</p>';
+      return;
+    }
+    ids.forEach((id) => {
+      const fact = factById.get(id);
+      if (!fact) return;
+      const item = document.createElement('div');
+      item.className = 'saved-item';
+      item.innerHTML = `
+        <div class="saved-item-category">${escapeHtml(fact.category)}</div>
+        <div class="saved-item-text">${escapeHtml(fact.text)}</div>
+        <div class="saved-item-actions">
+          <button class="saved-share" type="button">Teilen</button>
+          <button class="saved-remove" type="button">Entfernen</button>
+        </div>
+      `;
+      item.querySelector('.saved-share').addEventListener('click', () => shareFact(fact));
+      item.querySelector('.saved-remove').addEventListener('click', () => {
+        favorites.delete(id);
+        saveFavorites();
+        item.remove();
+        if (favorites.size === 0) renderSavedView();
+      });
+      savedView.appendChild(item);
+    });
+  }
+
+  function renderSettingsView() {
+    const langOptions = [
+      ['de', 'Deutsch'],
+      ['en', 'English'],
+      ['all', 'Beide'],
+    ]
+      .map(
+        ([value, label]) => `
+        <label class="lang-option">
+          <input type="radio" name="language" value="${value}" ${selectedLanguage === value ? 'checked' : ''} />
+          ${label}
+        </label>`
+      )
+      .join('');
+
+    settingsView.innerHTML = `
+      <h2>Einstellungen</h2>
+      <section class="settings-block">
+        <h3>Sprache der Facts</h3>
+        ${langOptions}
+      </section>
+      <section class="settings-block">
+        <h3>Profil</h3>
+        <p class="settings-note">${Object.keys(reactions).length} Bewertungen · ${favorites.size} gespeichert</p>
+        <button class="btn-reset" type="button">Profil zurücksetzen</button>
+        <p class="settings-note">Löscht Bewertungen, gelernte Vorlieben und Gespeichertes auf diesem Gerät.</p>
+      </section>
+    `;
+
+    settingsView.querySelectorAll('input[name="language"]').forEach((input) => {
+      input.addEventListener('change', () => {
+        selectedLanguage = input.value;
+        localStorage.setItem(STORAGE_LANGUAGE, selectedLanguage);
+        rebuildPools();
+        resetFeed();
+      });
+    });
+
+    const resetBtn = settingsView.querySelector('.btn-reset');
+    resetBtn.addEventListener('click', () => {
+      if (!resetBtn.dataset.confirming) {
+        resetBtn.dataset.confirming = '1';
+        resetBtn.textContent = 'Wirklich alles zurücksetzen?';
+        return;
+      }
+      [STORAGE_STATS, STORAGE_TAG_STATS, STORAGE_SEEN, STORAGE_REACTIONS, STORAGE_FAVORITES].forEach((k) =>
+        localStorage.removeItem(k)
+      );
+      location.reload();
+    });
+  }
+
+  // ---------- language filter & feed lifecycle ----------
+
+  function applyLanguageFilter(list) {
+    if (selectedLanguage === 'all') return list;
+    return list.filter((fact) => fact.lang === selectedLanguage);
+  }
+
+  function rebuildPools() {
+    facts = applyLanguageFilter(allFacts);
+    if (facts.length === 0) facts = allFacts; // never leave the feed empty
+    categories = [...new Set(facts.map((f) => f.category))];
+    byCategory = {};
+    categories.forEach((c) => {
+      byCategory[c] = facts.filter((f) => f.category === c);
+    });
+  }
+
+  function resetFeed() {
+    activeCard = null;
+    activeSince = null;
+    feed.innerHTML = '';
+    fillWindow();
+    feed.scrollTop = 0;
+  }
+
+  // ---------- boot ----------
 
   function isValidFact(fact) {
     return Boolean(
@@ -499,19 +729,34 @@
     return validFacts;
   }
 
+  function getRequestedFactId() {
+    const match = location.hash.match(/^#fact=(\d+)$/);
+    return match ? Number(match[1]) : null;
+  }
+
   async function init() {
     try {
-      facts = await loadFacts();
-      factById = new Map(facts.map((f) => [f.id, f]));
-      categories = [...new Set(facts.map((f) => f.category))];
-      byCategory = {};
-      categories.forEach((c) => {
-        byCategory[c] = facts.filter((f) => f.category === c);
-      });
+      allFacts = await loadFacts();
+      factById = new Map(allFacts.map((f) => [f.id, f]));
+      rebuildPools();
+
+      // Deep link (#fact=123): show the shared fact first, then the normal feed.
+      const requestedId = getRequestedFactId();
+      const requested = requestedId !== null ? factById.get(requestedId) : null;
+      if (requested) appendCard(requested);
+
       fillWindow();
     } catch (error) {
       renderFatalError(error);
     }
+  }
+
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch((error) => {
+        console.warn('Service worker registration failed', error);
+      });
+    });
   }
 
   init();

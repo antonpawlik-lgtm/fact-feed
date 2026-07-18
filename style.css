@@ -88,10 +88,10 @@ html, body {
 .card-actions {
   position: absolute;
   right: 18px;
-  bottom: max(28px, env(safe-area-inset-bottom));
+  bottom: calc(72px + env(safe-area-inset-bottom));
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
   pointer-events: auto;
 }
 
@@ -120,6 +120,28 @@ html, body {
 
 .btn-dislike.selected {
   background: var(--dislike);
+}
+
+.btn-save.selected {
+  background: var(--accent);
+}
+
+.btn-more {
+  margin-top: 16px;
+  padding: 8px 14px;
+  min-height: 36px;
+  border: 1px solid var(--muted);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+  pointer-events: auto; /* .card-inner disables pointer events globally */
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-more:disabled {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .swipe-flash {
@@ -159,6 +181,136 @@ html, body {
 
 .hint.hidden {
   opacity: 0;
+}
+
+.view.hidden {
+  display: none;
+}
+
+.bottom-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 8px calc(8px + env(safe-area-inset-bottom));
+  background: rgba(14, 14, 16, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 10;
+}
+
+.bottom-nav button {
+  flex: 1;
+  padding: 10px 4px;
+  min-height: 44px;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+  border-radius: 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.bottom-nav button.active {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.panel {
+  height: 100dvh;
+  overflow-y: auto;
+  padding: max(24px, env(safe-area-inset-top)) 20px calc(88px + env(safe-area-inset-bottom));
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.panel h2 {
+  font-size: 22px;
+  margin: 12px 0 20px;
+}
+
+.empty-note,
+.settings-note {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.saved-item {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 18px;
+  margin-bottom: 14px;
+}
+
+.saved-item-category {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.saved-item-text {
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.saved-item-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.saved-item-actions button {
+  padding: 8px 14px;
+  min-height: 36px;
+  border: 1px solid var(--muted);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.settings-block {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 16px;
+}
+
+.settings-block h3 {
+  font-size: 15px;
+  margin: 0 0 12px;
+}
+
+.lang-option {
+  display: block;
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.lang-option input {
+  margin-right: 10px;
+  accent-color: var(--accent);
+}
+
+.btn-reset {
+  margin: 10px 0;
+  padding: 10px 16px;
+  min-height: 44px;
+  border: 1px solid var(--dislike);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--dislike);
+  font-size: 14px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media (min-width: 700px) {
