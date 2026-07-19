@@ -176,6 +176,7 @@ function renderChips() {
   };
   chipsEl.replaceChildren(
     mk('all', 'Alle', 'var(--accent)'),
+    mk('news', 'News', CATEGORY_COLORS['news-general']),
     ...orderedChipCategories()
       .filter((slug) => !mutedCategories.has(slug))
       .map((slug) =>
@@ -189,7 +190,8 @@ function renderChips() {
 }
 
 function updateFeedMeta() {
-  if (feedCountEl) feedCountEl.textContent = `${facts.length} Fakten`;
+  if (!feedCountEl) return;
+  feedCountEl.textContent = selectedCategory === 'news' ? `${newsPool.length} News` : `${facts.length} Fakten`;
 }
 
 // Tint the whole chrome (brand "ly", active chip/nav) to the active card's
@@ -800,6 +802,11 @@ function appendCard(specificFact) {
   let card = null;
   if (specificFact) {
     card = createCard(specificFact);
+  } else if (selectedCategory === 'news') {
+    // Dedicated news feed: headlines only (facts as emergency fallback so
+    // the feed never dead-ends when news.json is empty/stale).
+    const item = pickNextNews();
+    if (item) card = createNewsCard(item);
     // News mixes in only in the unfiltered "Alle" feed — a category filter
     // means the user asked for exactly that topic.
   } else if (selectedCategory === 'all' && newsPool.length > 0 && Math.random() < NEWS_RATE) {
