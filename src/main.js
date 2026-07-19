@@ -673,9 +673,14 @@ function createCard(fact) {
 
   // In "Beide" mode the card shows the fact in both languages; in de/en it
   // shows only that language's version (native text or translation).
-  const primary = factText(fact);
   const showBoth = selectedLanguage === 'all' && Boolean(fact.textAlt);
-  const displayed = showBoth ? `${primary} ${fact.textAlt}` : primary;
+  // German always sits on top in "Beide" mode, regardless of which language
+  // the fact was originally written in.
+  const germanText = fact.lang === 'de' ? fact.text : fact.textAlt;
+  const englishText = fact.lang === 'en' ? fact.text : fact.textAlt;
+  const primary = showBoth ? germanText : factText(fact);
+  const secondary = showBoth ? englishText : null;
+  const displayed = showBoth ? `${primary} ${secondary}` : primary;
   const words = displayed.trim().split(/\s+/).length;
   card.dataset.expectedMs = String(clamp(words * 240, 1200, 8000));
 
@@ -689,7 +694,7 @@ function createCard(fact) {
       <p class="card-category"><span class="cat-dot"></span>${escapeHtml(categoryLabel(fact.category))}</p>
       <div class="card-body">
         <p class="card-text">${escapeHtml(primary)}</p>
-        ${showBoth ? `<p class="card-text-alt">${escapeHtml(fact.textAlt)}</p>` : ''}
+        ${showBoth ? `<p class="card-text-alt">${escapeHtml(secondary)}</p>` : ''}
       </div>
       <p class="card-lang">${langLabel}</p>
       ${actionRailHTML()}
