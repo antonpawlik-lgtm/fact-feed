@@ -13,12 +13,11 @@ const STORAGE_BOOSTED = 'factly_boosted';
 const STORAGE_MUTED = 'factly_mutedCategories';
 const STORAGE_LANGUAGE = 'factly_language';
 const WINDOW_AHEAD = 6;
-// Real thumb swipes are diagonal: decide the axis early (8px) and accept
-// anything within ±50° of horizontal as a like/dislike swipe — the old ±30°
-// window classified most real-device swipes as vertical scrolling, which is
-// why swiping felt broken on the phone.
-const AXIS_LOCK_PX = 8;
-const HORIZONTAL_MAX_ANGLE = 50;
+// Real thumb swipes are diagonal: decide the axis early (10px) and accept
+// anything within ±40° of horizontal as a like/dislike swipe. Wider than
+// that misreads diagonal scroll attempts as swipes.
+const AXIS_LOCK_PX = 10;
+const HORIZONTAL_MAX_ANGLE = 40;
 const SWIPE_THRESHOLD_PX = 70;
 const TAP_MOVE_THRESHOLD_PX = 24;
 const SESSION_DECAY = 0.98;
@@ -527,8 +526,23 @@ function attachGestures(card, fact) {
     // and calls setPointerCapture, the element's own click event can
     // silently fail to fire on real touch devices.
     if (e.target.closest('.gesture-exempt')) return;
+    // Defensive: a previous gesture that ended without pointerup/-cancel
+    // (iOS edge cases) must not leave a lingering transform behind.
+    if (card.style.transform) snapBack(card);
     pointer = { id: e.pointerId, x0: e.clientX, y0: e.clientY, mode: 'undecided' };
   });
+
+  // iOS: preventDefault() on POINTER events does not stop native scrolling —
+  // only a non-passive TOUCH listener can. Without this, a diagonal swipe
+  // runs our horizontal drag and the native vertical pan simultaneously,
+  // leaving the feed stuck between two snap points.
+  card.addEventListener(
+    'touchmove',
+    (e) => {
+      if (pointer && pointer.mode === 'horizontal') e.preventDefault();
+    },
+    { passive: false }
+  );
 
   card.addEventListener('pointermove', (e) => {
     if (!pointer || e.pointerId !== pointer.id) return;
@@ -601,12 +615,18 @@ function attachGestures(card, fact) {
   // A cancelled pointer (browser took over the gesture, common on iOS) can
   // carry garbage coordinates — treating it like pointerup could read as a
   // full-distance swipe and fire an unintended dislike. Only clean up.
-  card.addEventListener('pointercancel', () => {
+  const cleanupGesture = () => {
     if (pointer) {
       clearBadges();
       snapBack(card);
     }
     pointer = null;
+  };
+  card.addEventListener('pointercancel', cleanupGesture);
+  card.addEventListener('lostpointercapture', () => {
+    // Capture can vanish without a pointerup/-cancel on iOS; never leave a
+    // half-dragged card behind.
+    if (pointer && pointer.mode === 'horizontal') cleanupGesture();
   });
 }
 
