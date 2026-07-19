@@ -465,10 +465,90 @@ function renderReaction(card, reaction) {
   dislikeBtn.setAttribute('aria-pressed', String(reaction === 'dislike'));
 }
 
+// ---------- feedback: sound + haptics + micro-animations ----------
+// Synth beeps via Web Audio — no asset files, no load time. One shared
+// AudioContext, created lazily on the first user gesture (browsers block
+// autoplay until then anyway).
+let audioCtx = null;
+function playTone(freq, durationMs, type = 'sine', gain = 0.05) {
+  try {
+    audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+    const osc = audioCtx.createOscillator();
+    const g = audioCtx.createGain();
+    osc.type = type;
+    osc.frequency.value = freq;
+    g.gain.value = gain;
+    g.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + durationMs / 1000);
+    osc.connect(g).connect(audioCtx.destination);
+    osc.start();
+    osc.stop(audioCtx.currentTime + durationMs / 1000);
+  } catch {
+    /* Web Audio unavailable — silently skip, never break the interaction */
+  }
+}
+
+function vibrate(pattern) {
+  try {
+    navigator.vibrate?.(pattern);
+  } catch {
+    /* no-op */
+  }
+}
+
+// One place per feedback "kind" — retune here without hunting call sites.
+function feedback(kind) {
+  if (kind === 'like') {
+    playTone(880, 90, 'sine', 0.06);
+    vibrate(10);
+  } else if (kind === 'dislike') {
+    playTone(220, 110, 'sine', 0.05);
+    vibrate([8, 40, 8]);
+  } else if (kind === 'save') {
+    playTone(660, 70, 'sine', 0.05);
+    setTimeout(() => playTone(990, 90, 'sine', 0.05), 70);
+    vibrate(15);
+  }
+}
+
+// Overshoot bounce on the tapped button — feels "satter" than a plain
+// scale-down. Reflow forces the animation to re-trigger on repeated taps.
+function popButton(btn) {
+  if (!btn) return;
+  btn.classList.remove('pop');
+  void btn.offsetWidth;
+  btn.classList.add('pop');
+}
+
+// Brief full-card color wash so a button tap reads like the swipe used to,
+// tinted like/dislike. Reuses one .react-flash element per card.
+function flashCard(card, direction) {
+  const inner = card.querySelector('.card-inner');
+  if (!inner) return;
+  let flash = inner.querySelector('.react-flash');
+  if (!flash) {
+    flash = document.createElement('div');
+    flash.className = 'react-flash';
+    inner.appendChild(flash);
+  }
+  flash.style.background = direction > 0 ? 'var(--like)' : 'var(--dislike)';
+  flash.classList.remove('show');
+  void flash.offsetWidth;
+  flash.classList.add('show');
+}
+
 function react(card, fact, direction, { allowToggleOff = true } = {}) {
   const requested = direction > 0 ? 'like' : 'dislike';
+  const previous = card.dataset.reaction || null;
   const reaction = setFactReaction(fact, requested, allowToggleOff);
   renderReaction(card, reaction);
+  // Only give sound/haptic/flash when a reaction was actually set (not on
+  // toggle-off), so undoing a like stays quiet.
+  if (reaction && reaction !== previous) {
+    feedback(reaction);
+    flashCard(card, direction);
+    popButton(card.querySelector(direction > 0 ? '.btn-like' : '.btn-dislike'));
+  }
 }
 
 // ---------- favorites / boost / share ----------
@@ -654,6 +734,8 @@ function createNewsCard(item) {
   saveBtn.addEventListener('click', () => {
     const nowSaved = toggleFavorite(item.id);
     renderSaved(nowSaved);
+    popButton(saveBtn);
+    if (nowSaved) feedback('save');
     showToast(nowSaved ? 'Gemerkt' : 'Entfernt');
   });
 
@@ -730,6 +812,8 @@ function createCard(fact) {
   saveBtn.addEventListener('click', () => {
     const nowSaved = toggleFavorite(fact.id);
     renderSaved(nowSaved);
+    popButton(saveBtn);
+    if (nowSaved) feedback('save');
     showToast(nowSaved ? 'Gemerkt' : 'Entfernt');
   });
 
@@ -827,7 +911,9 @@ document.addEventListener('keydown', (e) => {
       if (btn) {
         btn.classList.toggle('selected', nowSaved);
         btn.setAttribute('aria-pressed', String(nowSaved));
+        popButton(btn);
       }
+      if (nowSaved) feedback('save');
       showToast(nowSaved ? 'Gespeichert' : 'Entfernt');
     }
   } else if (e.key === 'Enter') {
@@ -1064,9 +1150,9 @@ function renderSettingsView() {
         </div>
       </div>
       <div class="profile-stats">
-        <div class="stat-tile"><div class="stat-num accent">${likedTotal}</div><div class="stat-label">Gemerkt</div></div>
-        <div class="stat-tile"><div class="stat-num">${ratedTotal}</div><div class="stat-label">Bewertet</div></div>
-        <div class="stat-tile"><div class="stat-num">${CHIP_CATEGORIES.length}</div><div class="stat-label">Themen</div></div>
+        <div class="stat-tile"><div class="stat-num accent" data-count="${likedTotal}">0</div><div class="stat-label">Gemerkt</div></div>
+        <div class="stat-tile"><div class="stat-num" data-count="${ratedTotal}">0</div><div class="stat-label">Bewertet</div></div>
+        <div class="stat-tile"><div class="stat-num" data-count="${CHIP_CATEGORIES.length}">0</div><div class="stat-label">Themen</div></div>
       </div>
     </div>
 
@@ -1083,6 +1169,22 @@ function renderSettingsView() {
 
     <button class="btn-reset" type="button">Profil zurücksetzen</button>
   `;
+
+  // Count the profile stats up from 0 instead of showing the number cold.
+  settingsView.querySelectorAll('.stat-num[data-count]').forEach((el) => {
+    const target = Number(el.dataset.count) || 0;
+    if (target === 0) return;
+    const steps = Math.min(target, 20);
+    let current = 0;
+    const iv = setInterval(() => {
+      current += Math.ceil(target / steps);
+      if (current >= target) {
+        current = target;
+        clearInterval(iv);
+      }
+      el.textContent = String(current);
+    }, 40);
+  });
 
   settingsView.querySelectorAll('input[name="language"]').forEach((input) => {
     input.addEventListener('change', () => {

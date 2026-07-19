@@ -316,6 +316,28 @@ html, body {
   -webkit-backdrop-filter: blur(8px);
 }
 .card-actions button:active { transform: scale(0.9); }
+/* Overshoot bounce when a reaction/save fires (added via .pop in JS). */
+.card-actions button.pop { animation: button-pop 0.25s ease; }
+@keyframes button-pop {
+  0% { transform: scale(1); }
+  40% { transform: scale(0.85); }
+  100% { transform: scale(1.08); }
+}
+/* Brief like/dislike color wash over the card on a button tap — mirrors
+   what the swipe used to do, so tap and (former) swipe feel the same. */
+.react-flash {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  pointer-events: none;
+}
+.react-flash.show { animation: react-flash 0.4s ease; }
+@keyframes react-flash {
+  0% { opacity: 0; }
+  25% { opacity: 0.28; }
+  100% { opacity: 0; }
+}
 .card-actions svg {
   width: 22px;
   height: 22px;
