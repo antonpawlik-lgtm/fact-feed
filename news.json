@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-07-19T12:46:24.044Z",
+  "generatedAt": "2026-07-19T15:43:43.607Z",
   "items": [
+    {
+      "id": "n_fabbd013d5",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Grünen-Chefin Brantner: \"Merz hat jetzt die Chance, sich zu befreien\"",
+      "summary": "Überfällig, aber auch eine \"Chance\": Grünen-Vorsitzende Franziska Brantner hofft im ARD-Sommerinterview nach Spahns Rücktritt auf eine Kabinettsumbildung. Und blickt mit Sorge auf die Landtagswahlen im Herbst.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/sommerinterview-brantner-100.html",
+      "publishedAt": "2026-07-19T15:36:16.000Z"
+    },
+    {
+      "id": "n_bc4fd4294a",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Spanien: Großer Waldbrand bei Madrid außer Kontrolle",
+      "summary": "Nordöstlich von Madrid versuchen mehr als 500 Einsatzkräfte am Boden und in der Luft, einen großen Waldbrand einzudämmen. Doch das Feuer breitet sich immer weiter aus. Mehrere Orte mussten bereits evakuiert werden.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/europa/spanien-waldbrand-madrid-100.html",
+      "publishedAt": "2026-07-19T14:26:55.000Z"
+    },
+    {
+      "id": "n_2876c59068",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Wut in Venezuela: \"Ihr habt Müll gebaut!\"",
+      "summary": "Viele Venezolaner werden ihre Verwandten und Freunde wohl nie aus den Erdbeben-Trümmern bergen können. Umso größer ist die Wut auf die Regierung. Angesichts der Katastrophe trauen sich nun viele, die Regierung offen zu kritisieren. Von A. Demmer.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/amerika/venezuela-wut-baupfusch-100.html",
+      "publishedAt": "2026-07-19T14:13:51.000Z"
+    },
+    {
+      "id": "n_e9db75586c",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Warum Pflegefachkraft in Australien ein Traumjob ist",
+      "summary": "Während Deutschland händeringend nach Pflegekräften sucht, ist der Beruf in Australien gefragt wie selten zuvor - dank guter Bezahlung, sicherer Karriereperspektiven und gesellschaftlicher Anerkennung. Von I. Burckhardt und L. Scanu.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/pflege-australien-100.html",
+      "publishedAt": "2026-07-19T13:06:40.000Z"
+    },
     {
       "id": "n_a0ad523bfd",
       "type": "news",
@@ -44,50 +88,6 @@
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/ausland/europa/ministerrat-abwesenheit-100.html",
       "publishedAt": "2026-07-19T10:09:09.000Z"
-    },
-    {
-      "id": "n_f649c65155",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Zahl der Ausbildungsverträge im Handwerk gestiegen",
-      "summary": "Das Handwerk in Deutschland findet wieder mehr Nachwuchs - die Zahl der Ausbildungverträge hat zugenommen. Handwerkspräsident Dittrich spricht von einem Lichtblick und nennt für den Anstieg mehrere Gründe.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/handwerk-ausbildungsvertraege-100.html",
-      "publishedAt": "2026-07-19T09:44:08.000Z"
-    },
-    {
-      "id": "n_cee09506af",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Neue Angriffe zwischen USA und Iran",
-      "summary": "Die USA haben erneut Luftangriffe auf Iran gemeldet. Teheran reagierte mit Attacken auf US-Stützpunkte in Kuwait. Zuvor waren bei iranischem Beschuss in Jordanien zwei US-Soldaten getötet worden.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/nahost-lage-108.html",
-      "publishedAt": "2026-07-19T09:38:13.000Z"
-    },
-    {
-      "id": "n_f44347f73a",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Mutmaßliche Sexualdelikte: Tate-Brüder in den USA festgenommen",
-      "summary": "Der umstrittene Influencer Andrew Tate und sein Bruder Tristan sind in den USA festgenommen worden. Den Brüdern werden unter anderem mehrere Sexualdelikte vorgeworfen. Die britische Staatsanwaltschaft hat ihre Auslieferung beantragt.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/tate-brueder-100.html",
-      "publishedAt": "2026-07-19T08:24:24.000Z"
-    },
-    {
-      "id": "n_b596a38031",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "EU verbietet Vernichtung unverkaufter Kleidung - wie wirksam ist das?",
-      "summary": "Ab heute dürfen große Unternehmen unverkaufte Kleidung und Schuhe nicht mehr einfach so vernichten. Die EU will dadurch Ressourcen schonen und Textilmüll reduzieren. Doch es gibt Zweifel, ob das gelingt. Von Aeneas Rooch.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wissen/klima/eu-verbot-kleidung-vernichtung-100.html",
-      "publishedAt": "2026-07-19T08:20:59.000Z"
     },
     {
       "id": "n_56a94ecd80",
@@ -248,7 +248,7 @@
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "(g+) Anime.js 4: Wenn Animation zur Architektur wird",
+      "headline": "(g+) Anime.js 4: Animationen mit Systen",
       "summary": "Von Timelines über Scroll-Animationen bis zu React und Three.js: Anime.js entwickelt sich zum modularen Animationssystem für moderne Weboberflächen. Eine Anleitung von Fabian Deitelhoff (Spannendes Web, Javascript)",
       "source": "Golem.de",
       "url": "https://www.golem.de/news/anime-js-4-wenn-animation-zur-architektur-wird-2607-210823.html",
@@ -270,33 +270,33 @@
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "US and Iran exchange strikes after two US soldiers killed in Jordan",
+      "headline": "US and Iran trade fire after two US soldiers killed in Jordan",
       "summary": "Kuwait says an electricity and water plant is on fire after the second such attack in two days. Iran says US strikes hit an under-construction nuclear power plant.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-19T11:57:10.000Z"
+      "publishedAt": "2026-07-19T15:35:18.000Z"
     },
     {
-      "id": "n_f4bd263aa0",
+      "id": "n_68349f10e6",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
-      "summary": "Four people are killed and at least 36 injured as Ukraine's two largest cities are targeted, as Kyiv continues its own assault on Russian infrastructure.",
+      "headline": "The 1975's Matty Healy marries model Gabbriette Bechtel in Los Angeles",
+      "summary": "The newlyweds were first linked in 2023 after Healy's brief relationship with Taylor Swift.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-19T11:28:24.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/c5ywxp2d826o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-19T14:50:11.000Z"
     },
     {
-      "id": "n_8b7fdb3f78",
+      "id": "n_dab5a3fca8",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Tate brothers arrested in US as further UK charges take total to 59",
-      "summary": "The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are innocent.",
+      "headline": "Runners take on 'world's coolest marathon' on drifting North Pole ice",
+      "summary": "Organisers say 23 runners from seven countries took part in races at the Arctic's geographic North Pole.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-19T11:04:50.000Z"
+      "url": "https://www.bbc.co.uk/news/videos/c9q9lw5rql4o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-19T14:06:08.000Z"
     },
     {
       "id": "n_fbd02ff0c1",
@@ -307,7 +307,29 @@
       "summary": "The vessel capsized between Georgetown and Port Kaituma, with 53 people so far rescued.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-19T09:59:41.000Z"
+      "publishedAt": "2026-07-19T14:00:03.000Z"
+    },
+    {
+      "id": "n_8b7fdb3f78",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Tate brothers arrested in US as further UK charges take total to 59",
+      "summary": "The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are innocent.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-19T12:53:20.000Z"
+    },
+    {
+      "id": "n_f4bd263aa0",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
+      "summary": "Five people are killed and at least 35 injured as Ukraine's two largest cities are targeted, as Kyiv continues its own assault on Russian infrastructure.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-19T11:28:24.000Z"
     },
     {
       "id": "n_dc69425262",
@@ -330,28 +352,6 @@
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cx2k77p2r1xo?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-07-19T07:47:02.000Z"
-    },
-    {
-      "id": "n_4910473a0c",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "New EU border system tripling time at passport control, airport boss says",
-      "summary": "Ryanair has also warned passengers travelling to Europe this summer to prepare for extended waits.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-19T01:47:59.000Z"
-    },
-    {
-      "id": "n_c4fef43d2b",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Why the World Cup half-time show may be a taste of things to come",
-      "summary": "The 2026 World Cup's spectacle is creating debate about the place of music in sport - and how it could infiltrate other tournaments.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cwyr498vqqpo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-19T01:11:23.000Z"
     },
     {
       "id": "n_c1779f93f4",
@@ -530,6 +530,28 @@
       "publishedAt": "2026-07-17T16:42:19.000Z"
     },
     {
+      "id": "n_66f92f75ad",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
+      "summary": "\"Everybody knows the Greeks are inside.\"",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+      "publishedAt": "2026-07-19T14:52:08.000Z"
+    },
+    {
+      "id": "n_c4619a8d04",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+      "summary": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "publishedAt": "2026-07-19T14:00:00.000Z"
+    },
+    {
       "id": "n_80ddfeeeb7",
       "type": "news",
       "topic": "ai",
@@ -594,28 +616,6 @@
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
       "publishedAt": "2026-07-17T20:19:49.000Z"
-    },
-    {
-      "id": "n_20d52b2c1d",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "AI-driven memory crunch jolts India’s smartphone market",
-      "summary": "India's smartphone slowdown highlights how the AI boom is reshaping consumer electronics, from pricing and demand to corporate strategy.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
-      "publishedAt": "2026-07-17T20:09:27.000Z"
-    },
-    {
-      "id": "n_a9707de9bb",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans",
-      "summary": "Apple filed a trade secrets lawsuit against OpenAI last Friday, and it’s not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI’s chief hardware officer and claims more than 400 former Apple employees now work at the company. OpenAI’s ",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
-      "publishedAt": "2026-07-17T17:45:46.000Z"
     },
     {
       "id": "n_3d89d3a43d",
