@@ -477,7 +477,18 @@ function toggleFavorite(factId) {
   if (favorites.has(factId)) favorites.delete(factId);
   else favorites.add(factId);
   saveFavorites();
+  syncSaveButtons(factId, favorites.has(factId));
   return favorites.has(factId);
+}
+
+// Keep every rendered card's save button in sync with the favorites set —
+// so removing an item in the "Gemerkt" view immediately un-fills the
+// bookmark on its card still sitting in the feed.
+function syncSaveButtons(factId, saved) {
+  feed.querySelectorAll(`.card[data-fact-id="${CSS.escape(String(factId))}"] .btn-save`).forEach((btn) => {
+    btn.classList.toggle('selected', saved);
+    btn.setAttribute('aria-pressed', String(saved));
+  });
 }
 
 // Explicit "more of this topic" — a stronger, targeted signal than a like:
@@ -990,6 +1001,7 @@ function renderSavedView() {
     item.querySelector('.saved-remove').addEventListener('click', () => {
       favorites.delete(id);
       saveFavorites();
+      syncSaveButtons(id, false); // un-fill the bookmark on the card still in the feed
       item.remove();
       if (favorites.size === 0) renderSavedView();
     });
