@@ -190,6 +190,31 @@ html, body {
   text-wrap: pretty;
 }
 
+/* "Beide"-Modus: die Übersetzung steht gedämpft unter dem Originaltext.
+   Beide Texte teilen sich die Kartenhöhe, daher etwas kleiner. */
+.card-body:has(.card-text-alt) { flex-direction: column; align-items: flex-start; justify-content: center; gap: 14px; }
+.card-body:has(.card-text-alt) .card-text { font-size: clamp(19px, 5.2vw, 26px); }
+.card-text-alt {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 500;
+  font-size: clamp(15px, 4.2vw, 19px);
+  line-height: 1.4;
+  text-wrap: pretty;
+}
+
+/* Decorative category emoji, watermark-style in the card corner. */
+.card-emoji {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  font-size: 44px;
+  opacity: 0.18;
+  filter: saturate(0.8);
+  pointer-events: none;
+  user-select: none;
+}
+
 .card-lang,
 .card-source {
   margin: 0;
@@ -429,24 +454,6 @@ html, body {
 }
 .bottom-nav button.active .nav-icon-fill { fill: currentColor; }
 
-.nav-badge-wrap { position: relative; display: flex; }
-.nav-badge {
-  position: absolute;
-  top: -3px;
-  right: -6px;
-  min-width: 16px;
-  height: 16px;
-  padding: 0 4px;
-  border-radius: 8px;
-  background: var(--accent);
-  color: #0c0c0e;
-  font-size: 10px;
-  font-weight: 800;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.nav-badge.hidden { display: none; }
 
 /* ---------- panels (saved / profile) ---------- */
 .panel {
@@ -650,6 +657,18 @@ html, body {
   font-family: var(--font);
 }
 .theme-chip .cat-dot { background: var(--c); box-shadow: 0 0 8px var(--c); }
+.theme-chip {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+.theme-chip.muted {
+  opacity: 0.4;
+  border-color: rgba(255, 255, 255, 0.12);
+  background: transparent;
+  text-decoration: line-through;
+}
+.theme-chip.muted .cat-dot { background: var(--muted); box-shadow: none; }
 
 .settings-block {
   border-radius: 18px;

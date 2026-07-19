@@ -10,10 +10,16 @@ const STORAGE_SHOW_COUNTS = 'factly_showCounts';
 const STORAGE_REACTIONS = 'factly_reactions';
 const STORAGE_FAVORITES = 'factly_favorites';
 const STORAGE_BOOSTED = 'factly_boosted';
+const STORAGE_MUTED = 'factly_mutedCategories';
 const STORAGE_LANGUAGE = 'factly_language';
 const WINDOW_AHEAD = 6;
-const AXIS_LOCK_PX = 12;
-const SWIPE_THRESHOLD_PX = 90;
+// Real thumb swipes are diagonal: decide the axis early (8px) and accept
+// anything within ±50° of horizontal as a like/dislike swipe — the old ±30°
+// window classified most real-device swipes as vertical scrolling, which is
+// why swiping felt broken on the phone.
+const AXIS_LOCK_PX = 8;
+const HORIZONTAL_MAX_ANGLE = 50;
+const SWIPE_THRESHOLD_PX = 70;
 const TAP_MOVE_THRESHOLD_PX = 24;
 const SESSION_DECAY = 0.98;
 
@@ -61,6 +67,9 @@ const showCounts = readJSON(STORAGE_SHOW_COUNTS, {}); // { history: 42 } — how
 const reactions = readJSON(STORAGE_REACTIONS, {}); // { "17": "like", "48": "dislike" }
 const favorites = new Set(readJSON(STORAGE_FAVORITES, []));
 const boostedIds = new Set(readJSON(STORAGE_BOOSTED, [])); // "Mehr davon" is once per fact
+// Profil > "Deine Themen": tapping a chip mutes/unmutes the category — muted
+// ones disappear from the feed pool and the header chips entirely.
+const mutedCategories = new Set(readJSON(STORAGE_MUTED, []));
 let selectedLanguage = localStorage.getItem(STORAGE_LANGUAGE) || 'all'; // 'de' | 'en' | 'all'
 let hintTimer = null;
 let toastTimer = null;
@@ -102,6 +111,25 @@ const CATEGORY_COLORS = {
 
 const categoryColor = (category) => CATEGORY_COLORS[category] || null;
 
+// Decorative emoji per category, shown as a soft watermark on the card —
+// the lightweight take on "images" without photo sourcing/licensing.
+const CATEGORY_EMOJI = {
+  science: '🔬',
+  history: '🏛️',
+  nature: '🌿',
+  space: '🪐',
+  animals: '🦊',
+  geography: '🗺️',
+  technology: '💾',
+  psychology: '🧠',
+  food: '🍫',
+  curiosities: '🎲',
+  'news-general': '🌍',
+  'news-tech': '📡',
+};
+
+const categoryEmoji = (category) => CATEGORY_EMOJI[category] || '✨';
+
 // Inline SVG icons for the action rail (replaces emoji — crisper, themeable
 // via currentColor). fill toggles to currentColor via .selected in CSS.
 const ICON = {
@@ -133,7 +161,6 @@ let selectedCategory = 'all'; // 'all' | one of CHIP_CATEGORIES
 const headerEl = document.getElementById('app-header');
 const chipsEl = document.getElementById('chips');
 const feedCountEl = document.getElementById('feed-count');
-const savedBadgeEl = document.getElementById('saved-badge');
 
 function renderChips() {
   if (!chipsEl) return;
@@ -153,19 +180,14 @@ function renderChips() {
   };
   chipsEl.replaceChildren(
     mk('all', 'Alle', 'var(--accent)'),
-    ...CHIP_CATEGORIES.map((slug) => mk(slug, categoryLabel(slug), categoryColor(slug) || 'var(--accent)'))
+    ...CHIP_CATEGORIES.filter((slug) => !mutedCategories.has(slug)).map((slug) =>
+      mk(slug, categoryLabel(slug), categoryColor(slug) || 'var(--accent)')
+    )
   );
 }
 
 function updateFeedMeta() {
   if (feedCountEl) feedCountEl.textContent = `${facts.length} Fakten`;
-}
-
-function updateSavedBadge() {
-  if (!savedBadgeEl) return;
-  const n = favorites.size;
-  savedBadgeEl.textContent = String(n);
-  savedBadgeEl.classList.toggle('hidden', n === 0);
 }
 
 // Tint the whole chrome (brand "ly", active chip/nav) to the active card's
@@ -180,6 +202,7 @@ const saveSeenAt = () => writeJSON(STORAGE_SEEN_AT, seenAt);
 const saveShowCounts = () => writeJSON(STORAGE_SHOW_COUNTS, showCounts);
 const saveFavorites = () => writeJSON(STORAGE_FAVORITES, [...favorites]);
 const saveBoosted = () => writeJSON(STORAGE_BOOSTED, [...boostedIds]);
+const saveMuted = () => writeJSON(STORAGE_MUTED, [...mutedCategories]);
 const saveReactions = () => writeJSON(STORAGE_REACTIONS, reactions);
 
 // Session counter drives the novelty cooldown (facts seen in recent sessions
@@ -515,7 +538,8 @@ function attachGestures(card, fact) {
     if (pointer.mode === 'undecided') {
       if (Math.hypot(dx, dy) < AXIS_LOCK_PX) return;
       const angle = Math.abs((Math.atan2(dy, dx) * 180) / Math.PI);
-      pointer.mode = angle < 30 || angle > 150 ? 'horizontal' : 'vertical';
+      pointer.mode =
+        angle < HORIZONTAL_MAX_ANGLE || angle > 180 - HORIZONTAL_MAX_ANGLE ? 'horizontal' : 'vertical';
       if (pointer.mode === 'horizontal') {
         card.setPointerCapture(pointer.id);
       }
@@ -616,6 +640,7 @@ function createNewsCard(item) {
   const timeStr = relativeTime(item.publishedAt);
   card.innerHTML = `
     <div class="card-inner">
+      <span class="card-emoji" aria-hidden="true">${categoryEmoji(card.dataset.category)}</span>
       <p class="card-category"><span class="cat-dot"></span>News · ${item.topic === 'tech' ? 'Tech' : 'Welt'}</p>
       <div class="card-body">
         <p class="card-text">${escapeHtml(item.headline)}</p>
@@ -641,7 +666,6 @@ function createNewsCard(item) {
   saveBtn.addEventListener('click', () => {
     const nowSaved = toggleFavorite(item.id);
     renderSaved(nowSaved);
-    updateSavedBadge();
     showToast(nowSaved ? 'Gemerkt' : 'Entfernt');
   });
 
@@ -669,19 +693,28 @@ function createCard(fact) {
   card.dataset.factId = String(fact.id);
   card.dataset.category = fact.category;
   card.dataset.tags = (fact.tags || []).join(',');
-  const words = fact.text.trim().split(/\s+/).length;
+
+  // In "Beide" mode the card shows the fact in both languages; in de/en it
+  // shows only that language's version (native text or translation).
+  const primary = factText(fact);
+  const showBoth = selectedLanguage === 'all' && Boolean(fact.textAlt);
+  const displayed = showBoth ? `${primary} ${fact.textAlt}` : primary;
+  const words = displayed.trim().split(/\s+/).length;
   card.dataset.expectedMs = String(clamp(words * 240, 1200, 8000));
 
   const color = categoryColor(fact.category);
   if (color) card.style.setProperty('--cat-color', color);
 
+  const langLabel = showBoth ? 'DE · EN' : (fact.lang === selectedLanguage || selectedLanguage === 'all' ? fact.lang : selectedLanguage).toUpperCase();
   card.innerHTML = `
     <div class="card-inner">
+      <span class="card-emoji" aria-hidden="true">${categoryEmoji(fact.category)}</span>
       <p class="card-category"><span class="cat-dot"></span>${escapeHtml(categoryLabel(fact.category))}</p>
       <div class="card-body">
-        <p class="card-text">${escapeHtml(fact.text)}</p>
+        <p class="card-text">${escapeHtml(primary)}</p>
+        ${showBoth ? `<p class="card-text-alt">${escapeHtml(fact.textAlt)}</p>` : ''}
       </div>
-      <p class="card-lang">${fact.lang.toUpperCase()}</p>
+      <p class="card-lang">${langLabel}</p>
       ${actionRailHTML()}
     </div>
   `;
@@ -704,7 +737,6 @@ function createCard(fact) {
   saveBtn.addEventListener('click', () => {
     const nowSaved = toggleFavorite(fact.id);
     renderSaved(nowSaved);
-    updateSavedBadge();
     showToast(nowSaved ? 'Gemerkt' : 'Entfernt');
   });
 
@@ -851,13 +883,23 @@ function fillWindow() {
   }
 }
 
-function applyLanguageFilter(list) {
-  if (selectedLanguage === 'all') return list;
-  return list.filter((fact) => fact.lang === selectedLanguage);
+// Which text a fact shows in the current language mode: its native text when
+// the mode matches (or mode is 'all'), otherwise the translation. Falls back
+// to the native text for facts without a translation (cache skew).
+function factText(fact) {
+  if (selectedLanguage === 'all' || fact.lang === selectedLanguage) return fact.text;
+  return fact.textAlt || fact.text;
 }
 
 function rebuildPools() {
-  facts = applyLanguageFilter(allFacts);
+  // Language no longer splits the fact pool: every fact carries both
+  // languages (text + textAlt), the language setting only decides which
+  // version(s) a card displays. News stays language-filtered at pick time.
+  facts = allFacts;
+  if (mutedCategories.size > 0 && mutedCategories.size < CHIP_CATEGORIES.length) {
+    const unmuted = facts.filter((f) => !mutedCategories.has(f.category));
+    if (unmuted.length > 0) facts = unmuted;
+  }
   if (selectedCategory !== 'all') {
     const byCat = facts.filter((f) => f.category === selectedCategory);
     if (byCat.length > 0) facts = byCat;
@@ -900,7 +942,6 @@ nav.addEventListener('click', (e) => {
 });
 
 function renderSavedView() {
-  updateSavedBadge();
   const ids = [...favorites];
   const n = ids.length;
   savedView.innerHTML = `
@@ -936,7 +977,7 @@ function renderSavedView() {
       ? {
           category: fact.category,
           label: categoryLabel(fact.category),
-          text: fact.text,
+          text: factText(fact),
           share: () => shareFact(fact),
         }
       : {
@@ -962,7 +1003,6 @@ function renderSavedView() {
     item.querySelector('.saved-remove').addEventListener('click', () => {
       favorites.delete(id);
       saveFavorites();
-      updateSavedBadge();
       item.remove();
       if (favorites.size === 0) renderSavedView();
     });
@@ -988,9 +1028,10 @@ function renderSettingsView() {
 
   const themeChips = CHIP_CATEGORIES.map(
     (slug) =>
-      `<span class="theme-chip" style="--c:${categoryColor(slug) || 'var(--accent)'}"><span class="cat-dot"></span>${escapeHtml(
+      `<button class="theme-chip${mutedCategories.has(slug) ? ' muted' : ''}" type="button" data-slug="${slug}"
+        style="--c:${categoryColor(slug) || 'var(--accent)'}" aria-pressed="${!mutedCategories.has(slug)}"><span class="cat-dot"></span>${escapeHtml(
         categoryLabel(slug)
-      )}</span>`
+      )}</button>`
   ).join('');
 
   const likedTotal = favorites.size;
@@ -1015,6 +1056,7 @@ function renderSettingsView() {
 
     <div class="section-label">Deine Themen</div>
     <div class="theme-chips">${themeChips}</div>
+    <p class="panel-sub">Tippe ein Thema an, um es aus- oder wieder einzublenden.</p>
 
     <div class="section-label">Sprache der Fakten</div>
     <div class="settings-block">${langOptions}</div>
@@ -1026,6 +1068,28 @@ function renderSettingsView() {
     input.addEventListener('change', () => {
       selectedLanguage = input.value;
       localStorage.setItem(STORAGE_LANGUAGE, selectedLanguage);
+      rebuildPools();
+      resetFeed();
+    });
+  });
+
+  settingsView.querySelectorAll('.theme-chip').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      const slug = chip.dataset.slug;
+      if (mutedCategories.has(slug)) {
+        mutedCategories.delete(slug);
+      } else if (mutedCategories.size < CHIP_CATEGORIES.length - 1) {
+        // at least one topic always stays on
+        mutedCategories.add(slug);
+        if (selectedCategory === slug) selectedCategory = 'all';
+      } else {
+        showToast('Mindestens ein Thema muss aktiv bleiben');
+        return;
+      }
+      saveMuted();
+      chip.classList.toggle('muted', mutedCategories.has(slug));
+      chip.setAttribute('aria-pressed', String(!mutedCategories.has(slug)));
+      renderChips();
       rebuildPools();
       resetFeed();
     });
@@ -1047,6 +1111,7 @@ function renderSettingsView() {
       STORAGE_REACTIONS,
       STORAGE_FAVORITES,
       STORAGE_BOOSTED,
+      STORAGE_MUTED,
     ].forEach((k) => localStorage.removeItem(k));
     location.reload();
   });
@@ -1099,7 +1164,6 @@ function getRequestedFactId() {
 async function init() {
   try {
     renderChips();
-    updateSavedBadge();
     allFacts = await loadFacts();
     factById = new Map(allFacts.map((f) => [f.id, f]));
     rebuildPools();

@@ -85,6 +85,12 @@ facts.forEach((fact, i) => {
     errors.push(`${where}: lang "${fact.lang}" must be one of ${ALLOWED_LANGS.join(', ')}.`);
   }
 
+  if (typeof fact.textAlt !== 'string' || fact.textAlt.trim().length === 0) {
+    errors.push(`${where}: "textAlt" (translation in the other language) must be a non-empty string.`);
+  } else if (fact.textAlt.trim() === (fact.text || '').trim()) {
+    errors.push(`${where}: "textAlt" must differ from "text" (it is the translation, not a copy).`);
+  }
+
   if (typeof fact.text !== 'string' || fact.text.trim().length === 0) {
     errors.push(`${where}: "text" must be a non-empty string.`);
   } else {

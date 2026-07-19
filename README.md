@@ -30,7 +30,7 @@ Ein GitHub-Actions-Workflow (`.github/workflows/update-news.yml`) holt alle 3 St
 1. `facts.json` öffnen, aktuelle höchste `id` ermitteln (steht auch am Ende der Validierungsausgabe, siehe unten).
 2. Neue Fact-Objekte anhängen, `id` fortlaufend ab der höchsten + 1, z.B.:
    ```json
-   { "id": 181, "category": "history", "lang": "de", "text": "...", "source": null, "tags": ["dinosaurs", "fossils"] }
+   { "id": 181, "category": "history", "lang": "de", "text": "...", "textAlt": "... (Übersetzung in der jeweils anderen Sprache)", "source": null, "tags": ["dinosaurs", "fossils"] }
    ```
    Kategorien frei aus der bestehenden Liste wiederverwenden (science, history, nature, space, animals, geography, technology, psychology, food, curiosities), `lang` ist `"de"` oder `"en"`.
 

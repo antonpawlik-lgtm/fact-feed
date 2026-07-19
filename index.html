@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=14" />
+  <link rel="stylesheet" href="style.css?v=16" />
 </head>
 <body>
   <header id="app-header">
@@ -34,10 +34,7 @@
       <span>Feed</span>
     </button>
     <button data-view="saved" type="button">
-      <span class="nav-badge-wrap">
-        <svg viewBox="0 0 24 24"><path class="nav-icon-fill" d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.2L5 21V4a1 1 0 0 1 1-1z"/></svg>
-        <span class="nav-badge hidden" id="saved-badge"></span>
-      </span>
+      <svg viewBox="0 0 24 24"><path class="nav-icon-fill" d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.2L5 21V4a1 1 0 0 1 1-1z"/></svg>
       <span>Gemerkt</span>
     </button>
     <button data-view="settings" type="button">
@@ -49,6 +46,6 @@
   <!-- Bump the ?v= numbers AND the CACHE version in sw.js whenever
        src/*.js or style.css change — iOS caches aggressively, especially
        once the app is on the home screen. -->
-  <script type="module" src="src/main.js?v=15"></script>
+  <script type="module" src="src/main.js?v=16"></script>
 </body>
 </html>
