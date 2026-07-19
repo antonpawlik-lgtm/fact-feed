@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-07-19T01:22:16.981Z",
+  "generatedAt": "2026-07-19T05:41:41.584Z",
   "items": [
+    {
+      "id": "n_cee09506af",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Neue Angriffe zwischen USA und Iran",
+      "summary": "Die USA haben erneut Luftangriffe auf Iran gemeldet - Iran reagierte mit Attacken auf zwei US-Militärstützpunkte in Kuwait. Zuvor waren bei iranischem Beschuss in Jordanien zwei US-Soldaten getötet worden.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/nahost-lage-108.html",
+      "publishedAt": "2026-07-19T03:34:03.000Z"
+    },
+    {
+      "id": "n_bde71da629",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "WM-Finale: Eine Halbzeitshow wie beim Super Bowl",
+      "summary": "Erstmals wird es bei einem Finale der Fußball-WM eine Halbzeitshow nach US-Vorbild geben. Wenn Shakira, Madonna, Justin Bieber und weitere Stars heute auftreten, könnte die vorgeschriebene 15-Minuten-Pause klar überzogen werden. Von Martin Ganslmeier.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/wm-halbzeitshow-106.html",
+      "publishedAt": "2026-07-19T03:26:56.000Z"
+    },
+    {
+      "id": "n_d115254f27",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Erneut massiver russischer Raketenangriff auf Kiew",
+      "summary": "Russland hat Kiew erneut mit ballistischen Raketen angegriffen, dabei wurden laut Behörden auch ein Wohngebäude und ein Einkaufszentrum getroffen. Demnach kam mindestens ein Mensch ums Leben, es gebe mehrere Verletzte.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/ukraine-russland-angriffe-180.html",
+      "publishedAt": "2026-07-19T02:39:41.000Z"
+    },
     {
       "id": "n_4eeff71ef8",
       "type": "news",
@@ -55,39 +88,6 @@
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/kultur/kuenstliche-intelligenz-musik-bands-100.html",
       "publishedAt": "2026-07-18T18:02:22.000Z"
-    },
-    {
-      "id": "n_a0761edca4",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Reaktionen auf den Rücktritt von Jens Spahn als Unionsfraktionsvorsitzenden",
-      "summary": "Nach dem Rücktritt von Spahn als Unionsfraktionschef gibt es Zustimmung aus der Koalition. Die Opposition bezeichnet den Schritt als \"überfällig\" und prangert eine \"Doppelmoral\" des CDU-Politikers an.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/reaktionen-spahn-ruecktritt-100.html",
-      "publishedAt": "2026-07-18T17:56:34.000Z"
-    },
-    {
-      "id": "n_c0dda8b618",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Politikwissenschaftler zu Spahn: \"Spahn hat das Thema unterschätzt\"",
-      "summary": "Politikwissenschaftler Oliver Lembcke im tagesschau24-Interview über die Gründe für Spahns Rücktritt - und welche Folgen dies haben könnte.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/interview-oliver-lembcke-100.html",
-      "publishedAt": "2026-07-18T17:32:28.000Z"
-    },
-    {
-      "id": "n_5a69eb96ac",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Mehrere potenzielle Kandidaten für den Vorsitz der Unionsfraktion",
-      "summary": "Der Chefposten in der Unionsfraktion muss neu besetzt werden. Kanzler Merz will offenbar keine Zeit verlieren - und die Personalie Medienberichten zufolge noch vor Beginn der Urlaubszeit klären. Es gibt mehrere potenzielle Kandidaten.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/spahn-nachfolger-unionsfraktion-100.html",
-      "publishedAt": "2026-07-18T16:20:20.000Z"
     },
     {
       "id": "n_56a94ecd80",
@@ -178,6 +178,28 @@
       "publishedAt": "2026-07-15T08:02:00.000Z"
     },
     {
+      "id": "n_6b70a0d461",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "Evolution wird 25 Jahre alt: Die Sci-Fi-Komödie, die das Publikum erst später verstand",
+      "summary": "Erst Kinoflop, heute Kult: Evolution gehört mit Spaceballs und Galaxy Quest zu den besten Science-Fiction-Komödien. Zum Kinostart floppte der Film jedoch grandios. Von Peter Osteried (Science-Fiction, Film)",
+      "source": "Golem.de",
+      "url": "https://www.golem.de/news/evolution-wird-25-jahre-alt-die-sci-fi-komoedie-die-das-publikum-erst-spaeter-verstand-2607-210982.html",
+      "publishedAt": "2026-07-19T05:30:01.000Z"
+    },
+    {
+      "id": "n_337f053c5d",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "Anzeige: IT-Jobs in Sicherheit, Administration und Entwicklung",
+      "summary": "Von Informationssicherheit über IT-Betrieb bis Netzwerktechnik - sechs IT-Jobs mit vielseitigen Aufgaben und moderner Technik. (Golem Karrierewelt, Unternehmenssoftware)",
+      "source": "Golem.de",
+      "url": "https://www.golem.de/news/anzeige-it-jobs-in-sicherheit-administration-und-entwicklung-2607-210993.html",
+      "publishedAt": "2026-07-19T05:00:02.000Z"
+    },
+    {
       "id": "n_8c81165a76",
       "type": "news",
       "topic": "tech",
@@ -244,26 +266,37 @@
       "publishedAt": "2026-07-18T09:53:01.000Z"
     },
     {
-      "id": "n_de29e31094",
+      "id": "n_fdf722c98f",
       "type": "news",
-      "topic": "tech",
-      "lang": "de",
-      "headline": "Verkehrssicherheitsrat: E-Scooter-Fahrer sollen zur Prüfung",
-      "summary": "Die Zahl schwerer E-Scooter-Unfälle steigt rasant. Jetzt fordert der Verkehrssicherheitsrat einen Befähigungsnachweis. (E-Scooter, Mobilität)",
-      "source": "Golem.de",
-      "url": "https://www.golem.de/news/verkehrssicherheitsrat-e-scooter-fahrer-sollen-erst-zur-pruefung-2607-211027.html",
-      "publishedAt": "2026-07-18T09:13:02.000Z"
+      "topic": "general",
+      "lang": "en",
+      "headline": "US and Iran exchange strikes after two US deaths in Jordan attack",
+      "summary": "US forces target Iranian sites for the eighth night in a row, while Iran says it fired drones at the US military in Kuwait.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-19T05:10:57.000Z"
     },
     {
-      "id": "n_485ee8bcfd",
+      "id": "n_8b7fdb3f78",
       "type": "news",
-      "topic": "tech",
-      "lang": "de",
-      "headline": "Digitaler Druck: \"Meine Notfallnummer stand im firmenweiten Mitarbeiterverzeichnis\"",
-      "summary": "Von \"Ich bin ständig erreichbar\" bis zur strikten Kein-Diensthandy-nach-Feierabend-Policy ist bei euren Erzählungen alles dabei. (Arbeit, Smartphone)",
-      "source": "Golem.de",
-      "url": "https://www.golem.de/news/digitaler-druck-meine-notfallnummer-stand-im-firmenweiten-mitarbeiterverzeichnis-2607-210957.html",
-      "publishedAt": "2026-07-18T09:00:02.000Z"
+      "topic": "general",
+      "lang": "en",
+      "headline": "Andrew Tate and brother arrested in US after more charges laid against them in UK",
+      "summary": "The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are \"innocent\".",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-19T02:17:07.000Z"
+    },
+    {
+      "id": "n_4910473a0c",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "New EU border system tripling time at passport control, airport boss says",
+      "summary": "Ryanair has also warned passengers travelling to Europe this summer to prepare for extended waits.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckg5gg6n9x3o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-19T01:47:59.000Z"
     },
     {
       "id": "n_c4fef43d2b",
@@ -275,28 +308,6 @@
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cwyr498vqqpo?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-07-19T01:11:23.000Z"
-    },
-    {
-      "id": "n_8b7fdb3f78",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Tate brothers arrested in US after more charges laid against them in UK",
-      "summary": "The new charges announced on Saturday include rape and sex trafficking.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-19T00:57:18.000Z"
-    },
-    {
-      "id": "n_239300016e",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Two US troops killed and one missing after Iranian attack in Jordan",
-      "summary": "Iran and the US have traded strikes as hostilities re-escalated this week, with Tehran targeting US military facilities across the Gulf region.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-19T00:18:47.000Z"
     },
     {
       "id": "n_e492fd47f9",
@@ -341,17 +352,6 @@
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-07-18T17:29:50.000Z"
-    },
-    {
-      "id": "n_3ed861653c",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "German politician resigns over surrogacy child controversy",
-      "summary": "Jens Spahn faced criticism over his use of a surrogate, a ban on which he previously backed.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cq56e9n1ddzo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-18T15:23:31.000Z"
     },
     {
       "id": "n_c1779f93f4",
