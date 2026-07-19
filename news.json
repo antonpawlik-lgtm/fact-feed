@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-07-19T05:41:41.584Z",
+  "generatedAt": "2026-07-19T07:55:07.541Z",
   "items": [
+    {
+      "id": "n_d115254f27",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Erneut massiver russischer Raketenangriff auf Kiew",
+      "summary": "Russland hat Kiew erneut mit ballistischen Raketen angegriffen, dabei wurden laut Behörden auch ein Wohngebäude und ein Einkaufszentrum getroffen. Demnach kam mindestens ein Mensch ums Leben, es gebe mehrere Verletzte.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/ukraine-russland-angriffe-180.html",
+      "publishedAt": "2026-07-19T07:35:47.000Z"
+    },
+    {
+      "id": "n_dbeb7a0a04",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Führerschein für viele Menschen unbezahlbar",
+      "summary": "Der Führerschein ist für viele junge Menschen der Schlüssel zur Ausbildung, zum ersten Job und zur eigenen Mobilität. Doch in Deutschland wird er zunehmend zum Luxus. Von Christoph Peters.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/fuehrerschein-in-deutschland-immer-teurer-100.html",
+      "publishedAt": "2026-07-19T07:11:05.000Z"
+    },
+    {
+      "id": "n_90f512fe01",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Problemfall Generalsanierungen: Haben Bahn und Politik einen Plan?",
+      "summary": "Das kaputtgesparte Schienennetz soll Stück für Stück repariert werden. Doch bei Sanierungen gab es häufig Probleme. Verkehrsminister Schnieder verweist auf die Bahn - aber das lässt ihm nicht jeder durchgehen. Von Jim-Bob Nickschas.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/bahn-sanierung-bundesregierung-100.html",
+      "publishedAt": "2026-07-19T06:12:45.000Z"
+    },
     {
       "id": "n_cee09506af",
       "type": "news",
@@ -22,17 +55,6 @@
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/ausland/wm-halbzeitshow-106.html",
       "publishedAt": "2026-07-19T03:26:56.000Z"
-    },
-    {
-      "id": "n_d115254f27",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Erneut massiver russischer Raketenangriff auf Kiew",
-      "summary": "Russland hat Kiew erneut mit ballistischen Raketen angegriffen, dabei wurden laut Behörden auch ein Wohngebäude und ein Einkaufszentrum getroffen. Demnach kam mindestens ein Mensch ums Leben, es gebe mehrere Verletzte.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/ukraine-russland-angriffe-180.html",
-      "publishedAt": "2026-07-19T02:39:41.000Z"
     },
     {
       "id": "n_4eeff71ef8",
@@ -66,28 +88,6 @@
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/ausland/amerika/iran-usa-rahmenabkommen-ausgesetzt-100.html",
       "publishedAt": "2026-07-18T18:54:34.000Z"
-    },
-    {
-      "id": "n_eb0cb3deb3",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Debatte über Leihmutterschaft: Was der Spahn-Rücktritt für die CDU bedeutet",
-      "summary": "Der Druck wegen der Debatte um eine Leihmutterschaft wurde zu stark - Spahn ist zurückgetreten. Davor gab es massive Kritik aus dem eigenen Lager und Sorgen um den Wahlkampf. Was bedeutet das für die CDU, die Landtagswahlen und die Koalition? Eine Analyse von K. Girschick.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/spahn-ruecktritt-108.html",
-      "publishedAt": "2026-07-18T18:21:25.000Z"
-    },
-    {
-      "id": "n_cd0d512006",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Künstliche Intelligenz: Verdrängen KI-Bands echte Musiker?",
-      "summary": "KI-generierte Songs fluten die Streamingdienste. Immer häufiger stehen dahinter auch durch Künstliche Intelligenz erzeugte Bands, mit eigener Biografie und Avataren. Das Ende der Kreativität - oder eine Chance? Von Tobias Dirr.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/kultur/kuenstliche-intelligenz-musik-bands-100.html",
-      "publishedAt": "2026-07-18T18:02:22.000Z"
     },
     {
       "id": "n_56a94ecd80",
@@ -183,7 +183,7 @@
       "topic": "tech",
       "lang": "de",
       "headline": "Evolution wird 25 Jahre alt: Die Sci-Fi-Komödie, die das Publikum erst später verstand",
-      "summary": "Erst Kinoflop, heute Kult: Evolution gehört mit Spaceballs und Galaxy Quest zu den besten Science-Fiction-Komödien. Zum Kinostart floppte der Film jedoch grandios. Von Peter Osteried (Science-Fiction, Film)",
+      "summary": "Evolution gehört mit Spaceballs und Galaxy Quest zu den besten Science-Fiction-Komödien. Zum Kinostart floppte der Film jedoch grandios. Von Peter Osteried (Science-Fiction, Film)",
       "source": "Golem.de",
       "url": "https://www.golem.de/news/evolution-wird-25-jahre-alt-die-sci-fi-komoedie-die-das-publikum-erst-spaeter-verstand-2607-210982.html",
       "publishedAt": "2026-07-19T05:30:01.000Z"
@@ -266,11 +266,22 @@
       "publishedAt": "2026-07-18T09:53:01.000Z"
     },
     {
+      "id": "n_01637d9d0c",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Cuban dissident Luis Manuel Otero Alcántara goes into exile in US",
+      "summary": "He was arrested in 2021 during Cuba's largest anti-government protests in decades and spent five years ⁠in prison.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx2k77p2r1xo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-19T07:47:02.000Z"
+    },
+    {
       "id": "n_fdf722c98f",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "US and Iran exchange strikes after two US deaths in Jordan attack",
+      "headline": "US and Iran exchange strikes after two US soldiers killed in Jordan",
       "summary": "US forces target Iranian sites for the eighth night in a row, while Iran says it fired drones at the US military in Kuwait.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
@@ -282,7 +293,7 @@
       "topic": "general",
       "lang": "en",
       "headline": "Andrew Tate and brother arrested in US after more charges laid against them in UK",
-      "summary": "The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are \"innocent\".",
+      "summary": "The Crown Prosecution Service says it has requested their extradition from the US, while their lawyer says they are innocent.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-07-19T02:17:07.000Z"
@@ -341,17 +352,6 @@
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-07-18T19:34:16.000Z"
-    },
-    {
-      "id": "n_fa63b20540",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Trump threatens new Canada tariffs over fires sending 'filthy' air into US cities",
-      "summary": "Canadian leader Mark Carney says both the US and Canada have an equal responsibility to fight climate change, which experts say are worsening wildfire conditions.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-18T17:29:50.000Z"
     },
     {
       "id": "n_c1779f93f4",
