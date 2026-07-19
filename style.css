@@ -250,6 +250,18 @@ html, body {
 }
 .card-news .card-source { margin-top: 14px; }
 
+/* video cards: thumbnail replaces the watermark emoji, sits above the title */
+.card-thumb {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  background: rgba(255, 255, 255, 0.06);
+}
+.card-video .card-body { padding-top: 0; }
+
 .card-link {
   display: inline-block;
   align-self: flex-start;

@@ -9,7 +9,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const filePath = path.join(__dirname, 'news.json');
 
 const ALLOWED_LANGS = ['de', 'en'];
-const ALLOWED_TOPICS = ['general', 'tech'];
+const ALLOWED_TOPICS = ['general', 'tech', 'ai', 'video'];
+const ALLOWED_TYPES = ['news', 'video'];
 const errors = [];
 
 let data;
@@ -37,7 +38,7 @@ const seenIds = new Set();
   if (typeof item.id !== 'string' || !item.id.trim()) errors.push(`${where}: "id" must be a non-empty string.`);
   else if (seenIds.has(item.id)) errors.push(`${where}: duplicate id.`);
   else seenIds.add(item.id);
-  if (item.type !== 'news') errors.push(`${where}: "type" must be "news".`);
+  if (!ALLOWED_TYPES.includes(item.type)) errors.push(`${where}: "type" must be one of ${ALLOWED_TYPES.join(', ')}.`);
   if (!ALLOWED_TOPICS.includes(item.topic)) errors.push(`${where}: topic must be one of ${ALLOWED_TOPICS.join(', ')}.`);
   if (!ALLOWED_LANGS.includes(item.lang)) errors.push(`${where}: lang must be one of ${ALLOWED_LANGS.join(', ')}.`);
   if (typeof item.headline !== 'string' || !item.headline.trim()) errors.push(`${where}: headline must be non-empty.`);
@@ -49,6 +50,14 @@ const seenIds = new Set();
   }
   if (typeof item.publishedAt !== 'string' || Number.isNaN(Date.parse(item.publishedAt))) {
     errors.push(`${where}: publishedAt must be a valid ISO timestamp.`);
+  }
+  if (item.type === 'video') {
+    try {
+      const url = new URL(item.thumbnail);
+      if (!['http:', 'https:'].includes(url.protocol)) throw new Error('unsupported protocol');
+    } catch {
+      errors.push(`${where}: video items require a valid "thumbnail" URL.`);
+    }
   }
 });
 

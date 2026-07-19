@@ -105,9 +105,15 @@ const CATEGORY_COLORS = {
   curiosities: '#c084fc',
   'news-general': '#e11d48',
   'news-tech': '#0ea5e9',
+  'news-ai': '#a855f7',
+  'news-video': '#ef4444',
 };
 
 const categoryColor = (category) => CATEGORY_COLORS[category] || null;
+
+// News/video topic -> display label, used on the card and in the counter.
+const TOPIC_LABELS = { general: 'Welt', tech: 'Tech', ai: 'AI', video: 'Video' };
+const topicLabel = (topic) => TOPIC_LABELS[topic] || topic;
 
 // Decorative emoji per category, shown as a soft watermark on the card —
 // the lightweight take on "images" without photo sourcing/licensing.
@@ -124,6 +130,8 @@ const CATEGORY_EMOJI = {
   curiosities: '🎲',
   'news-general': '🌍',
   'news-tech': '📡',
+  'news-ai': '🤖',
+  'news-video': '▶️',
 };
 
 const categoryEmoji = (category) => CATEGORY_EMOJI[category] || '✨';
@@ -590,17 +598,20 @@ function createNewsCard(item) {
   const color = categoryColor(card.dataset.category);
   if (color) card.style.setProperty('--cat-color', color);
 
+  const isVideo = item.type === 'video';
+  if (isVideo) card.classList.add('card-video');
   const timeStr = relativeTime(item.publishedAt);
+  const thumbnail = isVideo && item.thumbnail ? `<img class="card-thumb" src="${escapeHtml(item.thumbnail)}" alt="" loading="lazy" />` : '';
   card.innerHTML = `
     <div class="card-inner">
-      <span class="card-emoji" aria-hidden="true">${categoryEmoji(card.dataset.category)}</span>
-      <p class="card-category"><span class="cat-dot"></span>News · ${item.topic === 'tech' ? 'Tech' : 'Welt'}</p>
+      ${thumbnail || `<span class="card-emoji" aria-hidden="true">${categoryEmoji(card.dataset.category)}</span>`}
+      <p class="card-category"><span class="cat-dot"></span>${isVideo ? '▶ Video' : 'News · ' + topicLabel(item.topic)}</p>
       <div class="card-body">
         <p class="card-text">${escapeHtml(item.headline)}</p>
       </div>
       ${item.summary ? `<p class="card-summary">${escapeHtml(item.summary)}</p>` : ''}
       <p class="card-source">${escapeHtml(item.source)}${timeStr ? ' · ' + timeStr : ''}</p>
-      <a class="card-link gesture-exempt" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">Artikel öffnen ↗</a>
+      <a class="card-link gesture-exempt" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${isVideo ? 'Video ansehen ↗' : 'Artikel öffnen ↗'}</a>
       ${actionRailHTML()}
     </div>
   `;
@@ -940,7 +951,7 @@ function renderSavedView() {
         }
       : {
           category: `news-${news.topic}`,
-          label: `News · ${news.topic === 'tech' ? 'Tech' : 'Welt'}`,
+          label: news.type === 'video' ? '▶ Video' : `News · ${topicLabel(news.topic)}`,
           text: news.headline,
           share: () => shareNews(news),
         };
