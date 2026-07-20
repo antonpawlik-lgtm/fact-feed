@@ -1,93 +1,93 @@
 {
-  "generatedAt": "2026-07-20T13:43:30.137Z",
+  "generatedAt": "2026-07-20T19:21:15.422Z",
   "items": [
     {
-      "id": "n_cebeef03db",
+      "id": "n_37ad67eeea",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Ungarn: Eine Schachlegende als Staatspräsidentin?",
-      "summary": "Ungarns Ministerpräsident Magyar will einen Neuanfang ohne Orban-Vertraute. Der Staatspräsident wurde bereits abgesetzt. Nun überrascht Magyar mit seinem Vorschlag für die Nachfolge - und bekommt dafür nicht nur Zustimmung. Von Oliver Soos.",
+      "headline": "Schachgroßmeisterin Polgar will nicht Ungarns Präsidentin werden",
+      "summary": "In Ungarn gab es einen Dämpfer für den neuen Premier Magyar: Seine Wunschkandidatin für die Präsidentschaft, die Schachgroßmeisterin Judit Polgar, hat abgesagt. Die \"historische Verantwortung\" sei zu groß. Von Oliver Soos.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/europa/ungarn-magyar-staatspraesident-schach-polgar-100.html",
-      "publishedAt": "2026-07-20T13:32:17.000Z"
+      "url": "https://www.tagesschau.de/ausland/europa/ungarn-praesidentschaft-polgar-absage-100.html",
+      "publishedAt": "2026-07-20T19:12:39.000Z"
     },
     {
-      "id": "n_cb60bb08fb",
+      "id": "n_7ae0eb2cd3",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Andy Burnham ist neuer Premierminister in Großbritannien",
-      "summary": "Andy Burnham ist neuer Premierminister des Vereinigten Königreichs. König Charles III. beauftragte den Labour-Chef mit der Regierungsbildung. Als Hoffnungsträger seiner Partei soll Burnham das Land aus der Dauerkrise führen.",
+      "headline": "Bahn-Konkurrent Italo bestellt 26 Schnellzüge bei Siemens",
+      "summary": "Erst vor wenigen Tagen ebnete die Bundesnetzagentur den Einstieg des italienischen Zugunternehmens Italo in das deutsche Fernverkehrsnetz. Jetzt konkretisiert Italo seine Pläne - mit einer Bestellung für neue Schnellzüge.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/europa/burnham-ernennung-premier-koenig-charles-100.html",
-      "publishedAt": "2026-07-20T12:56:25.000Z"
+      "url": "https://www.tagesschau.de/wirtschaft/technologie/italo-zuege-siemens-bestellung-100.html",
+      "publishedAt": "2026-07-20T19:04:22.000Z"
     },
     {
-      "id": "n_1e7931a49b",
+      "id": "n_9c0d79b080",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Proteste in Indien: \"Cockroach\"-Demo gegen Regierung in Neu-Delhi",
-      "summary": "Bei einem der größten Proteste seit Jahren ist es in der indischen Hauptstadt Neu-Delhi zu heftigen Auseinandersetzungen gekommen. Die Polizei setzte Schlagstöcke ein, um die Demonstranten an einem Marsch zum Parlament zu hindern.",
+      "headline": "Gedenken an Hitler-Attentat im Bendlerblock - mit Zwischenfall",
+      "summary": "Die Bundesregierung hat in Berlin an den Widerstand gegen die nationalsozialistische Gewaltherrschaft erinnert. Anlass ist der heutige Jahrestag des Attentats auf Hitler. Ein Kranz der AfD sorgte vor dem Gedenken für ein Handgemenge.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/asien/indien-cockroach-proteste-100.html",
-      "publishedAt": "2026-07-20T12:17:45.000Z"
+      "url": "https://www.tagesschau.de/inland/gedenken-bendlerblock-afd-kranz-100.html",
+      "publishedAt": "2026-07-20T18:24:00.000Z"
     },
     {
-      "id": "n_8967649440",
+      "id": "n_23aa65fb7a",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Für Tech-Aktien schlägt die Stunde der Wahrheit",
-      "summary": "Mit Beginn der neuen Woche nimmt die Berichtssaison der Unternehmen Fahrt auf. Im Fokus stehen besonders hochbewertete US-Tech-Aktien. Können Alphabet & Co. ihr hohes Kursniveau verteidigen?",
+      "headline": "USA: Mexikanischer Drogenboss \"El Mayo\" zu lebenslanger Haft verurteilt",
+      "summary": "In den USA ist der frühere mexikanische Drogenboss \"El Mayo\" zu lebenslanger Haft verurteilt worden. Der 76-jährige Mitbegründer des berüchtigten Sinaloa-Kartells bat in der Verhandlung um Verzeihung.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/mb-mittag-dax-ki-berichtssaison-100.html",
-      "publishedAt": "2026-07-20T12:00:15.000Z"
+      "url": "https://www.tagesschau.de/ausland/amerika/usa-el-mayo-verurteilung-100.html",
+      "publishedAt": "2026-07-20T18:02:34.000Z"
     },
     {
-      "id": "n_2d12509d98",
+      "id": "n_d5378898c2",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Mann stirbt bei Polizeieinsatz in Bologna - Aufklärung gefordert",
-      "summary": "Bei einem Polizeieinsatz im italienischen Bologna drücken zwei Beamte einen Mann minutenlang zu Boden, bis er stirbt. Der Tod des Mannes ruft Proteste hervor. Nun versprechen die Behörden Transparenz.",
+      "headline": "Machtkampf: AfD-Bundesvorstand setzt Untersuchungskommission ein",
+      "summary": "Der AfD-Bundesvorstand verzichtet im Machtkampf mit der Parteispitze in Nordrhein-Westfalen auf sofortige Konsequenzen. Er setzt aber eine Untersuchungskommission ein, die den Landesverband durchleuchten soll.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/europa/bologna-tod-marrokaner-100.html",
-      "publishedAt": "2026-07-20T11:52:38.000Z"
+      "url": "https://www.tagesschau.de/inland/innenpolitik/afd-nrw-machtkampf-kommission-100.html",
+      "publishedAt": "2026-07-20T17:06:14.000Z"
     },
     {
-      "id": "n_126b91e796",
+      "id": "n_17b68e8046",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Neue Waldbrände in Südfrankreich ausgebrochen",
-      "summary": "In Südfrankreich sind mehrere Waldbrände ausgebrochen - Hunderte Feuerwehrleute sind im Einsatz, viele Menschen wurden in Sicherheit gebracht. Auf Korsika halten zwei Brände die Einsatzkräfte bereits seit einer Woche in Atem.",
+      "headline": "Neuer Premier Burnham will Briten wieder Hoffnung geben",
+      "summary": "Andy Burnham, der siebte britische Premier in zehn Jahren, muss ein tief gespaltenes Land einen. Seine Pläne sind ehrgeizig: Er will die Lebenshaltungskosten senken, die Wirtschaft ankurbeln und Sozialsysteme entlasten. Von Lisa-Maria Röhling.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/europa/frankreich-waldbraende-100.html",
-      "publishedAt": "2026-07-20T11:50:52.000Z"
+      "url": "https://www.tagesschau.de/ausland/europa/grossbritannien-neuer-premier-burnham-100.html",
+      "publishedAt": "2026-07-20T16:32:27.000Z"
     },
     {
-      "id": "n_d19c357ef0",
+      "id": "n_35968388d8",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Burnham als neuer Premier: Was das Amt inzwischen so schwierig macht",
-      "summary": "Andy Burnham ist der siebte britische Regierungschef in den vergangenen zehn Jahren. Wenn das Amt für ihn nicht auch zum Schleudersitz werden soll, muss er schwierige Herausforderungen meistern. Von Lisa-Maria Röhling.",
+      "headline": "Marktbericht: DAX-Hängepartie geht weiter",
+      "summary": "Die Eskalation der Lage im Nahen Osten nagt ebenso an den Nerven der Anleger wie die Sorge um eine Korrektur im KI-Sektor. DAX-Anleger hielten sich daher zum Wochenstart bedeckt.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/europa/grossbritannien-regierung-premier-burnham-100.html",
-      "publishedAt": "2026-07-20T11:48:49.000Z"
+      "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-396.html",
+      "publishedAt": "2026-07-20T16:15:56.000Z"
     },
     {
-      "id": "n_54803ade0f",
+      "id": "n_c364f976a6",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Geringste Erdbeerernte seit 31 Jahren erwartet",
-      "summary": "Die Landwirte in Deutschland haben 2026 so wenige Erdbeeren geerntet wie seit mehr als 30 Jahren nicht. Auch beim Spargel ging die Menge nach Daten des Statistischen Bundesamts noch einmal zurück.",
+      "headline": "Faktenfinder: In NRW wird es keine Prüfungen auf Arabisch geben",
+      "summary": "Im NRW-Landtag ist ein Antrag zu Förderung von Mehrsprachigkeit in Schulen beschlossen worden. Die FDP behauptet, damit müssten Prüfungen in Zukunft nicht mehr auf Deutsch geschrieben werden. Doch das ist falsch. Von Karin König.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/ernte-spargel-erdbeeren-100.html",
-      "publishedAt": "2026-07-20T11:12:01.000Z"
+      "url": "https://www.tagesschau.de/faktenfinder/nrw-landtag-klassenarbeiten-100.html",
+      "publishedAt": "2026-07-20T15:45:51.000Z"
     },
     {
       "id": "n_7a83b5247e",
@@ -178,158 +178,125 @@
       "publishedAt": "2026-07-16T13:33:00.000Z"
     },
     {
-      "id": "n_b7c9d6890d",
+      "id": "n_d899e5630e",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: Staubbläser für Tastaturen zum Sparpreis bei Amazon",
-      "summary": "Amazon hat einen Staubbläser mit Akku im Angebot, der Tastaturen und mehr mit bis zu 110.000 Umdrehungen pro Minute reinigt. (Technik/Hardware)",
+      "headline": "Anzeige: Inbus Schraubendreher mit Ratsche befristet im Amazon-Angebot",
+      "summary": "Ein Ratschenschraubendreher von Inbus mit zwölf Bits ist kurze Zeit bei Amazon günstiger als im 90-Tage-Schnitt. (Technik/Hardware)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-staubblaeser-fuer-tastaturen-zum-sparpreis-bei-amazon-2607-211068.html",
-      "publishedAt": "2026-07-20T13:29:02.000Z"
+      "url": "https://www.golem.de/news/anzeige-inbus-schraubendreher-mit-ratsche-befristet-im-amazon-angebot-2607-211087.html",
+      "publishedAt": "2026-07-20T16:54:02.000Z"
     },
     {
-      "id": "n_0af59281d1",
+      "id": "n_f6850421ea",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Cyberangriff: Bafin verhängt 240.000 Euro-Strafe gegen Teamviewer",
-      "summary": "Weil Teamviewer einen Angriff durch russische Hacker nicht sofort an die Börse meldete, greift die Finanzaufsicht Bafin nun durch. (Teamviewer, Fernwartung)",
+      "headline": "Wingtech: Nexperia kann Kapazitäten wieder etwas steigern",
+      "summary": "Die deutsche und europäische Automobilindustrie leidet weiterhin darunter, dass die USA den Nexperia-Eigner Wingtech auf die Blacklist gesetzt haben. Langsam erholt sich Nexperia. (Chipknappheit, Prozessor)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/cyberangriff-bafin-verhaengt-240-000-euro-strafe-gegen-teamviewer-2607-211071.html",
-      "publishedAt": "2026-07-20T13:24:02.000Z"
+      "url": "https://www.golem.de/news/wingtech-nexperia-kann-kapazitaeten-wieder-etwas-steigern-2607-211086.html",
+      "publishedAt": "2026-07-20T16:19:01.000Z"
     },
     {
-      "id": "n_17647bef1c",
+      "id": "n_35c1520881",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: AVANTEK Funkklingel-Set mit zwei Empfängern fällt unter 20 Euro",
-      "summary": "Wer die Türklingel im Garten oder Keller oft überhört, findet in der AVANTEK Funkklingel eine praktische Lösung. Das Set gibt es aktuell für unter 20 Euro. (Technik/Hardware)",
+      "headline": "(g+) House & Home: How smart tech is being weaponised in the home",
+      "summary": "Remote access to domestic devices is increasingly being used to manipulate, intimidate and disturb. Policymakers and tech companies are grappling with safeguards. Von Emma Jacobs (Security, Tracking)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-avantek-funkklingel-set-mit-zwei-empfaengern-faellt-unter-20-euro-2607-211062.html",
-      "publishedAt": "2026-07-20T13:14:01.000Z"
+      "url": "https://www.golem.de/news/house-home-how-smart-tech-is-being-weaponised-in-the-home-2607-211072.html",
+      "publishedAt": "2026-07-20T16:07:01.000Z"
     },
     {
-      "id": "n_7e3d14d611",
+      "id": "n_65eccb6411",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: Anker-Powerbank mit MagSafe und Qi-Charging zum Jahrestiefstpreis",
-      "summary": "Lädt mit und ohne Kabel: Die Anker MagGo Powerbank ist bei Amazon wieder zum niedrigsten Preis des Jahres im Angebot. (Technik/Hardware, Amazon)",
+      "headline": "Marvel Cinematic Universe: Marvel zeigt ersten Trailer zu Avengers: Doomsday",
+      "summary": "Marvel zeigt den ersten Trailer zu Avengers: Doomsday. Doctor Doom führt die Bedrohung an, Steve Rogers kehrt zurück. (Marvel, Film)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-anker-powerbank-mit-magsafe-und-qi-charging-zum-jahrestiefstpreis-2607-211066.html",
-      "publishedAt": "2026-07-20T12:40:02.000Z"
+      "url": "https://www.golem.de/news/marvel-cinematic-universe-marvel-zeigt-ersten-trailer-zu-avengers-doomsday-2607-211085.html",
+      "publishedAt": "2026-07-20T15:44:02.000Z"
     },
     {
-      "id": "n_4f51044793",
+      "id": "n_155df57f30",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: USB-C-SSD-Stick mit 1 TB so günstig wie seit Monaten nicht mehr",
-      "summary": "Den USB-C-SSD-Stick von SSK mit 1 TB Speicherplatz gibt es bei Amazon im befristeten Angebot so günstig wie seit Monaten nicht mehr. (Technik/Hardware, Speichermedien)",
+      "headline": "FTTH: Telekom bereitet Einsatz von 50G-PON für Kunden vor",
+      "summary": "Die Deutsche Telekom plant den Einsatz von 50G-PON als Nachfolger von XGS-PON. Erste Labor-Tests finden bereits statt, um die Netze für Multigigabit-Bandbreiten vorzubereiten. (Telekom, Huawei)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-usb-c-ssd-stick-mit-1-tb-so-guenstig-wie-seit-monaten-nicht-mehr-2607-211065.html",
-      "publishedAt": "2026-07-20T12:12:01.000Z"
+      "url": "https://www.golem.de/news/ftth-telekom-bereitet-einsatz-von-50g-pon-fuer-kunden-vor-2607-211084.html",
+      "publishedAt": "2026-07-20T15:37:02.000Z"
     },
     {
-      "id": "n_857e539373",
+      "id": "n_9fcdd90f95",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Alibaba: 550 Millionen Euro Strafe gegen Aliexpress in Europa",
-      "summary": "Es handelt sich um die bisher höchste Geldbuße seit Inkrafttreten des europäischen Digital Services Act (DSA). Dennoch kommt Aliexpress glimpflich davon. (Alibaba, Wirtschaft)",
+      "headline": "Anzeige: Wetterstation mit Außensensor und WLAN reduziert bei Amazon",
+      "summary": "Eine smarte Wetterstation von SwitchBot mit Innenthermometer, Außensensor und Matter-fähigem WLAN-Hub gibt es bei Amazon zum Aktionspreis. (Technik/Hardware, Matter)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/alibaba-550-millionen-euro-strafe-gegen-aliexpress-in-europa-2607-211067.html",
-      "publishedAt": "2026-07-20T12:03:01.000Z"
+      "url": "https://www.golem.de/news/anzeige-wetterstation-mit-aussensensor-und-wlan-reduziert-bei-amazon-2607-211081.html",
+      "publishedAt": "2026-07-20T15:10:01.000Z"
     },
     {
-      "id": "n_29c0af1451",
+      "id": "n_cce1a26d00",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Ringconn Gen 3 im Test: Nicht ganz rund und trotzdem richtig gut",
-      "summary": "Mit langer Akkulaufzeit, präzisen Sensoren und neuen Funktionen gehört Ringconn Gen 3 zu den derzeit spannendsten Wearables - ohne Abo. Ein Test von Peter Steinlechner (Wearable, Test)",
+      "headline": "China-Support für Pentagon: Microsoft-Mittelsmänner vertrauten blind auf Codesicherheit",
+      "summary": "Neue Informationen zeigen im Detail, wie Microsoft getrickst hat, um für den IT-Support im Pentagon chinesische Ingenieure einsetzen zu können. (Microsoft, Datenschutz)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/ringconn-gen-3-im-test-nicht-ganz-rund-und-trotzdem-richtig-gut-2607-210758.html",
-      "publishedAt": "2026-07-20T12:00:01.000Z"
+      "url": "https://www.golem.de/news/china-support-fuer-pentagon-microsoft-mittelsmaenner-vertrauten-blind-auf-codesicherheit-2607-211083.html",
+      "publishedAt": "2026-07-20T15:07:02.000Z"
     },
     {
-      "id": "n_98b79cc594",
+      "id": "n_359004cd91",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Humanoide Roboter: Geköpfter Roboter kämpft so gut wie der intakte Gegner",
-      "summary": "Ein Roboter köpft den anderen in einer Kampfliga, die mehr Werbeveranstaltung ist. Man darf hoffen, dass das Modell nicht im Privathaushalt landet. (Roboter, KI)",
+      "headline": "Fast so gut wie Fable 5: Alibaba veröffentlicht Qwen-3.8 und KI-Software-Stack",
+      "summary": "Die Modellgewichte von Qwen-3.8 sollen veröffentlicht werden. Teile seines KI-Software-Stacks hat Alibaba schon öffentlich gemacht - nicht uneigennützig. (KI, Fable)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/humanoide-roboter-gekoepfter-roboter-kaempft-so-gut-wie-der-intakte-gegner-2607-211063.html",
-      "publishedAt": "2026-07-20T11:46:01.000Z"
+      "url": "https://www.golem.de/news/fast-so-gut-wie-fable-5-alibaba-veroeffentlicht-qwen-3-8-und-ki-software-stack-2607-211079.html",
+      "publishedAt": "2026-07-20T14:39:02.000Z"
     },
     {
-      "id": "n_9f48a4adb6",
+      "id": "n_292796248e",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "‘All I think about is her’: Families demand answers as Nigeria's boat disasters keep happening",
-      "summary": "Hundreds of lives are lost each year in Nigeria as a result of boat accidents yet nothing seems to change.",
+      "headline": "'If only people knew what a tick could do' - the deadly meat allergies caused by tick bites",
+      "summary": "Mammalian meat allergy is a growing problem along Australia's east coast - and it's caused by tick bites.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c309vzn676go?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T13:33:19.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/cj6g03567edo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T18:01:00.000Z"
     },
     {
-      "id": "n_f84900384f",
+      "id": "n_208d8c1141",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Lamine Yamal celebrates World Cup win with little brother who charmed fans",
-      "summary": "The three-year-old brother of Yamal has been hailed one of Spain's World Cup breakout stars by fans",
+      "headline": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
+      "summary": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c89nvnklkpdo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T13:13:29.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T17:33:02.000Z"
     },
     {
-      "id": "n_4feeb7425b",
+      "id": "n_c785d19763",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Why are thousands of people protesting in Delhi?",
-      "summary": "Thousands of mostly young people have marched on India's parliament to demand changes to how the education system is run.",
+      "headline": "Notorious drug cartel leader Ismael Zambada sentenced to life in US prison",
+      "summary": "Known as \"El Mayo\", the co-founder the Sinaloa Cartel was also ordered to pay $15bn after he admitted to sending vast amounts of drugs to the US.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cedj9j911p8o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T12:33:01.000Z"
-    },
-    {
-      "id": "n_91a2e428ca",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Utah firefighter and four family members killed in flash flooding",
-      "summary": "A husband, wife and their three sons died - meaning that only a daughter who did not join the outing is still alive.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c9d8l88jnwvo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T12:13:58.000Z"
-    },
-    {
-      "id": "n_fbd02ff0c1",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Scores feared dead after passenger ferry capsizes off Guyana",
-      "summary": "Sixty-seven people have been rescued but the ferry is thought to have had more than 130 people on board.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T11:37:32.000Z"
-    },
-    {
-      "id": "n_52b68d8eae",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "JD Vance says wife Usha and son 'happy and healthy' after birth of fourth child",
-      "summary": "The couple welcomed their fourth child, Alec Neel Vance, on Sunday morning.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cj63kngxpxpo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T11:28:30.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/ce3q1d1ed5do?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T17:21:27.000Z"
     },
     {
       "id": "n_9a7f8b7533",
@@ -340,18 +307,73 @@
       "summary": "Iran responded with attacks in Syria and Jordan, as two ships reportedly exploded in the Strait of Hormuz.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cly52xzjd3qo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T11:18:40.000Z"
+      "publishedAt": "2026-07-20T17:20:37.000Z"
     },
     {
-      "id": "n_c68c1171db",
+      "id": "n_9f48a4adb6",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Boy, 13, dies during World Cup celebrations in Spain",
-      "summary": "Two other young people were injured after a fountain partially collapsed in Salamanca's Ciudad Rodrigo.",
+      "headline": "‘All I think about is her’: Families demand answers as Nigeria's boat disasters keep happening",
+      "summary": "Hundreds of lives are lost each year in Nigeria as a result of boat accidents yet nothing seems to change.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c0qvdy0jv05o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T10:02:44.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/c309vzn676go?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T17:16:20.000Z"
+    },
+    {
+      "id": "n_9e0bf94c76",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Police block thousands of 'cockroach' protesters marching on India's parliament",
+      "summary": "Some protesters demanding education reforms said they were injured in clashes with police who banned the march.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cvg9w9dxd7lo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T16:26:40.000Z"
+    },
+    {
+      "id": "n_dd160ecdfb",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Ten killed as Russian attacks on merchant ships in Black Sea intensify",
+      "summary": "Russian strikes on the Odesa region have killed 28 people in July alone, local authorities say.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T16:10:38.000Z"
+    },
+    {
+      "id": "n_a050501923",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Newcastle, Liverpool and England legend Keegan dies",
+      "summary": "Former England captain and manager Kevin Keegan dies at the age of 75, seven weeks after he revealed he had been diagnosed with stage four cancer.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c2lyl82n2e2o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T14:38:28.000Z"
+    },
+    {
+      "id": "n_7764566d61",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Ofcom unable to take further legal action against suicide forum",
+      "summary": "The regulator said it had \"no further legal routes available\" under the Online Safety Act.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c3d3ejgdm20o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T16:57:30.000Z"
+    },
+    {
+      "id": "n_f61096f5eb",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "AliExpress fined record €550m by EU for allowing sale of illegal goods",
+      "summary": "The Chinese retailer allowed unsafe toys and counterfeit clothes to be sold on its site, says the EU.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cp8714286dpo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T15:22:54.000Z"
     },
     {
       "id": "n_c1779f93f4",
@@ -420,26 +442,48 @@
       "publishedAt": "2026-07-15T18:11:57.000Z"
     },
     {
-      "id": "n_f5d4efb958",
+      "id": "n_c3d19f5d3e",
       "type": "news",
       "topic": "tech",
       "lang": "en",
-      "headline": "Midnight social media curfew proposed for UK teens aged 16 and 17",
-      "summary": "The government says it will improve teenagers' lives but campaigners call it a \"missed opportunity\".",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c982857nlrlo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-15T11:24:29.000Z"
+      "headline": "F1 in Belgium: Machine learning algorithms are ruining the sport",
+      "summary": "Many will say Spa is the best racetrack on earth, but not for these F1 cars.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/cars/2026/07/f1-in-belgium-the-2026-cars-look-pathetic-on-all-the-best-racetracks/",
+      "publishedAt": "2026-07-20T15:59:18.000Z"
     },
     {
-      "id": "n_1b486223bc",
+      "id": "n_2b011673b5",
       "type": "news",
       "topic": "tech",
       "lang": "en",
-      "headline": "Tech Life",
-      "summary": "Surgeons remotely control two human-like robots in an operating theatre.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/sounds/play/w3ct8jy4?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-14T20:00:00.000Z"
+      "headline": "AliExpress hit with record $625M fine after failing to make EU-ordered fixes",
+      "summary": "Online retailer AliExpress says it's shocked by largest DSA fine yet.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/07/aliexpress-fined-625m-for-failing-to-remove-unsafe-toys-dangerous-cosmetics/",
+      "publishedAt": "2026-07-20T15:32:45.000Z"
+    },
+    {
+      "id": "n_1637896330",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "The first trailer for Avengers: Doomsday is finally here",
+      "summary": "\"Something's coming. Something we may not be able to deter.\"",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/culture/2026/07/the-first-trailer-for-avengers-doomsday-is-finally-here/",
+      "publishedAt": "2026-07-20T14:33:46.000Z"
+    },
+    {
+      "id": "n_577ded9569",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Pay up or not? Ransomware surge has victims facing tough choices.",
+      "summary": "Governments look at banning ransom payments in face of increasingly sophisticated threats.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/07/pay-up-or-not-ransomware-surge-has-victims-facing-tough-choices/",
+      "publishedAt": "2026-07-20T14:00:50.000Z"
     },
     {
       "id": "n_942f283953",
@@ -457,7 +501,7 @@
       "type": "news",
       "topic": "tech",
       "lang": "en",
-      "headline": "India's first privately-developed rocket reaches orbit on dramatic debut launch",
+      "headline": "India's first privately developed rocket reaches orbit on dramatic debut launch",
       "summary": "\"On the first attempt, reaching orbit, I never thought it was possible.\"",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
@@ -486,48 +530,26 @@
       "publishedAt": "2026-07-18T11:18:25.000Z"
     },
     {
-      "id": "n_f1a853eaf4",
+      "id": "n_45a58f0562",
       "type": "news",
-      "topic": "tech",
+      "topic": "ai",
       "lang": "en",
-      "headline": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada",
-      "summary": "The FireSat program can spot wildfires that other satellites miss.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/",
-      "publishedAt": "2026-07-17T19:50:18.000Z"
+      "headline": "Adobe camera app’s new feature will critique your photos using AI",
+      "summary": "Adobe's Project Indigo can now remove all kinds of backgrounds from photos you snap using the app.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai/",
+      "publishedAt": "2026-07-20T15:45:00.000Z"
     },
     {
-      "id": "n_0d651a0f5d",
+      "id": "n_c64e9f2673",
       "type": "news",
-      "topic": "tech",
+      "topic": "ai",
       "lang": "en",
-      "headline": "The Pentagon's Space Development Agency hasn't moved as fast as anyone would like",
-      "summary": "\"Missiles are being launched at the joint force every single day in [Operation] Epic Fury.\"",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/space/2026/07/the-pentagons-space-development-agency-hasnt-moved-as-fast-as-anyone-would-like/",
-      "publishedAt": "2026-07-17T19:19:42.000Z"
-    },
-    {
-      "id": "n_819a428ec8",
-      "type": "news",
-      "topic": "tech",
-      "lang": "en",
-      "headline": "Hegseth wants a \"High-T\" military; doctors call it a clinical minefield",
-      "summary": "\"We're turning the clock back on rational healthcare.\"",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/health/2026/07/hegseth-wants-a-high-t-military-doctors-call-it-a-clinical-minefield/",
-      "publishedAt": "2026-07-17T18:53:11.000Z"
-    },
-    {
-      "id": "n_fc733f2ef9",
-      "type": "news",
-      "topic": "tech",
-      "lang": "en",
-      "headline": "Taco Bell iceberg lettuce identified as source of cyclosporiasis in 5 states",
-      "summary": "Don't eat Taco Bell lettuce in Indiana, Kentucky, Michigan, Ohio, or West Virginia.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/health/2026/07/taco-bell-iceburg-lettuce-identified-as-source-of-cyclosporiasis-in-5-states/",
-      "publishedAt": "2026-07-17T18:45:23.000Z"
+      "headline": "YouTube clarifies policies around AI slop and upsetting videos",
+      "summary": "YouTube has updated its monetization policies to more clearly define the kinds of AI-generated and low-quality videos that can’t earn ad revenue.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+      "publishedAt": "2026-07-20T15:23:06.000Z"
     },
     {
       "id": "n_18b4e5bf12",
@@ -568,7 +590,7 @@
       "topic": "ai",
       "lang": "en",
       "headline": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
-      "summary": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
+      "summary": "Current AI, a nonprofit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat, and more.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
       "publishedAt": "2026-07-19T14:00:00.000Z"
@@ -596,26 +618,15 @@
       "publishedAt": "2026-07-18T04:47:25.000Z"
     },
     {
-      "id": "n_d9b5d61a31",
+      "id": "n_a549b2f248",
       "type": "news",
       "topic": "ai",
       "lang": "en",
-      "headline": "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs",
-      "summary": "From AI workflows to battery life and security, here's what it's really like to live with Vertu's luxury foldable every day.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
-      "publishedAt": "2026-07-17T22:55:09.000Z"
-    },
-    {
-      "id": "n_98d5bccc3c",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
-      "summary": "Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
-      "publishedAt": "2026-07-17T22:12:56.000Z"
+      "headline": "Adobe’s ‘natural look’ camera app embraces generative AI",
+      "summary": "Welcome to the “what is a photo” debate, Adobe. | Image: Adobe Adobe's experimental camera app has taken an unexpected turn. After Project Indigo was launched last year to provide a \"more natural (SLR-like) look\" for iPhone photography, the Indigo camera app is now being updated ",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
+      "publishedAt": "2026-07-20T16:00:00.000Z"
     },
     {
       "id": "n_90cef26b7e",
@@ -695,17 +706,6 @@
       "publishedAt": "2026-07-16T17:58:37.000Z"
     },
     {
-      "id": "n_79ed56faed",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Google is renaming NotebookLM to Gemini Notebook",
-      "summary": "Google is giving its AI note-taking app a new name. The company announced on Thursday that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it integrates more deeply across Gemini and Google Search. Google first revealed Gemini Notebook - then call",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
-      "publishedAt": "2026-07-16T16:00:00.000Z"
-    },
-    {
       "id": "n_cec1ebe5d2",
       "type": "news",
       "topic": "ai",
@@ -783,6 +783,17 @@
       "publishedAt": "2026-01-22T14:00:00.000Z"
     },
     {
+      "id": "n_587acd4645",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "China’s AI models have Trump’s AI world at war with itself",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI comp",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+      "publishedAt": "2026-07-20T18:00:00.000Z"
+    },
+    {
       "id": "n_64de944135",
       "type": "news",
       "topic": "ai",
@@ -858,17 +869,6 @@
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
       "publishedAt": "2026-07-06T18:00:00.000Z"
-    },
-    {
-      "id": "n_72492d1722",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Achieving operational excellence with AI",
-      "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-t",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
-      "publishedAt": "2026-07-02T15:37:08.000Z"
     },
     {
       "id": "n_323caf1826",
@@ -959,15 +959,15 @@
       "publishedAt": "2026-07-16T10:00:00.000Z"
     },
     {
-      "id": "n_a0bbc2c6e6",
+      "id": "n_8030c8e0dc",
       "type": "news",
       "topic": "ai",
       "lang": "en",
-      "headline": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+      "headline": "Introducing Cosmos 3 Edge",
       "summary": "",
       "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-      "publishedAt": "2026-07-17T15:57:54.000Z"
+      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+      "publishedAt": "2026-07-20T15:58:51.000Z"
     },
     {
       "id": "n_4babaf3e26",
@@ -1143,6 +1143,18 @@
       "publishedAt": "2026-04-09T17:35:20.000Z"
     },
     {
+      "id": "n_10ab80aff4",
+      "type": "video",
+      "topic": "video",
+      "lang": "en",
+      "headline": "This $12 billion startup finally shipped something...",
+      "summary": "",
+      "source": "Fireship",
+      "url": "https://www.youtube.com/watch?v=M51asSwRLxA",
+      "thumbnail": "https://i.ytimg.com/vi/M51asSwRLxA/hqdefault.jpg",
+      "publishedAt": "2026-07-20T17:02:30.000Z"
+    },
+    {
       "id": "n_f826171ec0",
       "type": "video",
       "topic": "video",
@@ -1177,18 +1189,6 @@
       "url": "https://www.youtube.com/watch?v=URKml8lgw8Y",
       "thumbnail": "https://i.ytimg.com/vi/URKml8lgw8Y/hqdefault.jpg",
       "publishedAt": "2026-07-10T17:25:44.000Z"
-    },
-    {
-      "id": "n_6a0c5312af",
-      "type": "video",
-      "topic": "video",
-      "lang": "en",
-      "headline": "Claude is definitely not conscious…",
-      "summary": "",
-      "source": "Fireship",
-      "url": "https://www.youtube.com/watch?v=KGtko3y2RXQ",
-      "thumbnail": "https://i.ytimg.com/vi/KGtko3y2RXQ/hqdefault.jpg",
-      "publishedAt": "2026-07-08T17:53:47.000Z"
     },
     {
       "id": "n_6742ca94db",
