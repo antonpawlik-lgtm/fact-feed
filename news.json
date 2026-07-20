@@ -1,93 +1,115 @@
 {
-  "generatedAt": "2026-07-20T01:25:51.180Z",
+  "generatedAt": "2026-07-20T11:33:12.126Z",
   "items": [
+    {
+      "id": "n_54803ade0f",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Geringste Erdbeerernte seit 31 Jahren erwartet",
+      "summary": "Die Landwirte in Deutschland haben 2026 so wenige Erdbeeren geerntet wie seit mehr als 30 Jahren nicht. Auch beim Spargel ging die Menge nach Daten des Statistischen Bundesamts noch einmal zurück.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/ernte-spargel-erdbeeren-100.html",
+      "publishedAt": "2026-07-20T11:12:01.000Z"
+    },
+    {
+      "id": "n_c8532bc67b",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Elektroautos sind seit 2020 deutlich günstiger geworden",
+      "summary": "E-Autos sind zwischen 2020 und 2025 um rund 18 Prozent günstiger geworden. Dazu kommen die staatlichen Kaufprämien, über die schon mehr als 50 Millionen Euro ausgezahlt wurden - vor allem für Tesla-Modelle.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/elektroautos-preise-kaufpraemie-100.html",
+      "publishedAt": "2026-07-20T10:41:31.000Z"
+    },
+    {
+      "id": "n_9420591438",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "EU-Kommission verhängt 550-Millionen-Strafe gegen AliExpress",
+      "summary": "Zu wenig Personal, um illegale Angebote aufzuspüren, kein entschiedenes Vorgehen gegen zwielichtige Händler: Die EU-Kommission geht gegen den chinesischen Händler AliExpress vor - mit einer Rekordstrafe. Von Kathrin Schmid.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/eu-strafe-aliexpress-100.html",
+      "publishedAt": "2026-07-20T10:35:30.000Z"
+    },
+    {
+      "id": "n_bd6b6e5992",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Unionsfraktion: Abstimmung über Spahn-Nachfolge am 29. Juli",
+      "summary": "Wer übernimmt nach Spahns Rücktritt den Vorsitz der Unionsfraktion? Die Abgeordneten müssen wegen dieser Frage ihre Sommerpause unterbrechen: Am 29. Juli soll in einer Sondersitzung entschieden werden.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/spahn-nachfolge-fraktion-100.html",
+      "publishedAt": "2026-07-20T10:20:51.000Z"
+    },
+    {
+      "id": "n_a0ad523bfd",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Spahn-Rücktritt: Merz erwägt Kabinettsumbau",
+      "summary": "Für die Nachfolge von Unions-Fraktionschef Spahn werden viele Namen gehandelt. Kanzler Merz und CSU-Chef Söder wollten \"relativ bald\" einen Vorschlag machen - auch ein Regierungsumbau ist möglich. Im ZDF übte Merz Kritik an Spahn.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/spahn-ruecktritt-leihmutterschaft-merz-100.html",
+      "publishedAt": "2026-07-20T10:11:55.000Z"
+    },
+    {
+      "id": "n_126b91e796",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Neue Waldbrände in Südfrankreich ausgebrochen",
+      "summary": "In Südfrankreich sind mehrere Waldbrände ausgebrochen - Hunderte Feuerwehrleute sind im Einsatz, viele Menschen wurden in Sicherheit gebracht. Auf Korsika halten zwei Brände die Einsatzkräfte bereits seit einer Woche in Atem.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/europa/frankreich-waldbraende-100.html",
+      "publishedAt": "2026-07-20T10:01:40.000Z"
+    },
+    {
+      "id": "n_ffa1f336d9",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "IW Köln: Mieten in Deutschland deutlich gestiegen",
+      "summary": "Die Mieten in Deutschland sind laut dem Institut der deutschen Wirtschaft im Vergleich zum Vorjahr noch einmal deutlich gestiegen. Dabei gibt es große regionale Unterschiede auf dem Wohnungsmarkt.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/mietpreise-anstieg-iw-100.html",
+      "publishedAt": "2026-07-20T09:54:28.000Z"
+    },
     {
       "id": "n_89788722d6",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Ukraine wirft Russland Angriff auf ziviles Schiff vor",
-      "summary": "In der Schwarzmeer-Region Odessa soll Russland einen Frachter angegriffen haben. Dabei sollen mindestens fünf Besatzungsmitgliedern getötet worden sein. Unklar ist, wieso das Schiff aus Westafrika in der umkämpften Region unterwegs war.",
+      "headline": "Ukraine wirft Russland Angriff auf ziviles Schiff bei Odessa vor",
+      "summary": "Russland hat nach ukrainischen Angaben einen Getreide-Frachter im Schwarzen Meer beschossen. Dabei seien zehn Menschen gestorben. Die Ukraine sprach von \"Terrorakt\" und Völkerrechtsbruch - und antwortete mit einem großangelegten Drohnenangriff.",
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/ausland/europa/ukraine-russland-angriff-schiff-100.html",
-      "publishedAt": "2026-07-19T23:59:26.000Z"
+      "publishedAt": "2026-07-20T09:40:08.000Z"
     },
     {
-      "id": "n_ab10c4d763",
+      "id": "n_7a83b5247e",
       "type": "news",
-      "topic": "general",
+      "topic": "tech",
       "lang": "de",
-      "headline": "Spanien ist Fußball-Weltmeister 2026",
-      "summary": "Spanien ist zum zweiten Mal Fußball-Weltmeister. Das Team siegte im Finale in New Jersay durch ein Tor von Ferran Torres mit 1:0 nach Verlängerung gegen Titelverteidiger Argentinien um Superstar Lionel Messi.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/sport/spanien-fussball-weltmeister-100.html",
-      "publishedAt": "2026-07-19T22:27:23.000Z"
+      "headline": "AliExpress: EU-Kommission verhängt DSA-Rekordstrafe",
+      "summary": "Der chinesische Onlinemarktplatz AliExpress hat über Jahre gegen den Digital Services Act verstoßen und muss nun 550 Millionen Euro zahlen.",
+      "source": "heise online",
+      "url": "https://www.heise.de/news/AliExpress-EU-Kommission-verhaengt-DSA-Rekordstrafe-11370852.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "publishedAt": "2026-07-20T10:45:00.000Z"
     },
     {
-      "id": "n_45f14c9317",
+      "id": "n_3e001150cb",
       "type": "news",
-      "topic": "general",
+      "topic": "tech",
       "lang": "de",
-      "headline": "Mindestens fünf Tote nach Erdbeben im Zentrum Perus",
-      "summary": "Ein Erdbeben hat die Andenregion Perus erschüttert. Örtliche Behörden gehen aktuell von mindestens sechs Todesopfern aus. Die Zahl der Vermissten ist noch unbekannt. Hunderte Menschen wurden obdachlos.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/amerika/erdbeben-peru-100.html",
-      "publishedAt": "2026-07-19T19:53:43.000Z"
-    },
-    {
-      "id": "n_7d84fa98ca",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Eskalation zwischen USA und Iran: Wie geht es in der Golfregion weiter?",
-      "summary": "Die USA greifen wieder täglich iranische Ziele an - und Iran schlägt mit Attacken auf die Golfstaaten zurück. Die Situation ähnelt der im Frühjahr. Wie der Ausweg aus dem Konflikt aussehen könnte, ist ungewiss. Von Moritz Behrendt.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/asien/iran-angriffe-102.html",
-      "publishedAt": "2026-07-19T19:39:15.000Z"
-    },
-    {
-      "id": "n_5ada9d15b9",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "USA verlegen offenbar weitere Kampfjets nach Nahost",
-      "summary": "Weiten die USA ihre Angriffe auf Iran aus? Medienberichte deuten darauf hin: Offenbar werden weitere US-Kampfflugzeuge in den Nahen Osten verlegt - auch aus Deutschland.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/asien/iran-usa-krieg-100.html",
-      "publishedAt": "2026-07-19T18:25:27.000Z"
-    },
-    {
-      "id": "n_35057f5190",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Das Sommerinterview mit Grünen-Chefin Brantner im Faktencheck",
-      "summary": "Die Grünen-Vorsitzende Brantner war im ARD-Sommerinterview zu Gast. Die meisten Aussagen von ihr halten einer Überprüfung stand. Doch zum Beispiel mit Blick auf die Wahl in Sachsen-Anhalt war sie ungenau.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/faktenfinder/sommerinterview-faktencheck-brantner-100.html",
-      "publishedAt": "2026-07-19T17:21:17.000Z"
-    },
-    {
-      "id": "n_3e60d8ead3",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Bahn-Boom: Wie der Wettbewerb in Italien den Fernverkehr verändert",
-      "summary": "Von 2028 an sollen in Deutschland die roten Schnellzüge des Anbieters Italo fahren. In Italien hat der private Konkurrent den Markt belebt. Davon profitieren auch die Bahnreisenden - allerdings nicht überall. Von Verena Schälter.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/italo-fernverkehr-italien-100.html",
-      "publishedAt": "2026-07-19T16:10:39.000Z"
-    },
-    {
-      "id": "n_fabbd013d5",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Grünen-Chefin Brantner: \"Merz hat jetzt die Chance, sich zu befreien\"",
-      "summary": "\"Überfällig\", aber auch eine \"Chance\": Grünen-Vorsitzende Franziska Brantner hofft im ARD-Sommerinterview nach Spahns Rücktritt auf eine Kabinettsumbildung. Und blickt mit Sorge auf die Landtagswahlen im Herbst.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/sommerinterview-brantner-100.html",
-      "publishedAt": "2026-07-19T15:36:16.000Z"
+      "headline": "Microsoft arbeitet an Lösung für WSUS-Störungen",
+      "summary": "Die Update-Software WSUS hat seit vergangener Woche mit Problemen zu kämpfen, hat Microsoft nun eingeräumt. Es gibt erste Fixes.",
+      "source": "heise online",
+      "url": "https://www.heise.de/news/Microsoft-raeumt-Stoerungen-der-WSUS-Dienste-ein-11370682.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "publishedAt": "2026-07-20T09:56:00.000Z"
     },
     {
       "id": "n_3de3b46aa2",
@@ -156,202 +178,180 @@
       "publishedAt": "2026-07-16T13:33:00.000Z"
     },
     {
-      "id": "n_cba72a1915",
+      "id": "n_3cdb60e512",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Windows-Update: Wegen Problemen auf einigen Dell-Computern ausgesetzt",
-      "summary": "Die Windows-Updates machen auf einigen Dell-Computern Probleme. Microsoft installiert sie daher nicht auf betroffene Systeme.",
-      "source": "heise online",
-      "url": "https://www.heise.de/news/Windows-Update-Wegen-Problemen-auf-einigen-Dell-Computern-ausgesetzt-11366616.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "publishedAt": "2026-07-16T05:46:00.000Z"
-    },
-    {
-      "id": "n_b98868b629",
-      "type": "news",
-      "topic": "tech",
-      "lang": "de",
-      "headline": "Zufallsfund: Bislang lichtschwächster Exoplanet bei Beta Pictoris entdeckt",
-      "summary": "Zufällig hat eine Forschungsgruppe auf Aufnahmen von Beta Pictoris einen weiteren Exoplaneten entdeckt. Der wurde dort sogar schon vor Jahren abgelichtet.",
-      "source": "heise online",
-      "url": "https://www.heise.de/news/Zufallsfund-Bislang-lichtschwaechster-Exoplanet-bei-Beta-Pictoris-entdeckt-11364341.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "publishedAt": "2026-07-15T12:00:00.000Z"
-    },
-    {
-      "id": "n_cec7b5b013",
-      "type": "news",
-      "topic": "tech",
-      "lang": "de",
-      "headline": "AWS: Airbus schickt sensible Daten in die französische Cloud",
-      "summary": "Airbus verlagert kritische Systeme von Amazon Web Services zum französischen Anbieter Scaleway. (Souveränität, Web Service)",
+      "headline": "(g+) Softwareentwicklung: Warum zu viele Tools IT-Teams langsamer machen",
+      "summary": "Jira, Slack, Github & Co. sollen unterstützen, werden aber oft selbst zum Produktivitätskiller. Warum Kontextwechsel so viel Zeit kostet und was hilft. Von Klaus Manhart (Softwareentwicklung, Cloud Computing)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/aws-airbus-schickt-sensible-daten-in-die-franzoesische-cloud-2607-211034.html",
-      "publishedAt": "2026-07-19T12:05:02.000Z"
+      "url": "https://www.golem.de/news/softwareentwicklung-warum-zu-viele-tools-it-teams-langsamer-machen-2607-210939.html",
+      "publishedAt": "2026-07-20T11:30:01.000Z"
     },
     {
-      "id": "n_a61681f33d",
+      "id": "n_b28e847c9d",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "81 Prozent wollen gehen: Samsung-Angestellte wollen wegen ungleicher Boni kündigen",
-      "summary": "Samsungs Speichersparte bekommt Rekordboni, andere Abteilungen deutlich weniger. Viele Mitarbeiter denken ans Kündigen. (Samsung, Wirtschaft)",
+      "headline": "100.000 Stunden Videos: Xiaomi veröffentlicht KI-Modell für autonome Roboter",
+      "summary": "Viel hilft viel: Xiaomi hat mit über 100.000 Stunden Videomaterial ein KI-Modell für Roboter trainiert. Es soll das beste Open-Weights-Modell sein. (Roboter, KI)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/81-prozent-wollen-gehen-samsung-angestellte-wollen-wegen-ungleicher-boni-kuendigen-2607-211038.html",
-      "publishedAt": "2026-07-19T11:00:02.000Z"
+      "url": "https://www.golem.de/news/100-000-stunden-videos-xiaomi-veroeffentlicht-ki-modell-fuer-autonome-roboter-2607-211061.html",
+      "publishedAt": "2026-07-20T11:23:07.000Z"
     },
     {
-      "id": "n_7ab02ed005",
+      "id": "n_08d1af5dd5",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "42-mal längere Laufzeit: Nächster Ubuntu-Kernel bremst AMD-GPUs drastisch aus",
-      "summary": "Wer auf AMD-GPUs rechnet, kann von extremen Leistungseinbußen betroffen sein. Schuld ist ein bereits behobener Programmierfehler. (Ubuntu, AMD)",
+      "headline": "Microsoft Insights: Outlook-Funktion wird kostenpflichtig",
+      "summary": "Als Ersatz für den Wegfall der bislang in Outlook integrierten Funktion sollen sich Anwender eine kostenpflichtige Copilot-Lizenz zulegen. (Outlook, Microsoft)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/42-mal-laengere-laufzeit-naechster-ubuntu-kernel-bremst-amd-gpus-drastisch-aus-2607-211036.html",
-      "publishedAt": "2026-07-19T10:07:01.000Z"
+      "url": "https://www.golem.de/news/microsoft-insights-outlook-funktion-wird-kostenpflichtig-2607-211056.html",
+      "publishedAt": "2026-07-20T11:10:02.000Z"
     },
     {
-      "id": "n_4e0190b876",
+      "id": "n_95b334f0f8",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Analyse: Europa macht bei digitaler Souveränität kaum Fortschritte",
-      "summary": "Die USA sind überraschenderweise bei digitaler Souveränität nicht führend - liegen aber deutlich vor Europa. (Souveränität, Politik)",
+      "headline": "Fenix 9: Garmin baut seine Outdoor-Serie offenbar grundlegend um",
+      "summary": "Erste Leaks deuten auf eine neue Strategie hin: AMOLED könnte Standard werden, während MiP zur Enduro-Serie wechselt. (Garmin Fenix, Garmin)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/analyse-europa-macht-bei-digitaler-souveraenitaet-kaum-fortschritte-2607-211035.html",
-      "publishedAt": "2026-07-19T09:08:01.000Z"
+      "url": "https://www.golem.de/news/fenix-9-garmin-baut-seine-outdoor-serie-offenbar-grundlegend-um-2607-211058.html",
+      "publishedAt": "2026-07-20T10:59:00.000Z"
     },
     {
-      "id": "n_07e32bc079",
+      "id": "n_343b2a7898",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: Lenovo-Monitor mit 27 Zoll und QHD kostet unter 200 Euro bei Amazon",
-      "summary": "Bei Amazon ist ein Büromonitor von Lenovo mit hochauflösendem Bild und einer Größe von 27 Zoll jetzt im Sonderangebot erhältlich. (Lenovo, Display)",
+      "headline": "Verkehrswende: Elektroautos werden günstiger, Auswahl hat zugenommen",
+      "summary": "Die Realpreise für Elektroautos sind in den letzten fünf Jahren merklich gesunken. Bei der Auswahl günstiger Modelle besteht Verbesserungsbedarf. (Elektroauto, Auto)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-lenovo-monitor-mit-27-zoll-und-qhd-kostet-unter-200-euro-bei-amazon-2607-211019.html",
-      "publishedAt": "2026-07-19T08:40:01.000Z"
+      "url": "https://www.golem.de/news/verkehrswende-elektroautos-werden-guenstiger-auswahl-hat-zugenommen-2607-211059.html",
+      "publishedAt": "2026-07-20T10:47:02.000Z"
     },
     {
-      "id": "n_602c69984c",
+      "id": "n_1cddd19b4f",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "1,44 MByte: Wettbewerb fordert Entwicklung von Spielen für Diskette",
-      "summary": "Ein Retro-Gaming-Festival aus Südkorea feiert die 3,5-Zoll-Diskette mit einem Wettbewerb für Programmierer. (Retrogaming, Softwareentwicklung)",
+      "headline": "Anzeige: Beliebte Anker-Bluetooth-Box jetzt wieder unter 28 Euro bei Amazon",
+      "summary": "Die beliebte Bluetooth-Box von Anker ist im Amazon-Angebot jetzt wieder deutlich günstiger zu haben. (Technik/Hardware, Sound-Hardware)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/1-44-mbyte-wettbewerb-fordert-entwicklung-von-spielen-fuer-diskette-2607-211033.html",
-      "publishedAt": "2026-07-19T08:13:02.000Z"
+      "url": "https://www.golem.de/news/anzeige-beliebte-anker-bluetooth-box-jetzt-wieder-unter-28-euro-bei-amazon-2607-211060.html",
+      "publishedAt": "2026-07-20T10:38:02.000Z"
     },
     {
-      "id": "n_8ddb057163",
+      "id": "n_26a058b18f",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "(g+) Anime.js 4: Animationen mit Systen",
-      "summary": "Von Timelines über Scroll-Animationen bis zu React und Three.js: Anime.js entwickelt sich zum modularen Animationssystem für moderne Weboberflächen. Eine Anleitung von Fabian Deitelhoff (Spannendes Web, Javascript)",
+      "headline": "Cyberangriff auf Hugging Face: KI-Angriff auf KI-Plattform mittels KI aufgedeckt",
+      "summary": "Hugging Face hat einen von KI-Agenten ausgeführten Cyberangriff per KI entdeckt. Der Zugriff gelang durch Sicherheitslücken in der KI-Plattform. (Cybercrime, KI)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anime-js-4-wenn-animation-zur-architektur-wird-2607-210823.html",
-      "publishedAt": "2026-07-19T08:00:02.000Z"
+      "url": "https://www.golem.de/news/cyberangriff-auf-hugging-face-ki-erkennt-ki-angriff-auf-ki-plattform-2607-211057.html",
+      "publishedAt": "2026-07-20T10:29:02.000Z"
     },
     {
-      "id": "n_6b70a0d461",
+      "id": "n_93755c9cb7",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Evolution wird 25 Jahre alt: Die Sci-Fi-Komödie, die das Publikum erst später verstand",
-      "summary": "Evolution gehört mit Spaceballs und Galaxy Quest zu den besten Science-Fiction-Komödien. Zum Kinostart floppte der Film jedoch grandios. Von Peter Osteried (Science-Fiction, Film)",
+      "headline": "50 Jahre Viking 1: Als die Suche nach Leben auf dem Mars begann",
+      "summary": "Die erste erfolgreiche Mars-Landung sollte die größte Frage der Planetenforschung beantworten. Stattdessen hinterließ sie ungelöste Rätsel. Von Mario Petzold (Mars, Nasa)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/evolution-wird-25-jahre-alt-die-sci-fi-komoedie-die-das-publikum-erst-spaeter-verstand-2607-210982.html",
-      "publishedAt": "2026-07-19T05:30:01.000Z"
+      "url": "https://www.golem.de/news/50-jahre-viking-1-als-die-suche-nach-leben-auf-dem-mars-begann-2607-210857.html",
+      "publishedAt": "2026-07-20T10:00:02.000Z"
     },
     {
-      "id": "n_84d92b3fdb",
+      "id": "n_52b68d8eae",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Norway opens new memorial for victims of 2011 Breivik massacre",
-      "summary": "The artwork in the capital Oslo was unveiled on Sunday ahead of the 15th anniversary of the attack.",
+      "headline": "JD Vance says wife Usha and son 'happy and healthy' after birth of fourth child",
+      "summary": "The couple welcomed their fourth child, Alec Neel Vance, on Sunday morning.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c07r9m22gyyo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T01:11:08.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/cj63kngxpxpo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T11:28:30.000Z"
     },
     {
-      "id": "n_23e2ec7d5c",
+      "id": "n_9a7f8b7533",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "‘Everyone's afraid to die’: Struggle to recruit soldiers in Ukraine turns violent",
-      "summary": "Aggression against recruitment officers has become increasingly threatening, police say.",
+      "headline": "Trump says US strikes hit Iran in 'honour' of American soldiers killed",
+      "summary": "Iran responded with attacks in Syria and Jordan, as two ships reportedly exploded in the Strait of Hormuz.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cr7k5ngde3vo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T00:19:12.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/cly52xzjd3qo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T11:18:40.000Z"
     },
     {
-      "id": "n_b4bae36397",
+      "id": "n_c68c1171db",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "This farmer wanted to quit the cocaine industry - he couldn't",
-      "summary": "Colombians who grow cocaine's raw material bemoan a lack of support to help them switch crops.",
+      "headline": "Boy, 13, dies during World Cup celebrations in Spain",
+      "summary": "Two other young people were injured after a fountain partially collapsed in Salamanca's Ciudad Rodrigo.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c0kyml1zxz4o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-19T23:18:03.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/c0qvdy0jv05o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T10:02:44.000Z"
     },
     {
-      "id": "n_1573541d16",
+      "id": "n_69f990c6d0",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Shakira, Madonna, Justin Bieber and BTS perform at colourful World Cup half-time show",
-      "summary": "Robbie Williams and Jennifer Hudson also performed, with Kylie Jenner and Timothee Chalamet among the celebrities in the crowds.",
+      "headline": "From hundreds to thousands: How India's 'cockroach' protest movement has grown",
+      "summary": "BBC's Azadeh Moshiri reports as thousands attempt to march to India's parliament in support of the Cockroach Janta Party's demand for education reforms.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-19T22:16:39.000Z"
+      "url": "https://www.bbc.co.uk/news/videos/c0qvdywj97ko?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T08:41:22.000Z"
     },
     {
-      "id": "n_8b790c104e",
+      "id": "n_e50b512db5",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Watch: Torrential rain hits New York and New Jersey triggering flash floods",
-      "summary": "Water cascaded into subway stations and flooded streets, with people seen wading through water.",
+      "headline": "Why are Ukraine's military recruiters facing violence in their own country?",
+      "summary": "The latest National Police Service report recorded more than 600 assaults on recruitment officers to date and warned that the aggression has become “increasingly threatening”.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/videos/cq89veggnvqo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-19T21:43:54.000Z"
+      "url": "https://www.bbc.co.uk/news/videos/c0kmjy02rxko?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T08:21:09.000Z"
     },
     {
-      "id": "n_fdf722c98f",
+      "id": "n_c1ca29770f",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "US soldier killed and one injured after Iranian attack in Iraq",
-      "summary": "The US military reports another death a day after two of its soldiers were killed in Jordan.",
+      "headline": "Spanish and Argentinian fans react outside World Cup final",
+      "summary": "Ecstatic Spanish spectators and disappointed Argentine fans spoke to the BBC after the World Cup final on Sunday.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-19T19:45:12.000Z"
+      "url": "https://www.bbc.co.uk/news/videos/czxqr9rl9r0o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T04:47:17.000Z"
     },
     {
-      "id": "n_f4bd263aa0",
+      "id": "n_ef14d59625",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
-      "summary": "Eight people die and dozens are injured as several cities are hit by missile and drone attacks, while Kyiv continues its own assault on Russian infrastructure.",
+      "headline": "Food delivery rider wins China's top literary prize",
+      "summary": "Wang Jibing is among blue-collar Chinese workers gaining wider attention for their literary works.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-19T18:25:40.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/c5ydr3xd0kvo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T03:53:07.000Z"
     },
     {
-      "id": "n_fbd02ff0c1",
+      "id": "n_49ff843df2",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Ferry carrying 133 passengers and crew sinks off Guyana coast",
-      "summary": "Fifteen children are among 67 people rescued, officials say, with dozens still missing.",
+      "headline": "Test that found source of US explosive diarrhoea outbreak was false positive, health officials say",
+      "summary": "The latest update from the US Food and Drug Administration means the exact source of the parasite is still not known.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-19T18:18:05.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/c4gw9n1kx9do?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-20T02:35:04.000Z"
     },
     {
       "id": "n_c1779f93f4",
@@ -618,6 +618,17 @@
       "publishedAt": "2026-07-17T22:12:56.000Z"
     },
     {
+      "id": "n_90cef26b7e",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "China delivers a one-two punch to America’s AI dominance",
+      "summary": "China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+      "publishedAt": "2026-07-20T10:16:33.000Z"
+    },
+    {
       "id": "n_c0ef7a87d4",
       "type": "news",
       "topic": "ai",
@@ -693,17 +704,6 @@
       "source": "The Verge",
       "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
       "publishedAt": "2026-07-16T16:00:00.000Z"
-    },
-    {
-      "id": "n_e9a82b74f6",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Claude can now use your 1Password credentials for you",
-      "summary": "1Password has launched a new browser integration for Claude that allows the Anthropic chatbot to access stored security credentials like usernames and passwords. The 1Password for Claude feature means that users can authorize Claude to complete multi-step tasks like booking trave",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
-      "publishedAt": "2026-07-16T13:00:00.000Z"
     },
     {
       "id": "n_cec1ebe5d2",
@@ -783,6 +783,17 @@
       "publishedAt": "2026-01-22T14:00:00.000Z"
     },
     {
+      "id": "n_64de944135",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "AI is more likely than humans to form biases when hiring",
+      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also ",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+      "publishedAt": "2026-07-20T08:39:01.000Z"
+    },
+    {
       "id": "n_29e789ead9",
       "type": "news",
       "topic": "ai",
@@ -858,17 +869,6 @@
       "source": "MIT Technology Review",
       "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
       "publishedAt": "2026-07-02T15:37:08.000Z"
-    },
-    {
-      "id": "n_63b21bb798",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Building the foundation for an autonomous enterprise",
-      "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are p",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/07/02/1138433/building-the-foundation-for-an-autonomous-enterprise/",
-      "publishedAt": "2026-07-02T12:51:44.000Z"
     },
     {
       "id": "n_323caf1826",
