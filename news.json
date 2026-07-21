@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-07-21T19:01:04.243Z",
+  "generatedAt": "2026-07-21T21:52:30.412Z",
   "items": [
+    {
+      "id": "n_d18a827625",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Ukrainischer Präsident Selenskyj entlässt Oberbefehlshaber Syrskyj",
+      "summary": "Der ukrainische Präsident Selenskyj hat nach tagelangen Protesten Armeechef Syrskyj entlassen und einen Nachfolger ernannt. Auslöser für die Demonstrationen war die Entlassung des populären Verteidigungsministers Fedorow.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/europa/ukraine-oberbefehlshaber-entlassen-100.html",
+      "publishedAt": "2026-07-21T20:46:37.000Z"
+    },
+    {
+      "id": "n_3ddd59aadb",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Frankreich beschließt Social-Media-Verbot für Kinder unter 15 Jahren",
+      "summary": "Frankreich führt als erstes EU-Land ein Social-Media-Verbot für Kinder und Jugendliche unter 15 Jahren ein. Nach dem französischen Senat stimmte auch die Nationalversammlung mit großer Mehrheit für das Gesetz.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/europa/frankreich-social-media-verbot-102.html",
+      "publishedAt": "2026-07-21T20:11:42.000Z"
+    },
     {
       "id": "n_8d233ce26b",
       "type": "news",
@@ -66,28 +88,6 @@
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/wirtschaft/unternehmen/microsoft-mistral-ai-ki-deal-100.html",
       "publishedAt": "2026-07-21T15:02:11.000Z"
-    },
-    {
-      "id": "n_f3262323db",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Bundeskartellamt verhängt Millionenbußgeld wegen Reifenpreisen",
-      "summary": "Drei Unternehmen sollen den Verkauf von Reifen mit unzulässigen Preisvorgaben beeinflusst haben. Deshalb hat das Bundeskartellamt Bußgelder von fast zwölf Millionen Euro verhängt.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/kartellamt-bussgeld-reifen-100.html",
-      "publishedAt": "2026-07-21T15:01:47.000Z"
-    },
-    {
-      "id": "n_b3bc5a726d",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Ein Alkoholverbot gegen die Gewalt an Bahnhöfen?",
-      "summary": "Kein Bier, kein Sektchen und kein Kurzer - die Deutsche Bahn will Alkohol an Bahnhöfen verbieten, für mehr Sicherheit. In Köln und anderen Bahnhöfen ist das schon jetzt Standard. Was hat es dort gebracht? Von Katharina Spreier.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/gesellschaft/alkoholverbot-bahnhof-koeln-100.html",
-      "publishedAt": "2026-07-21T15:01:29.000Z"
     },
     {
       "id": "n_b35574e35a",
@@ -178,6 +178,17 @@
       "publishedAt": "2026-07-17T06:27:00.000Z"
     },
     {
+      "id": "n_549a1b1a81",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "Mattel Film: Masters of the Universe ab Morgen gratis bei Prime Video",
+      "summary": "Amazon MGM Studios wechselt zum digitalen Vertrieb: Ab Mittwoch, 22. Juli 2026, ist Masters of the Universe weltweit direkt im Abo auf Amazon Prime Video verfügbar. (Prime Video, Digitalkino)",
+      "source": "Golem.de",
+      "url": "https://www.golem.de/news/mattel-film-masters-of-the-universe-ab-morgen-gratis-bei-prime-video-2607-211131.html",
+      "publishedAt": "2026-07-21T20:24:02.000Z"
+    },
+    {
       "id": "n_5cfc5137e8",
       "type": "news",
       "topic": "tech",
@@ -255,26 +266,15 @@
       "publishedAt": "2026-07-21T14:28:01.000Z"
     },
     {
-      "id": "n_e98feab8fc",
-      "type": "news",
-      "topic": "tech",
-      "lang": "de",
-      "headline": "Anzeige: Besteller-Soundbar mit Dolby Atmos und 340 W soll nur 129,98 Euro kosten",
-      "summary": "Bei Amazon wird derzeit die Bestseller-Soundbar mit Dolby Atmos und 340 Watt Leistungsangabe im befristeten Angebot verkauft. Zeit, mal genauer hinzuhören, was man für den Preis bekommt. (Soundbar, Amazon)",
-      "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-besteller-soundbar-mit-dolby-atmos-und-340-w-soll-nur-129-98-euro-kosten-2607-211124.html",
-      "publishedAt": "2026-07-21T14:25:02.000Z"
-    },
-    {
-      "id": "n_96d97c8999",
+      "id": "n_4ce2c9e1e4",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Row escalates in Ukraine over army chief's future",
-      "summary": "Protesters are demanding Oleksandr Syrskyi be removed and former defence minister Mykhailo Fedorov reinstated by Friday.",
+      "headline": "Zelensky sacks Ukraine's top army commander after days of protests",
+      "summary": "Oleksandr Syrskyi is dismissed after backlash over the removal of popular Defence Minister Mykhailo Fedorov.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c7vgel8374yo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-21T18:49:19.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-21T19:57:38.000Z"
     },
     {
       "id": "n_31d16025de",
@@ -354,6 +354,17 @@
       "publishedAt": "2026-07-21T13:01:09.000Z"
     },
     {
+      "id": "n_82fb0002ba",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Tech Life",
+      "summary": "Dogs have a great sense of smell. Now machines are being trained to sniff out odours.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct8jy5?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-21T20:00:00.000Z"
+    },
+    {
       "id": "n_f29e73fe39",
       "type": "news",
       "topic": "tech",
@@ -431,22 +442,55 @@
       "publishedAt": "2026-07-17T07:25:31.000Z"
     },
     {
-      "id": "n_784c56d748",
+      "id": "n_a08cd67448",
       "type": "news",
       "topic": "tech",
       "lang": "en",
-      "headline": "TikTok faces Ofcom investigation over child age checks",
-      "summary": "It follows a review by the regulator in May that criticised the platform for not being \"safe enough\" for children.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/ce8l1zk9dk9o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-16T11:08:33.000Z"
+      "headline": "Nintendo customers have no legal right to tariff refunds, company tells judge",
+      "summary": "Nintendo says Switch buyers got what they paid for, urges court to dismiss lawsuit.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/07/nintendo-customers-have-no-legal-right-to-tariff-refunds-company-tells-judge/",
+      "publishedAt": "2026-07-21T19:09:19.000Z"
+    },
+    {
+      "id": "n_f175965d87",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Let Tom Hiddleston be your guide to Pompeii's final day",
+      "summary": "NatGeo's Pompeii: Out of Time fuses historical fact and imagination to bring city's last 24 hours to life.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/science/2026/07/tom-hiddleston-tracks-possible-pompeii-survivors-in-new-docuseries/",
+      "publishedAt": "2026-07-21T18:17:55.000Z"
+    },
+    {
+      "id": "n_d82254b52b",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Naked mole-rat queens use a chemical signal to suppress fertility in rivals",
+      "summary": "A single chemical made by mole-rat queens enforces the social order.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/science/2026/07/naked-mole-rat-queens-keep-their-colonies-in-line-with-a-scent/",
+      "publishedAt": "2026-07-21T17:51:52.000Z"
+    },
+    {
+      "id": "n_64a68149b5",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Anthropic’s $1.5B copyright settlement approved; only 350 authors opted out",
+      "summary": "Anthropic blocks authors from opting out of $1.5B settlement at last minute.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors/",
+      "publishedAt": "2026-07-21T17:33:14.000Z"
     },
     {
       "id": "n_17af2b70bf",
       "type": "news",
       "topic": "tech",
       "lang": "en",
-      "headline": "Steam Deck sales are losing steam since May's price hike",
+      "headline": "Sales of Valve's Steam Deck crater after recent price hike",
       "summary": "Analysis of bestseller charts shows an 80 percent dip from 2025's sales rate.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/gaming/2026/07/steam-deck-sales-are-losing-steam-since-mays-price-hike/",
@@ -486,48 +530,37 @@
       "publishedAt": "2026-07-21T13:36:17.000Z"
     },
     {
-      "id": "n_8f280ca2dd",
+      "id": "n_fda08a4eab",
       "type": "news",
-      "topic": "tech",
+      "topic": "ai",
       "lang": "en",
-      "headline": "Apps targeted at US troops contain Chinese and Russian code",
-      "summary": "More than one-eighth of apps analyzed contained foreign code.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/07/apps-targeted-at-us-troops-contain-chinese-and-russian-code/",
-      "publishedAt": "2026-07-21T13:19:38.000Z"
+      "headline": "OpenAI says Hugging Face was breached by its own pre-release models",
+      "summary": "OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/",
+      "publishedAt": "2026-07-21T20:56:55.000Z"
     },
     {
-      "id": "n_619f95b06a",
+      "id": "n_7fe22c4a21",
       "type": "news",
-      "topic": "tech",
+      "topic": "ai",
       "lang": "en",
-      "headline": "2027 Kia Seltos first drive gives you plenty of SUV for not much $",
-      "summary": "It starts at just under $25,000, but the hybrid won't arrive until next year.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/cars/2026/07/2027-kia-seltos-first-drive-telluride-vibes-in-a-smaller-package/",
-      "publishedAt": "2026-07-21T13:00:08.000Z"
+      "headline": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
+      "summary": "Buzz is a group chat platform for the workplace that puts humans and their AI agents in the same conversation.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
+      "publishedAt": "2026-07-21T19:43:41.000Z"
     },
     {
-      "id": "n_11a5d5cb49",
+      "id": "n_16d2a505a3",
       "type": "news",
-      "topic": "tech",
+      "topic": "ai",
       "lang": "en",
-      "headline": "DA: Cop covered bodycam to snap nude prisoners on his iPhone—but other cams caught him",
-      "summary": "Pennsylvania cop charged with oppression and obstruction.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/tech-policy/2026/07/cop-charged-with-covering-bodycam-to-photograph-naked-prisoners/",
-      "publishedAt": "2026-07-20T22:15:51.000Z"
-    },
-    {
-      "id": "n_594b8c3470",
-      "type": "news",
-      "topic": "tech",
-      "lang": "en",
-      "headline": "Firefighting drones in the works as wildfires plague US nearly year-round",
-      "summary": "California and XPRIZE competition tests whether drones can stop wildfires early.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai/2026/07/firefighting-drones-in-the-works-as-wildfires-plague-us-nearly-year-round/",
-      "publishedAt": "2026-07-20T21:55:52.000Z"
+      "headline": "AI and the rise of the universal entertainment app",
+      "summary": "Over the past decade, streaming platforms competed by dominating individual formats like music, video, podcasts, or audiobooks. Now, as AI makes it easier to create, organize, and recommend content, those distinctions are fading, pushing companies like Spotify, Netflix, YouTube, ",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app/",
+      "publishedAt": "2026-07-21T19:39:30.000Z"
     },
     {
       "id": "n_46f6c2801f",
@@ -585,37 +618,26 @@
       "publishedAt": "2026-07-21T10:00:00.000Z"
     },
     {
-      "id": "n_758b6cd171",
+      "id": "n_3e18d6f571",
       "type": "news",
       "topic": "ai",
       "lang": "en",
-      "headline": "Anthropic’s landmark $1.5B copyright settlement is approved",
-      "summary": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
-      "publishedAt": "2026-07-21T00:12:24.000Z"
+      "headline": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
+      "summary": "OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday, OpenAI writes that GPT-5.6 Sol and \"an even more capable pre-release model\" discovered vulnerabilities within their sandboxed testing environment",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
+      "publishedAt": "2026-07-21T21:48:54.000Z"
     },
     {
-      "id": "n_764b04b08a",
+      "id": "n_3a68379c08",
       "type": "news",
       "topic": "ai",
       "lang": "en",
-      "headline": "Trump’s latest AI czar has already resigned",
-      "summary": "The director role for the Center for AI Standards and Innovation (CAISI) has become a revolving door since David Sacks left his position as czar.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
-      "publishedAt": "2026-07-20T22:21:04.000Z"
-    },
-    {
-      "id": "n_a76ea83eb2",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Google is working on a new AI chip designed to make Gemini more efficient",
-      "summary": "Alphabet, Google's parent company, is reportedly working on a new chip designed to make its Gemini models run much more efficiently.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
-      "publishedAt": "2026-07-20T21:21:15.000Z"
+      "headline": "Substack adds an AI detector to help spot blogs written by no one",
+      "summary": "Substack will now help users determine whether what they're reading may have been written by AI. A new tool coming to the platform can scan posts, notes, replies, and comments to provide an estimate of how much text could be AI-generated or written with AI assistance, according t",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/968855/substack-pangram-ai-detecting-tool",
+      "publishedAt": "2026-07-21T19:22:28.000Z"
     },
     {
       "id": "n_0bd5012770",
@@ -682,28 +704,6 @@
       "source": "The Verge",
       "url": "https://www.theverge.com/business/968257/spacex-in-your-index-fund-explained",
       "publishedAt": "2026-07-20T21:00:00.000Z"
-    },
-    {
-      "id": "n_a549b2f248",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Adobe’s ‘natural look’ camera app embraces generative AI",
-      "summary": "Welcome to the “what is a photo” debate, Adobe. | Image: Adobe Adobe's experimental camera app has taken an unexpected turn. After Project Indigo was launched last year to provide a \"more natural (SLR-like) look\" for iPhone photography, the Indigo camera app is now being updated ",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
-      "publishedAt": "2026-07-20T16:00:00.000Z"
-    },
-    {
-      "id": "n_90cef26b7e",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "China delivers a one-two punch to America’s AI dominance",
-      "summary": "China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
-      "publishedAt": "2026-07-20T10:16:33.000Z"
     },
     {
       "id": "n_cec1ebe5d2",
@@ -871,6 +871,17 @@
       "publishedAt": "2026-07-07T11:10:52.000Z"
     },
     {
+      "id": "n_a7425c69f0",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "This Former Intel CEO Wants to Jumpstart Moore’s Law With Light",
+      "summary": "Pat Gelsinger wants to pave the way to ever more powerful artificial intelligence using tiny beams of light.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/pat-gelsinger-moores-law-light-chips/",
+      "publishedAt": "2026-07-21T19:05:00.000Z"
+    },
+    {
       "id": "n_e575e3b979",
       "type": "news",
       "topic": "ai",
@@ -948,15 +959,15 @@
       "publishedAt": "2026-07-18T10:30:00.000Z"
     },
     {
-      "id": "n_50fbc7d8ee",
+      "id": "n_eed16821fc",
       "type": "news",
       "topic": "ai",
       "lang": "en",
-      "headline": "How Google’s New Gemini Rates Work and How to Track Your Usage",
-      "summary": "Now that Google has changed how its usage quotas are tallied, you might not get as many AI responses as you did before.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage/",
-      "publishedAt": "2026-07-18T10:00:00.000Z"
+      "headline": "The State of Simulation for Physical AI: An Overview",
+      "summary": "",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "publishedAt": "2026-07-21T20:00:27.000Z"
     },
     {
       "id": "n_f07ea0986e",
@@ -968,17 +979,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/grabette",
       "publishedAt": "2026-07-21T00:00:00.000Z"
-    },
-    {
-      "id": "n_8030c8e0dc",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Introducing Cosmos 3 Edge",
-      "summary": "",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
-      "publishedAt": "2026-07-20T15:58:51.000Z"
     },
     {
       "id": "n_4babaf3e26",
