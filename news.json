@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-07-21T01:21:50.440Z",
+  "generatedAt": "2026-07-21T05:39:08.071Z",
   "items": [
+    {
+      "id": "n_b530d02770",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Marktbericht: Nahost-Hoffnung könnte Börsen antreiben",
+      "summary": "Die Hoffnung auf eine Waffenruhe im Nahen Osten steigt, nachdem bekannt wurde, dass Vermittler dem Iran einen zehntägigen Waffenstillstand vorgeschlagen haben. Der Ölpreis entfernte sich von seinem Einmonatshoch.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-iran-krieg-102.html",
+      "publishedAt": "2026-07-21T05:23:02.000Z"
+    },
+    {
+      "id": "n_4ded3fd39f",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "USA verhängen Zölle in Höhe von 50 Prozent auf Produkte aus Kanada",
+      "summary": "Der Handelsstreit zwischen den USA und Kanada spitzt sich zu. Washington verhängte nun neue Zölle in Höhe von 50 Prozent. Betroffen sind auch Produkte, die bislang unter ein Freihandelsabkommen fallen.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/usa-zoelle-kanada-102.html",
+      "publishedAt": "2026-07-21T05:16:59.000Z"
+    },
+    {
+      "id": "n_b80846658f",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Aoun in Washington: Die Libanesen haben wenig Hoffnung auf Veränderung",
+      "summary": "Mit der Hoffnung auf eine stabile Waffenruhe in seinem Land reist Libanons Präsident Aoun nach Washington. Seine Landsleute haben keine großen Erwartungen - zumal die Hisbollah immer noch nicht mit am Verhandlungstisch sitzt. Von S. Männer.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/amerika/libanon-aoun-washington-100.html",
+      "publishedAt": "2026-07-21T04:32:15.000Z"
+    },
+    {
+      "id": "n_6966cdb166",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "US-Militär bombadiert Iran die zehnte Nacht in Folge",
+      "summary": "Statt Waffenruhe nun die zehnte Nacht in Folge schwere Angriffe: Die USA haben wieder Iran bombardiert. Die Islamische Republik griff ihrerseits Ziele in Kuwait an. Auch ein Tanker wurde getroffen. US-Präsident Trump droht mit Vergeltung.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/asien/iran-krieg-angriffe-104.html",
+      "publishedAt": "2026-07-21T04:30:16.000Z"
+    },
+    {
+      "id": "n_5145302b0b",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Großbritanniens neuer Premier Burnham bildet Kabinett um",
+      "summary": "Nach seiner Ernennung zum britischen Premier hat der Labour-Politiker Burnham Ministerposten neu besetzt. Mehrere Vertraute seines Vorgängers Starmer müssen das Kabinett verlassen. Ex-Parteichef Miliband wurde überraschend Außenminister.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/europa/grossbritannien-burnham-minister-100.html",
+      "publishedAt": "2026-07-21T04:10:03.000Z"
+    },
     {
       "id": "n_2c03fbbb15",
       "type": "news",
@@ -13,23 +68,12 @@
       "publishedAt": "2026-07-21T00:48:28.000Z"
     },
     {
-      "id": "n_5145302b0b",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Großbritanniens neuer Premier Burnham bildet Kabinett um",
-      "summary": "Nach seiner Ernennung zum britischen Premier hat der Labour-Politiker Burnham Ministerposten neu besetzt. Mehrere Vertraute seines Vorgängers Starmer müssen das Kabinett verlassen. Ex-Parteichef Miliband wurde überraschend Außenminister.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/europa/grossbritannien-burnham-minister-100.html",
-      "publishedAt": "2026-07-20T22:40:52.000Z"
-    },
-    {
       "id": "n_13ef7bedab",
       "type": "news",
       "topic": "general",
       "lang": "de",
       "headline": "Spanien feiert seine Fußballweltmeister",
-      "summary": "Die spanische Fußballnationalmannschaft ist nach ihrem WM-Sieg euphorisch in der Heimat empfangen worden - von Fans, König Felipe und dem Ministerpräsidenten Sanchez. Von Nicholas Buschschlüter, zzt. ARD Madrid.",
+      "summary": "Die spanische Fußballnationalmannschaft ist nach ihrem WM-Sieg euphorisch in der Heimat empfangen worden - von Fans, König Felipe und dem Ministerpräsidenten Sanchez. Von Nicholas Buschschlüter.",
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/ausland/europa/spanien-fussball-nationalmannschaft-ankunft-100.html",
       "publishedAt": "2026-07-20T20:05:48.000Z"
@@ -44,50 +88,6 @@
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/ausland/europa/ungarn-praesidentschaft-polgar-absage-100.html",
       "publishedAt": "2026-07-20T19:12:39.000Z"
-    },
-    {
-      "id": "n_7ae0eb2cd3",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Bahn-Konkurrent Italo bestellt 26 Schnellzüge bei Siemens",
-      "summary": "Erst vor wenigen Tagen ebnete die Bundesnetzagentur den Einstieg des italienischen Zugunternehmens Italo in das deutsche Fernverkehrsnetz. Jetzt konkretisiert Italo seine Pläne - mit einer Bestellung für neue Schnellzüge.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/technologie/italo-zuege-siemens-bestellung-100.html",
-      "publishedAt": "2026-07-20T19:04:22.000Z"
-    },
-    {
-      "id": "n_9c0d79b080",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Gedenken an Hitler-Attentat im Bendlerblock - mit Zwischenfall",
-      "summary": "Die Bundesregierung hat in Berlin an den Widerstand gegen die nationalsozialistische Gewaltherrschaft erinnert. Anlass ist der heutige Jahrestag des Attentats auf Hitler. Ein Kranz der AfD sorgte vor dem Gedenken für ein Handgemenge.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/gedenken-bendlerblock-afd-kranz-100.html",
-      "publishedAt": "2026-07-20T18:24:00.000Z"
-    },
-    {
-      "id": "n_23aa65fb7a",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "USA: Mexikanischer Drogenboss \"El Mayo\" zu lebenslanger Haft verurteilt",
-      "summary": "In den USA ist der frühere mexikanische Drogenboss \"El Mayo\" zu lebenslanger Haft verurteilt worden. Der 76-jährige Mitbegründer des berüchtigten Sinaloa-Kartells bat in der Verhandlung um Verzeihung.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/amerika/usa-el-mayo-verurteilung-100.html",
-      "publishedAt": "2026-07-20T18:02:34.000Z"
-    },
-    {
-      "id": "n_d5378898c2",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Machtkampf: AfD-Bundesvorstand setzt Untersuchungskommission ein",
-      "summary": "Der AfD-Bundesvorstand verzichtet im Machtkampf mit der Parteispitze in Nordrhein-Westfalen auf sofortige Konsequenzen. Er setzt aber eine Untersuchungskommission ein, die den Landesverband durchleuchten soll.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/afd-nrw-machtkampf-kommission-100.html",
-      "publishedAt": "2026-07-20T17:06:14.000Z"
     },
     {
       "id": "n_7a83b5247e",
@@ -178,6 +178,17 @@
       "publishedAt": "2026-07-16T13:33:00.000Z"
     },
     {
+      "id": "n_4453418093",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "Regulierung und Strompreis: OpenAI plante Rechenzentrum in Deutschland",
+      "summary": "Ein milliardenschweres OpenAI-Rechenzentrum für Deutschland ist offenbar bis zum Kanzler verhandelt worden. (OpenAI, KI)",
+      "source": "Golem.de",
+      "url": "https://www.golem.de/news/regulierung-und-strompreis-openai-plante-rechenzentrum-in-deutschland-2607-211091.html",
+      "publishedAt": "2026-07-21T05:29:02.000Z"
+    },
+    {
       "id": "n_d899e5630e",
       "type": "news",
       "topic": "tech",
@@ -255,15 +266,26 @@
       "publishedAt": "2026-07-20T15:07:02.000Z"
     },
     {
-      "id": "n_359004cd91",
+      "id": "n_d299f4599f",
       "type": "news",
-      "topic": "tech",
-      "lang": "de",
-      "headline": "Fast so gut wie Fable 5: Alibaba veröffentlicht Qwen-3.8 und KI-Software-Stack",
-      "summary": "Die Modellgewichte von Qwen-3.8 sollen veröffentlicht werden. Teile seines KI-Software-Stacks hat Alibaba schon öffentlich gemacht - nicht uneigennützig. (KI, Fable)",
-      "source": "Golem.de",
-      "url": "https://www.golem.de/news/fast-so-gut-wie-fable-5-alibaba-veroeffentlicht-qwen-3-8-und-ki-software-stack-2607-211079.html",
-      "publishedAt": "2026-07-20T14:39:02.000Z"
+      "topic": "general",
+      "lang": "en",
+      "headline": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+      "summary": "The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-21T02:41:28.000Z"
+    },
+    {
+      "id": "n_fbd02ff0c1",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "At least 27 dead and 83 missing after passenger ferry capsizes off Guyana",
+      "summary": "An investigation into the tragedy has been launched, the island's prime minister says, adding he hopes more will be found alive.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-21T02:07:48.000Z"
     },
     {
       "id": "n_eadcf94226",
@@ -275,17 +297,6 @@
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-07-21T00:34:47.000Z"
-    },
-    {
-      "id": "n_d299f4599f",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-      "summary": "The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-21T00:14:27.000Z"
     },
     {
       "id": "n_208d8c1141",
@@ -341,17 +352,6 @@
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cj6g03567edo?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-07-20T18:01:00.000Z"
-    },
-    {
-      "id": "n_9f48a4adb6",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "‘All I think about is her’: Families demand answers as Nigeria's boat disasters keep happening",
-      "summary": "Hundreds of lives are lost each year in Nigeria as a result of boat accidents yet nothing seems to change.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c309vzn676go?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T17:16:20.000Z"
     },
     {
       "id": "n_1dfc301506",
@@ -1093,102 +1093,6 @@
       "url": "https://www.youtube.com/watch?v=1yBU41auQhw",
       "thumbnail": "https://i.ytimg.com/vi/1yBU41auQhw/hqdefault.jpg",
       "publishedAt": "2026-07-07T16:33:29.000Z"
-    },
-    {
-      "id": "n_39feb22ff6",
-      "type": "video",
-      "topic": "video",
-      "lang": "en",
-      "headline": "The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498",
-      "summary": "",
-      "source": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=pv1TUJSEM2k",
-      "thumbnail": "https://i.ytimg.com/vi/pv1TUJSEM2k/hqdefault.jpg",
-      "publishedAt": "2026-06-30T21:16:13.000Z"
-    },
-    {
-      "id": "n_6a7b36e7cd",
-      "type": "video",
-      "topic": "video",
-      "lang": "en",
-      "headline": "Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln | Lex Fridman Podcast #497",
-      "summary": "",
-      "source": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=1M3Vdl6DRkU",
-      "thumbnail": "https://i.ytimg.com/vi/1M3Vdl6DRkU/hqdefault.jpg",
-      "publishedAt": "2026-05-29T16:18:31.000Z"
-    },
-    {
-      "id": "n_c402ebf7aa",
-      "type": "video",
-      "topic": "video",
-      "lang": "en",
-      "headline": "FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496",
-      "summary": "",
-      "source": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=nepKKz-MzFM",
-      "thumbnail": "https://i.ytimg.com/vi/nepKKz-MzFM/hqdefault.jpg",
-      "publishedAt": "2026-05-06T22:03:16.000Z"
-    },
-    {
-      "id": "n_854df813c0",
-      "type": "video",
-      "topic": "video",
-      "lang": "en",
-      "headline": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495",
-      "summary": "",
-      "source": "Lex Fridman",
-      "url": "https://www.youtube.com/watch?v=iKx3gAODybU",
-      "thumbnail": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault.jpg",
-      "publishedAt": "2026-04-09T17:35:20.000Z"
-    },
-    {
-      "id": "n_10ab80aff4",
-      "type": "video",
-      "topic": "video",
-      "lang": "en",
-      "headline": "This $12 billion startup finally shipped something...",
-      "summary": "",
-      "source": "Fireship",
-      "url": "https://www.youtube.com/watch?v=M51asSwRLxA",
-      "thumbnail": "https://i.ytimg.com/vi/M51asSwRLxA/hqdefault.jpg",
-      "publishedAt": "2026-07-20T17:02:30.000Z"
-    },
-    {
-      "id": "n_f826171ec0",
-      "type": "video",
-      "topic": "video",
-      "lang": "en",
-      "headline": "OpenAI gets sued for stealing, again…",
-      "summary": "",
-      "source": "Fireship",
-      "url": "https://www.youtube.com/watch?v=5D4Zqp9GLSc",
-      "thumbnail": "https://i.ytimg.com/vi/5D4Zqp9GLSc/hqdefault.jpg",
-      "publishedAt": "2026-07-17T17:56:42.000Z"
-    },
-    {
-      "id": "n_55e883283e",
-      "type": "video",
-      "topic": "video",
-      "lang": "en",
-      "headline": "The most controversial rewrite in history just shipped...",
-      "summary": "",
-      "source": "Fireship",
-      "url": "https://www.youtube.com/watch?v=CXSvKcLovAk",
-      "thumbnail": "https://i.ytimg.com/vi/CXSvKcLovAk/hqdefault.jpg",
-      "publishedAt": "2026-07-15T17:39:02.000Z"
-    },
-    {
-      "id": "n_3d5096cd58",
-      "type": "video",
-      "topic": "video",
-      "lang": "en",
-      "headline": "OpenAI is so back... GPT 5.6 Sol first look",
-      "summary": "",
-      "source": "Fireship",
-      "url": "https://www.youtube.com/watch?v=URKml8lgw8Y",
-      "thumbnail": "https://i.ytimg.com/vi/URKml8lgw8Y/hqdefault.jpg",
-      "publishedAt": "2026-07-10T17:25:44.000Z"
     },
     {
       "id": "n_6742ca94db",
