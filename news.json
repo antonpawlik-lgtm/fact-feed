@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-07-21T10:54:36.543Z",
+  "generatedAt": "2026-07-21T13:10:43.157Z",
   "items": [
     {
-      "id": "n_930e6f5bf1",
+      "id": "n_3b621623fa",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Kampf gegen Waldbrände: Was tut der Bund?",
-      "summary": "Dieses Jahr könnte wieder ein Rekordjahr für Wald- und Flächenbrände werden. Zuständig für die Bekämpfung sind Länder und Kommunen - aber manche überfordert das. Was tut der Bund, um zu unterstützen? Und reicht das? Von Katrin Aue.",
+      "headline": "Wo Tanken besonders teuer ist - und wo sich sparen lässt",
+      "summary": "Wer mit dem Auto unterwegs ist, kann je nach Land und Region unterschiedlich viel fürs Tanken bezahlen. Wo Sprit in Europa besonders teuer oder günstig ist und worauf Reisende achten sollten. Von Michelle Goddemeier.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/bekaempfung-waldbraende-bund-100.html",
-      "publishedAt": "2026-07-21T10:41:26.000Z"
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/tanken-sprit-preise-ausland-100.html",
+      "publishedAt": "2026-07-21T13:03:27.000Z"
     },
     {
-      "id": "n_87e8c0967e",
+      "id": "n_c0628ba4d4",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Mehr Fälle von sexuellem Missbrauch gegen Kinder",
-      "summary": "Das Bundeskriminalamt hat für 2025 einen Anstieg bei Fällen von sexuellem Missbrauch gegen Kinder und Jugendliche registriert. Innenminister Dobrindt nennt die Zahlen \"erschreckend hoch\" - und geht von einem noch höheren Dunkelfeld aus.",
+      "headline": "Tote bei Sturzfluten in afghanischer Provinz Nuristan",
+      "summary": "Immer wieder gibt es verheerende Sturzfluten in Afghanistan. Nun starben in der Provinz Nuristan mindestens 23 Menschen. Viele werden noch in den Trümmern eingestürzter Gebäude vermisst.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/gesellschaft/bundeslagebild-sexueller-missbrauch-kinder-jugendliche-100.html",
-      "publishedAt": "2026-07-21T10:41:08.000Z"
+      "url": "https://www.tagesschau.de/ausland/asien/afghanistan-sturzfluten-tote-100.html",
+      "publishedAt": "2026-07-21T13:02:39.000Z"
     },
     {
-      "id": "n_11004bbeab",
+      "id": "n_3cb1c4f426",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Waldbrände im Amazonas 2025 auf tiefstem Stand seit Jahrzehnten",
-      "summary": "Es ist ein Hoffnungsschimmer in Zeiten des Klimawandels: Im vergangenen Jahr ist so wenig Amazon-Regenwald abgebrannt wie seit Jahrzehnten nicht. Doch nun wächst die Sorge vor einem Super-El Niño.",
+      "headline": "Heizungsaustausch: Wer jetzt mit wie viel Geld rechnen kann",
+      "summary": "Für den Einbau von Wärmepumpen und klimafreundlichen Heizungen gelten neue Förderregeln. Welche Haushalte mit wie viel staatlicher Unterstützung rechnen können und was beim Antrag zu beachten ist. Von Ursula Mayer.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/amerika/weniger-waldbraende-amazonas-100.html",
-      "publishedAt": "2026-07-21T10:39:09.000Z"
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/heizung-foerderung-kfw-100.html",
+      "publishedAt": "2026-07-21T12:42:34.000Z"
     },
     {
       "id": "n_3a705322d9",
@@ -43,51 +43,51 @@
       "summary": "Bis nächste Woche die Unionsfraktion eine neue Spitze wählt, wird viel spekuliert. Ein Name, der immer wieder fällt: Thorsten Frei, derzeit Kanzleramtsminister. Für CDU-Chef und Kanzler Merz eröffnet der Spahn-Rücktritt neue Spielräume.",
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/inland/innenpolitik/spahn-nachfolge-debatte-100.html",
-      "publishedAt": "2026-07-21T10:26:30.000Z"
+      "publishedAt": "2026-07-21T12:16:01.000Z"
     },
     {
-      "id": "n_8d233ce26b",
+      "id": "n_1f6486541a",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Bonn zieht vorübergehend Großteil der Stadtbahnen aus dem Verkehr",
-      "summary": "In Bonn müssen vorübergehend 60 von insgesamt 75 Straßenbahnen aus dem Verkehr gezogen werden. Nach WDR-Information hatten Prüfer Schäden an Rädern und eine lange Liste mit Mängeln festgestellt. Nun müssen die Bahnen überprüft werden.",
+      "headline": "Europas Banken im Fokus",
+      "summary": "Europas Banken dürften nach den guten US-Vorgaben mit viel Rückenwind in die neue Berichtssaison gehen. Es werden weiter steigende Gewinne erwartet. Ein Unsicherheitsfaktor aber bleibt.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/bonn-stadtbahnen-schaeden-100.html",
-      "publishedAt": "2026-07-21T09:53:00.000Z"
+      "url": "https://www.tagesschau.de/wirtschaft/finanzen/mb-mittag-banken-100.html",
+      "publishedAt": "2026-07-21T12:12:09.000Z"
     },
     {
-      "id": "n_e5e0eba894",
+      "id": "n_cad2bf2de8",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Was das Revival der Diddl-Maus mit Girlpower zu tun hat",
-      "summary": "Girlband-Ästhetik, Eurodance - und jetzt auch Diddl. Mit den 1990er-Revivals erlebt auch die Kultmaus ein Comeback. Dabei geht es auch um die Neubewertung von Mädchenkultur. Von Hannah Rau.",
+      "headline": "Deutsche Bahn plant bundesweites Alkoholverbot an Bahnhöfen",
+      "summary": "Die Deutsche Bahn will künftig an allen Bahnhöfen ein Alkoholverbot durchsetzen. Sie verspricht sich mehr Sicherheit für Mitarbeiter und Reisende. In Hamburg etwa hat man damit bereits gute Erfahrungen gemacht.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/kultur/diddl-maus-comeback-girlpower-statt-guilty-pleasure-100.html",
-      "publishedAt": "2026-07-21T09:40:28.000Z"
+      "url": "https://www.tagesschau.de/inland/deutsche-bahn-alkoholverbot-100.html",
+      "publishedAt": "2026-07-21T11:29:22.000Z"
     },
     {
-      "id": "n_aaec404ac9",
+      "id": "n_fe4aa0de90",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Aufenthaltstitel: Schweden schraubt Erwartungen an Migranten höher",
-      "summary": "Zwei Monate vor der Parlamentswahl gilt in Schweden ein schärferes Migrationsrecht. Dabei wird auch der \"Lebenswandel\" zum Kriterium für eine Aufenthaltsberechtigung - doch es bleibt offen, was damit überhaupt gemeint ist. Von C. Stichler.",
+      "headline": "UN-Report: Kleine Fortschritte, doch der Hunger bleibt",
+      "summary": "Die Zahl der Hungernden sinkt, doch Konflikte wie im Nahen Osten könnten die Lebensmittelversorgung massiv verschlechtern. Milliarden Menschen fehlt zudem das Geld für eine gesunde Ernährung. Von C. Auerbach.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/europa/schweden-migrationspolitik-100.html",
-      "publishedAt": "2026-07-21T09:29:05.000Z"
+      "url": "https://www.tagesschau.de/ausland/europa/un-bericht-sofi-ernaehrungssicherheit-100.html",
+      "publishedAt": "2026-07-21T10:57:41.000Z"
     },
     {
-      "id": "n_c3293be9ff",
+      "id": "n_6b4d36d4f0",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Großbritanniens Premier Burnham: Lockerheit in der Downing Street",
-      "summary": "Zum Amtsantritt macht der neue Premier Burnham einen lockeren Eindruck. Viele Briten wünschen sich nach dem nüchternen Starmer einen nahbaren Regierungschef. Einfach wird es aber auch für Burnham nicht, meint Franziska Hoppen.",
+      "headline": "Libanesischer Präsident Aoun trifft Trump in Washington",
+      "summary": "Gegenüber der Hisbollah zeigt der libanesische Präsident Aoun klare Kante. Das kommt in Washington gut an. Nun hofft Aoun, den US-Präsidenten davon überzeugen zu können, mehr Druck auf Israel auszuüben. Von Carsten Kühntopp.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/kommentar/grossbritannien-premier-burnham-neue-lockerheit-100.html",
-      "publishedAt": "2026-07-21T09:27:09.000Z"
+      "url": "https://www.tagesschau.de/ausland/amerika/aoun-libanon-washington-100.html",
+      "publishedAt": "2026-07-21T10:56:34.000Z"
     },
     {
       "id": "n_b35574e35a",
@@ -178,92 +178,158 @@
       "publishedAt": "2026-07-17T06:27:00.000Z"
     },
     {
-      "id": "n_ed27dea480",
+      "id": "n_06371305d4",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: Liene Pearl K100 Mini Fotodrucker für das Smartphone nur rund 90 Euro bei Amazon",
-      "summary": "Der Liene Pearl K100 im neuen Amazon-Angebot druckt Fotos vom Smartphone ohne Tinte, mit Kleberückseite und 300 dpi. (Smartphone, Drucker)",
+      "headline": "Splatoon Raiders im Test: Kunterbunter Solo-Volltreffer",
+      "summary": "Erkundung und Monsterhorden: Wir haben Splatoon Raiders solo gespielt - und wurden spät, aber nachhaltig überzeugt (nur für Nintendo Switch 2). Ein Test von Peter Steinlechner (Splatoon, Spieletest)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-liene-pearl-k100-mini-fotodrucker-fuer-das-smartphone-nur-rund-90-euro-bei-amazon-2607-211108.html",
-      "publishedAt": "2026-07-21T10:44:01.000Z"
+      "url": "https://www.golem.de/news/splatoon-raiders-im-test-kunterbunter-solo-volltreffer-2607-211037.html",
+      "publishedAt": "2026-07-21T13:00:02.000Z"
     },
     {
-      "id": "n_c78ff853fb",
+      "id": "n_5a7761a5d8",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Rechenzentren und KI: Versteckte Konzernschulden wachsen auf 1,65 Billionen US-Dollar",
-      "summary": "Die nicht bilanzierten Schulden von Alphabet, Microsoft, Amazon, Meta und Oracle sind in nur vier Jahren um das Achtfache angestiegen. (KI, Microsoft)",
+      "headline": "Anzeige: Kindle Scribe E-Reader mit Stift fällt um 130 Euro auf Tiefstpreis",
+      "summary": "Wer den Alltag ohne Zettelwirtschaft strukturieren möchte, findet im Kindle Scribe den perfekten Begleiter. Amazon reduziert das 32-GB-Modell um 130 Euro. (Technik/Hardware, Kindle)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/rechenzentren-und-ki-versteckte-konzernschulden-wachsen-auf-1-65-billionen-us-dollar-2607-211107.html",
-      "publishedAt": "2026-07-21T10:39:05.000Z"
+      "url": "https://www.golem.de/news/anzeige-kindle-scribe-e-reader-mit-stift-faellt-um-130-euro-auf-tiefstpreis-2607-211115.html",
+      "publishedAt": "2026-07-21T12:57:02.000Z"
     },
     {
-      "id": "n_fd9ad81c02",
+      "id": "n_b454ddf0b4",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Drohnenkrieg: Mikrowellendrohne soll Drohnenschwärme abfangen",
-      "summary": "Mit minimalen Kosten soll der Drohnenjäger mit einer Strahlungswaffe bis zu 50 anfliegende Drohnen unschädlich machen können. (Drohne, Politik)",
+      "headline": "Anzeige: Ladegerät mit acht USB-Ports für unter 55 Euro bei Amazon",
+      "summary": "Amazon hat ein Ladegerät von Ugreen im Angebot, das mit einer Gesamtleistung von bis zu 200 W acht Geräte gleichzeitig schnell auflädt. (Technik/Hardware)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/drohnenkrieg-mikrowellendrohne-soll-drohnenschwaerme-abfangen-2607-211106.html",
-      "publishedAt": "2026-07-21T10:26:02.000Z"
+      "url": "https://www.golem.de/news/anzeige-ladegeraet-mit-acht-usb-ports-fuer-unter-55-euro-bei-amazon-2607-211113.html",
+      "publishedAt": "2026-07-21T12:22:01.000Z"
     },
     {
-      "id": "n_e41780e776",
+      "id": "n_4e91d21787",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Lücken in Wordpress: Millionen von Websites sind laufenden Angriffen ausgesetzt",
-      "summary": "Angreifer attackieren Wordpress-Instanzen über kritische Sicherheitslücken. Schätzungen zufolge sind rund 90 Millionen Websites noch ungepatcht. (Sicherheitslücke, CMS)",
+      "headline": "Anzeige: Roborock-Saugroboter mit Absaugstation fällt auf Jahrestiefstpreis",
+      "summary": "Die tägliche Bodenreinigung kostet Zeit. Amazon reduziert aktuell den Roborock-Q7-L5+-Saugroboter im Set auf einen neuen Jahrestiefstpreis unter 200 Euro. (Technik/Hardware, Saugroboter)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/luecken-in-wordpress-laufende-schadcode-attacken-gefaehrden-millionen-von-websites-2607-211105.html",
-      "publishedAt": "2026-07-21T10:13:02.000Z"
+      "url": "https://www.golem.de/news/anzeige-roborock-saugroboter-mit-absaugstation-faellt-auf-jahrestiefstpreis-2607-211111.html",
+      "publishedAt": "2026-07-21T11:52:01.000Z"
     },
     {
-      "id": "n_c24a274ee0",
+      "id": "n_c8bae111f9",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Vorsicht Lockzinsen: Wie Anleger kriminelle Lockangebote bei Tages- und Festgeld erkennen",
-      "summary": "Die Rückkehr attraktiver Sparzinsen belebt den Wettbewerb im Bankensektor. Doch die attraktiven Zinsen rufen auch Betrüger auf den Plan - mit täuschend echten Angeboten. Ein Ratgebertext von Ulrike Barth (Verbraucherschutz, Stiftung Warentest)",
+      "headline": "Cirqa: Garmin bringt Whoop-Konkurrenten mit Taste",
+      "summary": "Garmin hat Cirqa offiziell angekündigt. Der Fitnesstracker kommt ohne Display aus, hat eine einzelne Taste - aber vorerst kein Abo. (Sportuhr, Fitness)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/vorsicht-lockzinsen-wie-anleger-kriminelle-lockangebote-bei-tages-und-festgeld-erkennen-2607-210602.html",
-      "publishedAt": "2026-07-21T10:00:02.000Z"
+      "url": "https://www.golem.de/news/fitnesstracker-garmin-bringt-whoop-konkurrenten-mit-taste-2607-211112.html",
+      "publishedAt": "2026-07-21T11:46:02.000Z"
     },
     {
-      "id": "n_4568d680f0",
+      "id": "n_52c14bad27",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Narzisstische Chefs: Homeoffice gefährdet Macht und Status",
-      "summary": "Stemmt sich eine Führungskraft gegen Homeoffice-Regelungen, sind wirtschaftliche Gründe oft nur vorgeschoben. (Homeoffice, Studien)",
+      "headline": "Astronomie: Wie alt ist das Universum?",
+      "summary": "Dank neuer Daten zu alten Sternen hat ein Forschungsteam die Frage beantwortet, ob das Universum jünger ist als gedacht. Die Forschungsleiterin erklärt, wie. Ein Bericht von Dirk Eidemüller (Astronomie, James-Webb-Teleskop)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/narzisstische-chefs-homeoffice-gefaehrdet-macht-und-status-2607-211103.html",
-      "publishedAt": "2026-07-21T09:40:02.000Z"
+      "url": "https://www.golem.de/news/astronomie-wie-alt-ist-das-universum-2607-210820.html",
+      "publishedAt": "2026-07-21T11:42:01.000Z"
     },
     {
-      "id": "n_77822919d8",
+      "id": "n_2df3e69bd0",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Nach der RTL-Sky-Übernahme: Wow bekommt exklusive Inhalte von RTL+ wie Pumuckl",
-      "summary": "Skys Streamingabo Wow erhält etliche Exklusivinhalte von RTL+. Beide Abos bleiben technisch rückständig und sind nicht konkurrenzfähig. (Wow, Disney)",
+      "headline": "Anzeige: LG QNED TV mit 75 Zoll ist bei Amazon jetzt 250 Euro günstiger",
+      "summary": "Die besten Filme und Serien wollen in besonderer Bildqualität genossen werden. Bei Amazon ist ein LG QNED TV mit 75 Zoll jetzt stark reduziert. (LG, Heimkino)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/nach-der-rtl-sky-uebernahme-wow-bekommt-exklusive-inhalte-von-rtl-wie-pumuckl-2607-211104.html",
-      "publishedAt": "2026-07-21T09:30:02.000Z"
+      "url": "https://www.golem.de/news/anzeige-lg-qned-tv-mit-75-zoll-ist-bei-amazon-jetzt-250-euro-guenstiger-2607-211110.html",
+      "publishedAt": "2026-07-21T11:35:02.000Z"
     },
     {
-      "id": "n_aad6d1380a",
+      "id": "n_5382af849b",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: Dashcam mit 4K und GPS inklusive SD-Karte reduziert bei Amazon",
-      "summary": "Eine Dashcam für vorne und hinten mit 4K-Auflösung, GPS und Parküberwachung gibt es inklusive 64-GByte-Karte zum Sparpreis bei Amazon. (Technik/Hardware, GPS)",
+      "headline": "(g+) Miasma-Lieferkette: Warum gültige Signaturen plötzlich nicht mehr reichen",
+      "summary": "Ein selbst verbreitender Wurm kapert npm-Pakete mit gültigen Signaturen. Worauf Dev-Teams jetzt achten sollten. Ein Ratgebertext von Steffen Zahn (NPM, Virus)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-dashcam-mit-4k-und-gps-inklusive-sd-karte-reduziert-bei-amazon-2607-211101.html",
-      "publishedAt": "2026-07-21T09:25:02.000Z"
+      "url": "https://www.golem.de/news/miasma-lieferkette-warum-gueltige-signaturen-ploetzlich-nicht-mehr-reichen-2607-210992.html",
+      "publishedAt": "2026-07-21T11:30:01.000Z"
+    },
+    {
+      "id": "n_36f46f8d69",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Dozens hurt in Bologna protests after man dies while being restrained by police",
+      "summary": "Thousands of people took to the streets demanding justice for a Moroccan-born man who died on Sunday.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c86nwgw148xo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-21T12:48:37.000Z"
+    },
+    {
+      "id": "n_96d97c8999",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Row escalates in Ukraine over army chief's future",
+      "summary": "Protesters are demanding Oleksandr Syrskyi be removed and former defence minister Mykhailo Fedorov reinstated by Friday.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c7vgel8374yo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-21T12:33:15.000Z"
+    },
+    {
+      "id": "n_71cb64cd5b",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Shock and anger after top Ghanaian politician sentenced to 20 years for illegal mining",
+      "summary": "Bernard Antwi Boasiako, known as \"Chairman Wontumi\", was also fined more than $10,000 (£7,450).",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cpvwnjllwvwo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-21T12:02:47.000Z"
+    },
+    {
+      "id": "n_eadcf94226",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
+      "summary": "The duties mark a major escalation in trade tensions between the North American neighbours.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-21T11:42:41.000Z"
+    },
+    {
+      "id": "n_415cdfcf2b",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Traffic officers arrested for allegedly seeking bribe from Nigeria's anti-corruption boss",
+      "summary": "They are accused of stopping Musa Aliyu at a fake roadblock and telling him to drive to a cash machine.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c9q97028ex5o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-21T11:40:53.000Z"
+    },
+    {
+      "id": "n_40498c122a",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Watch: Flooded towns and evacuations as Chile hit by heavy rain",
+      "summary": "A \"state of catastrophe\" has been declared in Coquimbo and Huasco following the downpour.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/cy9wq8j2p7qo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-21T11:21:47.000Z"
     },
     {
       "id": "n_31d16025de",
@@ -286,72 +352,6 @@
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cedj9j911p8o?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-07-21T10:01:59.000Z"
-    },
-    {
-      "id": "n_d299f4599f",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-      "summary": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-21T09:48:20.000Z"
-    },
-    {
-      "id": "n_eadcf94226",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
-      "summary": "The duties mark a major escalation in trade tensions between the North American neighbours.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-21T09:16:21.000Z"
-    },
-    {
-      "id": "n_fa1fbdaa27",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "'Anti-ICE' army veteran started fire outside Manhattan federal building, say officials",
-      "summary": "Andrew Arrabaca, 43, was armed with two axes, a machete, three knives and fireworks, says the FBI.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c1m1rr90dzxo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-21T02:16:05.000Z"
-    },
-    {
-      "id": "n_fbd02ff0c1",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "At least 27 dead and 83 missing after passenger ferry capsizes off Guyana",
-      "summary": "An investigation into the tragedy has been launched, the island's prime minister says, adding he hopes more will be found alive.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-21T02:07:48.000Z"
-    },
-    {
-      "id": "n_208d8c1141",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
-      "summary": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T21:30:19.000Z"
-    },
-    {
-      "id": "n_c785d19763",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Notorious drug cartel leader Ismael Zambada sentenced to life in US prison",
-      "summary": "Known as \"El Mayo\", the co-founder the Sinaloa Cartel was also ordered to pay $15bn after he admitted to sending vast amounts of drugs to the US.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/ce3q1d1ed5do?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T21:03:24.000Z"
     },
     {
       "id": "n_f29e73fe39",
@@ -534,8 +534,8 @@
       "type": "news",
       "topic": "ai",
       "lang": "en",
-      "headline": "Gritt exits stealth with $34 million for robots to build solar plants—then, everything else",
-      "summary": "Gritt is coming out of stealth with $34 million and plan to automate the hardest tasks on construction sites.",
+      "headline": "Gritt exits stealth with $34 million for robots to build solar plants — then, everything else",
+      "summary": "Gritt is coming out of stealth with $34 million and plans to automate the hardest tasks on construction sites.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/",
       "publishedAt": "2026-07-21T10:00:00.000Z"
@@ -618,6 +618,28 @@
       "publishedAt": "2026-07-20T15:45:00.000Z"
     },
     {
+      "id": "n_4191c27a8a",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "Halliday’s latest smart glasses feature a much-improved display",
+      "summary": "I was not a fan of the original Halliday glasses. The Gen 2 are better. | Image: Halliday I first slipped on Halliday's original smart glasses at CES 2025. I was not a fan. The glasses had a tiny, movable display window embedded into the frame that was incredibly finicky to see, ",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/968255/halliday-gen-2-smart-glasses-hands-on-ai-wearables",
+      "publishedAt": "2026-07-21T13:00:00.000Z"
+    },
+    {
+      "id": "n_ed3452d70a",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "America needs to stop getting shocked by Chinese AI",
+      "summary": "People visit the booth of Kimi, an LLM developed by the Chinese startup Moonshot, during the World AI Conference in Shanghai, China, Monday, July 20, 2026. | Image: LONG WEI/ Feature China/Future Publishing via Getty Images Last week, two Chinese AI companies unveiled models they",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment",
+      "publishedAt": "2026-07-21T11:08:56.000Z"
+    },
+    {
       "id": "n_f09cbf6a0e",
       "type": "news",
       "topic": "ai",
@@ -682,28 +704,6 @@
       "source": "The Verge",
       "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
       "publishedAt": "2026-07-18T20:54:42.000Z"
-    },
-    {
-      "id": "n_3c5aa6201d",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "The apps, gadgets, and tools every reader needs",
-      "summary": "Hi, friends! Welcome to Installer No. 136, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, hope your neighborhood isn't as smoky as mine, and also you can read all the old editions at the Installer homepage.) This week, I've been recording ",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/967544/best-apps-gadgets-reading-installer",
-      "publishedAt": "2026-07-18T12:00:00.000Z"
-    },
-    {
-      "id": "n_b51b6c1073",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "TikTok is testing an AI likeness detection tool",
-      "summary": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool is initially being tested with \"some\" US creators, TikTok US spokesperson Zachary Kizer tells The Verg",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
-      "publishedAt": "2026-07-17T19:34:30.000Z"
     },
     {
       "id": "n_cec1ebe5d2",
@@ -871,6 +871,28 @@
       "publishedAt": "2026-07-07T11:10:52.000Z"
     },
     {
+      "id": "n_b60d168261",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "Halliday’s New Smart Glasses Skip the Camera",
+      "summary": "Halliday’s G2 glasses can listen to and summarize your workplace meetings—with no video involved.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/halliday-new-smart-glasses-skip-the-camera/",
+      "publishedAt": "2026-07-21T13:00:00.000Z"
+    },
+    {
+      "id": "n_8370f51c54",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "‘It’s a Modern-Day Draft’: Why Stanford Students Walked Out on Sundar Pichai’s Commencement Speech",
+      "summary": "Last month, more than a hundred Stanford students left their own graduation to protest Google’s military contracts and deals with ICE. Two organizers, Amanda Campos and Eva Jones, tell us why.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/big-interview-stanford-students-booing-sundar-pichai/",
+      "publishedAt": "2026-07-21T10:30:00.000Z"
+    },
+    {
       "id": "n_6f8749773c",
       "type": "news",
       "topic": "ai",
@@ -935,28 +957,6 @@
       "source": "Wired",
       "url": "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/",
       "publishedAt": "2026-07-17T10:00:00.000Z"
-    },
-    {
-      "id": "n_8b78bfb6af",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "A Humanoid Company Backed by Eric Trump Is Preparing Its Robots for War",
-      "summary": "The CEO of Foundation Future Industries, which counts the president’s son as its chief strategy adviser, tells WIRED it’s exploring some “kinetic things.”",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/humanoid-robot-soldier-eric-trump-foundation-future-industries/",
-      "publishedAt": "2026-07-17T09:00:00.000Z"
-    },
-    {
-      "id": "n_bdd1db7c3e",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Why Apple Sued OpenAI, New York Takes on Data Centers, and What to Know about Cyclosporiasis",
-      "summary": "On today’s Uncanny Valley, we unpack OpenAI’s ongoing drama, both legal and reputational, and whether these developments could further hurt the company—particularly in its fight against Anthropic.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/uncanny-valley-podcase-apple-sued-openai-new-york-data-center-moratorium-cyclosporiasis-outbreak/",
-      "publishedAt": "2026-07-16T22:17:27.000Z"
     },
     {
       "id": "n_f07ea0986e",
