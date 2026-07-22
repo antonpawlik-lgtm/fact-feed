@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-07-21T21:52:30.412Z",
+  "generatedAt": "2026-07-22T01:20:23.030Z",
   "items": [
+    {
+      "id": "n_e4c67ddc4d",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Mittelamerika: Nicaraguas Präsident Ortega will Wahlen abschaffen",
+      "summary": "Bisher wahrte das Regime in Nicaragua den Schein von Wahlen, nächstes Jahr hätten Präsidentschaftswahlen stattfinden sollen. Doch es wird keine mehr geben: Nie wieder, verkündete jetzt Präsident Ortega. Von J. Barke, ARD Mexiko City.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/ortega-nicaragua-wahlen-100.html",
+      "publishedAt": "2026-07-22T00:27:52.000Z"
+    },
+    {
+      "id": "n_35d56fe485",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Frankreich: Die Not der Weinbauern nach den Waldbränden",
+      "summary": "Seit Wochen wüten in Südfrankreich massive Waldbrände. Eine Region, die es hart getroffen hat, sind die Pyrénées-Orientales - dort fielen den Flammen auch zahlreiche Weinhänge zum Opfer. Die Winzer stehen vor dem Nichts. Von Julia Borutta, ARD Paris",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/europa/frankreich-waldbraende-weinbauern-100.html",
+      "publishedAt": "2026-07-21T22:38:36.000Z"
+    },
     {
       "id": "n_d18a827625",
       "type": "news",
@@ -66,28 +88,6 @@
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-iran-krieg-102.html",
       "publishedAt": "2026-07-21T16:12:50.000Z"
-    },
-    {
-      "id": "n_fa5d531e83",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Türkei: Abgesetzter CHP-Chef Özel kündigt Gründung neuer Partei an",
-      "summary": "Im Mai hatte die türkische Justiz den Oppositionspolitiker Özel als Chef der CHP-Partei abgesetzt - nun hat er die Gründung einer neuen Partei angekündigt. Sie könnte auf einen Schlag die größte Oppositionspartei im Parlament werden.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/tuerkei-opposition-chp-spaltung-100.html",
-      "publishedAt": "2026-07-21T15:04:23.000Z"
-    },
-    {
-      "id": "n_af88e266e4",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Milliarden-Deal: Microsoft baut KI-Partnerschaft mit Mistral aus",
-      "summary": "Der Tech-Riese Microsoft und das französische KI-Unternehmen Mistral AI wollen ihre Zusammenarbeit deutlich ausweiten. Ein milliardenschweres Abkommen soll die KI-Infrastruktur in Europa spürbar stärken.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/microsoft-mistral-ai-ki-deal-100.html",
-      "publishedAt": "2026-07-21T15:02:11.000Z"
     },
     {
       "id": "n_b35574e35a",
@@ -182,7 +182,7 @@
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Mattel Film: Masters of the Universe ab Morgen gratis bei Prime Video",
+      "headline": "Mattel Film: Masters of the Universe gratis bei Prime Video",
       "summary": "Amazon MGM Studios wechselt zum digitalen Vertrieb: Ab Mittwoch, 22. Juli 2026, ist Masters of the Universe weltweit direkt im Abo auf Amazon Prime Video verfügbar. (Prime Video, Digitalkino)",
       "source": "Golem.de",
       "url": "https://www.golem.de/news/mattel-film-masters-of-the-universe-ab-morgen-gratis-bei-prime-video-2607-211131.html",
@@ -274,7 +274,7 @@
       "summary": "Oleksandr Syrskyi is dismissed after backlash over the removal of popular Defence Minister Mykhailo Fedorov.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-21T19:57:38.000Z"
+      "publishedAt": "2026-07-21T23:59:34.000Z"
     },
     {
       "id": "n_31d16025de",
@@ -354,6 +354,17 @@
       "publishedAt": "2026-07-21T13:01:09.000Z"
     },
     {
+      "id": "n_a311ebb8f9",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Will AI help you do your job or replace you?",
+      "summary": "Artificial Intelligence companies make vast claims about their tools replacing human labour - our charts show what's happening.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cn7nllr4vd6o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-21T23:04:42.000Z"
+    },
+    {
       "id": "n_82fb0002ba",
       "type": "news",
       "topic": "tech",
@@ -431,22 +442,55 @@
       "publishedAt": "2026-07-17T16:53:04.000Z"
     },
     {
-      "id": "n_a231404316",
+      "id": "n_dd5b31d5f9",
       "type": "news",
       "topic": "tech",
       "lang": "en",
-      "headline": "Trump Media to sell instant access to 'market-moving' social posts",
-      "summary": "Trump Media is launching a fast, paid feed to its most influential posts for Wall Street traders.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-17T07:25:31.000Z"
+      "headline": "Range Rover answers the question: \"What if we built a not-SUV?\"",
+      "summary": "The Range Rover GT will debut as an EV with a hybrid version to follow.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/cars/2026/07/heres-range-rovers-first-not-suv-the-range-rover-gt/",
+      "publishedAt": "2026-07-21T23:01:23.000Z"
+    },
+    {
+      "id": "n_f7b732521a",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "On the run for 20 years, most-wanted fugitive caught hiding as a biotech exec",
+      "summary": "Ronald Fischer, aka Richard Graydon, was arrested in New York last week.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/health/2026/07/on-the-run-for-20-years-most-wanted-fugitive-caught-hiding-as-a-biotech-exec/",
+      "publishedAt": "2026-07-21T22:04:56.000Z"
+    },
+    {
+      "id": "n_78052867c1",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Sony releases one last trailer for Spider-Man: Brand New Day",
+      "summary": "\"Maybe that's my responsibility, to live alone with the truth.\"",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/culture/2026/07/sony-releases-one-last-trailer-for-spider-man-brand-new-day/",
+      "publishedAt": "2026-07-21T19:50:10.000Z"
+    },
+    {
+      "id": "n_8631720c03",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Confusion swirls on source of diarrhea outbreak, but it’s still Taylor Farms",
+      "summary": "Taylor Farms stirred confusion on FDA test and provided a vague recall list.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/health/2026/07/confusion-swirls-on-source-of-diarrhea-outbreak-but-its-still-taylor-farms/",
+      "publishedAt": "2026-07-21T19:39:10.000Z"
     },
     {
       "id": "n_a08cd67448",
       "type": "news",
       "topic": "tech",
       "lang": "en",
-      "headline": "Nintendo customers have no legal right to tariff refunds, company tells judge",
+      "headline": "Nintendo says users voluntarily paid higher prices, have no right to tariff refunds",
       "summary": "Nintendo says Switch buyers got what they paid for, urges court to dismiss lawsuit.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/tech-policy/2026/07/nintendo-customers-have-no-legal-right-to-tariff-refunds-company-tells-judge/",
@@ -486,58 +530,25 @@
       "publishedAt": "2026-07-21T17:33:14.000Z"
     },
     {
-      "id": "n_17af2b70bf",
-      "type": "news",
-      "topic": "tech",
-      "lang": "en",
-      "headline": "Sales of Valve's Steam Deck crater after recent price hike",
-      "summary": "Analysis of bestseller charts shows an 80 percent dip from 2025's sales rate.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/gaming/2026/07/steam-deck-sales-are-losing-steam-since-mays-price-hike/",
-      "publishedAt": "2026-07-21T17:12:34.000Z"
-    },
-    {
-      "id": "n_d2db570303",
-      "type": "news",
-      "topic": "tech",
-      "lang": "en",
-      "headline": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro and Gemini 4",
-      "summary": "There are new 3.6 and 3.5 models today, but Google is already training Gemini 4.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
-      "publishedAt": "2026-07-21T16:58:25.000Z"
-    },
-    {
-      "id": "n_28ab33062c",
-      "type": "news",
-      "topic": "tech",
-      "lang": "en",
-      "headline": "TreeSize won't renew perpetual-license support unless users subscribe",
-      "summary": "\"Current economic conditions\" have shifted TreeSize's business model.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/gadgets/2026/07/treesize-wont-renew-perpetual-license-support-unless-users-subscribe/",
-      "publishedAt": "2026-07-21T15:18:23.000Z"
-    },
-    {
-      "id": "n_674dd71a42",
-      "type": "news",
-      "topic": "tech",
-      "lang": "en",
-      "headline": "When your vehicle outlives its cloud: What happens next?",
-      "summary": "Automakers love connected vehicles, but support isn't open-ended.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/cars/2026/07/when-your-vehicle-outlives-its-cloud-what-happens-next/",
-      "publishedAt": "2026-07-21T13:36:17.000Z"
-    },
-    {
-      "id": "n_fda08a4eab",
+      "id": "n_a749668288",
       "type": "news",
       "topic": "ai",
       "lang": "en",
-      "headline": "OpenAI says Hugging Face was breached by its own pre-release models",
+      "headline": "Meta is testing an AI bedtime story app for people with no imagination",
+      "summary": "At last, a tech company has found a way to outsource humanity's oldest pastime: using our imaginations.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
+      "publishedAt": "2026-07-21T23:55:10.000Z"
+    },
+    {
+      "id": "n_8eac583819",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "OpenAI says Hugging Face was breached by its pre-release models",
       "summary": "OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/",
+      "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
       "publishedAt": "2026-07-21T20:56:55.000Z"
     },
     {
@@ -607,15 +618,15 @@
       "publishedAt": "2026-07-21T13:27:42.000Z"
     },
     {
-      "id": "n_bf2c920d84",
+      "id": "n_4509519814",
       "type": "news",
       "topic": "ai",
       "lang": "en",
-      "headline": "Gritt exits stealth with $32 million for robots to build solar plants — then, everything else",
-      "summary": "Gritt is coming out of stealth with $34 million and plans to automate the hardest tasks on construction sites.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/",
-      "publishedAt": "2026-07-21T10:00:00.000Z"
+      "headline": "Neill Blomkamp’s new zombie AI ‘film’ is just slop warmed over",
+      "summary": "On Monday, District 9 and Gran Turismo director Neill Blomkamp unveiled his latest project: a 13-minute sci-fi short titled Nightborne that's loosely based on Peter Watts' 2014 novel Echopraxia. The short comes from Blomkamp's new AI startup / production company, Barley Studios, ",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/entertainment/968703/neill-blomkamps-nightborne-barley-studios-seedance",
+      "publishedAt": "2026-07-21T22:06:43.000Z"
     },
     {
       "id": "n_3e18d6f571",
@@ -623,7 +634,7 @@
       "topic": "ai",
       "lang": "en",
       "headline": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
-      "summary": "OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday, OpenAI writes that GPT-5.6 Sol and \"an even more capable pre-release model\" discovered vulnerabilities within their sandboxed testing environment",
+      "summary": "OpenAI CEO Sam Altman. | Bloomberg via Getty Images OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday, OpenAI writes that GPT-5.6 Sol and \"an even more capable pre-release model\" discovered vulner",
       "source": "The Verge",
       "url": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
       "publishedAt": "2026-07-21T21:48:54.000Z"
@@ -693,17 +704,6 @@
       "source": "The Verge",
       "url": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
       "publishedAt": "2026-07-20T22:19:12.000Z"
-    },
-    {
-      "id": "n_98f0a6b315",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "SpaceX in your index fund, explained",
-      "summary": "AUUUUUGH | Image: Cath Virginia / The Verge, Getty Images Index funds are touted as one of the safest ways to invest. Rather than picking and choosing individual stocks, index funds let you bet on the market as a whole. So what happens when a company like SpaceX - a giant gamble,",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/business/968257/spacex-in-your-index-fund-explained",
-      "publishedAt": "2026-07-20T21:00:00.000Z"
     },
     {
       "id": "n_cec1ebe5d2",
@@ -871,6 +871,17 @@
       "publishedAt": "2026-07-07T11:10:52.000Z"
     },
     {
+      "id": "n_823d9bb37f",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "OpenAI Models Escaped Containment and Hacked Hugging Face",
+      "summary": "The cybersecurity-focused models, including GPT-5.6 Sol, broke out of a testing sandbox, exploited a zero-day, and gained access to the open internet to pull off the attack.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/openai-models-escaped-containment-and-hacked-huggingface/",
+      "publishedAt": "2026-07-21T22:50:01.000Z"
+    },
+    {
       "id": "n_a7425c69f0",
       "type": "news",
       "topic": "ai",
@@ -946,17 +957,6 @@
       "source": "Wired",
       "url": "https://www.wired.com/story/etsy-is-in-its-flop-era-and-sellers-are-fleeing/",
       "publishedAt": "2026-07-21T09:00:00.000Z"
-    },
-    {
-      "id": "n_323caf1826",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Your Period Tracker Is (Probably) Spying on You",
-      "summary": "Plus: Russian cyberspies turn to infrastructure hacking, DHS repeatedly fails to realize it’d been hacked, a breach exposes an AI music generator’s scraping ways, and more.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/",
-      "publishedAt": "2026-07-18T10:30:00.000Z"
     },
     {
       "id": "n_eed16821fc",
