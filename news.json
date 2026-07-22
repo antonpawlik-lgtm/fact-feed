@@ -1,93 +1,104 @@
 {
-  "generatedAt": "2026-07-22T13:16:48.835Z",
+  "generatedAt": "2026-07-22T16:12:19.612Z",
   "items": [
     {
-      "id": "n_fca6b310c2",
+      "id": "n_d8de24191c",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Könnten KI-gestützte Hackerangriffe zur neuen Gefahr werden?",
-      "summary": "Erstmals ist ein KI-System eigenständig aus einer Testumgebung ausgebrochen und hat ein anderes Unternehmen angegriffen. Welche Risiken stecken dahinter? Wie können sich Firmen und Privatpersonen schützen? Von Michelle Goddemeier.",
+      "headline": "Frei als Fraktionschef: Stühlerücken für mehr Stabilität in der Union?",
+      "summary": "Die Unionsfraktion ringt nach schwierigen Monaten um Geschlossenheit. Mit Thorsten Frei an der Spitze soll nun Ruhe und Stabilität einkehren. Kann das gelingen? Von Corinna Emundts.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/technologie/ki-hackerangriff-folgen-100.html",
-      "publishedAt": "2026-07-22T13:04:19.000Z"
+      "url": "https://www.tagesschau.de/inland/innenpolitik/fraktionschef-frei-union-100.html",
+      "publishedAt": "2026-07-22T16:00:24.000Z"
     },
     {
-      "id": "n_6db97e09bb",
+      "id": "n_d6f67b0711",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Millionenprozess: Bonner Landgericht weist Klage wegen Corona-Masken ab",
-      "summary": "Eine Hamburger Firma forderte im Prozess um Corona-Masken fast eine halbe Milliarde Euro vom Bund. Denn der damalige Gesundheitsminister Spahn habe mehr als 350 Millionen Masken bestellt, so die Begründung. Heute ist das Urteil gefallen.",
+      "headline": "Mutmaßlicher Epstein-Komplize tot aufgefunden",
+      "summary": "Hundertfach taucht sein Name in den Epstein-Akten auf: Nun ist der selbsternannte Modelagent Daniel S. in der Nähe von Paris tot aufgefunden worden. Gegen ihn lief ein Ermittlungsverfahren wegen Menschenhandels.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/wdr-urteil-bei-maskenprozess-landgericht-bonn-weist-millionenklage-gegen-bund-ab-100.html",
-      "publishedAt": "2026-07-22T12:56:00.000Z"
+      "url": "https://www.tagesschau.de/ausland/europa/verdaechtiger-epstein-komplize-tot-aufgefunden-100.html",
+      "publishedAt": "2026-07-22T15:45:34.000Z"
     },
     {
-      "id": "n_08983e4dc6",
+      "id": "n_6d448b9786",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Galeria prüft mögliche Schließungen von 33 Filialen",
-      "summary": "Beschäftigte der angeschlagene Kaufhauskette Galeria müssen erneut um ihre Zukunft bangen: An insgesamt 33 Standorten will das Unternehmen den Fortbestand seiner Filialen prüfen. Ein Überblick, wo Schließungen drohen.",
+      "headline": "EU will \"Chatkontrollen\" teilweise wieder ermöglichen",
+      "summary": "In der EU gibt es seit Jahren Streit über den Einsatz von sogenannten Chatkontrollen, um Kindesmissbrauch aufzudecken. Nun wurde eine vorübergehende Lösung gefunden. Verschlüsselte Nachrichten bleiben davon jedoch ausgenommen.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/galeria-filialen-pruefstand-schliessung-100.html",
-      "publishedAt": "2026-07-22T12:53:35.000Z"
+      "url": "https://www.tagesschau.de/ausland/europa/einigung-eu-chatkontrollen-100.html",
+      "publishedAt": "2026-07-22T15:25:12.000Z"
     },
     {
-      "id": "n_3a2c47a88b",
+      "id": "n_2fe84bbdfc",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Großeinsatz in JVA Siegburg - Aufstand geplant?",
-      "summary": "Andeutungen eines Inhaftierten haben in einer Justizvollzugsanstalt in Nordrhein-Westfalen einen Großeinsatz der Polizei ausgelöst. War ein gewaltsamer Aufstand geplant?",
+      "headline": "Uber und Delivery Hero: Lieferdienste setzen auf Quick Commerce",
+      "summary": "Der Markt für Lieferdienste wächst rasant. Was der Lieferboom für Kunden bedeutet, was Uber mit Delivery Hero vorhat, welche Rolle Amazon spielen könnte - und warum es längst um mehr als Essen geht. Von Angela Göpfert.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/polizeieinsatz-jva-siegburg-100.html",
-      "publishedAt": "2026-07-22T12:48:37.000Z"
+      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/uber-delivery-hero-lieferdienste-markt-100.html",
+      "publishedAt": "2026-07-22T15:11:51.000Z"
     },
     {
-      "id": "n_aab38cfa44",
+      "id": "n_ccf010f401",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Steigende Kraftstoffpreise: Reiche gegen neuen Tankrabatt",
-      "summary": "Der Tankrabatt ist ausgelaufen, die Lage im Nahen Osten spitzt sich zu und die Preise an den Zapfsäulen steigen wieder: Trotzdem schließt Wirtschaftsministerin Reiche weitere staatliche Eingriffe aus.",
+      "headline": "Justizreform in Ungarn: Generalstaatsanwalt Nagy tritt zurück",
+      "summary": "Das ungarische Justizsystem steht kurz vor einer Reform: Der Generalstaatsanwalt ist zurückgetreten. Neben Korruptionsaffären wird ihm vorgeworfen, Ermittlungen gegen die Regierung verschleppt zu haben. Von Oliver Soos.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/reiche-gegen-tankrabatt-preisdeckel-100.html",
-      "publishedAt": "2026-07-22T12:44:26.000Z"
+      "url": "https://www.tagesschau.de/ausland/europa/ungarn-justizreform-100.html",
+      "publishedAt": "2026-07-22T14:27:26.000Z"
     },
     {
-      "id": "n_d1ad13e531",
+      "id": "n_dafa645050",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Wälder in Frankreich, Spanien und Italien brennen",
-      "summary": "An vielen Orten in Europa zeigt sich der Klimawandel in extremer Form: Waldbrände auf Sizilien breiten sich bei Temperaturen um 45 Grad aus. In Frankreich sterben zwei Feuerwehrleute, Hunderte Menschen müssen fliehen.",
+      "headline": "ARD-Korrespondent: \"Merz hat mit Frei jemanden geholt, der klar auf Kurs ist\"",
+      "summary": "Thorsten Frei soll Unionsfraktionschef im Bundestag werden. Für Kanzler Merz sei er ein enger Vertrauter, auf den er sich auch schon in der Vergangenheit verlassen konnte, so ARD-Korrespondent Kuntschner.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/europa/waldbraende-frankreich-sizilien-spanien-100.html",
-      "publishedAt": "2026-07-22T12:27:12.000Z"
+      "url": "https://www.tagesschau.de/inland/innenpolitik/frei-union-fraktionsvorsitz-100.html",
+      "publishedAt": "2026-07-22T13:50:19.000Z"
     },
     {
-      "id": "n_f6aac8453b",
+      "id": "n_b757754787",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Airbus begeistert die Anleger",
-      "summary": "Airbus hat sich neue ehrgeizige Ziele gesetzt. Getragen von einer hohen Nachfrage nach Fracht- und Passagierflugzeugen soll der Gewinn des DAX-Konzerns bis 2029 deutlich steigen. Die Börse ist begeistert.",
+      "headline": "Verdacht auf Cum-Cum-Geschäfte: Ermittler durchsuchen Deutsche Bank",
+      "summary": "Ermittler haben die Büros der Deutschen Bank durchsucht: Es geht um möglicherweise rechtswidrige Steuergeschäfte der Postbank. Der Schaden für den Fiskus soll sich auf Hunderte Millionen Euro belaufen, so der Verdacht. Von P. Blum und V. von Ondarza.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/finanzen/mittags-mb-airbus-100.html",
-      "publishedAt": "2026-07-22T11:52:54.000Z"
+      "url": "https://www.tagesschau.de/investigativ/ndr-wdr/razzia-deutsche-bank-cum-cum-100.html",
+      "publishedAt": "2026-07-22T13:34:20.000Z"
     },
     {
-      "id": "n_1c4d9cb034",
+      "id": "n_a498b2875c",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Proteste in Indien: Modi hat ein \"Kakerlaken\"-Problem",
-      "summary": "Was als Internet-Meme begann, hat sich in Indien zu einer großen Protestbewegung entwickelt. Die \"Kakerlaken\" erhöhen weiter den Druck auf die Regierung Modi - und bekommen inzwischen Rückendeckung aus der Opposition. Von F. Amler.",
+      "headline": "Tech-Firmen am Finanzmarkt: Was KI kostet und wer das alles bezahlt",
+      "summary": "Der KI-Boom wird immer stärker über Schulden finanziert. Tech-Konzerne nehmen am Anleihemarkt Milliarden auf. Ob die Wette auf die Zukunft aufgeht, ist keine ausgemachte Sache. Von Claudia Wehrle.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/asien/indien-kakerlaken-100.html",
-      "publishedAt": "2026-07-22T10:52:50.000Z"
+      "url": "https://www.tagesschau.de/wirtschaft/finanzen/kuenstliche-intelligenz-kosten-100.html",
+      "publishedAt": "2026-07-22T13:32:22.000Z"
+    },
+    {
+      "id": "n_cbf3fb1c36",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "Astronomie: Erster plausibler Hinweis auf einen „supermerkwürdigen“ Exomond",
+      "summary": "Mehrfach gab es Hinweise auf Monde in einem anderen Sternsystem, bestätigt wurde keiner. Die bislang besten Indizien weisen nun auf ein merkwürdiges Exemplar.",
+      "source": "heise online",
+      "url": "https://www.heise.de/news/Astronomie-Erster-plausibler-Hinweis-auf-einen-supermerkwuerdigen-Exomond-11371953.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "publishedAt": "2026-07-22T15:00:00.000Z"
     },
     {
       "id": "n_9f8c6dd203",
@@ -167,191 +178,180 @@
       "publishedAt": "2026-07-17T12:58:00.000Z"
     },
     {
-      "id": "n_170b3dae7d",
+      "id": "n_93cfe124eb",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "LHS 1140 b: Erstmals Atmosphäre bei erdähnlichem Exoplaneten nachgewiesen",
-      "summary": "Seit seiner Entdeckung gilt LHS 1140 b als besonders interessant für die Suche nach außerirdischem Leben. Nun wurde bei dem Exoplaneten Helium entdeckt.",
-      "source": "heise online",
-      "url": "https://www.heise.de/news/LHS-1140-b-Atmosphaere-bei-erdaehnlichem-Exoplaneten-in-habitabler-Zone-gefunden-11368474.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "publishedAt": "2026-07-17T08:02:00.000Z"
-    },
-    {
-      "id": "n_374fc56a51",
-      "type": "news",
-      "topic": "tech",
-      "lang": "de",
-      "headline": "Neue Galaxy Watches: Samsungs neue Galaxy Watch Ultra 2 kommt mit Trinkerinnerung",
-      "summary": "Samsung bringt zwei neue Smartwatches - und behält die Trennung zwischen Sport- und Freizeituhr bei. Die Preise starten bei 409 Euro. (Samsung, Smartwatch)",
+      "headline": "(g+) Opinion: Meta's unwinding of Manus shows even forced deals have merits",
+      "summary": "Disposal of Chinese agentic AI start-up has left the Facebook owner better off than it might seem. Von Louise Lucas (KI, Wirtschaft)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/neue-galaxy-watches-samsungs-neue-galaxy-watch-ultra-2-kommt-mit-trinkerinnerung-2607-211163.html",
-      "publishedAt": "2026-07-22T13:10:02.000Z"
+      "url": "https://www.golem.de/news/opinion-meta-s-unwinding-of-manus-shows-even-forced-deals-have-merits-2607-211154.html",
+      "publishedAt": "2026-07-22T16:00:02.000Z"
     },
     {
-      "id": "n_0ee85f74f6",
+      "id": "n_864f5120d9",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Neue Fold-Modelle im Hands-on: Samsung bietet die volle Falter-Dröhnung",
-      "summary": "Samsungs neues Galaxy Z Fold 8 kommt im Reisepass-Format - und bietet damit einen Kompromiss zwischen dem neuen Fold 8 Ultra und dem Flip 8. Ein Hands-on von Tobias Költzsch (Samsung, Smartphone)",
+      "headline": "Branchenverbände: Umweltauflagen schleifen für OpenAI-Rechenzentrum in Deutschland",
+      "summary": "Rechenzentrumsbetreiber wollen nach der ersten Absage von OpenAI in Deutschland ein Umdenken: Umweltauflagen kippen und den Stromanschluss auf die Bevölkerung umlegen. Ein Bericht von Achim Sawall (OpenAI, KI)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/neue-fold-modelle-im-hands-on-samsung-bietet-die-volle-falter-droehnung-2607-211069.html",
-      "publishedAt": "2026-07-22T13:00:02.000Z"
+      "url": "https://www.golem.de/news/branchenverbaende-umweltauflagen-schleifen-fuer-openai-rechenzentrum-in-deutschland-2607-211172.html",
+      "publishedAt": "2026-07-22T15:44:01.000Z"
     },
     {
-      "id": "n_2d85f981d7",
+      "id": "n_5c6af373a0",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: 4K-Webcam von Ugreen für nur 29,99 Euro bei Amazon",
-      "summary": "Eine Webcam von Ugreen mit 4K-Auflösung, automatischer Lichtkorrektur und Rauschunterdrückung gibt es bei Amazon zum Tiefpreis. (Webcam, Ultra-HD)",
+      "headline": "Fitness: Garmin kauft Training Peaks",
+      "summary": "Die Trainings-App Training Peaks und die Kraftsport-Plattform Train Heroic gehören künftig zu Garmin. (Garmin, Wirtschaft)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-4k-webcam-von-ugreen-fuer-nur-29-99-euro-bei-amazon-2607-211157.html",
-      "publishedAt": "2026-07-22T12:00:01.000Z"
+      "url": "https://www.golem.de/news/fitness-garmin-kauft-training-peaks-2607-211171.html",
+      "publishedAt": "2026-07-22T14:56:02.000Z"
     },
     {
-      "id": "n_fa9bdf51af",
+      "id": "n_4a40d123db",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "KI statt Kino: Musk will eigene Odyssee per KI bis Jahresende drehen",
-      "summary": "Elon Musk plant eine KI-Verfilmung der Odyssee. Sie soll noch 2026 erscheinen und historisch korrekt sein. (Grok, Film)",
+      "headline": "Anzeige: 100-Watt-Ladegerät mit vier Ports bei Amazon für Prime-Kunden nur rund 35 Euro",
+      "summary": "100 Watt Leistung, vier Ports und GaN-Technik: Das kompakte Schnellladegerät von Ugreen gibt es bei Amazon im Angebot günstiger. (Technik/Hardware, iPhone)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/ki-statt-kino-musk-will-eigene-odyssee-per-ki-bis-jahresende-drehen-2607-211156.html",
-      "publishedAt": "2026-07-22T11:47:02.000Z"
+      "url": "https://www.golem.de/news/anzeige-100-watt-ladegeraet-mit-vier-ports-bei-amazon-fuer-prime-kunden-nur-rund-35-euro-2607-211170.html",
+      "publishedAt": "2026-07-22T14:50:06.000Z"
     },
     {
-      "id": "n_9d582e5a51",
+      "id": "n_2bf87982ee",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: Massiver 360-Grad-Laptop-Ständer fällt im Preis auf unter 50 Euro",
-      "summary": "Wer täglich stundenlang auf den Laptop-Bildschirm hinabschaut, kennt Nacken- und Rückenschmerzen nur zu gut. Amazon reduziert aktuell Laptop-Ständer auf unter 50 Euro. (Technik/Hardware)",
+      "headline": "Anzeige: Einstellbare Monitorhalterung für nur 22,93 Euro bei Amazon",
+      "summary": "Amazon hat eine einstellbare Monitorhalterung für den Schreibtisch im Angebot, die für Monitore mit 13 bis 32 Zoll geeignet ist. (Technik/Hardware)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-massiver-360-grad-laptop-staender-faellt-im-preis-auf-unter-50-euro-2607-211153.html",
-      "publishedAt": "2026-07-22T11:45:02.000Z"
+      "url": "https://www.golem.de/news/anzeige-einstellbare-monitorhalterung-fuer-nur-22-93-euro-bei-amazon-2607-211169.html",
+      "publishedAt": "2026-07-22T14:20:02.000Z"
     },
     {
-      "id": "n_e84fad6356",
+      "id": "n_3e539d57a4",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "(g+) Freie Office-Suite für den Desktop: Collabora schließt zur Konkurrenz auf",
-      "summary": "Mit Version 26.04 bringt die webbasierte Office-Suite für Nextcloud & Co. viele überfällige Neuerungen. Einige Details sind jedoch noch undurchdacht. Ein Test von Erik Bärwaldt (Office-Suite, API)",
+      "headline": "Server-Prozessor: Nvidia gibt Einblick in Architektur der Vera-CPU",
+      "summary": "Neben Architekturdetails zeigt Nvidia Ergebnisse des Benchmarks Spec 2026. Die Vera-CPU schneidet dabei besser ab als ein Zen5-Epyc mit mehr Kernen. Von Johannes Hiltscher (Prozessor, AMD)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/freie-office-suite-fuer-den-desktop-collabora-schliesst-zur-konkurrenz-auf-2607-211082.html",
-      "publishedAt": "2026-07-22T11:30:02.000Z"
+      "url": "https://www.golem.de/news/server-prozessor-nvidia-gibt-einblick-in-architektur-der-vera-cpu-2607-211158.html",
+      "publishedAt": "2026-07-22T14:17:02.000Z"
     },
     {
-      "id": "n_5737db6c2f",
+      "id": "n_b16b71204f",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Gas statt Batterien: Technologieoffen ist Auschreibung zu Reservekraftwerken nicht",
-      "summary": "Die Bundesnetzagentur schreibt 4,5 Gigawatt Reserveleistung aus. Batteriespeicher werden dabei auf fast absurde Weise benachteiligt. (Bundesnetzagentur, Energiewende)",
+      "headline": "Nvidia-CEO Jensen Huang: \"Diese chinesischen Modelle sind hervorragend\"",
+      "summary": "Der Nvidia-Chef Jensen Huang sieht in chinesischen KI-Modellen keine Gefahr für die USA und befürwortet deren weitere Verbreitung. (KI, Nvidia)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/gas-statt-batterien-technologieoffen-ist-auschreibung-zu-reservekraftwerken-nicht-2607-211155.html",
-      "publishedAt": "2026-07-22T11:20:02.000Z"
+      "url": "https://www.golem.de/news/nvidia-ceo-jensen-huang-diese-chinesischen-modelle-sind-hervorragend-2607-211165.html",
+      "publishedAt": "2026-07-22T13:58:01.000Z"
     },
     {
-      "id": "n_51b8a5669c",
+      "id": "n_71f62137ec",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: Beliebtes Samsung Galaxy Tab für unter 200 Euro bei Amazon",
-      "summary": "Amazon hat das Samsung Galaxy Tab A11+ im Angebot, das mit 11''-Display, Octa-Core-Prozessor und Dolby-Atmos-Lautsprechern überzeugt. (Galaxy Tab, Samsung)",
+      "headline": "Anzeige: Starker Fahrradträger fällt bei Amazon auf Bestpreis",
+      "summary": "Bei Amazon gibt es derzeit einen interessanten Fahrradträger im Angebot. Er ist zum Bestpreis erhältlich. (E-Bike, Amazon)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-beliebtes-samsung-galaxy-tab-fuer-unter-200-euro-bei-amazon-2607-211146.html",
-      "publishedAt": "2026-07-22T11:05:01.000Z"
+      "url": "https://www.golem.de/news/anzeige-starker-fahrradtraeger-faellt-bei-amazon-auf-bestpreis-2607-211167.html",
+      "publishedAt": "2026-07-22T13:52:01.000Z"
     },
     {
-      "id": "n_7e875643c8",
+      "id": "n_0281fb74b9",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Police station opens at Hitler's birthplace in bid to rid site of Nazi link",
-      "summary": "The opening follows years of controversy about what to do with the 17th-Century former inn, where the Nazi dictator was born.",
+      "headline": "French police formally investigate woman over 2025 killing of Briton",
+      "summary": "Karen Carter was found with stab wounds in the Dordogne village she had lived in for over a decade.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cy5d36e752yo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T12:32:13.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/cwye7lv2endo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-22T15:59:03.000Z"
+    },
+    {
+      "id": "n_14629bfe4a",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Wreckage of Pan Am plane that shaped aviation safety found 74 years on",
+      "summary": "The deaths of 52 people on the Clipper Endeavor led to the introduction of mandatory pre-flight safety briefings.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cdrvyllxj71o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-22T15:50:17.000Z"
+    },
+    {
+      "id": "n_1748a3d796",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Who is Mykhailo Drapatyi, Ukraine's new commander-in-chief?",
+      "summary": "Drapatyi becomes Ukraine's third commander-in-chief since Russia's full-scale invasion in February 2022.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c93483k0lp1o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-22T15:19:48.000Z"
     },
     {
       "id": "n_2ab9c18182",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Modelling scout linked to Epstein found dead in Paris suburbs",
-      "summary": "Daniel Siad, whose name appears in the Epstein files thousands of times, had previously denied knowledge of the threat Jeffrey Epstein posed.",
+      "headline": "Modelling scout linked to Epstein found dead in Paris",
+      "summary": "Daniel Siad, whose name appears in the Epstein files thousands of times, denied knowledge of the threat Jeffrey Epstein posed.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cp8en38vpd3o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T12:08:41.000Z"
-    },
-    {
-      "id": "n_042067488c",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Cocaine worth $370m seized in Liberia's biggest-ever drugs bust",
-      "summary": "The seizure follows a long-running investigation into drug-trafficking networks, police say.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cyvl3zgr3v4o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T11:32:11.000Z"
-    },
-    {
-      "id": "n_4feeb7425b",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Why are thousands protesting for education reform in India?",
-      "summary": "Thousands of mostly young people tried to march on India's parliament to demand changes to how the education system is run.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cedj9j911p8o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T11:30:59.000Z"
-    },
-    {
-      "id": "n_d27a33d94c",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "US renews strikes on Iran as Trump threatens to attack underground nuclear site",
-      "summary": "The US president's threat to target a key Iranian nuclear site came ahead of the 11th consecutive night of attacks.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T10:15:03.000Z"
+      "publishedAt": "2026-07-22T14:54:27.000Z"
     },
     {
       "id": "n_e08dce5b34",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Ukrainian drones hit more sites of Russian online retailer Wildberries",
+      "headline": "Ukrainian drones hit Russian online giant retailer Wildberries for second time",
       "summary": "Logistics hubs belonging to Wildberries in the Krasnodar and Stavropol regions were struck overnight.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/c36de9n4pxpo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T10:00:04.000Z"
+      "publishedAt": "2026-07-22T14:52:25.000Z"
     },
     {
-      "id": "n_c3ccc63a85",
+      "id": "n_b9a681b562",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "India's Modi government under growing pressure as 'cockroach' protests intensify",
-      "summary": "The CJP got a boost on Tuesday when the opposition Congress party demonstrated outside the PM's house.",
+      "headline": "US to announce deal allowing Saudi Arabia a nuclear programme",
+      "summary": "The agreement would fulfil a long-held Saudi ambition but could attract concern in Israel and from some US lawmakers.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c9d8p88lyjdo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T08:02:04.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/cj03r59z73po?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-22T14:49:12.000Z"
     },
     {
-      "id": "n_6e1127131d",
+      "id": "n_f82363b8ea",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Japan temperatures soar over 40C, marking first 'cruelly hot day'",
-      "summary": "The term was introduced in April by the weather agency to describe days when temperatures reach 40C.",
+      "headline": "Mysterious white foam draws crowds on Nigerian highway",
+      "summary": "The environmental agency has warned people to avoid going near the substance as it could pose a health risk.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cp3rz07grngo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T07:00:24.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/cm2g14lzy17o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-22T14:47:32.000Z"
+    },
+    {
+      "id": "n_cce6611a1b",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Tankers make sharp U-turns after Houthi shipping threat",
+      "summary": "All of the ships were travelling to or from Saudi ports before changing course, ship-tracking data shows.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-22T14:42:49.000Z"
     },
     {
       "id": "n_023141ecda",
@@ -442,6 +442,50 @@
       "publishedAt": "2026-07-17T16:53:04.000Z"
     },
     {
+      "id": "n_bf66d7a685",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "What happens when you try to chop a photon in half?",
+      "summary": "A mirror that moves mid-photon could release a shower of new photons.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/science/2026/07/what-happens-when-you-try-to-chop-a-photon-in-half/",
+      "publishedAt": "2026-07-22T14:17:08.000Z"
+    },
+    {
+      "id": "n_ec06410487",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Samsung unveils new Galaxy Z8 foldables and Galaxy Watches, available August 7",
+      "summary": "Samsung's new foldables are slimmer, faster, and more expensive.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/07/samsung-unveils-new-galaxy-z8-foldables-and-galaxy-watches-available-august-7/",
+      "publishedAt": "2026-07-22T13:58:24.000Z"
+    },
+    {
+      "id": "n_d1a137b6b1",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Unlimited AI tokens aren't unlimited after all as US Army burns through supply",
+      "summary": "Troops received an email informing them that they were rapidly depleting their AI tokens.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/07/us-army-faces-ai-use-limits-after-exhausting-years-supply-of-ai-tokens/",
+      "publishedAt": "2026-07-22T13:35:17.000Z"
+    },
+    {
+      "id": "n_76a7829571",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Ukrainian drones deliver robots directly into battle by sea and air",
+      "summary": "Ukraine's battlefield surge of robots now features airdrops and beach assaults.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/07/ukrainian-drones-deliver-robots-directly-into-battle-by-sea-and-air/",
+      "publishedAt": "2026-07-22T11:15:03.000Z"
+    },
+    {
       "id": "n_dd5b31d5f9",
       "type": "news",
       "topic": "tech",
@@ -486,48 +530,26 @@
       "publishedAt": "2026-07-21T19:39:10.000Z"
     },
     {
-      "id": "n_a08cd67448",
+      "id": "n_4022c61989",
       "type": "news",
-      "topic": "tech",
+      "topic": "ai",
       "lang": "en",
-      "headline": "Nintendo says users voluntarily paid higher prices, have no right to tariff refunds",
-      "summary": "Nintendo says Switch buyers got what they paid for, urges court to dismiss lawsuit.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/tech-policy/2026/07/nintendo-customers-have-no-legal-right-to-tariff-refunds-company-tells-judge/",
-      "publishedAt": "2026-07-21T19:09:19.000Z"
+      "headline": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+      "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "publishedAt": "2026-07-22T13:20:35.000Z"
     },
     {
-      "id": "n_f175965d87",
+      "id": "n_858b2ce5d7",
       "type": "news",
-      "topic": "tech",
+      "topic": "ai",
       "lang": "en",
-      "headline": "Let Tom Hiddleston be your guide to Pompeii's final day",
-      "summary": "NatGeo's Pompeii: Out of Time fuses historical fact and imagination to bring city's last 24 hours to life.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/science/2026/07/tom-hiddleston-tracks-possible-pompeii-survivors-in-new-docuseries/",
-      "publishedAt": "2026-07-21T18:17:55.000Z"
-    },
-    {
-      "id": "n_d82254b52b",
-      "type": "news",
-      "topic": "tech",
-      "lang": "en",
-      "headline": "Naked mole-rat queens use a chemical signal to suppress fertility in rivals",
-      "summary": "A single chemical made by mole-rat queens enforces the social order.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/science/2026/07/naked-mole-rat-queens-keep-their-colonies-in-line-with-a-scent/",
-      "publishedAt": "2026-07-21T17:51:52.000Z"
-    },
-    {
-      "id": "n_64a68149b5",
-      "type": "news",
-      "topic": "tech",
-      "lang": "en",
-      "headline": "Anthropic’s $1.5B copyright settlement approved; only 350 authors opted out",
-      "summary": "Anthropic blocks authors from opting out of $1.5B settlement at last minute.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors/",
-      "publishedAt": "2026-07-21T17:33:14.000Z"
+      "headline": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
+      "summary": "Passionfroot, a German startup building a marketplace connecting B2B creators with brands, has raised $15M in a Series A round led by Insight Partners.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/",
+      "publishedAt": "2026-07-22T13:00:00.000Z"
     },
     {
       "id": "n_b7e6966e47",
@@ -596,26 +618,15 @@
       "publishedAt": "2026-07-21T19:43:41.000Z"
     },
     {
-      "id": "n_16d2a505a3",
+      "id": "n_ad3e75f937",
       "type": "news",
       "topic": "ai",
       "lang": "en",
-      "headline": "AI and the rise of the universal entertainment app",
-      "summary": "Over the past decade, streaming platforms competed by dominating individual formats like music, video, podcasts, or audiobooks. Now, as AI makes it easier to create, organize, and recommend content, those distinctions are fading, pushing companies like Spotify, Netflix, YouTube, ",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app/",
-      "publishedAt": "2026-07-21T19:39:30.000Z"
-    },
-    {
-      "id": "n_46f6c2801f",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Data centers expected to use 4x more electricity by 2035",
-      "summary": "New data centers built through 2033 could consume as much electricity as India uses today.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/21/data-centers-expected-to-use-4x-more-electricity-by-2035/",
-      "publishedAt": "2026-07-21T18:06:38.000Z"
+      "headline": "AMD commits up to $5 billion to Anthropic",
+      "summary": "AMD says it's going to invest up to $5 billion in Anthropic, while helping to expand the AI company's computing power, according to an announcement on Wednesday. As part of the new partnership, Anthropic will deploy up to 2 gigawatts of AMD's Instinct MI450 AI GPUs using the chip",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal",
+      "publishedAt": "2026-07-22T14:44:27.000Z"
     },
     {
       "id": "n_cd499e47d0",
@@ -693,17 +704,6 @@
       "source": "The Verge",
       "url": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
       "publishedAt": "2026-07-21T15:00:00.000Z"
-    },
-    {
-      "id": "n_4191c27a8a",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Halliday’s latest smart glasses feature a much-improved display",
-      "summary": "I was not a fan of the original Halliday glasses. The Gen 2 are better. | Image: Halliday I first slipped on Halliday's original smart glasses at CES 2025. I was not a fan. The glasses had a tiny, movable display window embedded into the frame that was incredibly finicky to see, ",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/968255/halliday-gen-2-smart-glasses-hands-on-ai-wearables",
-      "publishedAt": "2026-07-21T13:00:00.000Z"
     },
     {
       "id": "n_cec1ebe5d2",
@@ -1191,6 +1191,18 @@
       "publishedAt": "2026-07-10T17:25:44.000Z"
     },
     {
+      "id": "n_64ebc2a7bf",
+      "type": "video",
+      "topic": "video",
+      "lang": "en",
+      "headline": "Samsung Z Fold 8 (Wide) Impressions: Better Than I Thought!",
+      "summary": "",
+      "source": "Marques Brownlee",
+      "url": "https://www.youtube.com/watch?v=8Hx2yvWSgs0",
+      "thumbnail": "https://i.ytimg.com/vi/8Hx2yvWSgs0/hqdefault.jpg",
+      "publishedAt": "2026-07-22T13:01:05.000Z"
+    },
+    {
       "id": "n_6742ca94db",
       "type": "video",
       "topic": "video",
@@ -1213,18 +1225,6 @@
       "url": "https://www.youtube.com/watch?v=eWKY0OnPByg",
       "thumbnail": "https://i.ytimg.com/vi/eWKY0OnPByg/hqdefault.jpg",
       "publishedAt": "2026-07-08T19:44:58.000Z"
-    },
-    {
-      "id": "n_97025ee6b5",
-      "type": "video",
-      "topic": "video",
-      "lang": "en",
-      "headline": "Nothing Phone 4b: They Can't Say It!",
-      "summary": "",
-      "source": "Marques Brownlee",
-      "url": "https://www.youtube.com/watch?v=DUgPFNRmsCQ",
-      "thumbnail": "https://i.ytimg.com/vi/DUgPFNRmsCQ/hqdefault.jpg",
-      "publishedAt": "2026-07-07T10:31:42.000Z"
     }
   ]
 }
