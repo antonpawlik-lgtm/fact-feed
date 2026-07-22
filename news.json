@@ -1,93 +1,93 @@
 {
-  "generatedAt": "2026-07-22T08:04:58.603Z",
+  "generatedAt": "2026-07-22T10:56:36.243Z",
   "items": [
     {
-      "id": "n_caaa03873d",
+      "id": "n_1c4d9cb034",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Zehn Jahre nach OEZ-Anschlag: Hinterbliebene fühlen sich im Stich gelassen",
-      "summary": "Vor zehn Jahren tötete ein rechtsextremer Attentäter neun Menschen am Olympia-Einkaufszentrum in München. Behörden werteten die Tat lange als unpolitischen Amoklauf - mit Folgen für die Betroffenen. Von T. Marsen.",
+      "headline": "Proteste in Indien: Modi hat ein \"Kakerlaken\"-Problem",
+      "summary": "Was als Internet-Meme begann, hat sich in Indien zu einer großen Protestbewegung entwickelt. Die \"Kakerlaken\" erhöhen weiter den Druck auf die Regierung Modi - und bekommen inzwischen Rückendeckung aus der Opposition. Von F. Amler.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/gesellschaft/oez-attentat-muenchen-100.html",
-      "publishedAt": "2026-07-22T07:28:53.000Z"
+      "url": "https://www.tagesschau.de/ausland/asien/indien-kakerlaken-100.html",
+      "publishedAt": "2026-07-22T10:52:50.000Z"
     },
     {
-      "id": "n_c24e1b0be4",
+      "id": "n_6e9306ea35",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Lob für Alkoholverbot an Bahnhöfen - aber Fragen zur Umsetzung",
-      "summary": "Für das geplante Alkoholverbot an Bahnhöfen gibt es Lob aus der Politik und von Polizeigewerkschaften. Zugleich werden Zweifel an der Umsetzung und Kritik an den Folgen für bestimmte Personengruppen laut.",
+      "headline": "Reichsbürger-Gruppe \"Königreich Deutschland\": Mutmaßliche Anführer angeklagt",
+      "summary": "Seit Mai 2025 ist die Reichsbürger-Gruppe \"Königreich Deutschland\" verboten. Jetzt hat die Bundesanwaltschaft Anklage gegen vier mutmaßliche Köpfe der Gruppierung erhoben - darunter auch der sogenannte \"Oberste Souverän\" Peter Fitzek.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/reaktionen-alkoholverbot-bahnhoefe-100.html",
-      "publishedAt": "2026-07-22T07:21:58.000Z"
+      "url": "https://www.tagesschau.de/inland/anklage-reichsbuerger-anfuehrer-100.html",
+      "publishedAt": "2026-07-22T10:36:38.000Z"
     },
     {
-      "id": "n_49e6ff1dd8",
+      "id": "n_d1ad13e531",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Bis zu 200 Prozent: Trump kündigt Zölle auf Arzneimittel an",
-      "summary": "US-Präsident Donald Trump will Arzneimittelhersteller zu einer Produktion in den USA bewegen. Für Generika kündigte er deshalb ab Sommer 2028 Strafzölle an - die auf bis zu 200 Prozent steigen sollen.",
+      "headline": "Wälder in Frankreich, Spanien und Italien brennen",
+      "summary": "An vielen Orten in Europa zeigt sich der Klimawandel in extremer Form: Waldbrände auf Sizilien breiten sich bei Temperaturen um 45 Grad aus. In Frankreich sterben zwei Feuerwehrleute, Hunderte Menschen müssen fliehen.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/trump-zoelle-arnzeimittel-generika-100.html",
-      "publishedAt": "2026-07-22T06:55:28.000Z"
+      "url": "https://www.tagesschau.de/ausland/europa/waldbraende-frankreich-sizilien-spanien-100.html",
+      "publishedAt": "2026-07-22T09:57:28.000Z"
     },
     {
-      "id": "n_b76a55a65e",
+      "id": "n_b757754787",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "KI von OpenAI steuert eigenständig Hackerangriff",
-      "summary": "OpenAI spricht selbst von einem \"beispiellosen Cybervorfall\": KI-Modelle der Firma brachen eigenständig aus einer Testumgebung aus, verschafften sich Zugang zum offenen Internet - und hackten ein externes Unternehmen.",
+      "headline": "Verdacht auf Cum-Cum-Geschäfte: Ermittler durchsuchen Deutsche Bank",
+      "summary": "Ermittler durchsuchen seit dem Morgen Büros der Deutschen Bank: Es geht um möglicherweise rechtswidrige Steuergeschäfte der Postbank. Der Schaden für den Fiskus soll sich auf Hunderte Millionen Euro belaufen, so der Verdacht. Von P. Blum und V. von Ondarza.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/openai-ki-hackerangriff-100.html",
-      "publishedAt": "2026-07-22T05:46:49.000Z"
+      "url": "https://www.tagesschau.de/investigativ/ndr-wdr/razzia-deutsche-bank-cum-cum-100.html",
+      "publishedAt": "2026-07-22T09:55:11.000Z"
     },
     {
-      "id": "n_069d482a62",
+      "id": "n_71a820562f",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Hegseth beziffert Kriegskosten in Iran auf 37,5 Milliarden Dollar",
-      "summary": "US-Verteidigungsminister Hegseth hat sich den Fragen des Senatsausschusses gestellt. Denn er will mehr Geld für den Iran-Krieg. 37,5 Milliarden Dollar hat der Konflikt die USA schon gekostet - mehr als bisher angenommen.",
+      "headline": "Anschläge in Norwegen vor 15 Jahren: \"Das Trauma sitzt in deinem Körper\"",
+      "summary": "15 Jahre nach dem rechtsextremistischen Anschlag in Norwegen gedenkt das Land mit einem neuen Denkmal der Opfer. Die damals 17-jährige Hanne überlebte den Anschlag auf der Insel Utøya. Das Trauma begleitet sie bis heute. Von E. Kuch.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/amerika/hegseth-haushaltsausschuss-irankrieg-100.html",
-      "publishedAt": "2026-07-22T05:41:20.000Z"
+      "url": "https://www.tagesschau.de/ausland/europa/norwegen-erinnerung-anschlag-utoya-100.html",
+      "publishedAt": "2026-07-22T09:30:05.000Z"
     },
     {
-      "id": "n_43ed50dd59",
+      "id": "n_86da78c2be",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Handelsroute: Nordwestpassage als neuer globaler Seeweg?",
-      "summary": "Die Nordwestpassage galt lange als gefährlichster Seeweg der Welt. Der Klimawandel weckt Hoffnungen, dass hier eine neue Handelsroute zwischen Ostasien und Nordamerika entstehen könnte. Ein realistisches Szenario? Von M. Ganslmeier.",
+      "headline": "Samsung erwägt Milliarden-Investment bei KI-Start-up Mistral",
+      "summary": "Der französische KI-Entwickler Mistral könnte bald einen weiteren prominenten Investor gewinnen. Medienberichten zufolge prüft der südkoreanische Chipkonzern Samsung einen Einstieg in Milliardenhöhe.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/nordwestpassage-kanada-100.html",
-      "publishedAt": "2026-07-22T05:35:58.000Z"
+      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/samsung-ki-investition-mistral-100.html",
+      "publishedAt": "2026-07-22T09:23:40.000Z"
     },
     {
-      "id": "n_3cbc444895",
+      "id": "n_983b241f58",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Braunau in Österreich: Hitlers Geburtshaus wird zu Polizeistation",
-      "summary": "Erst ein Schulgebäude, dann ein Standort der Lebenshilfe, zuletzt Leerstand: Lange wurde im österreichischen Braunau diskutiert, was aus dem Geburtshaus von Hitler werden soll. Nun soll die Polizei den Ort \"neutralisieren\". Von D. Freches.",
+      "headline": "Iran-Krieg: Erstmals wieder Luftalarm in Teheran",
+      "summary": "Auch in der vergangenen Nacht hat die US-Armee Iran mit einer Welle von Angriffen überzogen. Erstmals seit dem jüngsten Aufflammen des Krieges war auch in der Hauptstadt Teheran wieder Luftalarm zu hören.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/europa/hitler-geburtshaus-polizei-100.html",
-      "publishedAt": "2026-07-22T04:50:17.000Z"
+      "url": "https://www.tagesschau.de/ausland/teheran-iran-usa-100.html",
+      "publishedAt": "2026-07-22T09:10:09.000Z"
     },
     {
-      "id": "n_a866aff6b9",
+      "id": "n_26fdafb07a",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Londoner Polizei: Festnahmen mithilfe von Gesichtserkennung",
-      "summary": "Die Londoner Polizei preist ihre Erfahrungen mit automatisierter Gesichtserkennung. Mehr als 2.000 Gesuchte seien mit ihrer Hilfe festgenommen worden. Nun soll das Projekt ausgerollt werden. Datenschützer sind erschrocken. Von C. Prössl.",
+      "headline": "So will die Bundesregierung deutsche Start-ups fördern",
+      "summary": "36 Seiten, 150 Maßnahmen: Mit einer neuen Strategie will die Bundesregierung neu gegründeten Unternehmen zum Durchbruch verhelfen - und verhindern, dass sie ins Ausland abwandern. Wie soll das gelingen?",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/europa/london-gesichtserkennung-100.html",
-      "publishedAt": "2026-07-22T04:23:02.000Z"
+      "url": "https://www.tagesschau.de/inland/innenpolitik/start-up-strategie-bundesregierung-102.html",
+      "publishedAt": "2026-07-22T08:46:28.000Z"
     },
     {
       "id": "n_9f8c6dd203",
@@ -178,103 +178,158 @@
       "publishedAt": "2026-07-17T08:02:00.000Z"
     },
     {
-      "id": "n_89c8808e44",
+      "id": "n_94763e0be0",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Jugendschutzgesetz wirkungslos: Australiens Social-Media-Verbot scheitert an Teenagern",
-      "summary": "Eine Studie zeigt: Die Befolgungsquote des Social-Media-Verbots für Jugendliche unter 16 Jahren in Australien sinkt dramatisch. (Social-Media-Verbot, Studien)",
+      "headline": "Ubuntu: Root-Lücke in snapd gefährdet unzählige Linux-Systeme",
+      "summary": "Zwei Race Conditions in snap-confine verleihen Angreifern unter Linux Root-Zugriff. Mehrere Ubuntu-Versionen sind per Default anfällig. (Sicherheitslücke, Ubuntu)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/jugendschutzgesetz-wirkungslos-australiens-social-media-verbot-scheitert-an-teenagern-2607-211139.html",
-      "publishedAt": "2026-07-22T07:52:02.000Z"
+      "url": "https://www.golem.de/news/ubuntu-root-luecke-in-snapd-gefaehrdet-unzaehlige-linux-systeme-2607-211151.html",
+      "publishedAt": "2026-07-22T10:54:05.000Z"
     },
     {
-      "id": "n_debf81b844",
+      "id": "n_a8e7c71977",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "China: Weltweit größte Hybrid-Solaranlage liefert Energie auch bei Nacht",
-      "summary": "Damit dies funktioniert, wird mit Solarenergie Salz erhitzt, dessen Abwärme über Nacht eine Dampfmaschine antreibt. (Solarenergie, Umweltschutz)",
+      "headline": "Anzeige: Großes Display für Apple Carplay und Android Auto für Prime-Mitglieder jetzt 55 Euro ...",
+      "summary": "Das Krunia-Carplay-Display bringt Apple Carplay, Android Auto und Rückfahrkamera ins Auto. Jetzt für Prime-Mitglieder mit starkem Rabatt. (Technik/Hardware)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/china-weltweit-groesste-hybrid-solaranlage-liefert-energie-auch-bei-nacht-2607-211135.html",
-      "publishedAt": "2026-07-22T07:20:02.000Z"
+      "url": "https://www.golem.de/news/anzeige-grosses-display-fuer-apple-carplay-und-android-auto-fuer-prime-mitglieder-jetzt-55-euro-guenstiger-2607-211152.html",
+      "publishedAt": "2026-07-22T10:45:02.000Z"
     },
     {
-      "id": "n_f1bde45c1f",
+      "id": "n_7646a38977",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: Garmin Instinct 3 Solar mit unbegrenzter Akkulaufzeit zum Bestpreis",
-      "summary": "Die Garmin Instinct 3 Solar (45 mm) ist bei Amazon zum Bestpreis erhältlich und bietet dank Solarladung eine nahezu unbegrenzte Akkulaufzeit. (Smartwatch, GPS)",
+      "headline": "Ask me anything am 29.7.: Selbstständig in der IT? Stellt eure Fragen unseren Experten!",
+      "summary": "Stundensatz, der erste Kunde, Formalkram: In unserem Live-Video-AMA am 29. Juli könnt ihr den IT-Unternehmer Pierre Wilken alles rund ums IT-Freelancertum fragen. (Arbeit, Wirtschaft)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-garmin-instinct-3-solar-mit-unbegrenzter-akkulaufzeit-zum-bestpreis-2607-211136.html",
-      "publishedAt": "2026-07-22T07:03:02.000Z"
+      "url": "https://www.golem.de/news/ask-me-anything-am-29-7-selbststaendig-in-der-it-stellt-eure-fragen-unseren-experten-2607-210634.html",
+      "publishedAt": "2026-07-22T10:42:01.000Z"
     },
     {
-      "id": "n_d9e9ab2268",
+      "id": "n_0ed4033610",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Frankreich: Social Media wird ab September für unter 15-Jährige gesperrt",
-      "summary": "Die Französische Nationalversammlung und der Senat haben sich auf ein Gesetz geeinigt, das Jugendlichen unter 15 Jahren den Zugang zu sozialen Netzwerken verbietet. (Soziales Netz, Politik)",
+      "headline": "Xbox: Microsoft will Support für gehackte Konten verbessern",
+      "summary": "Laut einem Bericht arbeitet Microsoft an besseren Prozessen für gehackte Konten. Bislang konnten Betroffene dauerhaft den Zugriff verlieren. (Microsoft, Spiele)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/frankreich-social-media-wird-ab-september-fuer-unter-15-jaehrige-gesperrt-2607-211138.html",
-      "publishedAt": "2026-07-22T06:59:02.000Z"
+      "url": "https://www.golem.de/news/xbox-microsoft-will-support-fuer-gehackte-konten-verbessern-2607-211149.html",
+      "publishedAt": "2026-07-22T10:35:02.000Z"
     },
     {
-      "id": "n_de91e34fa6",
+      "id": "n_879655995c",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Bei internen KI-Tests: OpenAI hat versehentlich Hugging Face gehackt",
-      "summary": "Der kürzlich bekannt gewordene Cyberangriff auf Hugging Face kam von OpenAI. Das Unternehmen hatte seine KI-Modelle bei internen Cybertests nicht im Griff. (KI, Cyberwar)",
+      "headline": "Folgeschäden nicht eingerechnet: Jeder Hitzetag kostet IT-Branche 17 Millionen Euro",
+      "summary": "Die große Menge an IT-Beschäftigten und die Herausforderungen für die kognitive Arbeit bei Hitze verursachen Folgekosten in weiteren Branchen. Ein Bericht von Mike Faust (Arbeit, Studien)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/bei-internen-ki-tests-openai-hat-versehentlich-hugging-face-gehackt-2607-211137.html",
-      "publishedAt": "2026-07-22T06:46:02.000Z"
+      "url": "https://www.golem.de/news/folgeschaeden-nicht-eingerechnet-jeder-hitzetag-kostet-it-branche-17-millionen-euro-2607-211118.html",
+      "publishedAt": "2026-07-22T10:22:02.000Z"
     },
     {
-      "id": "n_e8d523c138",
+      "id": "n_bf10678969",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Booking.com: Geschäftsmodell Endreinigung",
-      "summary": "Wie Ferienhausanbieter auf Booking.com den Preis nach der Buchung durch Pflichtgebühren massiv erhöhen. Eine Recherche von Markus Feilner (Reisen, Elektroauto)",
+      "headline": "ME-South-1: Iran will AWS-Instanz in Bahrain zerstört haben",
+      "summary": "Der Iran will die AWS-Rechenzentren in Bahrain mit Marschflugkörpern zerstört haben. Der Angriff wurde von den USA, Amazon oder unabhängiger Seite bislang weder bestritten noch verifiziert. (AWS, Web Service)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/booking-com-geschaeftsmodell-endreinigung-2607-211054.html",
-      "publishedAt": "2026-07-22T06:24:01.000Z"
+      "url": "https://www.golem.de/news/me-south-1-iran-will-aws-instanz-in-bahrain-zerstoert-haben-2607-211150.html",
+      "publishedAt": "2026-07-22T10:15:02.000Z"
     },
     {
-      "id": "n_549a1b1a81",
+      "id": "n_68055005bf",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Mattel Film: Masters of the Universe gratis bei Prime Video",
-      "summary": "Amazon MGM Studios wechselt zum digitalen Vertrieb: Ab dem heutigen Mittwoch ist Masters of the Universe weltweit im Abo auf Amazon Prime Video verfügbar. (Prime Video, Digitalkino)",
+      "headline": "Anzeige: KI-Agenten im Unternehmen: Workshop mit Praxisdemos",
+      "summary": "KI-Agenten versprechen mehr Autonomie als Chatbots. Für Unternehmen zählt, ob Sicherheit, Kosten und Nutzen belastbar sind. Ein Workshop ordnet die Praxis ein. (Golem Karrierewelt, Programmiersprachen)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/mattel-film-masters-of-the-universe-ab-morgen-gratis-bei-prime-video-2607-211131.html",
-      "publishedAt": "2026-07-21T20:24:02.000Z"
+      "url": "https://www.golem.de/news/anzeige-ki-agenten-im-unternehmen-workshop-mit-praxisdemos-2607-209735.html",
+      "publishedAt": "2026-07-22T09:49:02.000Z"
     },
     {
-      "id": "n_5cfc5137e8",
+      "id": "n_0b8f0eb284",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: Großer Balkonkraftwerks-Sale bei Amazon - und der Topseller ist schon weg",
-      "summary": "Seit gestern befinden sich mehrere Balkonkraftwerke bei Amazon im zeitlich befristeten Angebot. Der erste Deal ist schon vegriffen. (Balkonkraftwerk, Technik/Hardware)",
+      "headline": "Upscaler: Nvidia verspricht mehr Kontrolle über DLSS 5",
+      "summary": "Nach Kritik an der neuen KI-Technik erklärt Nvidia erstmals ausführlich, wie DLSS 5 funktionieren soll. (DLSS, Nvidia)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-grosser-balkonkraftwerks-sale-bei-amazon-und-der-topseller-ist-schon-weg-2607-211130.html",
-      "publishedAt": "2026-07-21T16:49:01.000Z"
+      "url": "https://www.golem.de/news/upscaler-nvidia-verspricht-mehr-kontrolle-ueber-dlss-5-2607-211148.html",
+      "publishedAt": "2026-07-22T09:24:02.000Z"
+    },
+    {
+      "id": "n_2ab9c18182",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Modelling scout linked to Epstein found dead in Paris suburbs",
+      "summary": "Daniel Siad, whose name appears in the Epstein files thousands of times, had previously denied knowledge of the threat Jeffrey Epstein posed.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cp8en38vpd3o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-22T10:40:14.000Z"
+    },
+    {
+      "id": "n_4feeb7425b",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Why are thousands protesting for education reform in India?",
+      "summary": "Thousands of mostly young people tried to march on India's parliament to demand changes to how the education system is run.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cedj9j911p8o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-22T10:18:32.000Z"
+    },
+    {
+      "id": "n_d27a33d94c",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "US renews strikes on Iran as Trump threatens to attack underground nuclear site",
+      "summary": "The US president's threat to target a key Iranian nuclear site came ahead of the 11th consecutive night of attacks.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-22T10:15:03.000Z"
     },
     {
       "id": "n_e08dce5b34",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "More warehouses of Russian online retailer Wildberries hit by Ukraine, officials say",
-      "summary": "Logistics hubs belonging to Wildberries in the Krasnodar and Stavropol regions were struck overnight on Tuesday.",
+      "headline": "Ukrainian drones hit more sites of Russian online retailer Wildberries",
+      "summary": "Logistics hubs belonging to Wildberries in the Krasnodar and Stavropol regions were struck overnight.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/c36de9n4pxpo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T07:38:20.000Z"
+      "publishedAt": "2026-07-22T10:00:04.000Z"
+    },
+    {
+      "id": "n_7e875643c8",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Police station opens at Hitler's birthplace in bid to rid site of Nazi link",
+      "summary": "The opening follows years of controversy about what to do with the 17th-Century former inn, where the Nazi dictator was born.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cy5d36e752yo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-22T08:38:21.000Z"
+    },
+    {
+      "id": "n_c3ccc63a85",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "India's Modi government under growing pressure as 'cockroach' protests intensify",
+      "summary": "The CJP got a boost on Tuesday when the opposition Congress party demonstrated outside the PM's house.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c9d8p88lyjdo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-22T08:02:04.000Z"
     },
     {
       "id": "n_6e1127131d",
@@ -288,70 +343,26 @@
       "publishedAt": "2026-07-22T07:00:24.000Z"
     },
     {
-      "id": "n_4ce2c9e1e4",
+      "id": "n_f3acc1f795",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Zelensky sacks Ukraine's top army commander after days of protests",
-      "summary": "Oleksandr Syrskyi is dismissed after backlash over the removal of popular Defence Minister Mykhailo Fedorov.",
+      "headline": "Tunnel collapse in India kills 12 workers",
+      "summary": "Rescue operation is ongoing but hazardous conditions have hampered efforts to reach those still inside.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T05:37:43.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/c80nv79204eo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-22T05:38:22.000Z"
     },
     {
-      "id": "n_c2a32cb73b",
+      "id": "n_023141ecda",
       "type": "news",
-      "topic": "general",
+      "topic": "tech",
       "lang": "en",
-      "headline": "Rebel Wilson cleared in defamation case brought by actress in her own film",
-      "summary": "Wilson was accused of defaming young Australian actress Charlotte MacInnes, but cleared by a Sydney court.",
+      "headline": "OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack",
+      "summary": "It is one of the first publicly disclosed cyber-attacks carried out by AI without direct human involvement.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c80nv4eevero?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T05:33:04.000Z"
-    },
-    {
-      "id": "n_0e7091949c",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Meet the women breaking world records in lumberjack sports",
-      "summary": "The BBC finds out what is driving the sports' increasing popularity with women and what it takes to be the best.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c6293zk14njo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T05:06:35.000Z"
-    },
-    {
-      "id": "n_48ff62bff3",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Beluga whales relocated from closed Canadian marine park arrive in US",
-      "summary": "Six beluga whales have arrived in the US after being moved from a Canadian marine park that could no longer care for them.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/videos/ckg4x8lpe50o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T05:03:42.000Z"
-    },
-    {
-      "id": "n_85229a18fb",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "France passes law banning under-15s from social media",
-      "summary": "The law will require social media platforms in France to verify all users age from January.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cq56l9p4y93o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T03:50:55.000Z"
-    },
-    {
-      "id": "n_5aa0ecfc23",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Michelin-starred restaurateur faces jail for using ants as dessert garnish",
-      "summary": "Officials say the restaurant in South Korea used some 49,000 ants in various dishes over four years.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c62qw1qk95eo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T03:32:56.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/c3ek3gvdnj3o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-22T10:21:15.000Z"
     },
     {
       "id": "n_82fb0002ba",
@@ -429,17 +440,6 @@
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cy9w4q8pgp0o?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-07-17T16:53:04.000Z"
-    },
-    {
-      "id": "n_a231404316",
-      "type": "news",
-      "topic": "tech",
-      "lang": "en",
-      "headline": "Trump Media to sell instant access to 'market-moving' social posts",
-      "summary": "Trump Media is launching a fast, paid feed to its most influential posts for Wall Street traders.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-17T07:25:31.000Z"
     },
     {
       "id": "n_dd5b31d5f9",
@@ -618,6 +618,17 @@
       "publishedAt": "2026-07-21T17:11:50.000Z"
     },
     {
+      "id": "n_cd41dfa172",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "Utility companies are promising to spare us from AI’s energy bill",
+      "summary": "The pledge was introduced in March, and has done little to quell concerns so far. | Image: Cath Virginia / The Verge, Getty Images In the face of backlash to concerns the AI boom will increase consumer electricity bills, the largest utility companies and data center developers in",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump",
+      "publishedAt": "2026-07-22T10:12:13.000Z"
+    },
+    {
       "id": "n_4509519814",
       "type": "news",
       "topic": "ai",
@@ -693,17 +704,6 @@
       "source": "The Verge",
       "url": "https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment",
       "publishedAt": "2026-07-21T11:08:56.000Z"
-    },
-    {
-      "id": "n_f09cbf6a0e",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Here are the 30,000 songs Sony is suing Udio&#8217;s AI music generator over",
-      "summary": "Sony Music Entertainment has filed another lawsuit against Udio, accusing the AI music generator of infringing the copyright of more than 30,000 of its songs, ranging from Elvis Presley's Hound Dog to Beyoncé's Say My Name, and Harry Styles' As It Was. The lawsuit, filed in a New",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
-      "publishedAt": "2026-07-20T22:19:12.000Z"
     },
     {
       "id": "n_cec1ebe5d2",
