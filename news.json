@@ -1,93 +1,93 @@
 {
-  "generatedAt": "2026-07-23T13:19:37.612Z",
+  "generatedAt": "2026-07-23T16:18:15.528Z",
   "items": [
     {
-      "id": "n_f871e886ea",
+      "id": "n_b24f72f37a",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "EZB lässt Leitzins unverändert nach Zinserhöhung im Juni",
-      "summary": "Die Europäische Zentralbank legt eine Zinspause ein. Der für Banken und Sparer wichtige Einlagensatz bleibt bei 2,25 Prozent. Gut möglich jedoch, dass im September die nächste Erhöhung folgt.",
+      "headline": "Medienberichte: Gesundheitsministerin Warken soll Kanzleramtschefin werden",
+      "summary": "Die Kabinettsumbildung nimmt Formen an: Nina Warken soll laut Medienberichten neue Kanzleramtschefin werden - CDU-Generalsekretär Linnemann das Gesundheitsministerium von ihr übernehmen.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/finanzen/ezb-zinsentscheidung-juli-100.html",
-      "publishedAt": "2026-07-23T13:14:29.000Z"
+      "url": "https://www.tagesschau.de/inland/innenpolitik/warken-kanzleramtschefin-100.html",
+      "publishedAt": "2026-07-23T16:16:57.000Z"
     },
     {
-      "id": "n_085469e3ef",
+      "id": "n_aa71875477",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Wie gerecht ist das Reformpaket der Koalition?",
-      "summary": "Mehr Aufschwung, mehr Beschäftigung - mit ihrem Reformpaket will die Koalition das Land wieder fit machen. Nach der Sommerpause soll es verabschiedet werden. Doch wie gerecht sind die Gesetzentwürfe? Von Frank Aischmann.",
+      "headline": "Marktbericht: Der DAX knickt ein",
+      "summary": "Gleich mehrere Belastungsfaktoren drückten heute auf die Stimmung am Aktienmarkt. Die jüngste Zwischenerholung im DAX ist schon wieder zu Ende - vor allem die hohen Ölpreise belasteten.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/reformpaket-koalition-100.html",
-      "publishedAt": "2026-07-23T12:38:17.000Z"
+      "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-berichtssaison-iran-100.html",
+      "publishedAt": "2026-07-23T16:16:23.000Z"
     },
     {
-      "id": "n_65cc86cb86",
+      "id": "n_d8d384d326",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Batteriehersteller in der Krise: Varta soll zerschlagen werden",
-      "summary": "Die Zukunft von Varta ist ungewiss. Beim angeschlagenen Batteriehersteller rückt eine Zerschlagung näher. Die wichtigsten Gläubiger wollen das Geschäft mit Haushaltsbatterien aus dem Konzern herauslösen.",
+      "headline": "Regensburg: Mutmaßlicher Täter nach Messerattacke in Bank festgenommen",
+      "summary": "Nach einer Messerattacke in einer Bank in Regensburg hat die Polizei den mutmaßlichen Täter festgenommen. Es handelt sich demnach um einen 20-Jährigen Deutschen. Bei dem Angriff wurde ein Mann tödlich verletzt.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/varta-batterieunternehmen-zerschlagung-100.html",
-      "publishedAt": "2026-07-23T12:36:10.000Z"
+      "url": "https://www.tagesschau.de/inland/regensburg-geiselnahme-bank-102.html",
+      "publishedAt": "2026-07-23T16:13:16.000Z"
     },
     {
-      "id": "n_c9444c5d21",
+      "id": "n_7e2568288e",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Verfassungsklage wegen Beratungszeit für \"Heizungsgesetz\" abgewiesen",
-      "summary": "Der Zeitplan der damaligen Ampelkoalition für das Gebäudeenergiegesetz im Sommer 2023 war nicht zu knapp. Das hat das Bundesverfassungsgericht entschieden. Im Eilverfahren hatte der klagende CDU-Politiker noch Recht bekommen.",
+      "headline": "EU verhängt weiteres Sanktionspaket gegen Russland",
+      "summary": "Die EU-Kommission hat das 21. Sanktionspaket gegen Russland beschlossen. Besonders der Finanzsektor soll stärker betroffen sein. Die Verhandlungen waren zäh, viele Länder hatten Extrawünsche. Von Thomas Spickhofen.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/gebaeudeenergiegesetz-verfassungsgericht-urteil-100.html",
-      "publishedAt": "2026-07-23T12:13:17.000Z"
+      "url": "https://www.tagesschau.de/ausland/europa/eu-russland-sanktionen-140.html",
+      "publishedAt": "2026-07-23T16:07:54.000Z"
     },
     {
-      "id": "n_e96adaebd5",
+      "id": "n_9b1fb3e19f",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Nach schweren Gefechten: Thailand baut Grenzzaun zu Kambodscha",
-      "summary": "Nach den schweren Gefechten des vergangenen Jahres schafft Thailand Fakten: Entlang der Grenze zu Kambodscha steht der erste Abschnitt eines dauerhaften Grenzzauns. Das Nachbarland reagiert bislang zurückhaltend.",
+      "headline": "US-Atomabkommen mit Saudi-Arabien: Ein Deal, der Sorgen macht",
+      "summary": "Der Nahe Osten ist eine äußerst unruhige Region, bereits mehrfach wurden Atomanlagen angegriffen. Der saudisch-amerikanische Atomdeal weckt deshalb Sorgen, meint Moritz Behrendt. Denn niemand weiß, wie sich die Konflikte dort entwickeln.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/asien/thailand-kambodscha-grenzzaun-100.html",
-      "publishedAt": "2026-07-23T12:09:59.000Z"
+      "url": "https://www.tagesschau.de/kommentar/saudi-arabien-atomkraft-102.html",
+      "publishedAt": "2026-07-23T15:33:32.000Z"
     },
     {
-      "id": "n_f318b1b190",
+      "id": "n_0cba618cbf",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "UniCredit steht kurz vor Commerzbank-Übernahme",
-      "summary": "Die italienische Großbank UniCredit steht kurz vor der Übernahme der Commerzbank. Bankchef Orcel sucht dazu jetzt das Gespräch mit allen Beteiligten. Willkommen ist er allerdings nicht.",
+      "headline": "Vier Frauen und zwei Männer kämpfen um Nachfolge von UN-Chef Guterres",
+      "summary": "Am Ende des Jahres scheidet UN-Generalsekretär Guterres aus seinem Amt aus. Zwei Männer und vier Frauen kämpfen um seine Nachfolge. Eine Frau stand in der 80-jährigen Geschichte noch nie an der Spitze. Von Martin Ganslmeier.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/finanzen/mb-mittag-unicredit-100.html",
-      "publishedAt": "2026-07-23T11:37:35.000Z"
+      "url": "https://www.tagesschau.de/ausland/korrespondenten/un-nachfolge-guterres-100.html",
+      "publishedAt": "2026-07-23T15:22:20.000Z"
     },
     {
-      "id": "n_fc5ed19614",
+      "id": "n_49ef95a269",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Wohnungsbau in Deutschland fällt auf 15-Jahrestief",
-      "summary": "Trotz Wohnraummangels dürfte die Zahl der fertiggestellten Wohnungen in Deutschland weiter sinken. Das ifo Institut rechnet für 2026 mit nur noch 185.000 neuen Wohnungen. Erholung ist kaum in Sicht.",
+      "headline": "Wie Wälder sich nach Großbränden selbst erneuern",
+      "summary": "Ganz Europa ist zu trocken, in vielen Regionen brennen die Wälder. Was für Menschen, Tiere und Vegetation zur Katastrophe werden kann, ist auch Teil eines Kreislaufes. Von Gerald Perschke.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/konjunktur/wohnungsbau-deutschland-sinkt-100.html",
-      "publishedAt": "2026-07-23T11:34:49.000Z"
+      "url": "https://www.tagesschau.de/wissen/klima/rolle-waldbraende-natur-100.html",
+      "publishedAt": "2026-07-23T15:21:51.000Z"
     },
     {
-      "id": "n_151a52d888",
+      "id": "n_ec46019f6a",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Waldbrände in Frankreich und Spanien: Tausende in Sicherheit gebracht",
-      "summary": "Im Südwesten Frankreichs sind mehrere Campingplätze und Ortsteile aufgrund von Waldbränden evakuiert worden. Auch in Spanien und Italien mussten Hunderte Menschen vor Bränden in Sicherheit gebracht werden.",
+      "headline": "Frankreich und Spanien: Feuer wüten weiter - Campingplätze geräumt",
+      "summary": "Für viele Urlauber an der französischen Atlantikküste bei Arcachon heißt es gerade: nichts wie weg. Die Waldbrände breiten sich dort rasant aus. In Spanien scheint sich die Lage hingegen zu entspannen.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/europa/frankreich-spanien-waldbrand-evakuierungen-100.html",
-      "publishedAt": "2026-07-23T11:21:51.000Z"
+      "url": "https://www.tagesschau.de/ausland/europa/frankreich-spanien-waldbrand-evakuierungen-102.html",
+      "publishedAt": "2026-07-23T15:17:09.000Z"
     },
     {
       "id": "n_88a201d745",
@@ -178,92 +178,92 @@
       "publishedAt": "2026-07-20T09:56:00.000Z"
     },
     {
-      "id": "n_4c51971b19",
+      "id": "n_1998fbf213",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: Strom auf Reisen: Winziger Reiseadapter von Anker zum neuen Bestpreis bei Amazon",
-      "summary": "Wer im Urlaub keine bösen Überraschungen erleben will, braucht einen Reiseadapter. Das extrem kompakte Anker-Nano-Modell gibt es aktuell zum Bestpreis bei Amazon. (Technik/Hardware)",
+      "headline": "PwC Deutschland: Welche Glasfaserbetreiber den proaktiven Firmenverkauf prüfen sollten",
+      "summary": "Der deutsche Glasfaser-Markt steckt tief in der Krise: Mangelnde Netzauslastung, schleppende Kundenaktivierung und teurer Überbau setzen die Betreiber unter Druck. (Studien, Open Access)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-strom-auf-reisen-winziger-reiseadapter-von-anker-zum-neuen-bestpreis-bei-amazon-2607-211209.html",
-      "publishedAt": "2026-07-23T13:06:02.000Z"
+      "url": "https://www.golem.de/news/pwc-deutschland-welche-glasfaserbetreiber-den-proaktiven-firmenverkauf-pruefen-sollten-2607-211223.html",
+      "publishedAt": "2026-07-23T15:59:01.000Z"
     },
     {
-      "id": "n_476ae5cd82",
+      "id": "n_f5e576526f",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Kommerzielle Raumfahrt: Russlands Recycling-Rakete kommt nicht vor 2030",
-      "summary": "2020 hatte Russland angekündigt, eine wiederverwendbare Rakete zu konstruieren, die SpaceX endlich Konkurrenz machen würde. Das dürfte aber dauern. (Roskosmos, SpaceX)",
+      "headline": "Kein Weltraumschrott: Reparaturroboter verlängert Lebensdauer von Satelliten",
+      "summary": "Ein zweiarmiger Roboter und drei weitere Module sind in den geosynchronen Orbit gestartet, um alte Satelliten neu auszurichten. (Satelliten, Nasa)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/kommerzielle-raumfahrt-russlands-recycling-rakete-kommt-nicht-vor-2030-2607-211208.html",
-      "publishedAt": "2026-07-23T12:39:01.000Z"
+      "url": "https://www.golem.de/news/kein-weltraumschrott-reparaturroboter-verlaengert-lebensdauer-von-satelliten-2607-211221.html",
+      "publishedAt": "2026-07-23T15:42:05.000Z"
     },
     {
-      "id": "n_1268a32dc5",
+      "id": "n_80870de24b",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: Powerbank mit 22,5 W und 10.000 mAh für 18,29 Euro bei Amazon",
-      "summary": "Amazon hat eine beliebte Powerbank von Iniu im Angebot, die im kompakten Format drei USB-Ports, 22,5 W und 10.000 mAh zur Verfügung stellt. (Technik/Hardware)",
+      "headline": "Anzeige: Smart Lock Go von Nuki jetzt bei Amazon zum Sparpreis sichern",
+      "summary": "Smarte Türschlösser erleichtern Nutzern das Ein- und Ausgehen. Ein beliebtes Modell von Nuki ist bei Amazon jetzt im Sonderangebot. (Türschloss, Technik/Hardware)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-powerbank-mit-22-5-w-und-10-000-mah-fuer-18-29-euro-bei-amazon-2607-211207.html",
-      "publishedAt": "2026-07-23T12:30:02.000Z"
+      "url": "https://www.golem.de/news/anzeige-smart-lock-go-von-nuki-jetzt-bei-amazon-zum-sparpreis-sichern-2607-211225.html",
+      "publishedAt": "2026-07-23T15:35:01.000Z"
     },
     {
-      "id": "n_0c7e2bee5a",
+      "id": "n_5ed2243a8b",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Raumstation, Mondanzug & mehr: Die großen Pläne von Axiom für den Weltraum",
-      "summary": "Mit der Axiom Station soll eine kommerzielle Raumstation im Erdorbit entstehen. Doch die Pläne des Unternehmens sind noch weitreichender. (Raumstation, Raumfahrt)",
+      "headline": "Screenwall ausprobiert: Alte Smartphones per Web-App als Second Screen nutzen",
+      "summary": "Mit der Web-App Screenwall können alte Smartphones, Tablets und Computer als Second Screen verwendet werden - ohne Installation. Ein Hands-on von Tobias Költzsch (Software, Smartphone)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/raumstation-mondanzug-mehr-die-grossen-plaene-von-axiom-fuer-den-weltraum-2607-211134.html",
-      "publishedAt": "2026-07-23T12:12:02.000Z"
+      "url": "https://www.golem.de/news/screenwall-ausprobiert-alte-smartphones-per-web-app-als-second-screen-nutzen-2607-211219.html",
+      "publishedAt": "2026-07-23T15:24:02.000Z"
     },
     {
-      "id": "n_514a7cc6b2",
+      "id": "n_fd9bbc581f",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: Dieser Saugroboter von Roborock war noch nie günstiger",
-      "summary": "Bei Amazon sind die beliebtesten Saugroboter von Roborock im Angebot. Wer die Wohnung mühelos reinigen möchte, kann jetzt günstig zuschlagen. (Saugroboter, Roborock)",
+      "headline": "Anzeige: Wärmebildkamera für Smartphones und PCs über 40 Euro günstiger bei Amazon",
+      "summary": "Topdons Wärmebildkamera ist eine preiswerte Alternative zu herkömmlichen Handheld-Modellen. Amazon verkauft sie günstig wie seit Monaten nicht. (Technik/Hardware, Amazon)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-dieser-saugroboter-von-roborock-war-noch-nie-guenstiger-2607-211200.html",
-      "publishedAt": "2026-07-23T12:05:02.000Z"
+      "url": "https://www.golem.de/news/anzeige-waermebildkamera-fuer-smartphones-und-pcs-ueber-40-euro-guenstiger-bei-amazon-2607-211215.html",
+      "publishedAt": "2026-07-23T15:09:02.000Z"
     },
     {
-      "id": "n_e00bbc74f1",
+      "id": "n_99da33d9d2",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "DMA: EU verhängt 890 Millionen Euro Strafe gegen Google",
-      "summary": "Was steht oben, wenn Nutzer WM-Spiele, Hotels oder Routen googeln? Zu oft nur Googles eigene Angebote, urteilt Brüssel. (Google, Suchmaschine)",
+      "headline": "Gartner: Billionen US-Dollar für KI werden sich über neue Produkte amortisieren",
+      "summary": "Die Rechenzentren erwirtschaften vielleicht nie die Einnahmen, um die KI-Investitionen zu amortisieren, aber sie ermöglichen neue Produkte und Dienstleistungen, die dies laut Gartner schaffen werden. Ein Interview von Achim Sawall (Gartner, KI)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/dma-eu-verhaengt-890-millionen-euro-strafe-gegen-google-2607-211203.html",
-      "publishedAt": "2026-07-23T11:44:01.000Z"
+      "url": "https://www.golem.de/news/gartner-billionen-us-dollar-fuer-ki-werden-sich-ueber-neue-produkte-amortisieren-2607-211217.html",
+      "publishedAt": "2026-07-23T15:04:02.000Z"
     },
     {
-      "id": "n_295c29d8d3",
+      "id": "n_fa0b5ea799",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Anzeige: USB-C-Kartenleser für Micro-SD-Karten jetzt für unter 9 Euro bei Amazon",
-      "summary": "Laptops und Smartphones haben oft keinen Steckplatz mehr für Speicherkarten. Ein USB-C Kartenleser von Ugreen löst das Problem und kostet aktuell unter 9 Euro. (Technik/Hardware)",
+      "headline": "Halo Campaign Evolved im Kurztest: Der bislang schönste Master Chief",
+      "summary": "Halo Campaign Evolved modernisiert den Xbox-Klassiker mit zeitgemäßer Technik und drei neuen Missionen. Ein Test von Peter Steinlechner (Halo, Spieletest)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/anzeige-usb-c-kartenleser-fuer-micro-sd-karten-jetzt-fuer-unter-9-euro-bei-amazon-2607-211202.html",
-      "publishedAt": "2026-07-23T11:35:02.000Z"
+      "url": "https://www.golem.de/news/halo-campaign-evolved-im-kurztest-der-bislang-schoenste-master-chief-2607-211166.html",
+      "publishedAt": "2026-07-23T15:00:02.000Z"
     },
     {
-      "id": "n_337ea28a2b",
+      "id": "n_1213d2f920",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "(g+) Mehr Gehalt trotz Wirtschaftsflaute?: \"Zum Üben Donald Trump spielen\"",
-      "summary": "Ist jetzt inmitten einer wirtschaftlichen Rezession der richtige Zeitpunkt für eine Gehaltsverhandlung? Ja, sagt unsere Expertin - und erklärt, warum und wie. Ein Interview von Peter Ilg (Gehalt, Wirtschaft)",
+      "headline": "Anzeige: Beliebtes Anker-Nano-45-W-Ladegerät jetzt zum Amazon-Tiefpreis für nur rund 28 Euro",
+      "summary": "Das Anker-Nano-Ladegerät zum Amazon-Tiefpreis lädt iPhones mit 45 Watt, erkennt viele Modelle automatisch und schont den Akku. (Technik/Hardware, Notebook)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/mehr-gehalt-trotz-wirtschaftsflaute-zum-ueben-donald-trump-spielen-2607-210944.html",
-      "publishedAt": "2026-07-23T11:30:01.000Z"
+      "url": "https://www.golem.de/news/anzeige-beliebtes-anker-nano-45-w-ladegeraet-jetzt-zum-amazon-tiefpreis-fuer-nur-rund-28-euro-2607-211213.html",
+      "publishedAt": "2026-07-23T14:52:01.000Z"
     },
     {
       "id": "n_dedc5a4790",
@@ -274,18 +274,40 @@
       "summary": "The US president says the landmark agreement to help Saudis develop nuclear energy is dependent on it joining the Abraham Accords.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T13:00:38.000Z"
+      "publishedAt": "2026-07-23T16:17:44.000Z"
     },
     {
-      "id": "n_083f612ab1",
+      "id": "n_341e3e413a",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Trump's nuclear deal with Saudis jettisons longstanding US demands",
-      "summary": "Past US presidents insisted that Saudi Arabia normalise relations with Israel in exchange for nuclear technology.",
+      "headline": "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
+      "summary": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cz05lx0xpero?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T12:58:40.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T16:04:15.000Z"
+    },
+    {
+      "id": "n_31261cd137",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Nicaragua's legislature debates barring opposition from elections",
+      "summary": "The move comes days after President Daniel Ortega demanded 'a wall, a blockade' against opposition parties.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cd694w0l30do?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T15:54:41.000Z"
+    },
+    {
+      "id": "n_5a577cbb77",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Oil prices hit $100 for the first time since May",
+      "summary": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T15:31:00.000Z"
     },
     {
       "id": "n_cd3cfa1cf3",
@@ -296,18 +318,18 @@
       "summary": "Sonam Wangchuk has been the main draw at the Cockroach Janta Party (CJP) protest in Delhi.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/ce34n7kqr5ko?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T12:51:55.000Z"
+      "publishedAt": "2026-07-23T15:22:06.000Z"
     },
     {
-      "id": "n_557e14aee9",
+      "id": "n_930b44176e",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Liquor store employee narrowly escapes leopard attack",
-      "summary": "After nearly five hours, officials captured the animal and it was later released back into the wild, local authorities confirmed.",
+      "headline": "Ghanaians' ICC petition over migrant attacks 'opportunistic', says South Africa",
+      "summary": "The petition argues the violence against migrants in South Africa could amount to crimes against humanity.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/videos/cly893zrjgdo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T12:49:55.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/cp87qejzy8go?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T13:44:19.000Z"
     },
     {
       "id": "n_85bd07a046",
@@ -318,12 +340,45 @@
       "summary": "Most of those evacuated were tourists from campsites around Arcachon Bay in France's Gironde region.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T12:17:13.000Z"
+      "publishedAt": "2026-07-23T13:25:02.000Z"
+    },
+    {
+      "id": "n_083f612ab1",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Trump's nuclear deal with Saudis jettisons longstanding US demands",
+      "summary": "Signing a nuclear pact in the Middle East is a bold move that has drawn criticism in the US and in Israel.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cz05lx0xpero?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T12:58:40.000Z"
+    },
+    {
+      "id": "n_049628d56d",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Google fined €890m by EU for favouring its own apps over rivals",
+      "summary": "It is the first major enforcement action against the tech giant under the EU's new digital rules.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cevmenngkzpo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T14:05:27.000Z"
+    },
+    {
+      "id": "n_c74682a6b6",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Amazon gaming boss predicts future where players no longer need consoles",
+      "summary": "Jeff Gattis said the rising cost of gaming tech is likely to mean more people will stream their games online.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c9803j74091o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T13:24:16.000Z"
     },
     {
       "id": "n_1ec9767c7f",
       "type": "news",
-      "topic": "general",
+      "topic": "tech",
       "lang": "en",
       "headline": "'Let's enjoy the ride' says Elon Musk, as AI fears mount",
       "summary": "Talking to The Economist, Musk said he doesn't care if people hate him and said he was not a racist.",
@@ -332,20 +387,9 @@
       "publishedAt": "2026-07-23T11:39:11.000Z"
     },
     {
-      "id": "n_3d27273a9d",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "South Korea woman acquitted of murdering newborn after hospital delivery",
-      "summary": "The woman, who had wanted to end her pregnancy at 36 weeks, gave birth to a baby who doctors later killed.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cwyrj7ww1gko?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T10:04:56.000Z"
-    },
-    {
       "id": "n_4e23ac16bf",
       "type": "news",
-      "topic": "general",
+      "topic": "tech",
       "lang": "en",
       "headline": "Google burning through cash with spiralling AI costs",
       "summary": "The company said earlier this year it expected to spend as much as $190bn on AI investments.",
@@ -398,26 +442,15 @@
       "publishedAt": "2026-07-21T09:15:55.000Z"
     },
     {
-      "id": "n_e5a3d8cf55",
+      "id": "n_382ed85df1",
       "type": "news",
       "topic": "tech",
       "lang": "en",
-      "headline": "Thousands of websites taken down for illegal World Cup streams",
-      "summary": "More than 1,000 illegal streaming sites were shut down in the US during the tournament, with a similar amount blocked in Colombia.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cqx7wx4vqv1o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T20:08:56.000Z"
-    },
-    {
-      "id": "n_7764566d61",
-      "type": "news",
-      "topic": "tech",
-      "lang": "en",
-      "headline": "Ofcom unable to take further legal action against suicide forum",
-      "summary": "The regulator said it had \"no further legal routes available\" under the Online Safety Act.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c3d3ejgdm20o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-20T16:57:30.000Z"
+      "headline": "AI arms race in line for a reckoning after OpenAI hacking incident",
+      "summary": "Aggressive training techniques sharpens threat of bad behavior by leading models.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident/",
+      "publishedAt": "2026-07-23T14:45:05.000Z"
     },
     {
       "id": "n_efb9085ea1",
@@ -425,7 +458,7 @@
       "topic": "tech",
       "lang": "en",
       "headline": "White House report says Trump can usher in a \"new golden age\" of science",
-      "summary": "The resulting report is a near-random mixture of real problems and grievances.",
+      "summary": "The resulting report is a near-random mixture of grievances and real problems.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/science/2026/07/white-house-report-says-trump-can-usher-in-a-new-golden-age-of-science/",
       "publishedAt": "2026-07-23T11:23:21.000Z"
@@ -446,7 +479,7 @@
       "type": "news",
       "topic": "tech",
       "lang": "en",
-      "headline": "Orcas team up to ram sunfish until they explode",
+      "headline": "Watch orcas ram a sunfish so hard it explodes",
       "summary": "“We think this may help younger orcas feed more easily, or it could also just be for fun.”",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/science/2026/07/orcas-team-up-to-ram-sunfish-until-they-explode/",
@@ -497,15 +530,37 @@
       "publishedAt": "2026-07-22T19:18:17.000Z"
     },
     {
-      "id": "n_46cb8ce6f4",
+      "id": "n_1d8fd6e659",
       "type": "news",
-      "topic": "tech",
+      "topic": "ai",
       "lang": "en",
-      "headline": "Hyundai claims humanoid robot plan is not part of talks with striking workers",
-      "summary": "Union previously warned automaker that any robot deployment must be negotiated.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai/2026/07/hyundai-claims-humanoid-robot-plan-is-not-part-of-talks-with-striking-workers/",
-      "publishedAt": "2026-07-22T18:18:12.000Z"
+      "headline": "Nvidia is sending GPUs to the moon",
+      "summary": "If there's a place in the universe without GPUs, Nvidia is sending them there.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
+      "publishedAt": "2026-07-23T15:00:00.000Z"
+    },
+    {
+      "id": "n_8d1cdf633c",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+      "summary": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+      "publishedAt": "2026-07-23T15:00:00.000Z"
+    },
+    {
+      "id": "n_81587b96e5",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "Google’s Gemini nears billion-user milestone",
+      "summary": "Gemini had over 750 million monthly users in February.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+      "publishedAt": "2026-07-23T14:52:44.000Z"
     },
     {
       "id": "n_47cc8085e9",
@@ -561,39 +616,6 @@
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
       "publishedAt": "2026-07-22T20:49:03.000Z"
-    },
-    {
-      "id": "n_501813e470",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
-      "summary": "OpenAI made a mistake setting up what it called a “highly isolated” testing environment and sandbox. According to cybersecurity experts, that human mistake is what made the AI-powered attack on Hugging Face possible.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
-      "publishedAt": "2026-07-22T19:11:46.000Z"
-    },
-    {
-      "id": "n_9002430dc5",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
-      "summary": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
-      "publishedAt": "2026-07-22T18:50:44.000Z"
-    },
-    {
-      "id": "n_6a49c5af54",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Yope raises $12.3M to build a private social network without algorithms or ads",
-      "summary": "Yope, a fast-growing social app focused on private groups of friends and family, has raised $12.3 million in seed funding. Instead of chasing creators and algorithmic feeds, the startup is betting that the future of social networking lies in small, private communities powered by ",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
-      "publishedAt": "2026-07-22T18:13:58.000Z"
     },
     {
       "id": "n_5becd4f5ac",
