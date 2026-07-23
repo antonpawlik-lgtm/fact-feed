@@ -1,6 +1,61 @@
 {
-  "generatedAt": "2026-07-23T05:43:05.280Z",
+  "generatedAt": "2026-07-23T08:07:21.308Z",
   "items": [
+    {
+      "id": "n_7f0dd34847",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Treffen der Außenminister: Rubio und Lawrow kommen in Manila zusammen",
+      "summary": "Es sind die ersten Gespräche auf dieser Ebene seit Langem: Die Außenminister der USA und Russlands, Rubio und Lawrow, haben sich persönlich getroffen. Die EU verhängt unterdessen neue Russland-Sanktionen.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/asien/rubio-lawrow-treffen-manila-100.html",
+      "publishedAt": "2026-07-23T07:39:09.000Z"
+    },
+    {
+      "id": "n_68281a48a0",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Abkommen mit den USA: Das saudische Streben nach Atomkraft",
+      "summary": "Mit der Unterzeichnung eines Atomabkommens mit den USA hat Saudi-Arabien ein lange verfolgtes Ziel erreicht. Atomkraft ist Teil eines größeren Plans, zu dem auch strategische Überlegungen gehören. Von Moritz Behrendt.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/saudi-arabien-atomprogramm-100.html",
+      "publishedAt": "2026-07-23T07:13:29.000Z"
+    },
+    {
+      "id": "n_151a52d888",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Waldbrände in Frankreich und Spanien: Tausende in Sicherheit gebracht",
+      "summary": "Im Südwesten Frankreichs sind mehrere Campingplätze und Ortsteile aufgrund von Waldbränden evakuiert worden. Auch in Spanien und Italien mussten Hunderte Menschen vor Bränden in Sicherheit gebracht werden.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/europa/frankreich-spanien-waldbrand-evakuierungen-100.html",
+      "publishedAt": "2026-07-23T06:41:36.000Z"
+    },
+    {
+      "id": "n_fbbd06287f",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Google-Mutter Alphabet erhöht Milliardeninvestitionen in KI",
+      "summary": "Der Google-Mutterkonzern Alphabet hat Umsatz und Gewinn deutlich stärker gesteigert als erwartet. Vor allem das Cloud-Geschäft wächst rasant. Gleichzeitig erhöht der Konzern seine KI-Ausgaben erneut.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/google-cloud-ki-zahlen-investitionen-100.html",
+      "publishedAt": "2026-07-23T06:19:10.000Z"
+    },
+    {
+      "id": "n_5e199fb52d",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Bundesregierung spricht nach KI-Hackerangriff von \"Paradigmenwechsel\"",
+      "summary": "Der eigenständige Hackerangriff eines KI-Modells hat die Bundesregierung alarmiert. Die zunehmenden Fähigkeiten Künstlicher Intelligenz verändere auch die Bedrohungslage im Cyberbereich massiv, warnt das Digitalministerium.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/bundesregierung-reaktion-ki-angriff-100.html",
+      "publishedAt": "2026-07-23T05:47:47.000Z"
+    },
     {
       "id": "n_aa71875477",
       "type": "news",
@@ -13,14 +68,14 @@
       "publishedAt": "2026-07-23T05:26:58.000Z"
     },
     {
-      "id": "n_e3e84706b2",
+      "id": "n_33aaabfd54",
       "type": "news",
       "topic": "general",
       "lang": "de",
       "headline": "Huthi-Miliz beschießt saudischen Tanker im Roten Meer",
       "summary": "Am Montag hatte die Huthi-Miliz eine Seeblockade ausgerufen - nun hat sie offenbar einen saudi-arabischen Tanker im Roten Meer attackiert. Die Miliz selbst spricht von noch einem zweiten angegriffenen Schiff.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/huthi-rotes-meer-104.html",
+      "url": "https://www.tagesschau.de/ausland/asien/huthi-rotes-meer-104.html",
       "publishedAt": "2026-07-23T05:12:43.000Z"
     },
     {
@@ -33,61 +88,6 @@
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/ezb-lagarde-104.html",
       "publishedAt": "2026-07-23T04:30:10.000Z"
-    },
-    {
-      "id": "n_5617bc0fac",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "USA und Saudi-Arabien: Atomabkommen in Washington unterzeichnet",
-      "summary": "Inmitten des Iran-Kriegs haben die USA ein Abkommen zum Aufbau eines zivilen Atomprogramms in Saudi-Arabien geschlossen. Der US-Kongress muss die Vereinbarung jedoch noch prüfen - und dort gibt es große Bedenken.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/amerika/usa-saudi-arabien-atomabkommen-100.html",
-      "publishedAt": "2026-07-23T04:27:39.000Z"
-    },
-    {
-      "id": "n_111c90a49a",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Buddhistische Gruppen: Manipulation in Buddhas Namen?",
-      "summary": "Angstmache und Druck unter dem Deckmantel des Buddhismus: Ex-Mitglieder eines Zen-Vereins aus Hessen erheben schwere Vorwürfe gegen ihren ehemaligen Meister. Der streitet die Vorwürfe ab. Von C. Hawranek und K. Paysen-Petersen.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/investigativ/br-recherche/seelenfaenger-buddhistische-gruppen-100.html",
-      "publishedAt": "2026-07-23T04:00:28.000Z"
-    },
-    {
-      "id": "n_6ab7962d32",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Klimakrise: Was kostet das Nichtstun?",
-      "summary": "Ökonomen warnen, die Folgen des Klimawandels belasteten die Wirtschaft immer stärker. Viele Unternehmen beklagen steigende Kosten durch zunehmende Extremwetter und fordern konsequenten Klimaschutz. Von Oda Lambrecht.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/klimaawandel-kosten-wirtschaft-100.html",
-      "publishedAt": "2026-07-23T04:00:17.000Z"
-    },
-    {
-      "id": "n_2a8a82ddf5",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Bundesverfassungsgericht urteilt über Abgeordnetenrechte",
-      "summary": "Nicht nur die Inhalte des Gebäudeenergiegesetzes hatten 2023 für viel Diskussion gesorgt: Streit gab es auch über das Tempo. Heute entscheidet das Bundesverfassungsgericht darüber, ob damals alles zu schnell ging. Von A. Stephany und M. Bauer.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/bverfg-gesetzgebung-zeitplan-100.html",
-      "publishedAt": "2026-07-23T02:41:04.000Z"
-    },
-    {
-      "id": "n_68ec761f3f",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Neue US-Angriffe gegen Iran und gegenseitige Drohungen",
-      "summary": "Erneut hat das US-Militär Ziele in Iran attackiert - es ist die zwölfte nächtliche Angriffswelle in Folge. US-Präsident Trump hatte seine Drohungen gegen das Land zuvor noch einmal verschärft.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/asien/angriffe-usa-iran-100.html",
-      "publishedAt": "2026-07-23T01:27:29.000Z"
     },
     {
       "id": "n_cbf3fb1c36",
@@ -178,6 +178,138 @@
       "publishedAt": "2026-07-17T12:58:00.000Z"
     },
     {
+      "id": "n_6663b19320",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "Batteriehersteller: Varta droht Insolvenz und Zerschlagung",
+      "summary": "Da dem Management immer noch ein tragfähiges Konzept fehlt, sollen Gläubiger ihr Geld zurückverlangen. Dem Unternehmen droht damit das Aus. (Akku, Wirtschaft)",
+      "source": "Golem.de",
+      "url": "https://www.golem.de/news/batteriehersteller-varta-droht-insolvenz-und-zerschlagung-2607-211185.html",
+      "publishedAt": "2026-07-23T07:42:01.000Z"
+    },
+    {
+      "id": "n_79f9a97afa",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "Strange New Worlds Staffel 4: Mutig dorthin gehen, wo noch nie ein Star Trek war",
+      "summary": "Die dritte Staffel kam nicht bei jedem gut an. Fraglich ist, ob die vierte Staffel mehr Erfolg hat. Jedenfalls ist sie spannend. Eine Rezension von Peter Osteried (Star Trek, Science-Fiction)",
+      "source": "Golem.de",
+      "url": "https://www.golem.de/news/strange-new-worlds-staffel-4-mutig-dorthin-gehen-wo-noch-nie-ein-star-trek-war-2607-211100.html",
+      "publishedAt": "2026-07-23T07:30:01.000Z"
+    },
+    {
+      "id": "n_d5e7fe1acc",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "US-Vorwürfe: Moonshot soll auf exportbeschränkte Nvidia-Systeme zugegriffen haben",
+      "summary": "Nach dem Erfolg von Kimi K3 geraten die Methoden des chinesischen KI-Unternehmens Moonshot zunehmend in den Fokus der US-Regierung. (KI, Nvidia)",
+      "source": "Golem.de",
+      "url": "https://www.golem.de/news/us-vorwuerfe-moonshot-soll-auf-exportbeschraenkte-nvidia-systeme-zugegriffen-haben-2607-211184.html",
+      "publishedAt": "2026-07-23T07:13:01.000Z"
+    },
+    {
+      "id": "n_fc90eded18",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "Abonnements für Onstar und Super Cruise: GM baut Softwaregeschäft mit Abo-Modellen aus",
+      "summary": "General Motors baut sein Software- und Abogeschäft aus. Assistenzsysteme und digitale Dienste bringen hohe Margen ein. (General Motors, Auto)",
+      "source": "Golem.de",
+      "url": "https://www.golem.de/news/abonnements-fuer-onstar-und-super-cruise-gm-baut-softwaregeschaeft-mit-abo-modellen-aus-2607-211183.html",
+      "publishedAt": "2026-07-23T06:59:01.000Z"
+    },
+    {
+      "id": "n_e12e5db815",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "Nach Cyberangriff: Hacker erpressen Zugbauer Stadler um Millionenbetrag",
+      "summary": "Hacker fordern von dem Zughersteller Stadler nach einem IT-Einbruch 10 Millionen Schweizer Franken. Doch Stadler hält sich für \"nicht erpressbar\". (Cybercrime, Cyberwar)",
+      "source": "Golem.de",
+      "url": "https://www.golem.de/news/nach-cyberangriff-hacker-erpressen-zugbauer-stadler-um-millionenbetrag-2607-211182.html",
+      "publishedAt": "2026-07-23T06:51:01.000Z"
+    },
+    {
+      "id": "n_6d8cce1b57",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "KI-Infrastruktur: US-Tech-Konzerne binden Billionen in verdeckten Verträgen",
+      "summary": "Meta, Oracle und Co. lassen 1,65 Billionen US-Dollar KI-Schulden aus ihren Bilanzen verschwinden. (KI, Microsoft)",
+      "source": "Golem.de",
+      "url": "https://www.golem.de/news/ki-infrastruktur-us-tech-konzerne-binden-billionen-in-verdeckten-vertraegen-2607-211181.html",
+      "publishedAt": "2026-07-23T06:40:02.000Z"
+    },
+    {
+      "id": "n_66e718bbbe",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "Chuo Shinkansen: Baugenehmigung für Japans Highspeed-Magnetbahn für den Fernverkehr",
+      "summary": "Mit bis zu 500 km/h durch Japan zu rasen wird mit der neuen Magnetschwebebahn Chuo Shinkansen möglich. Die Inbetriebnahme dauert aber noch. (Transrapid, Verkehr)",
+      "source": "Golem.de",
+      "url": "https://www.golem.de/news/chuo-shinkansen-baugenehmigung-fuer-japans-highspeed-magnetbahn-fuer-den-fernverkehr-2607-211132.html",
+      "publishedAt": "2026-07-23T06:15:01.000Z"
+    },
+    {
+      "id": "n_f683878cc3",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "Anduril Thunder: Autonomer Kampfhubschrauber soll extrem tief fliegen können",
+      "summary": "Anduril hat mit Thunder ein unbemanntes Kipprotor-Fluggerät vorgestellt. Es soll künftig gemeinsam mit bemannten Kampfhubschraubern im Tiefflug operieren. (Luftfahrt, Politik)",
+      "source": "Golem.de",
+      "url": "https://www.golem.de/news/anduril-thunder-autonomer-kampfhubschrauber-soll-extrem-tief-fliegen-koennen-2607-211180.html",
+      "publishedAt": "2026-07-23T05:53:02.000Z"
+    },
+    {
+      "id": "n_4e23ac16bf",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Google burning through cash with spiralling AI costs",
+      "summary": "The company said earlier this year it expected to spend as much as $190bn on AI investments.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T07:15:59.000Z"
+    },
+    {
+      "id": "n_cd3cfa1cf3",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "'I am still alive': Indian activist on hunger strike for 26 days loses 11kg",
+      "summary": "Sonam Wangchuk has been the main draw at the Cockroach Janta Party (CJP) protest in Delhi.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ce34n7kqr5ko?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T06:37:23.000Z"
+    },
+    {
+      "id": "n_bea210e2ae",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
+      "summary": "Ukrainian drones have hit several retail warehouses belonging to Russia's biggest online retailer Wildberries in a matter of days.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T06:15:35.000Z"
+    },
+    {
+      "id": "n_e27be14559",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Blocked by censors, China's animal lovers take fight against abuse offline and overseas",
+      "summary": "The killing of a dog and her puppies in Guangdong has sparked outrage inside and outside the country.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cqx7wd3x420o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T05:46:09.000Z"
+    },
+    {
       "id": "n_341e3e413a",
       "type": "news",
       "topic": "general",
@@ -220,50 +352,6 @@
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cqlxvvw06pqo?at_medium=RSS&at_campaign=rss",
       "publishedAt": "2026-07-22T23:22:53.000Z"
-    },
-    {
-      "id": "n_bea210e2ae",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
-      "summary": "Ukrainian drones have hit several retail warehouses belonging to Russia's biggest online retailer Wildberries in a matter of days.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T23:06:08.000Z"
-    },
-    {
-      "id": "n_4e23ac16bf",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Google burning through cash with spiralling AI costs",
-      "summary": "The company said earlier this year it expected to spend as much as $190bn on AI investments.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T23:02:32.000Z"
-    },
-    {
-      "id": "n_51c5bf0814",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Watch: What we know about the US-Saudi nuclear deal",
-      "summary": "The BBC's Sarah Smith explains the implications of the landmark cooperation agreement between both countries.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/videos/cn5n725lkg7o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T22:45:08.000Z"
-    },
-    {
-      "id": "n_68934edca6",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Indian police cracked down on 'cockroach' protesters. They went home and made memes about it",
-      "summary": "For 'cockroach' protesters, reels and memes became a way of documenting fear, making sense of violence and refusing to let it have the last word.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c3ek3l9gp7go?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-22T22:13:24.000Z"
     },
     {
       "id": "n_83a53c3a25",
@@ -431,6 +519,17 @@
       "publishedAt": "2026-07-22T16:47:49.000Z"
     },
     {
+      "id": "n_8bdbd9a846",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
+      "summary": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
+      "publishedAt": "2026-07-23T06:09:13.000Z"
+    },
+    {
       "id": "n_ac40ec794b",
       "type": "news",
       "topic": "ai",
@@ -506,17 +605,6 @@
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
       "publishedAt": "2026-07-22T17:54:14.000Z"
-    },
-    {
-      "id": "n_8458437ee9",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
-      "summary": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
-      "publishedAt": "2026-07-22T16:24:08.000Z"
     },
     {
       "id": "n_bdbd14d002",
@@ -860,6 +948,17 @@
       "publishedAt": "2026-07-21T10:30:00.000Z"
     },
     {
+      "id": "n_37c9890bc3",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "summary": "",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "publishedAt": "2026-07-23T00:00:00.000Z"
+    },
+    {
       "id": "n_eed16821fc",
       "type": "news",
       "topic": "ai",
@@ -937,15 +1036,100 @@
       "publishedAt": "2026-07-15T00:00:00.000Z"
     },
     {
-      "id": "n_5d7569c2af",
-      "type": "news",
-      "topic": "ai",
+      "id": "n_9363752886",
+      "type": "video",
+      "topic": "video",
       "lang": "en",
-      "headline": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+      "headline": "Claude Just Revealed AI's Biggest Problem",
       "summary": "",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/real-world-voiceeq",
-      "publishedAt": "2026-07-15T00:00:00.000Z"
+      "source": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=axOcn--n_lM",
+      "thumbnail": "https://i.ytimg.com/vi/axOcn--n_lM/hqdefault.jpg",
+      "publishedAt": "2026-07-16T15:39:17.000Z"
+    },
+    {
+      "id": "n_b87b50ece3",
+      "type": "video",
+      "topic": "video",
+      "lang": "en",
+      "headline": "Anthropic Found Something That Shouldn't Exist",
+      "summary": "",
+      "source": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=0CqLVnx-2UM",
+      "thumbnail": "https://i.ytimg.com/vi/0CqLVnx-2UM/hqdefault.jpg",
+      "publishedAt": "2026-07-15T13:58:27.000Z"
+    },
+    {
+      "id": "n_d86677f440",
+      "type": "video",
+      "topic": "video",
+      "lang": "en",
+      "headline": "Minecraft Was Missing One Brilliant Idea",
+      "summary": "",
+      "source": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=Ae9q7KsRbuI",
+      "thumbnail": "https://i.ytimg.com/vi/Ae9q7KsRbuI/hqdefault.jpg",
+      "publishedAt": "2026-07-12T15:48:43.000Z"
+    },
+    {
+      "id": "n_470f11b169",
+      "type": "video",
+      "topic": "video",
+      "lang": "en",
+      "headline": "DeepSeek's Absolutely Insane AI Speed Hack",
+      "summary": "",
+      "source": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=1yBU41auQhw",
+      "thumbnail": "https://i.ytimg.com/vi/1yBU41auQhw/hqdefault.jpg",
+      "publishedAt": "2026-07-07T16:33:29.000Z"
+    },
+    {
+      "id": "n_39feb22ff6",
+      "type": "video",
+      "topic": "video",
+      "lang": "en",
+      "headline": "The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498",
+      "summary": "",
+      "source": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=pv1TUJSEM2k",
+      "thumbnail": "https://i.ytimg.com/vi/pv1TUJSEM2k/hqdefault.jpg",
+      "publishedAt": "2026-06-30T21:16:13.000Z"
+    },
+    {
+      "id": "n_6a7b36e7cd",
+      "type": "video",
+      "topic": "video",
+      "lang": "en",
+      "headline": "Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln | Lex Fridman Podcast #497",
+      "summary": "",
+      "source": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=1M3Vdl6DRkU",
+      "thumbnail": "https://i.ytimg.com/vi/1M3Vdl6DRkU/hqdefault.jpg",
+      "publishedAt": "2026-05-29T16:18:31.000Z"
+    },
+    {
+      "id": "n_c402ebf7aa",
+      "type": "video",
+      "topic": "video",
+      "lang": "en",
+      "headline": "FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496",
+      "summary": "",
+      "source": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=nepKKz-MzFM",
+      "thumbnail": "https://i.ytimg.com/vi/nepKKz-MzFM/hqdefault.jpg",
+      "publishedAt": "2026-05-06T22:03:16.000Z"
+    },
+    {
+      "id": "n_854df813c0",
+      "type": "video",
+      "topic": "video",
+      "lang": "en",
+      "headline": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495",
+      "summary": "",
+      "source": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=iKx3gAODybU",
+      "thumbnail": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault.jpg",
+      "publishedAt": "2026-04-09T17:35:20.000Z"
     },
     {
       "id": "n_c30c73dbe7",
@@ -994,6 +1178,42 @@
       "url": "https://www.youtube.com/watch?v=CXSvKcLovAk",
       "thumbnail": "https://i.ytimg.com/vi/CXSvKcLovAk/hqdefault.jpg",
       "publishedAt": "2026-07-15T17:39:02.000Z"
+    },
+    {
+      "id": "n_64ebc2a7bf",
+      "type": "video",
+      "topic": "video",
+      "lang": "en",
+      "headline": "Samsung Z Fold 8 (Wide) Impressions: Better Than I Thought!",
+      "summary": "",
+      "source": "Marques Brownlee",
+      "url": "https://www.youtube.com/watch?v=8Hx2yvWSgs0",
+      "thumbnail": "https://i.ytimg.com/vi/8Hx2yvWSgs0/hqdefault.jpg",
+      "publishedAt": "2026-07-22T13:01:05.000Z"
+    },
+    {
+      "id": "n_6742ca94db",
+      "type": "video",
+      "topic": "video",
+      "lang": "en",
+      "headline": "iOS 27 Hands-On: Top 5 New Features!",
+      "summary": "",
+      "source": "Marques Brownlee",
+      "url": "https://www.youtube.com/watch?v=_oRgdlJUD18",
+      "thumbnail": "https://i.ytimg.com/vi/_oRgdlJUD18/hqdefault.jpg",
+      "publishedAt": "2026-07-13T22:27:02.000Z"
+    },
+    {
+      "id": "n_d2ac42a2bd",
+      "type": "video",
+      "topic": "video",
+      "lang": "en",
+      "headline": "Apple Lost the AI Race",
+      "summary": "",
+      "source": "Marques Brownlee",
+      "url": "https://www.youtube.com/watch?v=eWKY0OnPByg",
+      "thumbnail": "https://i.ytimg.com/vi/eWKY0OnPByg/hqdefault.jpg",
+      "publishedAt": "2026-07-08T19:44:58.000Z"
     }
   ]
 }
