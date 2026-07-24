@@ -1,6 +1,50 @@
 {
-  "generatedAt": "2026-07-23T21:54:24.790Z",
+  "generatedAt": "2026-07-24T01:23:43.660Z",
   "items": [
+    {
+      "id": "n_4f4c4c3408",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "USA: Lebenslange Haft für Mörder von Politikerin und Ehemann",
+      "summary": "Wegen der Morde an einer US-Politikerin und ihrem Ehemann im Bundesstaat Minnesota ist ein 59-Jähriger zu zweimal lebenslanger Haft verurteilt worden. Die politisch motivierte Tat hatte für bundesweite Schlagzeilen gesorgt.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/amerika/minnesota-haft-mord-politikerin-100.html",
+      "publishedAt": "2026-07-24T00:41:07.000Z"
+    },
+    {
+      "id": "n_117805e939",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Nahost: Deutschland zieht Marineschiffe aus Golf von Aden ab",
+      "summary": "Erst im Juni hatte die Bundesregierung zwei Marineschiffe nach Ostafrika verlegt, um für einen möglichen Einsatz in der Straße von Hormus bereitzustehen. Nun sollen sie wieder abziehen - wegen der instabilen Lage in Nahost.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/nahost-schiffe-verlegung-100.html",
+      "publishedAt": "2026-07-24T00:34:07.000Z"
+    },
+    {
+      "id": "n_ec46019f6a",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Frankreich und Spanien: Feuer wüten weiter - Campingplätze geräumt",
+      "summary": "Für viele Urlauber an der französischen Atlantikküste bei Arcachon heißt es gerade: nichts wie weg. Die Waldbrände breiten sich dort rasant aus. In Spanien wurde in zwei Regionen der \"Notstand nationaler Tragweite\" ausgerufen.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/europa/frankreich-spanien-waldbrand-evakuierungen-102.html",
+      "publishedAt": "2026-07-24T00:16:04.000Z"
+    },
+    {
+      "id": "n_140e148ca1",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "USA: Trump verhängt neue Zölle auf Importe aus 60 Ländern",
+      "summary": "Wegen angeblich unzureichender Maßnahmen gegen Zwangsarbeit will US-Präsident Trump Zölle auf Importe aus 60 Ländern verhängen. Sie sollen mit dem Auslaufen der bisherigen weltweiten US-Zölle in Kraft treten.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/trump-zoelle-180.html",
+      "publishedAt": "2026-07-23T23:56:16.000Z"
+    },
     {
       "id": "n_07c9fcecc6",
       "type": "news",
@@ -46,48 +90,15 @@
       "publishedAt": "2026-07-23T19:21:04.000Z"
     },
     {
-      "id": "n_99ad48094b",
+      "id": "n_b102f621f9",
       "type": "news",
-      "topic": "general",
+      "topic": "tech",
       "lang": "de",
-      "headline": "Trump: Saudis sollen für Atomdeal auf Israel zugehen",
-      "summary": "Präsident Trump hat das gerade erst vereinbarte Atomabkommen der USA mit Saudi-Arabien nachträglich noch an eine Bedingung geknüpft: Eine Annäherung Riads an Israel. Ob die Saudis da mitmachen, ist aber völlig unklar. Von Nina Barth.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/asien/trump-atomdeal-saudi-arabien-100.html",
-      "publishedAt": "2026-07-23T18:05:23.000Z"
-    },
-    {
-      "id": "n_cc83946b96",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Rubio-Lawrow-Treffen in Manila: \"Nicht übermäßig optimistisch\"",
-      "summary": "Die Außenminister von USA und Russland haben sich in Manila am Rande des ASEAN-Treffens getroffen. Dabei ging es auch um den Angriffskrieg gegen die Ukraine. Doch wirklich näher kam man sich dabei offenbar nicht. Von Björn Blaschke.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/asien/russland-usa-lawrow-rubio-100.html",
-      "publishedAt": "2026-07-23T16:43:11.000Z"
-    },
-    {
-      "id": "n_69853998ce",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Abschiebungen nach Afghanistan bald nicht nur für Straftäter?",
-      "summary": "Seit dem Regierungswechsel wurden 173 Männer nach Afghanistan abgeschoben. Bald könnte es auch Afghanen treffen, die nicht straffällig geworden sind. Die Vorbereitungen dafür laufen. Von Claudia Kornmeier und Philipp Eckstein.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/abschiebungen-afghanistan-144.html",
-      "publishedAt": "2026-07-23T16:42:08.000Z"
-    },
-    {
-      "id": "n_aa71875477",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Marktbericht: Der DAX knickt ein",
-      "summary": "Gleich mehrere Belastungsfaktoren drückten heute auf die Stimmung am Aktienmarkt. Die jüngste Zwischenerholung im DAX ist schon wieder zu Ende - vor allem die hohen Ölpreise belasteten.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-berichtssaison-iran-100.html",
-      "publishedAt": "2026-07-23T16:16:23.000Z"
+      "headline": "Intels 11 Milliarden US-Dollar Nettoverlust existieren nur auf dem Papier",
+      "summary": "Die Börse honoriert ein starkes Intel-Quartal. Der ausgewiesene milliardenschwere Verlust existiert ausschließlich in den Büchern.",
+      "source": "heise online",
+      "url": "https://www.heise.de/news/Intel-verbucht-11-Milliarden-US-Dollar-Nettoverlust-wegen-Kursexplosion-11376771.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "publishedAt": "2026-07-23T21:50:00.000Z"
     },
     {
       "id": "n_939ea51ba0",
@@ -165,17 +176,6 @@
       "source": "heise online",
       "url": "https://www.heise.de/news/Nextcloud-Cyberangriff-auf-Webserver-mit-ungeschickter-Kommunikation-11371959.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
       "publishedAt": "2026-07-21T09:55:00.000Z"
-    },
-    {
-      "id": "n_b00809c136",
-      "type": "news",
-      "topic": "tech",
-      "lang": "de",
-      "headline": "Suno-Datenleck: Have I Been Pwned ergänzt 55 Millionen Konten",
-      "summary": "Das Have-I-Been-Pwned-Projekt hat mehr als 55 Millionen Konten aus dem Suno-Datenleck zur Datenhalde hinzugefügt.",
-      "source": "heise online",
-      "url": "https://www.heise.de/news/Suno-Datenleck-Have-I-Been-Pwned-ergaenzt-55-Millionen-Konten-11371843.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "publishedAt": "2026-07-21T09:33:00.000Z"
     },
     {
       "id": "n_3db4e8f737",
@@ -266,6 +266,50 @@
       "publishedAt": "2026-07-23T15:24:02.000Z"
     },
     {
+      "id": "n_52a7ef755c",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "US imposes tariffs on dozens of trade partners over 'forced labour' imports",
+      "summary": "The tariffs target around 60 trading partners over claims they failed to properly stop forced labour.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-24T00:40:26.000Z"
+    },
+    {
+      "id": "n_82ccbacb5c",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "CJP protest: The youth movement India's Modi didn't see coming",
+      "summary": "The CJP protest began with exam paper leaks. It became India's biggest student movement in years - why?",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c07rgpxe51no?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T23:41:32.000Z"
+    },
+    {
+      "id": "n_6418e7c7a9",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Indonesian babies were trafficked to Singapore. What happens to them now?",
+      "summary": "At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T23:19:58.000Z"
+    },
+    {
+      "id": "n_3d24adf693",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "Could you run a country on just three hours of sleep? Japan's PM says she does",
+      "summary": "Japan’s prime minister Sanae Takaichi says she survives on zero to three hours a night, and people are reacting.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/cz05l8ndy0mo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T22:03:09.000Z"
+    },
+    {
       "id": "n_ff9b51ec11",
       "type": "news",
       "topic": "general",
@@ -310,61 +354,6 @@
       "publishedAt": "2026-07-23T17:58:02.000Z"
     },
     {
-      "id": "n_16c6a00a2c",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Ukraine's ousted defence minister insists on being reinstated",
-      "summary": "Mykhailo Fedorov refuses President Zelensky's offer to accept an alternative post, as the battle of wills continues.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/ce97nm53pgxo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T17:37:59.000Z"
-    },
-    {
-      "id": "n_d23acee4b0",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Houthi attacks raise fears of wider Middle East conflict and more global economic damage",
-      "summary": "The Iran-backed group in Yemen has threatened to target Saudi vessels in a vital shipping route.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cvgve0vxy1yo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T17:06:08.000Z"
-    },
-    {
-      "id": "n_341e3e413a",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Yemen's Houthis attack Saudi tanker as US launches more Iran strikes",
-      "summary": "The Iran-backed group, which previously announced a \"maritime embargo\" against Saudi Arabia, also claims to have hit another vessel.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T16:50:59.000Z"
-    },
-    {
-      "id": "n_84e965977e",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Teen jailed for exam cheating in Guinea dies after sickle cell complications, father says",
-      "summary": "Mamadou Djouma Bah, 17, was arrested and sentenced to prison for exam fraud earlier this month.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cn0nykz6lweo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T16:26:49.000Z"
-    },
-    {
-      "id": "n_76aa89281a",
-      "type": "news",
-      "topic": "tech",
-      "lang": "en",
-      "headline": "Lawmakers push for AI 'kill switch' after OpenAI goes rogue",
-      "summary": "A new bill would let the US government order the shutdown AI models that pose a major public threat.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cx2vqj2e9x8o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T20:58:35.000Z"
-    },
-    {
       "id": "n_049628d56d",
       "type": "news",
       "topic": "tech",
@@ -373,7 +362,18 @@
       "summary": "It is the first major enforcement action against the tech giant under the EU's new digital rules.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cevmenngkzpo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T14:05:27.000Z"
+      "publishedAt": "2026-07-23T23:10:09.000Z"
+    },
+    {
+      "id": "n_76aa89281a",
+      "type": "news",
+      "topic": "tech",
+      "lang": "en",
+      "headline": "Lawmakers push for AI 'kill switch' after OpenAI goes rogue",
+      "summary": "A new bill would let the US government order the shutdown of AI models that pose a public threat.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx2vqj2e9x8o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-23T20:58:35.000Z"
     },
     {
       "id": "n_c74682a6b6",
@@ -519,6 +519,17 @@
       "publishedAt": "2026-07-23T16:25:46.000Z"
     },
     {
+      "id": "n_2a6bd5e033",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "summary": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+      "publishedAt": "2026-07-24T01:00:00.000Z"
+    },
+    {
       "id": "n_264c4ef28e",
       "type": "news",
       "topic": "ai",
@@ -596,23 +607,12 @@
       "publishedAt": "2026-07-23T15:00:00.000Z"
     },
     {
-      "id": "n_8d1cdf633c",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
-      "summary": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
-      "publishedAt": "2026-07-23T15:00:00.000Z"
-    },
-    {
       "id": "n_c6bad60c59",
       "type": "news",
       "topic": "ai",
       "lang": "en",
       "headline": "Alexa Plus is getting an AI update to handle more complicated instructions",
-      "summary": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routi",
+      "summary": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and ot",
       "source": "The Verge",
       "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
       "publishedAt": "2026-07-23T21:15:06.000Z"
