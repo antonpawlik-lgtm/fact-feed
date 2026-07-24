@@ -1,60 +1,27 @@
 {
-  "generatedAt": "2026-07-24T08:03:42.750Z",
+  "generatedAt": "2026-07-24T10:52:32.257Z",
   "items": [
     {
-      "id": "n_9d411fd958",
+      "id": "n_9cc1065b76",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "US-Gericht verlängert Stopp für Warner-Übernahme durch Paramount",
-      "summary": "Die milliardenschwere Übernahme von Warner Bros. Discovery durch Paramount verzögert sich weiter. Ein US-Gericht hat den vorläufigen Stopp bis Mitte August verlängert und prüft eine Klage mehrerer Bundesstaaten.",
+      "headline": "Somalische Piraten halten Schiff mit acht Deutschen fest",
+      "summary": "Ein Handelsschiff, das in der vergangenen Woche im Golf von Aden gekapert worden war, hat offenbar acht Deutsche an Bord. Laut der britischen Marinebehörde haben somalische Piraten den Tanker entführt.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/warner-paramount-uebernahme-gerichtsbeschluss-100.html",
-      "publishedAt": "2026-07-24T07:50:59.000Z"
+      "url": "https://www.tagesschau.de/ausland/afrika/golf-von-aden-tanker-100.html",
+      "publishedAt": "2026-07-24T10:41:10.000Z"
     },
     {
-      "id": "n_91adf00753",
+      "id": "n_485ccc1022",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Warken als Kanzleramtschefin, Linnemann als Gesundheitsminister bestätigt",
-      "summary": "Kanzler Merz hat bestätigt, dass Nina Warken auf den Posten der Kanzleramtsministerin wechselt. Der bisherige CDU-Generalsekretär Carsten Linnemann übernimmt das Gesundheitsressort. Weitere Veränderungen sollen folgen.",
+      "headline": "SAP-Zahlen treiben Aktie nach oben - Softwarebranche atmet auf",
+      "summary": "Starke Cloud-Verträge und die Hoffnung auf neue Geschäfte durch KI haben der SAP-Aktie ordentlich ins Plus verholfen. Der DAX profitiert davon - und auch andere Softwarewerte legen zu.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/warken-als-kanzleramtschefin-bestaetigt-100.html",
-      "publishedAt": "2026-07-24T07:42:16.000Z"
-    },
-    {
-      "id": "n_46b993400a",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Gewinn bricht erneut ein - VW senkt Umsatzausblick",
-      "summary": "Volkswagen hat im zweiten Quartal deutlich weniger verdient als ein Jahr zuvor. Zugleich rechnet der Autobauer für das Gesamtjahr mit niedrigeren Erlösen als bisher. Belastend wirkt unter anderem das schwache China-Geschäft.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-gewinn-einbruch-100.html",
-      "publishedAt": "2026-07-24T07:31:20.000Z"
-    },
-    {
-      "id": "n_f264154ed4",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Merz baut Kabinett um: Verkehrsminister Schnieder muss offenbar gehen",
-      "summary": "Bundeskanzler Merz wird nach Informationen des ARD-Hauptstadtstudios auch das Verkehrsministerium neu besetzen. Ressortchef Schnieder muss offenbar gehen. Für seine Nachfolge ist der CDU-Politiker Fritz Güntzler im Gespräch. Eine Bestätigung gibt es bislang nicht.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/innenpolitik/verkehrsminister-schnieder-muss-gehen-100.html",
-      "publishedAt": "2026-07-24T07:00:40.000Z"
-    },
-    {
-      "id": "n_d687f16198",
-      "type": "news",
-      "topic": "general",
-      "lang": "de",
-      "headline": "Ankündigung der US-Regierung: Neue Zölle gegen 60 Handelspartner",
-      "summary": "Die US-Regierung hat überraschend neue Einfuhrabgaben für 60 Handelspartner angekündigt. Bei diesen Zöllen handelt es sich um Strafen wegen angeblich unzureichender Maßnahmen gegen Zwangsarbeit. Von Carsten Kühntopp.",
-      "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/amerika/zoll-trump-zwangsarbeit-100.html",
-      "publishedAt": "2026-07-24T06:59:06.000Z"
+      "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/mb-mittags-sap-aktie-100.html",
+      "publishedAt": "2026-07-24T10:39:45.000Z"
     },
     {
       "id": "n_03f1586466",
@@ -65,29 +32,84 @@
       "summary": "Die einen Zölle laufen aus, die nächsten sind bereits in den Startlöchern: US-Präsident Trump hat neue Zölle von bis zu 12,5 Prozent auf Importe aus 60 Ländern verhängt. Worauf die Maßnahmen beruhen und was sie bedeuten.",
       "source": "Tagesschau",
       "url": "https://www.tagesschau.de/ausland/amerika/wichtige-antworten-zu-neuen-us-zoellen-100.html",
-      "publishedAt": "2026-07-24T06:57:21.000Z"
+      "publishedAt": "2026-07-24T10:02:32.000Z"
     },
     {
-      "id": "n_0c815bb6b7",
+      "id": "n_fce3be1d3c",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "Personalumbau der Union: Merz will Wechsel im Kabinett bekanntmachen",
-      "summary": "Kanzleramtschef Frei soll Nachfolger von Unionsfraktionschef Spahn werden. Das hat Kanzler Merz bereits öffentlich gemacht. Am Vormittag wird er verkünden, wie das Stühlerücken in seinem Kabinett weitergeht.",
+      "headline": "Bundesverfassungsgericht: Pauschaler Aufnahmestopp von Afghanen ist \"Willkür\"",
+      "summary": "Der von der Bundesregierung verhängte pauschale Aufnahmestopp von gefährdeten Afghanen verstößt gegen das Verbot der Willkür. Das hat das Bundesverfassungsgericht jetzt im Falle einer Afghanin und deren zwei Söhnen entschieden.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/inland/merz-kabinett-neuaufstellung-100.html",
-      "publishedAt": "2026-07-24T05:43:28.000Z"
+      "url": "https://www.tagesschau.de/inland/innenpolitik/bundesverfassungsgericht-afghanin-aufnahme-100.html",
+      "publishedAt": "2026-07-24T09:26:14.000Z"
     },
     {
-      "id": "n_621ac71f0c",
+      "id": "n_98355b7460",
       "type": "news",
       "topic": "general",
       "lang": "de",
-      "headline": "So lief die Debatte um die Guterres-Nachfolge",
-      "summary": "Wer folgt auf UN-Generalsekretär Guterres? Sechs Bewerberinnen und Bewerber stellten sich in einer öffentlichen Debatte vor. Was sie einte: der Wunsch nach starken Vereinten Nationen. Von Martin Ganslmeier.",
+      "headline": "So soll das neue Kabinett aussehen",
+      "summary": "Der Rücktritt von Unionsfraktionschef Spahn hat den Stein ins Rollen gebracht: Die Union wechselt auf mehreren Spitzenpositionen das Personal aus. Wer gehen muss und wer neue Ämter übernehmen soll.",
       "source": "Tagesschau",
-      "url": "https://www.tagesschau.de/ausland/gueterres-debatte-100.html",
-      "publishedAt": "2026-07-24T05:37:31.000Z"
+      "url": "https://www.tagesschau.de/inland/innenpolitik/bundesregierung-kabinett-umbildung-100.html",
+      "publishedAt": "2026-07-24T09:24:50.000Z"
+    },
+    {
+      "id": "n_59d0687137",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Waldbrände: Spanien ruft Notstand aus - Frankreich bittet EU um Hilfe",
+      "summary": "Spanien ruft angesichts der Waldbrände den Notstand aus. Frankreichs Präsident Macron bitte die EU um Hilfe, da die Feuerwehr die Brände nicht kontrollieren kann. Zehntausende Menschen wurden evakuiert.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/ausland/europa/waldbraende-suedeuropa-124.html",
+      "publishedAt": "2026-07-24T09:19:04.000Z"
+    },
+    {
+      "id": "n_eeae17f4f2",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Jürgen Klopp ist neuer Bundestrainer",
+      "summary": "Der DFB hat Jürgen Klopp als neuen Trainer der deutschen Fußball-Nationalmannschaft nun offiziell vorgestellt. Der 59-Jährige folgt auf Julian Nagelsmann, der nach dem frühen WM-Aus zurückgetreten war.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/sport/klopp-neuer-bundestrainer-100.html",
+      "publishedAt": "2026-07-24T09:17:29.000Z"
+    },
+    {
+      "id": "n_2fc1969739",
+      "type": "news",
+      "topic": "general",
+      "lang": "de",
+      "headline": "Einschätzung zum Kabinettsumbau: \"Spahn-Rücktritt öffnet Tür für Veränderungen\"",
+      "summary": "Mit dem neuen Job für Nina Warken zeige Kanzler Merz, dass er Effizienz belohne, so ARD-Korrespondent Markus Preiß. Durch Spahns Rücktritt habe sich für ihn die Möglichkeit für einen umfassenden Kabinettsumbau ergeben.",
+      "source": "Tagesschau",
+      "url": "https://www.tagesschau.de/inland/kabinettumbau-schalte-preiss-100.html",
+      "publishedAt": "2026-07-24T08:57:39.000Z"
+    },
+    {
+      "id": "n_465d86a70f",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "Kimi K3: Chinesische KI findet mehrere Zero-Day-Lücken in redis-Datenbank",
+      "summary": "Ein IT-Forscher hat mit der chinesischen KI Kimi K3 mehrere Zero-Day-Lücken in der redis-Datenbank entdeckt. Updates bestätigen die Funde.",
+      "source": "heise online",
+      "url": "https://www.heise.de/news/Kimi-K3-Chinesische-KI-findet-mehrere-Zero-Day-Luecken-in-redis-Datenbank-11377360.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "publishedAt": "2026-07-24T09:47:00.000Z"
+    },
+    {
+      "id": "n_e6231a3c0e",
+      "type": "news",
+      "topic": "tech",
+      "lang": "de",
+      "headline": "IETF: Warnung vor Nebenwirkungen eines Social-Media-Verbots für Jugendliche",
+      "summary": "Auf dem IETF-Treffen in Wien warnten Entwickler vor den Risiken von Altersverifikationssystemen. Diese könnten Sicherheit und Vertraulichkeit im Netz gefährden.",
+      "source": "heise online",
+      "url": "https://www.heise.de/news/IETF-Warnung-vor-Nebenwirkungen-eines-Social-Media-Verbots-fuer-Jugendliche-11376975.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
+      "publishedAt": "2026-07-24T08:12:00.000Z"
     },
     {
       "id": "n_567c2b7ba7",
@@ -156,202 +178,180 @@
       "publishedAt": "2026-07-23T21:50:00.000Z"
     },
     {
-      "id": "n_939ea51ba0",
+      "id": "n_1ff22bd899",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Chatkontrolle: EU-Rat stimmt für die Verlängerung",
-      "summary": "Nach ihrem parlamentarischen Coup haben die EU-Länder wie erwartet der erneuten Verlängerung einer Ausnahmeregelung für die Chatkontrolle zugestimmt.",
-      "source": "heise online",
-      "url": "https://www.heise.de/news/Chatkontrolle-EU-Rat-stimmt-fuer-die-Verlaengerung-11376651.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "publishedAt": "2026-07-23T16:54:00.000Z"
-    },
-    {
-      "id": "n_be414423d3",
-      "type": "news",
-      "topic": "tech",
-      "lang": "de",
-      "headline": "Identifikationspflicht: Dobrindt will Informationsfreiheit faktisch stoppen",
-      "summary": "Mit Klarnamenzwang und der Abschaffung der Aufsichtsbehörde will das Innenministerium Transparenzrechte von Bürgern, Presse und Politik massiv beschneiden.",
-      "source": "heise online",
-      "url": "https://www.heise.de/news/Identifikationspflicht-Dobrindt-will-Informationsfreiheit-faktisch-stoppen-11376595.html?wt_mc=rss.red.ho.top-news.atom.beitrag.beitrag",
-      "publishedAt": "2026-07-23T16:19:00.000Z"
-    },
-    {
-      "id": "n_b061c82b11",
-      "type": "news",
-      "topic": "tech",
-      "lang": "de",
-      "headline": "Plattformwechsel: Apple Maps zieht fest in Fords E-Autos ein",
-      "summary": "Ford baut Apple Maps direkt in seine kommende Elektroauto-Plattform ein. Den Anfang macht 2027 ein neuer Pick-up für rund 30.000 Dollar. (Ford, Elektroauto)",
+      "headline": "Luna: Amazon baut Cloud-Gaming in Prime Video ein",
+      "summary": "Filme, Serien und Spiele aus einer App: Amazon integriert seinen Cloud-Gaming-Dienst Luna in Prime Video und macht Gaming damit deutlich sichtbarer. (Prime Video, Amazon)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/plattformwechsel-apple-maps-zieht-fest-in-fords-e-autos-ein-2607-211238.html",
-      "publishedAt": "2026-07-24T08:02:02.000Z"
+      "url": "https://www.golem.de/news/luna-amazon-baut-cloud-gaming-in-prime-video-ein-2607-211250.html",
+      "publishedAt": "2026-07-24T10:44:05.000Z"
     },
     {
-      "id": "n_da46ca7d87",
+      "id": "n_282f1f69f7",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Innere Sicherheit: Innenministerium zielt auf Kern der Informationsfreiheit",
-      "summary": "Das Innenministerium plant offenbar weit mehr als eine Reform des Informationsfreiheitsgesetzes. Ein internes Papier zeigt, wohin die Reise geht. (BMI, Politik)",
+      "headline": "Belästigung: Instagram sperrt Prankster und Anmacher mit Smart Glasses",
+      "summary": "Streichvideos und Anmachfilmchen, die heimlich mit Smart Glasses gefilmt werden - sowas will Instagram künftig nicht mehr sehen. (Smartglass, Datenschutz)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/innere-sicherheit-innenministerium-zielt-auf-kern-der-informationsfreiheit-2607-211241.html",
-      "publishedAt": "2026-07-24T07:54:02.000Z"
+      "url": "https://www.golem.de/news/belaestigung-instagram-sperrt-prankster-und-anmacher-mit-smart-glasses-2607-211248.html",
+      "publishedAt": "2026-07-24T10:28:02.000Z"
     },
     {
-      "id": "n_85de9d026c",
+      "id": "n_7c1b20cc88",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Elektrifizierung vorantreiben: Einfachere Energiewende ohne Wasserstoff",
-      "summary": "Werden Wärmeerzeugung und Transport elektrifiziert, gibt es kaum noch Verwendung für Wasserstoff. Ein ganzes Pipelinenetz könnte man sich sparen. (Wasserstoff, Brennstoffzelle)",
+      "headline": "Anzeige: Lego Game Boy zum bisher besten Amazon-Preis sichern",
+      "summary": "Der Lego Game Boy mit zwei Spieleattrappen von Mario und Zelda ist auf den bisher besten Amazon-Preis gefallen. (Game Boy, Lego)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/elektrifizierung-vorantreiben-einfachere-energiewende-ohne-wasserstoff-2607-211240.html",
-      "publishedAt": "2026-07-24T07:42:01.000Z"
+      "url": "https://www.golem.de/news/anzeige-lego-game-boy-zum-bisher-besten-amazon-preis-sichern-2607-211249.html",
+      "publishedAt": "2026-07-24T10:22:01.000Z"
     },
     {
-      "id": "n_b9965e1d49",
+      "id": "n_4f1a7c056e",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Tesla: Cybercab, Semi und Megapack verschieben sich",
-      "summary": "Tesla schiebt die Serienproduktion seiner wichtigsten Zukunftsprojekte weiter nach hinten. Gleichzeitig wachsen die Ausgaben und der Gewinn schrumpft. (Tesla, KI)",
+      "headline": "Quartalsbericht: SAP wächst im Cloudgeschäft - senkt aber Prognose wegen Zukäufen",
+      "summary": "SAP legt beim Cloudumsatz und dem Auftragsbestand kräftig zu. Wegen Übernahmen reduziert das Management jedoch das Ziel für das operative Jahresergebnis. (SAP, Börse)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/tesla-cybercab-semi-und-megapack-verschieben-sich-2607-211237.html",
-      "publishedAt": "2026-07-24T07:33:02.000Z"
+      "url": "https://www.golem.de/news/quartalsbericht-sap-waechst-im-cloudgeschaeft-senkt-aber-prognose-wegen-zukaeufen-2607-211252.html",
+      "publishedAt": "2026-07-24T10:13:02.000Z"
     },
     {
-      "id": "n_97d6dda871",
+      "id": "n_5135b17cf8",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Messaging-App: Whatsapp erlaubt die eigenständige Registrierung auf dem iPad",
-      "summary": "Whatsapp ermöglicht jetzt die Registrierung auf dem iPad ohne Smartphone-Koppelung. Zudem folgen Updates für Autos, PDFs und Musik-Status. (Whatsapp, Instant Messenger)",
+      "headline": "Stuart Fails to Save the Universe: The Big Bang Theory trifft auf Sliders",
+      "summary": "Zehn Folgen Multiversum-Spaß - mit hohem Geek-Faktor: Die spaßigste Sci-Fi-Serie des Jahres ist da. Eine Rezension von Peter Osteried (Science-Fiction, Streaming)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/messaging-app-whatsapp-erlaubt-die-eigenstaendige-registrierung-auf-dem-ipad-2607-211239.html",
-      "publishedAt": "2026-07-24T07:26:01.000Z"
+      "url": "https://www.golem.de/news/stuart-fails-to-save-the-universe-the-big-bang-theory-trifft-auf-sliders-2607-211205.html",
+      "publishedAt": "2026-07-24T10:00:01.000Z"
     },
     {
-      "id": "n_0d15db6844",
+      "id": "n_c8089be7c5",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Smart #5 Brabus im Test: Familienkutschen-Sleeper mit unerwartet viel Wumms und Gebimmel",
-      "summary": "Die Brabus-Version von Smarts #5 mit 646 PS beschleunigt rasant und ist ein großartiges Langstreckenauto. Die Software nervt allerdings oft. Ein Praxistest von Tobias Költzsch (Elektroauto, Test)",
+      "headline": "Nach automatischer McAfee-Installation: Windows-Chef reagiert und LG verteidigt sich",
+      "summary": "Während LG bekräftigt, McAfee werde niemals ohne Zustimmung der Nutzer installiert, will Microsoft klärend eingegriffen haben. (McAfee, Display)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/smart-5-brabus-im-test-familienkutschen-sleeper-mit-unerwartet-viel-wumms-und-gebimmel-2607-211206.html",
-      "publishedAt": "2026-07-24T07:10:05.000Z"
+      "url": "https://www.golem.de/news/nach-automatischer-mcafee-installation-windows-chef-reagiert-und-lg-verteidigt-sich-2607-211247.html",
+      "publishedAt": "2026-07-24T09:41:01.000Z"
     },
     {
-      "id": "n_f77b9922c2",
+      "id": "n_fce9c08f74",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Windows 11: Microsoft testet Ausschalter für die Copilot-Taste",
-      "summary": "Microsoft könnte die umstrittene Copilot-Taste bald komplett abschaltbar machen. In Vorschauversionen taucht dafür die Einstellung \"Do nothing\" auf. (Tastatur, Microsoft)",
+      "headline": "Anzeige: Nothing Phone (3) günstig wie nie bei Amazon",
+      "summary": "Das Nothing Phone (3) mit 6,67''-AMOLED-Display, vier 50-MP-Kameras und Snapdragon 8s Gen 4 ist bei Amazon zum neuen Tiefstpreis erhältlich. (Smartphone, Mobil)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/windows-11-microsoft-testet-ausschalter-fuer-die-copilot-taste-2607-211235.html",
-      "publishedAt": "2026-07-24T06:56:01.000Z"
+      "url": "https://www.golem.de/news/anzeige-nothing-phone-3-guenstig-wie-nie-bei-amazon-2607-211246.html",
+      "publishedAt": "2026-07-24T09:22:02.000Z"
     },
     {
-      "id": "n_1c37b998b5",
+      "id": "n_f9e31fd5fe",
       "type": "news",
       "topic": "tech",
       "lang": "de",
-      "headline": "Datenpanne: OpenAI-Crawler greift Kundendaten von Universa ab",
-      "summary": "Durch eine Fehlkonfiguration sind Kundendaten der Universa-Versicherungen zeitweise offen im Netz gestanden. Ein Crawler von OpenAI hat die Gelegenheit genutzt. (Datenleck, KI)",
+      "headline": "RefluXFS: Kernel-Bug verleiht auf Millionen von Linux-Systemen Root-Zugriff",
+      "summary": "Eine Sicherheitslücke im Linux-Kernel lässt Angreifer beliebige Dateien auf XFS-Volumes überschreiben. Root-Rechte sind damit leicht zu beschaffen. (Sicherheitslücke, Fedora)",
       "source": "Golem.de",
-      "url": "https://www.golem.de/news/datenpanne-openai-crawler-greift-kundendaten-von-universa-ab-2607-211234.html",
-      "publishedAt": "2026-07-24T06:47:01.000Z"
+      "url": "https://www.golem.de/news/refluxfs-gefaehrlicher-kernel-bug-verleiht-root-zugriff-unter-linux-2607-211245.html",
+      "publishedAt": "2026-07-24T09:05:02.000Z"
     },
     {
-      "id": "n_52a7ef755c",
+      "id": "n_02a2adc9b2",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "US hits dozens of trading partners with new wave of tariffs",
-      "summary": "Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February.",
+      "headline": "Tens of thousands evacuated from French tourist spot as wildfires spread",
+      "summary": "The fire has raged in the region for several days with officials now ordering the evacuation of the entire Cap Ferret peninsula.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-24T07:12:13.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-24T10:50:26.000Z"
+    },
+    {
+      "id": "n_c8350d1a9e",
+      "type": "news",
+      "topic": "general",
+      "lang": "en",
+      "headline": "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
+      "summary": "Ramaphosa has faced scrutiny following the theft of large sums of cash from his private farm in 2020.",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cwymj9lkx13o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-24T10:34:04.000Z"
     },
     {
       "id": "n_ff9b51ec11",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "India's 'cockroach' protesters and government to hold talks as stalemate continues",
-      "summary": "The meeting comes hours after activist Sonam Wangchuk announced he was ending his 26-day hunger strike.",
+      "headline": "India's 'cockroach' protesters hold talks with government as stalemate continues",
+      "summary": "The meeting came hours after activist Sonam Wangchuk announced he was ending his 26-day hunger strike.",
       "source": "BBC News",
       "url": "https://www.bbc.co.uk/news/articles/cjwx4x04yqzo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-24T06:30:34.000Z"
+      "publishedAt": "2026-07-24T10:31:10.000Z"
     },
     {
-      "id": "n_2651696912",
+      "id": "n_4541e9ca18",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Families still search for bodies a month after Venezuela earthquakes",
-      "summary": "Officials say the death toll has surpassed 5,300, though estimates of the number still missing could be as high as 50,000.",
+      "headline": "Watch: Are Trump's tariffs delivering on his objectives?",
+      "summary": "The BBC's Samira Hussain explains how President Trump's tariffs affect US economy, who pays the price, and whether they're working.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/videos/cwylplxk8nko?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-24T05:47:11.000Z"
+      "url": "https://www.bbc.co.uk/news/videos/c5yw2xgnv2jo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-24T10:21:31.000Z"
     },
     {
-      "id": "n_d23acee4b0",
+      "id": "n_322a50df24",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Houthi attacks raise fears of wider Middle East conflict and more global economic damage",
-      "summary": "The Iran-backed group in Yemen has threatened to target Saudi vessels in a vital shipping route.",
+      "headline": "Watch: Wildfires rage across France and Spain",
+      "summary": "French authorities order evacuations in tourist hot spot, as Spain's government declares national emergency.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/cvgve0vxy1yo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-24T01:59:49.000Z"
+      "url": "https://www.bbc.co.uk/news/videos/cz641jd4p4lo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-24T10:02:51.000Z"
     },
     {
-      "id": "n_965d53c55b",
+      "id": "n_29bf8be0c9",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Watch: Driver dressed as Spider-Man whisks man in a wheelchair across busy road",
-      "summary": "Traffic junction footage captured the moment a man dressed as Spider-Man helped a man cross a busy highway .",
+      "headline": "US and Iran trade more strikes in Gulf as fears of escalation mount",
+      "summary": "It comes as Iran condemned the US plan to use frozen Iranian assets to pay for war damages.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/videos/c4gv311jr01o?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-24T01:39:01.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-24T09:20:07.000Z"
     },
     {
-      "id": "n_82ccbacb5c",
+      "id": "n_52a7ef755c",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "CJP protest: The youth movement India's Modi didn't see coming",
-      "summary": "The CJP protest began with exam paper leaks. It became India's biggest student movement in years - why?",
+      "headline": "US hits dozens of countries with new wave of tariffs",
+      "summary": "Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c07rgpxe51no?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T23:41:32.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-24T08:59:31.000Z"
     },
     {
-      "id": "n_6418e7c7a9",
+      "id": "n_524cf05988",
       "type": "news",
       "topic": "general",
       "lang": "en",
-      "headline": "Indonesian babies were trafficked to Singapore. What happens to them now?",
-      "summary": "At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear.",
+      "headline": "Tech titan ordered to pay ex-wife $644m in divorce settlement",
+      "summary": "The divorce, involving the chairman of one of South Korea's biggest companies, has gripped the nation.",
       "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T23:19:58.000Z"
-    },
-    {
-      "id": "n_3d24adf693",
-      "type": "news",
-      "topic": "general",
-      "lang": "en",
-      "headline": "Could you run a country on just three hours of sleep? Japan's PM says she does",
-      "summary": "Japan’s prime minister Sanae Takaichi says she survives on zero to three hours a night, and people are reacting.",
-      "source": "BBC News",
-      "url": "https://www.bbc.co.uk/news/videos/cz05l8ndy0mo?at_medium=RSS&at_campaign=rss",
-      "publishedAt": "2026-07-23T22:03:09.000Z"
+      "url": "https://www.bbc.co.uk/news/articles/ckg68jky65eo?at_medium=RSS&at_campaign=rss",
+      "publishedAt": "2026-07-24T08:30:58.000Z"
     },
     {
       "id": "n_049628d56d",
@@ -871,6 +871,17 @@
       "publishedAt": "2026-07-09T20:22:28.000Z"
     },
     {
+      "id": "n_1837e157b8",
+      "type": "news",
+      "topic": "ai",
+      "lang": "en",
+      "headline": "Some Kids Will Never Think AI Is Cool",
+      "summary": "“I think it should stand for artificial idiot,” one 9-year-old says. Here’s why kids of all ages are calling AI “disgusting” and “creepy.”",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/some-kids-will-never-think-ai-is-cool/",
+      "publishedAt": "2026-07-24T10:00:00.000Z"
+    },
+    {
       "id": "n_99b37b5da5",
       "type": "news",
       "topic": "ai",
@@ -946,17 +957,6 @@
       "source": "Wired",
       "url": "https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots/",
       "publishedAt": "2026-07-21T16:08:44.000Z"
-    },
-    {
-      "id": "n_a3f7d2c76a",
-      "type": "news",
-      "topic": "ai",
-      "lang": "en",
-      "headline": "Nvidia Wants to Own Every Chip Inside AI Data Centers",
-      "summary": "Nvidia’s Vera Rubin platform combines CPUs and GPUs into a single system, reflecting the company’s growing ambition to power every layer of AI infrastructure.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/nvidia-wants-to-own-every-chip-inside-an-ai-data-center/",
-      "publishedAt": "2026-07-21T15:00:00.000Z"
     },
     {
       "id": "n_37c9890bc3",
